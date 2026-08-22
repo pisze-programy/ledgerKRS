@@ -175,6 +175,17 @@ access path ever appears, the client just swaps the `transport`.
 - **Faza 1** — top ~10-20k firms (D1 fits).
 - **Faza 2** — full set (~380k firms) → R2 blob archive + D1 cache.
 
+## JednostkaOp (pożytku publicznego) RZiS
+
+- **New 2025 schema (SFJOPZ)** is covered by the CRWDE dict path: the
+  `RZiSKalk` variant uses `A`=przychody, `F`=zysk ze sprzedaży (C–D–E),
+  `I`=operacyjny (F+G–H), `L`=brutto, `M`=podatek, `O`=netto.
+- **Old-schema Op** statements (e.g. 0000278980) use a different letter
+  alphabet (its `H`=zysk operacyjny, `M`/`O`=zysk netto, and `F`≠C–D–E) that
+  matches neither the 2025 `RZiSKalk`/`RZiSPor` dicts nor the value-chain
+  heuristic. Needs the pre-2025 pożytku-publicznego schema dictionary.
+  **Deferred** (per-version dictionary work).
+
 ## Employment and wages (zatrudnienie / wynagrodzenia)
 
 Investigated live on JERONIMO (0000222483, SFJINZ wariant 2, kalkulacyjny):

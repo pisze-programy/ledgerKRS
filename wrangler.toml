@@ -5,7 +5,7 @@ compatibility_date = "2025-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "raporty-firmowe"
-database_id = "local"
+database_id = "bd81b269-ee86-48d7-b80f-adb53ff73757"
 
 [vars]
 KRS_API_BASE = "https://api-krs.ms.gov.pl"

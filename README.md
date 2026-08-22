@@ -42,6 +42,10 @@ The product has no web UI. It serves data through:
 - a REST API (`/api/*`),
 - an MCP server (`/mcp`) for AI agents.
 
+The landing page is served at `/` (Polish) and `/en` (English).
+It is markdown rendered with colors, split into `css`, `js` and `html` folders.
+The live worker is `https://raporty-firmowe.dev-4cb.workers.dev`.
+
 See [docs/10-api-mcp-billing.md](docs/10-api-mcp-billing.md).
 The file [SKILL.md](SKILL.md) documents the MCP for an agent.
 

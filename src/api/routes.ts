@@ -5,6 +5,7 @@ import { createDataRoutes } from "./data";
 import { createBranchRoutes } from "./branches";
 import { createIngestRoutes } from "./ingest";
 import { createSeedRoutes } from "./seed";
+import { createWebRoutes } from "../web/routes";
 import { handleMcpGet, handleMcpPost } from "../mcp/server";
 import type { ApiDeps } from "./deps";
 
@@ -22,6 +23,7 @@ export function createApp(deps: ApiDeps): Hono {
     return handleMcpPost(c.req.raw, deps, accountId);
   });
 
+  app.route("/", createWebRoutes());
   app.route("/api", createAccountRoutes(deps));
   app.route("/api", createBillingRoutes(deps));
   app.route("/api", createDataRoutes(deps));

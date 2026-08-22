@@ -171,10 +171,29 @@ Validated: on `rdf-jednostka-inna.xml` and `rdf-xades-jpk.xml` the chain produce
 5241.08 for 0000176134). Offline check of the chain against stored pass-2 data:
 ~69% of compared rows match BizRaport — no worse than the earlier mapping, but
 now **universal** (one algorithm, no per-version letter dictionaries).
-Remaining mismatches are dominated by a **przychody definition difference**
-(CONNER: ours vs BizRaport ~0.7% consistently — BizRaport picks a slightly
-different revenue line) and document version/correction differences, not parser
-bugs.
+
+### Live parity with the production pipeline (15 random companies)
+
+Rerun with the `src/` modules (`extractFinancialInput` + `computeIndicators`):
+
+**1774 comparable rows across 2018–2025 → 84% exact match** (1488), with
+`only_theirs`/`only_ours` = 0 (we now emit the full indicator set).
+
+| Group | Rows | Match % |
+|---|---|---|
+| LEGACY | 403 | 88% |
+| New — JednostkaInna | 446 | 85% |
+| New — JednostkaMala | 358 | 89% |
+| New — JednostkaMikro | 137 | **93%** |
+| New — JednostkaOp | 430 | 72% |
+
+The value-chain inference fixed the porównawczy/old-schema cases (Mikro
+60→93%, Mala 63→89%). Remaining mismatches are **definitional**, not
+structural: `przychody` (33), `przychody_operacyjne` (21), `koszty_operacyjne`
+(23) — BizRaport picks slightly different revenue/cost lines (~0.5–1%, e.g.
+CONNER), plus a few `podatek`/`zysk` cases and the JednostkaOp statutory RZiS
+(72%). Fixing these requires matching BizRaport's exact line choices per
+layout (follow-up).
 
 ## How to run (needs a fresh RDF cookie + a fresh BizRaport account)
 

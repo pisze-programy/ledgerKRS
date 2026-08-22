@@ -193,6 +193,13 @@ Results so far (200 random companies from the KRS biuletyn):
   (2) document version / corrections, (3) `amortyzacja` from the wrong
   section. `ONLY_THEIRS` is mostly employment/salary (Wprowadzenie parse,
   planned).
+- **Live parity with the production pipeline (src modules): 84% exact match**
+  (1774 rows, 15 random companies, 2018–2025). Per layout: LEGACY 88%,
+  JednostkaInna 85%, JednostkaMala 89%, **JednostkaMikro 93%**, JednostkaOp
+  72%. The universal RZiS value-chain inference fixed the porównawczy /
+  old-schema cases (Mikro 60→93%, Mala 63→89%). Remaining mismatches are
+  definitional (BizRaport's revenue/cost line choices, ~0.5–1%) and the
+  JednostkaOp statutory RZiS.
 - Parser fixes found while checking random data: new 2025 `<Dokument>` wrapper
   (suffixed section tags) and XAdES/JPK_SF object arrays — both fixed + tested.
 - BizRaport account reached 100/100 credits; new accounts pending for the

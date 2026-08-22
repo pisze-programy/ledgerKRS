@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T14:09:57.667Z",
+  "generated_at": "2026-08-22T14:48:44.167Z",
   "picked": [
     "0000320584",
     "0000942976",
@@ -20,7 +20,6 @@
   "per_company": {
     "0000320584": {
       "our_years": [
-        2018,
         2019,
         2020,
         2021,
@@ -405,15 +404,14 @@
           "zysk_ze_sprzedazy": 132831.54
         }
       },
-      "rows": 102,
+      "rows": 161,
       "summary": {
-        "total_rows": 102,
-        "match": 64,
-        "mismatch": 27,
-        "only_theirs": 10,
-        "only_ours": 1,
+        "total_rows": 161,
+        "match": 141,
+        "mismatch": 20,
+        "only_theirs": 0,
+        "only_ours": 0,
         "years": [
-          2018,
           2019,
           2020,
           2021,
@@ -422,18 +420,18 @@
           2024,
           2025
         ],
-        "match_pct": 63,
+        "match_pct": 88,
         "mismatches": [
           "2025:przychody ours=6148188.93 theirs=6149155.11",
-          "2025:zysk_operacyjny ours=175.6 theirs=108583.43",
-          "2025:zysk_brutto ours=10256 theirs=84797.55",
-          "2025:podatek_dochodowy ours=74541.55 theirs=10256",
+          "2025:przychody_operacyjne ours=6148188.93 theirs=6148979.51",
+          "2025:koszty_operacyjne ours=6015357.39 theirs=6040396.08",
           "2024:przychody ours=5912524.58 theirs=5917627.34",
-          "2024:zysk_operacyjny ours=363.35 theirs=99708.57",
-          "2024:zysk_brutto ours=9945 theirs=83210.77",
-          "2024:podatek_dochodowy ours=73265.77 theirs=9945",
+          "2024:przychody_operacyjne ours=5912524.58 theirs=5917263.99",
+          "2024:koszty_operacyjne ours=5618153.79 theirs=5817555.42",
           "2023:przychody ours=6495813.16 theirs=6510643.97",
-          "2023:zysk_operacyjny ours=0 theirs=100592.22"
+          "2023:przychody_operacyjne ours=6495813.16 theirs=6510643.97",
+          "2023:koszty_operacyjne ours=6395467.32 theirs=6410051.75",
+          "2022:przychody ours=6822469.19 theirs=6824489.52"
         ]
       }
     },
@@ -661,22 +659,22 @@
           "zysk_operacyjny": 0
         }
       },
-      "rows": 54,
+      "rows": 69,
       "summary": {
-        "total_rows": 54,
-        "match": 40,
+        "total_rows": 69,
+        "match": 68,
         "mismatch": 1,
-        "only_theirs": 7,
-        "only_ours": 6,
+        "only_theirs": 0,
+        "only_ours": 0,
         "years": [
           2021,
           2022,
           2023,
           2025
         ],
-        "match_pct": 74,
+        "match_pct": 99,
         "mismatches": [
-          "2023:zysk_operacyjny ours=-2486.03 theirs=-2479.58"
+          "2023:zysk_operacyjny ours=-2486.0299999999997 theirs=-2479.58"
         ]
       }
     },
@@ -684,10 +682,7 @@
       "our_years": [
         2019,
         2020,
-        2021,
-        2022,
-        2023,
-        2024
+        2021
       ],
       "their_years": [
         2018,
@@ -944,22 +939,19 @@
           "zysk_netto": 0
         }
       },
-      "rows": 61,
+      "rows": 63,
       "summary": {
-        "total_rows": 61,
-        "match": 59,
+        "total_rows": 63,
+        "match": 63,
         "mismatch": 0,
-        "only_theirs": 2,
+        "only_theirs": 0,
         "only_ours": 0,
         "years": [
           2019,
           2020,
-          2021,
-          2022,
-          2023,
-          2024
+          2021
         ],
-        "match_pct": 97,
+        "match_pct": 100,
         "mismatches": []
       }
     },
@@ -1183,11 +1175,11 @@
           "zysk_ze_sprzedazy": -586282.68
         }
       },
-      "rows": 50,
+      "rows": 82,
       "summary": {
-        "total_rows": 50,
-        "match": 47,
-        "mismatch": 3,
+        "total_rows": 82,
+        "match": 70,
+        "mismatch": 12,
         "only_theirs": 0,
         "only_ours": 0,
         "years": [
@@ -1196,11 +1188,18 @@
           2024,
           2025
         ],
-        "match_pct": 94,
+        "match_pct": 85,
         "mismatches": [
           "2025:przychody ours=329606.17 theirs=356845.69",
+          "2025:przychody_operacyjne ours=329606.17 theirs=330125.42",
+          "2025:koszty_operacyjne ours=915888.85 theirs=918844.94",
+          "2025:podatek_dochodowy ours=562346.2500000001 theirs=347",
+          "2025:zysk_brutto ours=1.1641532182693481e-10 theirs=-561999.25",
           "2024:przychody ours=2812880 theirs=3064774.19",
-          "2023:przychody ours=4674730.5 theirs=7992495.58"
+          "2024:przychody_operacyjne ours=2812880 theirs=3064774.19",
+          "2024:koszty_operacyjne ours=1699560.6 theirs=1941992.69",
+          "2024:podatek_dochodowy ours=1122781.5 theirs=156",
+          "2024:zysk_brutto ours=2245407 theirs=1122781.5"
         ]
       }
     },
@@ -1750,13 +1749,13 @@
           "zysk_operacyjny": 152118.49
         }
       },
-      "rows": 112,
+      "rows": 144,
       "summary": {
-        "total_rows": 112,
-        "match": 48,
-        "mismatch": 32,
+        "total_rows": 144,
+        "match": 88,
+        "mismatch": 56,
         "only_theirs": 0,
-        "only_ours": 32,
+        "only_ours": 0,
         "years": [
           2018,
           2019,
@@ -1767,18 +1766,18 @@
           2024,
           2025
         ],
-        "match_pct": 43,
+        "match_pct": 61,
         "mismatches": [
           "2025:przychody ours=1900506.11 theirs=2110974.11",
-          "2025:zysk_operacyjny ours=98466.11 theirs=152118.49",
-          "2025:zysk_brutto ours=0 theirs=162723.7",
-          "2025:zysk_netto ours=0 theirs=162723.7",
+          "2025:przychody_operacyjne ours=1900506.11 theirs=2100368.9",
+          "2025:koszty_operacyjne ours=1827854.24 theirs=1948250.41",
+          "2025:podatek_dochodowy ours=87860.90000000014 theirs=0",
+          "2025:zysk_operacyjny ours=171117.98000000016 theirs=152118.49",
+          "2025:zysk_brutto ours=250584.60000000015 theirs=162723.7",
+          "2025:ebit ours=171117.98000000016 theirs=152118.49",
           "2024:przychody ours=1837870.24 theirs=1953053.9",
-          "2024:zysk_operacyjny ours=49721.08 theirs=52180.88",
-          "2024:zysk_brutto ours=0 theirs=64745.54",
-          "2024:zysk_netto ours=0 theirs=64745.54",
-          "2023:przychody ours=1563591.15 theirs=1700290.42",
-          "2023:zysk_operacyjny ours=123657.05 theirs=185967.57"
+          "2024:przychody_operacyjne ours=1837870.24 theirs=1940489.24",
+          "2024:koszty_operacyjne ours=1813603.5 theirs=1888308.36"
         ]
       }
     },
@@ -2065,12 +2064,12 @@
           "zysk_ze_sprzedazy": 1144610.74
         }
       },
-      "rows": 70,
+      "rows": 113,
       "summary": {
-        "total_rows": 70,
-        "match": 45,
-        "mismatch": 20,
-        "only_theirs": 5,
+        "total_rows": 113,
+        "match": 100,
+        "mismatch": 13,
+        "only_theirs": 0,
         "only_ours": 0,
         "years": [
           2021,
@@ -2079,18 +2078,18 @@
           2024,
           2025
         ],
-        "match_pct": 64,
+        "match_pct": 88,
         "mismatches": [
           "2025:przychody ours=3368981.89 theirs=3583527.96",
-          "2025:zysk_operacyjny ours=180129.74 theirs=1172539.95",
-          "2025:zysk_brutto ours=25872 theirs=-133479.36",
-          "2025:podatek_dochodowy ours=-159351.36 theirs=25872",
+          "2025:przychody_operacyjne ours=3368981.89 theirs=3403398.22",
+          "2025:koszty_operacyjne ours=2224371.15 theirs=2230858.27",
           "2024:przychody ours=3273852.95 theirs=3957718.63",
-          "2024:zysk_operacyjny ours=683863.22 theirs=1007903.45",
-          "2024:zysk_brutto ours=25872 theirs=-245481.38",
-          "2024:podatek_dochodowy ours=-271353.38 theirs=25872",
+          "2024:koszty_operacyjne ours=2257129.7 theirs=2265951.96",
           "2023:przychody ours=3352289.99 theirs=5111152.64",
-          "2023:zysk_operacyjny ours=1746236.2 theirs=952731.64"
+          "2023:przychody_operacyjne ours=3352289.99 theirs=3364916.44",
+          "2023:koszty_operacyjne ours=2409330.69 theirs=2412184.8",
+          "2022:przychody ours=2600859.3 theirs=2617590.97",
+          "2022:koszty_operacyjne ours=1739488.73 theirs=1740116.19"
         ]
       }
     },
@@ -2206,23 +2205,21 @@
           "zysk_operacyjny": 51374.72
         }
       },
-      "rows": 26,
+      "rows": 34,
       "summary": {
-        "total_rows": 26,
-        "match": 12,
-        "mismatch": 4,
-        "only_theirs": 4,
-        "only_ours": 6,
+        "total_rows": 34,
+        "match": 32,
+        "mismatch": 2,
+        "only_theirs": 0,
+        "only_ours": 0,
         "years": [
           2023,
           2024
         ],
-        "match_pct": 46,
+        "match_pct": 94,
         "mismatches": [
-          "2024:przychody ours=368866.41 theirs=368867.54",
-          "2024:zysk_operacyjny ours=50837.88 theirs=51374.72",
-          "2023:przychody ours=513894.07 theirs=513897.07",
-          "2023:zysk_operacyjny ours=19876.81 theirs=19972.06"
+          "2024:zysk_operacyjny ours=50837.87999999997 theirs=51374.72",
+          "2023:zysk_operacyjny ours=19876.809999999998 theirs=19972.06"
         ]
       }
     },
@@ -2638,13 +2635,13 @@
           "zysk_ze_sprzedazy": 0
         }
       },
-      "rows": 98,
+      "rows": 156,
       "summary": {
-        "total_rows": 98,
-        "match": 76,
-        "mismatch": 17,
+        "total_rows": 156,
+        "match": 134,
+        "mismatch": 22,
         "only_theirs": 0,
-        "only_ours": 5,
+        "only_ours": 0,
         "years": [
           2018,
           2019,
@@ -2654,18 +2651,18 @@
           2023,
           2024
         ],
-        "match_pct": 78,
+        "match_pct": 86,
         "mismatches": [
-          "2024:zysk_netto ours=0 theirs=4045.87",
+          "2024:zysk_brutto_ze_sprzedazy ours=4045.870000000001 theirs=0",
+          "2024:zysk_ze_sprzedazy ours=4045.870000000001 theirs=0",
+          "2024:zysk_operacyjny ours=4045.870000000001 theirs=0",
+          "2024:zysk_brutto ours=4045.870000000001 theirs=0",
+          "2024:ebit ours=4045.870000000001 theirs=0",
+          "2023:podatek_dochodowy ours=2814.66 theirs=0",
           "2023:zysk_operacyjny ours=0 theirs=-2814.66",
-          "2023:zysk_brutto ours=-2814.66 theirs=0",
-          "2023:zysk_netto ours=0 theirs=-2814.66",
+          "2023:ebit ours=0 theirs=-2814.66",
           "2022:zysk_ze_sprzedazy ours=36698.81 theirs=0",
-          "2022:zysk_operacyjny ours=0 theirs=36698.81",
-          "2022:zysk_brutto ours=36698.81 theirs=0",
-          "2022:zysk_netto ours=0 theirs=33395.81",
-          "2022:podatek_dochodowy ours=0 theirs=3303",
-          "2021:zysk_ze_sprzedazy ours=11512.69 theirs=0"
+          "2022:zysk_brutto ours=36698.81 theirs=0"
         ]
       }
     },
@@ -3105,11 +3102,11 @@
           "zysk_ze_sprzedazy": 2024720.24
         }
       },
-      "rows": 109,
+      "rows": 180,
       "summary": {
-        "total_rows": 109,
-        "match": 101,
-        "mismatch": 8,
+        "total_rows": 180,
+        "match": 148,
+        "mismatch": 32,
         "only_theirs": 0,
         "only_ours": 0,
         "years": [
@@ -3122,16 +3119,18 @@
           2024,
           2025
         ],
-        "match_pct": 93,
+        "match_pct": 82,
         "mismatches": [
           "2025:przychody ours=8856677.81 theirs=11815499.9",
+          "2025:przychody_operacyjne ours=8856677.81 theirs=11774407",
+          "2025:koszty_operacyjne ours=6831957.57 theirs=11168328.23",
           "2024:przychody ours=2484246.63 theirs=3714457.38",
+          "2024:przychody_operacyjne ours=2484246.63 theirs=3652907.76",
+          "2024:koszty_operacyjne ours=1534235.87 theirs=2829842.67",
           "2023:przychody ours=1343529.18 theirs=5484406.11",
-          "2022:przychody ours=386060.12 theirs=2812755.95",
-          "2021:przychody ours=329330 theirs=3088308.78",
-          "2020:przychody ours=186392.18 theirs=2335734.48",
-          "2019:przychody ours=91271.02 theirs=589184.49",
-          "2018:przychody ours=600 theirs=149766.84"
+          "2023:przychody_operacyjne ours=1343529.18 theirs=5369007.38",
+          "2023:koszty_operacyjne ours=1242218.49 theirs=5220491.33",
+          "2022:przychody ours=386060.12 theirs=2812755.95"
         ]
       }
     },
@@ -3630,13 +3629,13 @@
           "zysk_operacyjny": 2517.68
         }
       },
-      "rows": 110,
+      "rows": 142,
       "summary": {
-        "total_rows": 110,
-        "match": 44,
-        "mismatch": 32,
-        "only_theirs": 4,
-        "only_ours": 30,
+        "total_rows": 142,
+        "match": 125,
+        "mismatch": 17,
+        "only_theirs": 0,
+        "only_ours": 0,
         "years": [
           2018,
           2019,
@@ -3647,18 +3646,18 @@
           2024,
           2025
         ],
-        "match_pct": 40,
+        "match_pct": 88,
         "mismatches": [
           "2025:przychody ours=1265210.8 theirs=1265482.11",
-          "2025:zysk_operacyjny ours=0 theirs=2517.68",
-          "2025:zysk_brutto ours=271.31 theirs=738.14",
-          "2025:zysk_netto ours=0 theirs=738.14",
-          "2025:podatek_dochodowy ours=2050.85 theirs=0",
-          "2024:przychody ours=3397531.19 theirs=3397563.08",
-          "2024:zysk_operacyjny ours=0 theirs=6093.78",
-          "2024:zysk_brutto ours=31.89 theirs=1329.31",
-          "2024:zysk_netto ours=4515.36 theirs=1329.31",
-          "2024:podatek_dochodowy ours=281 theirs=0"
+          "2025:ebit ours=2517.679999999935 theirs=738.14",
+          "2024:podatek_dochodowy ours=4515.359999999795 theirs=0",
+          "2024:zysk_brutto ours=5844.669999999795 theirs=1329.31",
+          "2024:ebit ours=6093.779999999795 theirs=5844.67",
+          "2023:podatek_dochodowy ours=3850.4000000001683 theirs=0",
+          "2023:zysk_brutto ours=5258.250000000168 theirs=1407.85",
+          "2023:ebit ours=5483.930000000168 theirs=5258.25",
+          "2022:przychody ours=1776565.88 theirs=1776884.47",
+          "2022:podatek_dochodowy ours=15661.909999999869 theirs=0"
         ]
       }
     },
@@ -3896,12 +3895,12 @@
           "zysk_ze_sprzedazy": -77892.37
         }
       },
-      "rows": 56,
+      "rows": 84,
       "summary": {
-        "total_rows": 56,
-        "match": 36,
-        "mismatch": 16,
-        "only_theirs": 4,
+        "total_rows": 84,
+        "match": 76,
+        "mismatch": 8,
+        "only_theirs": 0,
         "only_ours": 0,
         "years": [
           2022,
@@ -3909,18 +3908,16 @@
           2024,
           2025
         ],
-        "match_pct": 64,
+        "match_pct": 90,
         "mismatches": [
           "2025:przychody ours=0 theirs=4126333.51",
-          "2025:zysk_operacyjny ours=4122518.47 theirs=-74078.25",
-          "2025:zysk_brutto ours=0 theirs=-8817534.4",
-          "2025:podatek_dochodowy ours=-8817534.4 theirs=0",
+          "2025:przychody_operacyjne ours=0 theirs=3815.04",
           "2024:przychody ours=0 theirs=3537628.29",
-          "2024:zysk_operacyjny ours=3537627.56 theirs=-72263.29",
-          "2024:zysk_brutto ours=0 theirs=-6425966.47",
-          "2024:podatek_dochodowy ours=-6425966.47 theirs=0",
           "2023:przychody ours=0 theirs=3039685.65",
-          "2023:zysk_operacyjny ours=3039683.92 theirs=-44011.58"
+          "2023:przychody_operacyjne ours=0 theirs=1.73",
+          "2022:przychody ours=0 theirs=2880584.79",
+          "2022:przychody_operacyjne ours=0 theirs=1.84",
+          "2022:koszty_operacyjne ours=685639.28 theirs=686708.37"
         ]
       }
     },
@@ -4041,23 +4038,25 @@
           "zysk_operacyjny": 60797.05
         }
       },
-      "rows": 26,
+      "rows": 34,
       "summary": {
-        "total_rows": 26,
-        "match": 12,
-        "mismatch": 4,
-        "only_theirs": 4,
-        "only_ours": 6,
+        "total_rows": 34,
+        "match": 28,
+        "mismatch": 6,
+        "only_theirs": 0,
+        "only_ours": 0,
         "years": [
           2024,
           2025
         ],
-        "match_pct": 46,
+        "match_pct": 82,
         "mismatches": [
           "2025:przychody ours=2404691.86 theirs=2412287.13",
-          "2025:zysk_operacyjny ours=62111.93 theirs=60797.05",
+          "2025:podatek_dochodowy ours=-49555.93000000018 theirs=6278",
+          "2025:zysk_operacyjny ours=68389.92999999982 theirs=60797.05",
           "2024:przychody ours=1865452.2 theirs=1863511.97",
-          "2024:zysk_operacyjny ours=179461.12 theirs=197168"
+          "2024:podatek_dochodowy ours=-149137.12 theirs=15162",
+          "2024:zysk_operacyjny ours=194623.12 theirs=197168"
         ]
       }
     },
@@ -4514,11 +4513,11 @@
           "zysk_ze_sprzedazy": 29223.46
         }
       },
-      "rows": 112,
+      "rows": 184,
       "summary": {
-        "total_rows": 112,
-        "match": 103,
-        "mismatch": 9,
+        "total_rows": 184,
+        "match": 159,
+        "mismatch": 25,
         "only_theirs": 0,
         "only_ours": 0,
         "years": [
@@ -4531,17 +4530,18 @@
           2024,
           2025
         ],
-        "match_pct": 92,
+        "match_pct": 86,
         "mismatches": [
           "2025:przychody ours=38609746.87 theirs=38720880.34",
+          "2025:przychody_operacyjne ours=38609746.87 theirs=38663694.67",
+          "2025:koszty_operacyjne ours=38580523.41 theirs=38607738.93",
           "2024:przychody ours=34953102.77 theirs=35064873.68",
+          "2024:przychody_operacyjne ours=34953102.77 theirs=35014998.39",
+          "2024:koszty_operacyjne ours=34791965.04 theirs=34809039.2",
           "2023:przychody ours=40743582.78 theirs=40933100.93",
-          "2023:podatek_dochodowy ours=-69303 theirs=69303",
-          "2022:przychody ours=49224607.69 theirs=49401849.99",
-          "2021:przychody ours=48076691.66 theirs=48514734.84",
-          "2020:przychody ours=53098705.06 theirs=53237162.92",
-          "2019:przychody ours=49005748.29 theirs=49576872.31",
-          "2018:przychody ours=49662550.57 theirs=49887471.81"
+          "2023:przychody_operacyjne ours=40743582.78 theirs=40862621.63",
+          "2023:koszty_operacyjne ours=41759391.2 theirs=41810929.19",
+          "2023:podatek_dochodowy ours=-69303.00000000175 theirs=69303"
         ]
       }
     },
@@ -4995,11 +4995,11 @@
           "zysk_ze_sprzedazy": 954746.01
         }
       },
-      "rows": 112,
+      "rows": 184,
       "summary": {
-        "total_rows": 112,
-        "match": 104,
-        "mismatch": 8,
+        "total_rows": 184,
+        "match": 160,
+        "mismatch": 24,
         "only_theirs": 0,
         "only_ours": 0,
         "years": [
@@ -5012,16 +5012,18 @@
           2024,
           2025
         ],
-        "match_pct": 93,
+        "match_pct": 87,
         "mismatches": [
           "2025:przychody ours=75878730.69 theirs=76498469.87",
+          "2025:przychody_operacyjne ours=75878730.69 theirs=76303075.19",
+          "2025:koszty_operacyjne ours=74923984.68 theirs=75251441.5",
           "2024:przychody ours=69875348.68 theirs=70248003.2",
+          "2024:przychody_operacyjne ours=69875348.68 theirs=69989587.1",
+          "2024:koszty_operacyjne ours=66754402.56 theirs=67021173.99",
           "2023:przychody ours=55583932.15 theirs=55855440.61",
-          "2022:przychody ours=46467830.5 theirs=46687870.02",
-          "2021:przychody ours=38334962.82 theirs=38537110.43",
-          "2020:przychody ours=33951511.16 theirs=34067086.44",
-          "2019:przychody ours=30235399.14 theirs=31160959.62",
-          "2018:przychody ours=30843125.81 theirs=31672383.52"
+          "2023:przychody_operacyjne ours=55583932.15 theirs=55719719.11",
+          "2023:koszty_operacyjne ours=52968147.79 theirs=53170167.8",
+          "2022:przychody ours=46467830.5 theirs=46687870.02"
         ]
       }
     },
@@ -5448,13 +5450,13 @@
           "zysk_operacyjny": -2339.84
         }
       },
-      "rows": 112,
+      "rows": 144,
       "summary": {
-        "total_rows": 112,
-        "match": 46,
-        "mismatch": 34,
+        "total_rows": 144,
+        "match": 96,
+        "mismatch": 48,
         "only_theirs": 0,
-        "only_ours": 32,
+        "only_ours": 0,
         "years": [
           2018,
           2019,
@@ -5465,28 +5467,28 @@
           2024,
           2025
         ],
-        "match_pct": 41,
+        "match_pct": 67,
         "mismatches": [
           "2025:przychody ours=380948.25 theirs=383659.85",
-          "2025:zysk_operacyjny ours=0 theirs=-2339.84",
-          "2025:zysk_brutto ours=0 theirs=371.23",
-          "2025:zysk_netto ours=0 theirs=371.23",
+          "2025:koszty_operacyjne ours=325794.88 theirs=383288.09",
+          "2025:podatek_dochodowy ours=-2711.070000000004 theirs=0",
+          "2025:zysk_operacyjny ours=55153.369999999995 theirs=-2339.84",
+          "2025:zysk_brutto ours=-2339.840000000004 theirs=371.23",
+          "2025:ebit ours=55153.369999999995 theirs=-2340.37",
           "2024:przychody ours=412448.68 theirs=419056.31",
-          "2024:zysk_operacyjny ours=0 theirs=-5930.16",
-          "2024:zysk_brutto ours=0 theirs=652.09",
-          "2024:zysk_netto ours=24 theirs=652.09",
-          "2024:podatek_dochodowy ours=1.38 theirs=0",
-          "2023:przychody ours=371086.17 theirs=420020.88"
+          "2024:koszty_operacyjne ours=357249.06 theirs=418378.84",
+          "2024:podatek_dochodowy ours=-6582.250000000004 theirs=0",
+          "2024:zysk_operacyjny ours=55199.619999999995 theirs=-5930.16"
         ]
       }
     }
   },
   "summary": {
-    "total_rows": 1210,
-    "match": 837,
-    "mismatch": 215,
-    "only_theirs": 40,
-    "only_ours": 118,
+    "total_rows": 1774,
+    "match": 1488,
+    "mismatch": 286,
+    "only_theirs": 0,
+    "only_ours": 0,
     "years": [
       2018,
       2019,
@@ -5497,18 +5499,18 @@
       2024,
       2025
     ],
-    "match_pct": 69,
+    "match_pct": 84,
     "mismatches": [
       "2025:przychody ours=6148188.93 theirs=6149155.11",
-      "2025:zysk_operacyjny ours=175.6 theirs=108583.43",
-      "2025:zysk_brutto ours=10256 theirs=84797.55",
-      "2025:podatek_dochodowy ours=74541.55 theirs=10256",
+      "2025:przychody_operacyjne ours=6148188.93 theirs=6148979.51",
+      "2025:koszty_operacyjne ours=6015357.39 theirs=6040396.08",
       "2024:przychody ours=5912524.58 theirs=5917627.34",
-      "2024:zysk_operacyjny ours=363.35 theirs=99708.57",
-      "2024:zysk_brutto ours=9945 theirs=83210.77",
-      "2024:podatek_dochodowy ours=73265.77 theirs=9945",
+      "2024:przychody_operacyjne ours=5912524.58 theirs=5917263.99",
+      "2024:koszty_operacyjne ours=5618153.79 theirs=5817555.42",
       "2023:przychody ours=6495813.16 theirs=6510643.97",
-      "2023:zysk_operacyjny ours=0 theirs=100592.22"
+      "2023:przychody_operacyjne ours=6495813.16 theirs=6510643.97",
+      "2023:koszty_operacyjne ours=6395467.32 theirs=6410051.75",
+      "2022:przychody ours=6822469.19 theirs=6824489.52"
     ]
   }
 }

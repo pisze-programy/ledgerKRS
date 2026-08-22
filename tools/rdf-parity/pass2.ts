@@ -3,12 +3,56 @@ import { join } from "node:path";
 import { loadCreds } from "./creds";
 import { makeRdfClient, annualStatementHits, withRetry } from "./rdf";
 import { parseSprawozdanie } from "../../src/sources/rdf/parser";
+import { statementMeta } from "../../src/sources/rdf/layouts";
+import { extractFinancialInput } from "../../src/sources/rdf/indicators";
+import { computeIndicators } from "../../src/metrics/indicators";
 import { fetchBizraportDane } from "./bizraport";
-import { ourIndicators, detectLayout, compareYear, summarizeComparison, type ComparisonRow } from "./compare";
+import { summarizeComparison, type ComparisonRow } from "./compare";
 
 const DUMP = join(process.cwd(), "tools", "rdf-parity", "dump");
 const PACE_MS = Number(process.env.PACE_MS ?? 1000);
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+interface YearIndicators {
+  rok: number;
+  values: Map<string, number | null>;
+}
+
+function productionIndicators(xml: string, hitOkres: string | null): YearIndicators | null {
+  const statement = parseSprawozdanie(xml);
+  if (!statement) {
+    return null;
+  }
+  const meta = statementMeta(xml);
+  const year = extractFinancialInput(statement, meta);
+  if (!year) {
+    return null;
+  }
+  const rok = year.rok ?? Number(hitOkres?.slice(0, 4));
+  const indicators = computeIndicators(year.input as never);
+  const values = new Map<string, number | null>();
+  for (const indicator of indicators) {
+    values.set(indicator.nazwa_wskaznika, indicator.kwota);
+  }
+  return { rok, values };
+}
+
+function compareYear(rok: number, ours: Map<string, number | null>, theirs: Map<string, number | null>): ComparisonRow[] {
+  const rows: ComparisonRow[] = [];
+  for (const [name, ourValue] of ours) {
+    const theirValue = theirs.get(name) ?? null;
+    if (theirValue === null) {
+      continue;
+    }
+    if (ourValue === null) {
+      rows.push({ rok, indicator: name, ours: null, theirs: theirValue, match: false, reason: "ONLY_THEIRS" });
+      continue;
+    }
+    const match = Math.abs(ourValue - theirValue) < Math.max(1, Math.abs(theirValue) * 1e-4);
+    rows.push({ rok, indicator: name, ours: ourValue, theirs: theirValue, match, reason: match ? "MATCH" : "MISMATCH" });
+  }
+  return rows;
+}
 
 interface Pass1Entry {
   krs: string;
@@ -63,14 +107,27 @@ async function main() {
   for (const krs of picked) {
     const hits = await withRetry(() => client.searchDocuments(krs));
     const annual = hits ? annualStatementHits(hits) : [];
-    const ourByYear = new Map<number, ReturnType<typeof ourIndicators>>();
+    const ourByYear = new Map<number, YearIndicators>();
+    const rzisByYear = new Map<number, Record<string, number | null>>();
     for (const hit of annual) {
       const xml = await withRetry(() => client.downloadXml(hit.id));
       if (!xml) continue;
+      const production = productionIndicators(xml, hit.okresSprawozdawczyKoniec);
+      if (production) {
+        ourByYear.set(production.rok, production);
+      }
       const statement = parseSprawozdanie(xml);
-      if (!statement) continue;
-      const year = statement.rok ?? Number(hit.okresSprawozdawczyKoniec?.slice(0, 4));
-      if (year) ourByYear.set(year, ourIndicators(statement, detectLayout(xml)));
+      if (statement) {
+        const year = statement.rok ?? Number(hit.okresSprawozdawczyKoniec?.slice(0, 4));
+        const rzis = statement.sekcje.find((s) => s.sekcja === "Rachunek zysków i strat");
+        if (year && rzis) {
+          const codes: Record<string, number | null> = {};
+          for (const p of rzis.pozycje) {
+            if (p.kod_pozycji && /^[A-Z]{1,2}$/.test(p.kod_pozycji)) codes[p.kod_pozycji] = p.kwota;
+          }
+          rzisByYear.set(year, codes);
+        }
+      }
       await sleep(PACE_MS);
     }
     const biz = await fetchBizraportDane(creds, krs);
@@ -83,29 +140,11 @@ async function main() {
       }
       m.set(row.nazwa_wskaznika, row.kwota);
     }
-    const rzisByYear = new Map<number, Record<string, number | null>>();
-    for (const hit of annual) {
-      const xml = await withRetry(() => client.downloadXml(hit.id));
-      if (!xml) continue;
-      const statement = parseSprawozdanie(xml);
-      if (!statement) continue;
-      const year = statement.rok ?? Number(hit.okresSprawozdawczyKoniec?.slice(0, 4));
-      if (!year) continue;
-      const rzis = statement.sekcje.find((s) => s.sekcja === "Rachunek zysków i strat");
-      if (rzis) {
-        const codes: Record<string, number | null> = {};
-        for (const p of rzis.pozycje) {
-          if (p.kod_pozycji && /^[A-Z]{1,2}$/.test(p.kod_pozycji)) codes[p.kod_pozycji] = p.kwota;
-        }
-        rzisByYear.set(year, codes);
-      }
-      await sleep(PACE_MS);
-    }
     const companyRows: ComparisonRow[] = [];
     for (const [year, our] of ourByYear) {
       const their = theirByYear.get(year);
       if (their) {
-        companyRows.push(...compareYear(year, our, their));
+        companyRows.push(...compareYear(year, our.values, their));
       }
     }
     allRows.push(...companyRows);

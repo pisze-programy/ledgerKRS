@@ -73,8 +73,7 @@ function roleForVariant(meta: StatementMeta, variant: RzisVariant, statement: Pa
   return result.zyskNetto !== null ? result : null;
 }
 
-export function rzisRolesFromChain(statement: ParsedStatement): RzisRoles | null {
-  const codes = letterCodes(statement);
+export function chainFromCodes(codes: Record<string, number | null>): RzisRoles | null {
   const letters = sortedLetters(codes);
   if (letters.length < 4) {
     return null;
@@ -116,6 +115,10 @@ export function rzisRolesFromChain(statement: ParsedStatement): RzisRoles | null
     codes,
     source: "chain",
   };
+}
+
+export function rzisRolesFromChain(statement: ParsedStatement): RzisRoles | null {
+  return chainFromCodes(letterCodes(statement));
 }
 
 export function rzisRoles(statement: ParsedStatement, meta: StatementMeta): RzisRoles {

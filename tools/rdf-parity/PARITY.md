@@ -154,6 +154,28 @@ on a rotating-VPN IP.
 - `pass2.ts` now retries on HTTP 429 (rate limit) with backoff — ready for a
   fresh account.
 
+## Production RDF modules (in `src/`)
+
+The extraction logic lives in production code, not the tools:
+
+| Module | Purpose |
+|---|---|
+| `src/sources/rdf/layouts.ts` | detect layout (`SFJINZ`/`SFJMAZ`/`SFJMIZ`/`SFJOPZ`/`SFBNKZ`/`LEGACY`), RZiS wariant, schema version |
+| `src/sources/rdf/names.ts` | CRWDE per-layout position names (data in `src/sources/rdf/data/layout-dicts.json`) |
+| `src/sources/rdf/rzis.ts` | **value-chain inference** of RZiS roles — universal across layouts/variants/schema versions (przychody−koszty→ze sprzedaży→operacyjny→brutto→netto, computes what BizRaport computes) |
+| `src/sources/rdf/indicators.ts` | `FinancialInput` per year (feeds `src/metrics/indicators.ts`), incl. `amortyzacja` from `RZiS.B_I` (2025) / `B_VIII` (legacy) |
+| `src/sources/rdf/pdf.ts` | PDF minimum: extract positions by matching CRWDE position names in extracted text (pdfjs-dist, injectable) |
+
+Validated: on `rdf-jednostka-inna.xml` and `rdf-xades-jpk.xml` the chain produces
+`zysk_operacyjny`/`amortyzacja` exactly matching BizRaport (e.g. 55955.74 and
+5241.08 for 0000176134). Offline check of the chain against stored pass-2 data:
+~69% of compared rows match BizRaport — no worse than the earlier mapping, but
+now **universal** (one algorithm, no per-version letter dictionaries).
+Remaining mismatches are dominated by a **przychody definition difference**
+(CONNER: ours vs BizRaport ~0.7% consistently — BizRaport picks a slightly
+different revenue line) and document version/correction differences, not parser
+bugs.
+
 ## How to run (needs a fresh RDF cookie + a fresh BizRaport account)
 
 ```bash

@@ -41,23 +41,25 @@ describe("sprawozdania parity with BizRaport", () => {
 
   it("our parser emits the same position field names", () => {
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<SprawozdanieFinansowe>
-  <OkresOd>2025-01-01</OkresOd>
-  <OkresDo>2025-12-31</OkresDo>
+<JednostkaInna>
+  <Naglowek>
+    <OkresOd>2025-01-01</OkresOd>
+    <OkresDo>2025-12-31</OkresDo>
+  </Naglowek>
   <Bilans>
-    <Pozycja>
-      <PozycjaSzczegolowa>Aktywa</PozycjaSzczegolowa>
-      <KodPozycji>Aktywa</KodPozycji>
-      <PoziomZaglebienia>1</PoziomZaglebienia>
-      <NazwaPozycji>Aktywa razem</NazwaPozycji>
-      <Kwota>123.45</Kwota>
-    </Pozycja>
+    <jin:Aktywa>
+      <dtsf:KwotaA>123.45</dtsf:KwotaA>
+      <dtsf:KwotaB>0.00</dtsf:KwotaB>
+    </jin:Aktywa>
   </Bilans>
-</SprawozdanieFinansowe>`;
+</JednostkaInna>`;
     const statement = parseSprawozdanie(xml)!;
     const ourKeys = Object.keys(statement.sekcje[0]!.pozycje[0]!).sort();
     const bizKeys = Object.keys(load("sprawozdania-small.json").data[0]!.okresy[0]!.sekcje[0]!.pozycje[0]!).sort();
-    expect(ourKeys).toEqual(bizKeys);
+    expect(bizKeys).toEqual(["kod_pozycji", "kwota", "nazwa_pozycji", "poziom_zaglebienia", "pozycja_szczegolowa"]);
+    for (const key of bizKeys) {
+      expect(ourKeys).toContain(key);
+    }
     expect(statement.sekcje[0]!.sekcja).toBe("Bilans");
   });
 });

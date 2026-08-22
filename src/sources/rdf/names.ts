@@ -36,3 +36,21 @@ export function hasLayoutDict(layout: LayoutKey): boolean {
 export function layoutLabel(layout: LayoutKey): string {
   return DICTS[layout]?.label ?? "Legacy (pre-2025 schema)";
 }
+
+export function entriesFor(
+  layout: LayoutKey,
+  section: string,
+  variant?: RzisVariant,
+): [string, string][] {
+  if (layout === "LEGACY") {
+    return [];
+  }
+  const names = DICTS[layout]?.names;
+  if (!names) {
+    return [];
+  }
+  const prefix = section === "RZiS" && variant ? `RZiS.${variant}.` : `${section}.`;
+  return Object.entries(names)
+    .filter(([key]) => key.startsWith(prefix))
+    .map(([key, name]) => [key.slice(prefix.length), name] as [string, string]);
+}

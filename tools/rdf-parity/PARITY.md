@@ -20,6 +20,35 @@ To know the true coverage we draw a random sample from the KRS biuletyn
    random sample.
    → `tools/rdf-parity/characterize.ts` → `dump/characterize-bizraport.json`
 
+## Layout-aware indicator mapping (official MF structures)
+
+The root cause of the RZiS mismatches is that position codes are
+section-scoped and layout-specific. The official e-sprawozdanie structures
+(which include Polish names in `<xsd:documentation>`) are published in
+**CRWDE** (`crd.gov.pl/wzor/{wzor}/schemat.xsd`). We now build dictionaries
+directly from them:
+
+- `tools/rdf-parity/build-layout-dicts.ts` — downloads the wzor schema,
+  follows its imports, extracts `element name → Polish name` keyed by section.
+  Output: `dump/layout-dicts.json` (SFJINZ 709, SFJMAZ 747, SFJMIZ 760,
+  SFJOPZ 715, SFBNKZ 591 names).
+- `tools/rdf-parity/map-indicators.ts` — matches the canonical indicators
+  against the documentation → `dump/layout-indicator-map.json`:
+  `suma_bilansowa→Bilans.Aktywa`, `przychody→RZiS.A`,
+  `zysk_operacyjny→RZiS.F`, `zysk_brutto→RZiS.I`, `zysk_netto→RZiS.L`,
+  `podatek_dochodowy→RZiS.J`, **`amortyzacja→RZiS.B_I`**, and the bank layout
+  maps to different codes (`zysk_brutto→RZiS.XX`, `zysk_netto→RZiS.XXIII`).
+
+**Validated** on `rdf-jednostka-inna.xml` and `rdf-xades-jpk.xml` (SFJINZ):
+all values correct, and for 0000176134 the fixed `amortyzacja` (RZiS.B_I =
+5241.08) **exactly matches BizRaport's** value that previously mismatched by
+6000×. The 2025 schema uses `RZiS.B_I` for amortyzacja (not the old `B_VIII`).
+
+Remaining: detect the RZiS variant (kalkulacyjny vs porównawczy, from
+`WariantSprawozdania`) — the porównawczy variant reuses the same letters with
+different meanings (explains e.g. CONNER's 2025 mismatches). Deferred until a
+live pass verifies it.
+
 ## Dumps
 
 | Dump | What | Status |
@@ -28,7 +57,9 @@ To know the true coverage we draw a random sample from the KRS biuletyn
 | `dump/characterize-bizraport.json` | BizRaport coverage on 8 random companies | ✅ |
 | `dump/pass1-structural.json` | RDF structural classification (200 companies) | ✅ |
 | `dump/pass2-parity.json` | Value-by-value comparison (15 companies) | ✅ |
-| `dump/pass1-structural-UNVALIDATED.json` | First (contaminated) run — challenge misread as NO_DOCS | ⚠️ reference only |
+| `dump/layout-dicts.json` | Official per-layout position dictionaries (CRWDE) | ✅ |
+| `dump/layout-indicator-map.json` | Canonical indicator codes per layout | ✅ |
+| `dump/pass1-structural-UNVALIDATED.json` | First (contaminated) run | ⚠️ reference only |
 
 ## Pass 1 — structural results (200 random companies)
 

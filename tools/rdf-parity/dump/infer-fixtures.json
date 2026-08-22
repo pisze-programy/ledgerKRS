@@ -1,0 +1,20 @@
+{
+  "rdf-jednostka-inna.xml": {
+    "przychody": "A",
+    "koszty": "B",
+    "zyskZeSprzedazy": "I",
+    "zyskOperacyjny": "J",
+    "zyskBrutto": "I",
+    "podatek": "K",
+    "zyskNetto": "L"
+  },
+  "rdf-xades-jpk.xml": {
+    "przychody": "A",
+    "koszty": "B",
+    "zyskZeSprzedazy": "J",
+    "zyskOperacyjny": "I",
+    "zyskBrutto": "I",
+    "podatek": "J",
+    "zyskNetto": "L"
+  }
+}

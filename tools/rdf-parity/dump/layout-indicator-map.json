@@ -1,0 +1,255 @@
+{
+ "SFJINZ": {
+  "label": "JednostkaInna (w złotych)",
+  "map": {
+   "suma_bilansowa": [
+    "Bilans.Aktywa",
+    "Aktywa razem"
+   ],
+   "aktywa_trwale": [
+    "Bilans.Aktywa_A",
+    "Aktywa trwałe"
+   ],
+   "aktywa_obrotowe": [
+    "Bilans.Aktywa_B",
+    "Aktywa obrotowe"
+   ],
+   "kapital_wlasny": [
+    "Bilans.Pasywa_A",
+    "Kapitał (fundusz) własny"
+   ],
+   "zobowiazania_i_rezerwy": [
+    "Bilans.Pasywa_B",
+    "Zobowiązania i rezerwy na zobowiązania"
+   ],
+   "przychody": [
+    "RZiS.A",
+    "Przychody netto ze sprzedaży i zrównane z nimi, w tym:"
+   ],
+   "koszty_sprzedanych_produktow": [
+    "RZiS.B",
+    "Koszty działalności operacyjnej"
+   ],
+   "zysk_ze_sprzedazy": [
+    "RZiS.C",
+    "Zysk (strata) ze sprzedaży (A–B)"
+   ],
+   "zysk_operacyjny": [
+    "RZiS.F",
+    "Zysk (strata) z działalności operacyjnej (C+D–E)"
+   ],
+   "zysk_brutto": [
+    "RZiS.I",
+    "Zysk (strata) brutto (F+G–H)"
+   ],
+   "zysk_netto": [
+    "RZiS.L",
+    "Zysk (strata) netto (I–J–K)"
+   ],
+   "podatek_dochodowy": [
+    "RZiS.J",
+    "Podatek dochodowy"
+   ],
+   "amortyzacja": [
+    "RZiS.B_I",
+    "Amortyzacja"
+   ]
+  }
+ },
+ "SFJMAZ": {
+  "label": "JednostkaMala (w złotych)",
+  "map": {
+   "suma_bilansowa": [
+    "Bilans.Aktywa",
+    "Aktywa razem"
+   ],
+   "aktywa_trwale": [
+    "Bilans.Aktywa_A",
+    "Aktywa trwałe"
+   ],
+   "aktywa_obrotowe": [
+    "Bilans.Aktywa_B",
+    "Aktywa obrotowe"
+   ],
+   "kapital_wlasny": [
+    "Bilans.Pasywa_A",
+    "Kapitał (fundusz) własny"
+   ],
+   "zobowiazania_i_rezerwy": [
+    "Bilans.Pasywa_B",
+    "Zobowiązania i rezerwy na zobowiązania"
+   ],
+   "przychody": [
+    "RZiS.A",
+    "Przychody netto ze sprzedaży i zrównane z nimi, w tym:"
+   ],
+   "koszty_sprzedanych_produktow": [
+    "RZiS.B",
+    "Koszty działalności operacyjnej"
+   ],
+   "zysk_ze_sprzedazy": [
+    "RZiS.C",
+    "Zysk (strata) ze sprzedaży (A–B)"
+   ],
+   "zysk_operacyjny": [
+    "RZiS.F",
+    "Zysk (strata) z działalności operacyjnej (C+D–E)"
+   ],
+   "zysk_brutto": [
+    "RZiS.I",
+    "Zysk (strata) brutto (F+G–H)"
+   ],
+   "zysk_netto": [
+    "RZiS.L",
+    "Zysk (strata) netto (I–J–K)"
+   ],
+   "podatek_dochodowy": [
+    "RZiS.J",
+    "Podatek dochodowy"
+   ],
+   "amortyzacja": [
+    "RZiS.B_I",
+    "Amortyzacja"
+   ]
+  }
+ },
+ "SFJMIZ": {
+  "label": "JednostkaMikro (w złotych)",
+  "map": {
+   "suma_bilansowa": [
+    "Bilans.Aktywa",
+    "Aktywa razem"
+   ],
+   "aktywa_trwale": [
+    "Bilans.Aktywa_A",
+    "Aktywa trwałe"
+   ],
+   "aktywa_obrotowe": [
+    "Bilans.Aktywa_B",
+    "Aktywa obrotowe"
+   ],
+   "kapital_wlasny": [
+    "Bilans.Pasywa_A",
+    "Kapitał (fundusz) własny"
+   ],
+   "zobowiazania_i_rezerwy": [
+    "Bilans.Pasywa_B",
+    "Zobowiązania i rezerwy na zobowiązania"
+   ],
+   "przychody": [
+    "RZiS.A",
+    "Przychody netto ze sprzedaży i zrównane z nimi, w tym:"
+   ],
+   "koszty_sprzedanych_produktow": [
+    "RZiS.B",
+    "Koszty działalności operacyjnej"
+   ],
+   "zysk_ze_sprzedazy": [
+    "RZiS.C",
+    "Zysk (strata) ze sprzedaży (A–B)"
+   ],
+   "zysk_operacyjny": [
+    "RZiS.F",
+    "Zysk (strata) z działalności operacyjnej (C+D–E)"
+   ],
+   "zysk_brutto": [
+    "RZiS.I",
+    "Zysk (strata) brutto (F+G–H)"
+   ],
+   "zysk_netto": [
+    "RZiS.L",
+    "Zysk (strata) netto (I–J–K)"
+   ],
+   "podatek_dochodowy": [
+    "RZiS.J",
+    "Podatek dochodowy"
+   ],
+   "amortyzacja": [
+    "RZiS.B_I",
+    "Amortyzacja"
+   ]
+  }
+ },
+ "SFJOPZ": {
+  "label": "Jednostka poz. publicznego (w złotych)",
+  "map": {
+   "suma_bilansowa": [
+    "Bilans.Aktywa",
+    "Aktywa razem"
+   ],
+   "aktywa_trwale": [
+    "Bilans.Aktywa_A",
+    "Aktywa trwałe"
+   ],
+   "aktywa_obrotowe": [
+    "Bilans.Aktywa_B",
+    "Aktywa obrotowe"
+   ],
+   "kapital_wlasny": [
+    "Bilans.Pasywa_A",
+    "Kapitał (fundusz) własny"
+   ],
+   "zobowiazania_i_rezerwy": [
+    "Bilans.Pasywa_B",
+    "Zobowiązania i rezerwy na zobowiązania"
+   ],
+   "przychody": [
+    "RZiS.A",
+    "Przychody netto ze sprzedaży i zrównane z nimi, w tym:"
+   ],
+   "koszty_sprzedanych_produktow": [
+    "RZiS.B",
+    "Koszty działalności operacyjnej"
+   ],
+   "zysk_ze_sprzedazy": [
+    "RZiS.C",
+    "Zysk (strata) ze sprzedaży (A–B)"
+   ],
+   "zysk_operacyjny": [
+    "RZiS.F",
+    "Zysk (strata) z działalności operacyjnej (C+D–E)"
+   ],
+   "zysk_brutto": [
+    "RZiS.I",
+    "Zysk (strata) brutto (F+G–H)"
+   ],
+   "zysk_netto": [
+    "RZiS.L",
+    "Zysk (strata) netto (I–J–K)"
+   ],
+   "podatek_dochodowy": [
+    "RZiS.J",
+    "Podatek dochodowy"
+   ],
+   "amortyzacja": [
+    "RZiS.B_I",
+    "Amortyzacja"
+   ]
+  }
+ },
+ "SFBNKZ": {
+  "label": "Bank (w złotych)",
+  "map": {
+   "suma_bilansowa": [
+    "Bilans.Aktywa",
+    "Aktywa razem"
+   ],
+   "zysk_brutto": [
+    "RZiS.XX",
+    "Zysk (strata) brutto"
+   ],
+   "zysk_netto": [
+    "RZiS.XXIII",
+    "Zysk (strata) netto"
+   ],
+   "podatek_dochodowy": [
+    "RZiS.XXI",
+    "Podatek dochodowy"
+   ],
+   "amortyzacja": [
+    "RZiS.XIV",
+    "Amortyzacja środków trwałych oraz wartości niematerialnych i prawnych"
+   ]
+  }
+ }
+}

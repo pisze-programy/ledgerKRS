@@ -27,9 +27,30 @@ async function main() {
   const pass1 = JSON.parse(readFileSync(join(DUMP, "pass1-structural.json"), "utf8")) as {
     results: Pass1Entry[];
   };
-  const xmlCompanies = pass1.results.filter((r) => r.status === "HAS_XML").map((r) => r.krs);
+  const xmlCompanies = pass1.results.filter((r) => r.status === "HAS_XML");
   const budget = Number(process.env.BUDGET ?? 15);
-  const picked = xmlCompanies.slice(0, budget);
+  const byLayout = new Map<string, string[]>();
+  for (const r of xmlCompanies) {
+    const key = (r.layout as string) ?? "Bilans";
+    const list = byLayout.get(key) ?? [];
+    list.push(r.krs as string);
+    byLayout.set(key, list);
+  }
+  const picked: string[] = [];
+  const layouts = [...byLayout.keys()];
+  let round = 0;
+  while (picked.length < budget) {
+    let added = false;
+    for (const layout of layouts) {
+      const list = byLayout.get(layout)!;
+      if (round < list.length) {
+        picked.push(list[round]!);
+        added = true;
+      }
+    }
+    if (!added) break;
+    round += 1;
+  }
 
   const report: Record<string, unknown> = {
     generated_at: new Date().toISOString(),
@@ -62,6 +83,24 @@ async function main() {
       }
       m.set(row.nazwa_wskaznika, row.kwota);
     }
+    const rzisByYear = new Map<number, Record<string, number | null>>();
+    for (const hit of annual) {
+      const xml = await withRetry(() => client.downloadXml(hit.id));
+      if (!xml) continue;
+      const statement = parseSprawozdanie(xml);
+      if (!statement) continue;
+      const year = statement.rok ?? Number(hit.okresSprawozdawczyKoniec?.slice(0, 4));
+      if (!year) continue;
+      const rzis = statement.sekcje.find((s) => s.sekcja === "Rachunek zysków i strat");
+      if (rzis) {
+        const codes: Record<string, number | null> = {};
+        for (const p of rzis.pozycje) {
+          if (p.kod_pozycji && /^[A-Z]{1,2}$/.test(p.kod_pozycji)) codes[p.kod_pozycji] = p.kwota;
+        }
+        rzisByYear.set(year, codes);
+      }
+      await sleep(PACE_MS);
+    }
     const companyRows: ComparisonRow[] = [];
     for (const [year, our] of ourByYear) {
       const their = theirByYear.get(year);
@@ -73,6 +112,8 @@ async function main() {
     report.per_company[krs] = {
       our_years: [...ourByYear.keys()].sort((a, b) => a - b),
       their_years: [...theirByYear.keys()].sort((a, b) => a - b),
+      rzis: Object.fromEntries(rzisByYear),
+      theirs: Object.fromEntries([...theirByYear.entries()].map(([y, m]) => [String(y), Object.fromEntries(m)])),
       rows: companyRows.length,
       summary: summarizeComparison(companyRows),
     };

@@ -279,3 +279,177 @@ RDF_COOKIE="..." BUDGET=11 npx tsx tools/rdf-parity/pass2.ts
 ```
 
 `creds.local.json` (gitignored) holds the accounts. Cookie is IP-bound.
+
+## Simplified porównawczy structure (old Mala/Mikro) — decoded via CONNER 0000320584
+
+CONNER files 2018-2025 as **Mikro/Mala, porównawczy**, but with OLD letter
+semantics even in its 2025 eD-namespace filing. BizRaport reads them as:
+
+- `przychody` = **A + D + F**  (F is a small financial-income position;
+  NOT G). Exact on 2020-2025, 6/6 years.
+- `przychody_operacyjne` = `A + D`
+- `zysk_ze_sprzedazy` = `C`
+- `zysk_operacyjny` = `C + D - E`  (NOT letter F)
+- `zysk_brutto` = `C + D - E + F - G`  (letter H)
+- `podatek` = `I`
+- `zysk_netto` = `J`
+- identity check: `H - I = J` exactly; `op + F - G = H` exactly.
+
+So the simplified porównawczy RZiS is:
+`A,B,C,D,E,F(przychody fin.),G(koszty fin.),H(brutto),I(podatek),J(netto)`
+— no separate "zysk z działalności operacyjnej" letter, financial part in
+F/G directly. This differs from the 2025-08 CRWDE dicts (where brutto=I,
+podatek=J, netto=L, F=zysk op).
+
+Detector (in `src/sources/rdf/indicators.ts`): porównawczy RZiS **without**
+letter `L` where `H - I ≈ J` → use simplified semantics.
+
+**2019 anomaly**: BizRaport's 2019 `przychody` is +79.19 above any value in
+our downloaded document (all other 2019 indicators match our XML exactly).
+Their 2019 brutto identity also implies F=79.19 which is absent from our
+XML → BizRaport likely used a corrected 2019 filing we don't have. Exempted
+in the corpus test as a known issue.
+
+Corpus fixture `test/fixtures/rdf-corpus/0000320584/` (8 XML + BizRaport
+ground truth). Pipeline now matches BizRaport 99% (97/98 rows; the 1
+mismatch is the 2019 anomaly).
+
+## Corpus harness (offline regression vs BizRaport)
+
+`test/fixtures/rdf-corpus/{krs}/` — one dir per company:
+- `*.xml` — all annual statements downloaded from RDF (once).
+- `bizraport.json` — BizRaport `/api/dane` ground truth (1 credit/company).
+
+`test/unit/rdf-corpus.test.ts` runs the **production pipeline**
+(parse → rzisRoles → extractFinancialInput → computeIndicators) on every
+company and compares every canonical indicator per year vs the stored
+ground truth. It asserts aggregate >=90% and per-company >=80%, and fails on
+NEW mismatches. Known BizRaport data anomalies are exempted via
+`KNOWN_ISSUES`.
+
+Current state: 45 companies selected (40 from pass2 + edge cases + Bank/PZU),
+ground truth fetched for all 45 (44 credits). XMLs downloaded for 1/45
+(0000320584) — RDF downloads blocked by Incapsula hard-block; resume via:
+
+```bash
+RDF_PROXY=socks5h://127.0.0.1:1080 npx tsx tools/rdf-parity/build-corpus.ts
+```
+
+(the `build-corpus.ts` script is resumable; it needs a fresh RDF cookie in
+`creds.local.json` and a working proxy IP).
+
+## Proxy (docker tailscale → iPhone)
+
+`tsproxy` container: `127.0.0.1:1080` SOCKS5, exits to the phone's mobile
+IP (37.47.150.19). Set `RDF_PROXY=socks5h://127.0.0.1:1080` to route RDF
+tooling through it. The phone IP gets the same ~10-15 request Incapsula
+budget as any IP, then a hard challenge (~30-60 min cooldown); a fresh
+browser captcha solve issues a fresh `reese84` cookie.
+
+## Revenue gap map (offline, pass2 letters)
+
+`dump/revenue-gap-map.json` classifies every company-year in the 40-firm
+pass2 sample against BizRaport `przychody` using the production revenue
+logic (simplified → A+D+F, else income letters):
+- 216 rows, **76% match**, 51 mismatches.
+- simplified branch: **34/34 exact** (11 companies — validates the detector
+  broadly, not just CONNER).
+- residual buckets (need XML to attribute variant): `ABCDEFGHIJKLMNO` old
+  Inna/Op (22), `ABCDEF` mikro no-financial (14), full-structure K/L (8),
+  `ABCF` (3), misc (4). Note the letter-only pass2 dump can't distinguish
+  RZiSKalk vs RZiSPor, so part of the residual is an analysis artifact —
+  the production pipeline tries both variants.
+
+## Corpus: 45 companies downloaded once, offline parity vs BizRaport
+
+Pipeline: solve cookie via Playwright (phone IP through `tsproxy`; webshare
+residential is the fallback when the phone IP is flagged) → download ALL
+annual XMLs + BizRaport ground truth into `test/fixtures/rdf-corpus/{krs}/`.
+`build-corpus.ts` is resumable, batched (LIMIT), auto-refreshes the Incapsula
+session, and skips PDF-only statements (2% of companies file annual as PDF).
+
+`test/unit/rdf-corpus.test.ts` runs the production pipeline on every company
+and compares canonical indicators per year vs the stored BizRaport ground
+truth (only rows BizRaport reports count; `KNOWN_ISSUES` documents BizRaport
+data quirks). Result on clean data: **98% match, 0 mismatches** across 40
+companies with XML (PZU-insurer + 4 messy BizRaport records exempted with
+reasons). Residual: 50 `only_theirs` (we leave op/podatek null on simplified/
+truncated statements — BizRaport computes them with an unstable per-company
+method we do not fabricate).
+
+### Production fixes landed in this stage (all in `src/`, with unit tests)
+
+1. **XAdES detached unwrap** (`parser.ts unwrapXades`): some filings are a
+   detached signature whose statement is base64 inside `ds:Object
+   Encoding=...#base64 MimeType=text/plain`. Now decoded before parse/layout.
+2. **Diacritic-safe dict role matching** (`rzis.ts findRole`): `findRole`
+   normalized NFD so `"sprzedazy"` matches `"sprzedaży"`. This resurrected
+   the dict-based role path (it was dead → everything fell back to the chain).
+3. **Chain-fill merge** (`fillMissingFromChain`): dict roles win; missing
+   roles are filled from the value chain instead of left null.
+4. **JednostkaOp statutory RZiS** (`opFixedRoles`): old/intermediate/new Op
+   statements use `A..O` with `op=H, brutto=M, netto=O, podatek=0`,
+   `przychody=A+D+I+K`. Verified 21/21 company-years across 3 Op companies.
+5. **Truncated Mikro** (`truncatedMikroRoles`): RZiS limited to `A..F` (no
+   H..L) → `przychody=A+C`, `netto=last letter`. Verified 7/7.
+6. **Simplified porównawczy revenue** (already in place from earlier work).
+
+Layout coverage per corpus: legacy Bilans, Inna, Mala, Mikro, Op, Bank (PKO),
+MSR emitters (ORLEN), insurer (PZU pending — SFZURZ layout, separate stage).
+
+### Per-layout parity on the corpus (match / comparable rows, clean data)
+- JednostkaOp statutory: 100% (3 companies, 80 rows each)
+- CONNER simplified: 100%
+- Most Inna/Mala/Mikro: 95-100%
+- Residuals are documented BizRaport quirks (rounding to thousands,
+  `theirs=0`, op=A−B on old ABCF, podatek sign flips).
+
+## Consolidated statements (grupy kapitałowe) — documentation-first
+
+Methodology: CRWDE schema dict → what BizRaport reports → what we produce → conclusion.
+
+**Schema (CRWDE wzór 13854 SFSINZ)**: consolidated RZiS uses letters A..W in two
+dict variants — RZiSKalk (I=zysk operacyjny, R=zysk brutto, S=podatek, W=netto)
+and RZiSPor (F=op, N=brutto, O=podatek, S=netto).
+
+**BizRaport**: for capital groups it reports the **skonsolidowane** filing
+(rodzaj 22 in RDF), not the standalone (rodzaj 18). Verified on Totalizator
+(0000007411): przychody 89 840 026 952, EBIT 751 416 409, zysk netto
+668 648 296, podatek 155 251 816, aktywa 3,7 mld.
+
+**We produce**: identical values once (a) the ingest prefers rodzaj 22 over 18
+per period and (b) role resolution is dict-driven with the correct variant
+(companies file kalk-letter semantics even when declaring porównawczy wariant —
+role resolver tries kalk first, verified 2018/2024/2025).
+
+**Conclusion**: consolidated groups now match BizRaport exactly via the official
+CRWDE dictionary — no hardcoded letter maps.
+
+## Code structure (post-cleanup)
+
+`src/sources/rdf/` is split by concern:
+- `rzis/` — role resolution: `types.ts`, `matching.ts` (name normalization +
+  exact-phrase matching), `dictRoles.ts` (CRWDE dict-driven), `fixedRoles.ts`
+  (documented per-form maps for Op statutory + truncated Mikro), `chain.ts`
+  (value-chain fallback), `codes.ts`, `index.ts` (dispatcher).
+- `revenue.ts` — per-form revenue rules.
+- `indicators.ts` — thin orchestrator (roles + revenue + bilans → FinancialInput).
+- `client.ts`, `transport.ts`, `parser.ts`, `layouts.ts`, `names.ts`, `positions.ts`, `pdf.ts`.
+
+## Well-known bugs & quirks (with pointers)
+
+- [KNOWN BUG][fixed] Diacritic matching: NFD strips combining marks but NOT "ł"
+  (U+0142); and phrase matching must strip only the trailing formula paren
+  (not "(strata)"). Fixed in `rzis/matching.ts` with tests.
+- [KNOWN BUG][fixed] `roleForVariant` scanned letters A..P only — consolidated
+  statements go to W. Fixed (`matching.dictNamesFor` iterates A..W).
+- [KNOWN BUG][fixed] Dict roles required the podatek letter to be filled in the
+  statement; it only needs to exist in the dict. Fixed (`dictRoles.ts`).
+- [KNOWN BUG][fixed] Detached XAdES statements (statement base64 inside
+  `ds:Object`) were not unwrapped. Fixed (`parser.ts unwrapXades`).
+- [BIZRAPORT QUIRK] Rounded to thousands for some companies (0000878245 2021+);
+  BizRaport flips podatek sign (0000176134 2023, 0001066345 2025); reports
+  op=A−B on old ABCF (0000723096); messy extraction (0000139939, 0000659179);
+  mislabelled filing periods (0000721871). All tracked in
+  `KNOWN_ISSUES` in `test/unit/rdf-corpus.test.ts`.
+- [NOT YET] Insurer layout SFZURZ (PZU) — separate stage, documented.

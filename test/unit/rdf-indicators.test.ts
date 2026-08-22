@@ -59,4 +59,56 @@ describe("extractFinancialInput", () => {
     expect(year.input.revenue).toBeCloseTo(134496967.7, 1);
     expect(year.input.costOfGoodsSold).toBeCloseTo(134273963.29, 1);
   });
+
+  it("handles simplified porównawczy (old Mala/Mikro): revenue = A+D+F, brutto = op+F-G, podatek=I, netto=J (CONNER 2024 vs BizRaport)", () => {
+    const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-corpus", "0000320584", "20240101_20241231.xml"), "utf8");
+    const meta = statementMeta(xml);
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.revenue).toBeCloseTo(5917627.34, 2);
+    expect(year.input.salesRevenue).toBeCloseTo(5912524.58, 2);
+    expect(year.input.operatingRevenue).toBeCloseTo(5917263.99, 2);
+    expect(year.input.costOfGoodsSold).toBeCloseTo(5618153.79, 2);
+    expect(year.input.operatingProfit).toBeCloseTo(99708.57, 2);
+    expect(year.input.grossProfit).toBeCloseTo(83210.77, 2);
+    expect(year.input.incomeTax).toBeCloseTo(9945, 2);
+    expect(year.input.netProfit).toBeCloseTo(73265.77, 2);
+  });
+
+  it("handles old-schema JednostkaOp statutory RZiS: op=H, brutto=M, netto=O, podatek=0, revenue=A+D+I+K (0000278980 2018 vs BizRaport)", () => {
+    const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-corpus", "0000278980", "20180101_20181231.xml"), "utf8");
+    const meta = statementMeta(xml);
+    expect(meta.layout).toBe("SFJOPZ");
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.revenue).toBeCloseTo(1183737.79, 2);
+    expect(year.input.operatingRevenue).toBeCloseTo(1183735.79, 2);
+    expect(year.input.costOfGoodsSold).toBeCloseTo(1134144.01, 2);
+    expect(year.input.operatingProfit).toBeCloseTo(4131.42, 2);
+    expect(year.input.grossProfit).toBeCloseTo(3924.62, 2);
+    expect(year.input.incomeTax).toBe(0);
+    expect(year.input.netProfit).toBeCloseTo(3924.62, 2);
+  });
+
+  it("handles truncated Mikro (A..F, no H..L): revenue = A+C, netto = last letter (0000554503 2021 vs BizRaport)", () => {
+    const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-corpus", "0000554503", "20210101_20211231.xml"), "utf8");
+    const meta = statementMeta(xml);
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.revenue).toBeCloseTo(1441965.6, 2);
+    expect(year.input.salesRevenue).toBeCloseTo(1432600.72, 2);
+    expect(year.input.costOfGoodsSold).toBeCloseTo(1428261.14, 2);
+    expect(year.input.netProfit).toBeCloseTo(8691.07, 2);
+  });
+
+  it("handles consolidated group statement (SFSINZ, kalk A..W): revenue=A+G+J, op=I, brutto=R, podatek=S, netto=W — matches BizRaport (Totalizator 2025)", () => {
+    const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-consolidated-2025.xml"), "utf8");
+    const meta = statementMeta(xml);
+    expect(meta.layout).toBe("SFSINZ");
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.revenue).toBeCloseTo(89840026952.21, 2);
+    expect(year.input.operatingRevenue).toBeCloseTo(89740566299.4, 2);
+    expect(year.input.operatingProfit).toBeCloseTo(751416409.1, 2);
+    expect(year.input.grossProfit).toBeCloseTo(823900112.1, 2);
+    expect(year.input.incomeTax).toBeCloseTo(155251816, 2);
+    expect(year.input.netProfit).toBeCloseTo(668648296.1, 2);
+    expect(year.input.totalAssets).toBeCloseTo(3688572244.15, 2);
+  });
 });

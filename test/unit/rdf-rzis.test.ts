@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { chainFromCodes, rzisRoles } from "../../src/sources/rdf/rzis";
+import { normalizeName, namePhrase, findRoleByDict, dictNamesFor } from "../../src/sources/rdf/rzis/matching";
 import { parseSprawozdanie } from "../../src/sources/rdf/parser";
 import { statementMeta } from "../../src/sources/rdf/layouts";
 import fs from "fs";
@@ -72,5 +73,43 @@ describe("rzisRoles — dict + chain fallback on real fixtures", () => {
     const r = rzisRoles(parseSprawozdanie(xml)!, meta);
     expect(r.zyskOperacyjny).toBeCloseTo(-2078243.8, 1);
     expect(r.zyskNetto).toBeCloseTo(-3014231.1, 1);
+  });
+});
+
+describe("dict name matching (rzis/matching)", () => {
+  it("normalizes Polish diacritics incl. ł (U+0142)", () => {
+    expect(normalizeName("działalności operacyjnej")).toBe("dzialalnosci operacyjnej");
+    expect(normalizeName("sprzedaży")).toBe("sprzedazy");
+  });
+
+  it("namePhrase strips only the trailing formula parenthetical, not '(strata)'", () => {
+    expect(namePhrase("Zysk (strata) z działalności operacyjnej (F + G - H)")).toBe("zysk (strata) z dzialalnosci operacyjnej");
+    expect(namePhrase("Zysk (strata) brutto (M - N + O +/- P)")).toBe("zysk (strata) brutto");
+  });
+
+  it("findRoleByDict prefers the exact phrase over 'brutto ze sprzedaży'", () => {
+    const names = new Map<string, string>([
+      ["C", "Zysk (strata) brutto ze sprzedaży (A - B)"],
+      ["R", "Zysk (strata) brutto (M - N + O +/- P)"],
+    ]);
+    expect(findRoleByDict(names, "zysk (strata) brutto")).toBe("R");
+  });
+
+  it("dictNamesFor covers consolidated letters up to W", () => {
+    const meta = { layout: "SFSINZ" as const, wariant: 2, version: null };
+    const names = dictNamesFor(meta, "RZiSKalk");
+    expect(names.get("W")).toContain("netto");
+    expect(names.get("S")).toContain("Podatek");
+  });
+});
+
+describe("rzisRoles — dict acceptance rules", () => {
+  it("accepts a dict result when the podatek letter exists in the dict but not in the statement (0000085314 2021: brutto=I)", () => {
+    const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-corpus", "0000085314", "20210101_20211231.xml"), "utf8");
+    const meta = statementMeta(xml);
+    const r = rzisRoles(parseSprawozdanie(xml)!, meta);
+    expect(r.source).toBe("dict");
+    expect(r.zyskBrutto).toBeCloseTo(54890.07, 2);
+    expect(r.zyskOperacyjny).toBeCloseTo(73884.38, 2);
   });
 });

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { parseSprawozdanie } from "../../src/sources/rdf/parser";
+import { parseSprawozdanie, unwrapXades } from "../../src/sources/rdf/parser";
 
 const SAMPLE_XML = `<?xml version="1.0" encoding="UTF-8"?>
 <JednostkaInna>
@@ -59,5 +59,19 @@ describe("parseSprawozdanie", () => {
   it("handles missing sections", () => {
     const statement = parseSprawozdanie(SAMPLE_XML)!;
     expect(statement.sekcje.some((s) => s.sekcja === "Zestawienie zmian w kapitale")).toBe(false);
+  });
+
+  it("unwraps detached XAdES (statement base64 inside ds:Object)", () => {
+    const b64 = Buffer.from(SAMPLE_XML).toString("base64");
+    const wrapped = `<Signatures Id="ID-x"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:Object Encoding="http://www.w3.org/2000/09/xmldsig#base64" Id="ID-obj" MimeType="text/plain">${b64}</ds:Object></ds:Signature></Signatures>`;
+    const unwrapped = unwrapXades(wrapped);
+    expect(unwrapped).toContain("JednostkaInna");
+    const statement = parseSprawozdanie(wrapped);
+    expect(statement).not.toBeNull();
+    expect(statement!.rok).toBe(2025);
+  });
+
+  it("returns input unchanged when not a detached XAdES", () => {
+    expect(unwrapXades(SAMPLE_XML)).toBe(SAMPLE_XML);
   });
 });

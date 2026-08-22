@@ -5,6 +5,8 @@ import { createD1BillingRepository } from "./store/billing-d1";
 import { createD1CatalogRepository } from "./store/catalog-d1";
 import { createIngest } from "./pipeline/ingest";
 import { createKrsClient } from "./sources/krs/client";
+import { createRdfClient } from "./sources/rdf/client";
+import { createRdfFetchTransport } from "./sources/rdf/transport";
 
 export default {
   async fetch(request: Request, env: Bindings): Promise<Response> {
@@ -14,7 +16,10 @@ export default {
     }
     const repository = createD1Repository(env.DB);
     const krsClient = createKrsClient({ baseUrl: config.krsApiBase });
-    const ingest = createIngest({ krsClient, repository });
+    const rdfClient = config.rdfCookie
+      ? createRdfClient({ baseUrl: config.rdfBase, transport: createRdfFetchTransport(config.rdfCookie) })
+      : undefined;
+    const ingest = createIngest({ krsClient, rdfClient, repository });
     const app = createApp({
       repository,
       ingest,

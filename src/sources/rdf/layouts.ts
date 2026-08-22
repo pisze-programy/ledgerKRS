@@ -1,6 +1,7 @@
 import type { ParsedStatement } from "./parser";
+import { unwrapXades } from "./parser";
 
-export type LayoutKey = "SFJINZ" | "SFJMAZ" | "SFJMIZ" | "SFJOPZ" | "SFBNKZ" | "LEGACY";
+export type LayoutKey = "SFJINZ" | "SFJMAZ" | "SFJMIZ" | "SFJOPZ" | "SFBNKZ" | "SFSINZ" | "LEGACY";
 
 export interface StatementMeta {
   layout: LayoutKey;
@@ -15,10 +16,12 @@ const XML_LAYOUT_TO_KEY: Record<string, LayoutKey> = {
   JednostkaOp: "SFJOPZ",
   JednostkaPozytkuPublicznego: "SFJOPZ",
   Bank: "SFBNKZ",
+  SkonsolidowanaJednostkaInna: "SFSINZ",
 };
 
 export function detectLayout(xml: string): LayoutKey {
-  const match = xml.match(/<(?:[A-Za-z0-9]+:)?(Jednostka[A-Za-z]*|Bank)[\s>]/);
+  xml = unwrapXades(xml);
+  const match = xml.match(/<(?:[A-Za-z0-9]+:)?(Jednostka[A-Za-z]*|SkonsolidowanaJednostka[A-Za-z]*|Bank)[\s>]/);
   if (!match) {
     return "LEGACY";
   }

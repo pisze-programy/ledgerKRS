@@ -21,6 +21,33 @@ export interface ParsedStatement {
   sekcje: StatementSection[];
 }
 
+/**
+ * Detached XAdES: the signed statement is base64-encoded inside a
+ * `<ds:Object Encoding="...#base64" MimeType="text/plain">`. Unwrap it
+ * back into the plain statement XML so layout detection + parsing work.
+ */
+export function unwrapXades(xml: string): string {
+  if (!xml.includes("<Signatures") && !xml.includes("xades:QualifyingProperties")) {
+    return xml;
+  }
+  const objectRe = /<ds:Object\b[^>]*\bEncoding\s*=\s*"([^"]*base64[^"]*)"[^>]*>(.*?)<\/ds:Object>/gs;
+  let match: RegExpExecArray | null;
+  while ((match = objectRe.exec(xml)) !== null) {
+    const b64 = match[2]!.replace(/\s+/g, "");
+    try {
+      const binary = atob(b64);
+      const bytes = Uint8Array.from(binary, (c) => c.charCodeAt(0));
+      const decoded = new TextDecoder().decode(bytes);
+      if (decoded.includes("<?xml") || /<(?:[A-Za-z0-9]+:)?(?:Dokument|Jednostka[A-Za-z]*|Bank|Signatures)[\s>]/.test(decoded)) {
+        return decoded;
+      }
+    } catch {
+      // not a usable payload; continue
+    }
+  }
+  return xml;
+}
+
 const SECTION_KEYS = ["Bilans", "RZiS", "ZestZmianWKapitale", "RachPrzeplywow"] as const;
 
 const SECTION_LABELS: Record<string, string> = {
@@ -34,6 +61,7 @@ export function parseSprawozdanie(xml: string): ParsedStatement | null {
   if (!xml || xml.trim().length === 0) {
     return null;
   }
+  xml = unwrapXades(xml);
   const parser = new XMLParser({
     ignoreAttributes: false,
     parseTagValue: false,

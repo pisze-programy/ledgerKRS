@@ -33,6 +33,10 @@ export function createIngestRoutes(deps: ApiDeps): Hono {
     return c.json({ ok: true });
   });
 
+  app.post("/ingest/krs/:krs/rdf", async (c) => {
+    return c.json(await deps.ingest.ingestRdfFinancials(c.req.param("krs")));
+  });
+
   app.post("/ingest/krs/:krs/benchmarks", async (c) => {
     const body = await c.req.json();
     await deps.ingest.ingestBenchmarks(body.pkd, body.rows);

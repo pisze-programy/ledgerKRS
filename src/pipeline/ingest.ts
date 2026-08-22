@@ -1,5 +1,9 @@
 import { parseOdpis } from "../sources/krs/parser";
 import { createKrsClient } from "../sources/krs/client";
+import { createRdfClient, isXmlCapable } from "../sources/rdf/client";
+import { parseSprawozdanie } from "../sources/rdf/parser";
+import { statementMeta } from "../sources/rdf/layouts";
+import { extractFinancialInput } from "../sources/rdf/indicators";
 import type { FinancialInput } from "../metrics/indicators";
 import { buildFullIndicators, NO_SIGNALS } from "../metrics/report";
 import type { RiskSignals } from "../metrics/risk";
@@ -8,6 +12,7 @@ import type { Repository, Benchmark } from "../store/repository";
 
 export interface IngestDeps {
   krsClient: ReturnType<typeof createKrsClient>;
+  rdfClient?: ReturnType<typeof createRdfClient>;
   repository: Repository;
 }
 
@@ -16,6 +21,7 @@ export interface IngestService {
   ingestBulletin(day: string): Promise<IngestResult>;
   listBulletin(day: string, limit?: number): Promise<string[]>;
   ingestFinancials(krs: string, financials: FinancialInput, signals?: RiskSignals): Promise<void>;
+  ingestRdfFinancials(krs: string): Promise<IngestResult>;
   ingestBenchmarks(pkd: string, rows: IndustryBenchmarkRow[]): Promise<void>;
   ingestAnnouncements(krs: string, report: CompanyReport): Promise<void>;
 }
@@ -59,6 +65,54 @@ export function createIngest(deps: IngestDeps): IngestService {
     async ingestFinancials(krs: string, financials: FinancialInput, signals: RiskSignals = NO_SIGNALS): Promise<void> {
       const indicators = buildFullIndicators(financials, signals);
       await deps.repository.upsertIndicators(krs, financials.okresSprawozdawczy, indicators);
+    },
+    async ingestRdfFinancials(krs: string): Promise<IngestResult> {
+      if (!deps.rdfClient) {
+        return { processed: 0, failed: 0 };
+      }
+      const hits = await deps.rdfClient.searchDocuments(krs);
+      const annual = hits.filter((h) => h.rodzaj === "18" || h.rodzaj === "22");
+      // Prefer the consolidated group statement (rodzaj 22) when present for a
+      // period — BizRaport reports consolidated figures for capital groups.
+      const byPeriod = new Map<string, typeof annual[number]>();
+      for (const hit of annual) {
+        const key = hit.okresSprawozdawczyKoniec ?? hit.id;
+        const current = byPeriod.get(key);
+        if (!current || (hit.rodzaj === "22" && current.rodzaj !== "22")) {
+          byPeriod.set(key, hit);
+        }
+      }
+      let processed = 0;
+      let failed = 0;
+      for (const hit of byPeriod.values()) {
+        const meta = await deps.rdfClient.documentMeta(hit.id);
+        if (!meta || !isXmlCapable(meta)) {
+          continue;
+        }
+        const xml = await deps.rdfClient.downloadXml(hit.id);
+        if (!xml) {
+          failed += 1;
+          continue;
+        }
+        const statement = parseSprawozdanie(xml);
+        if (!statement) {
+          failed += 1;
+          continue;
+        }
+        const year = extractFinancialInput(statement, statementMeta(xml));
+        if (!year) {
+          failed += 1;
+          continue;
+        }
+        const okres =
+          year.okresSprawozdawczy ||
+          (hit.okresSprawozdawczyPoczatek && hit.okresSprawozdawczyKoniec
+            ? `${hit.okresSprawozdawczyPoczatek}_${hit.okresSprawozdawczyKoniec}`
+            : null);
+        await this.ingestFinancials(krs, { ...(year.input as FinancialInput), okresSprawozdawczy: okres ?? year.okresSprawozdawczy });
+        processed += 1;
+      }
+      return { processed, failed };
     },
     async ingestBenchmarks(pkd: string, rows: IndustryBenchmarkRow[]): Promise<void> {
       const byYear = new Map<number, Benchmark[]>();

@@ -90,7 +90,7 @@ export function createD1Repository(db: D1Database): Repository {
             `INSERT INTO indicators (krs, okres, nazwa_wskaznika, kwota) VALUES (?, ?, ?, ?)
              ON CONFLICT(krs, okres, nazwa_wskaznika) DO UPDATE SET kwota = excluded.kwota`,
           )
-          .bind(krs, okres, indicator.nazwa_wskaznika, indicator.kwota)
+          .bind(krs, okres ?? null, indicator.nazwa_wskaznika, indicator.kwota ?? null)
           .run();
       }
     },

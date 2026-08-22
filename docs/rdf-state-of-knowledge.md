@@ -94,19 +94,39 @@ await client.fetchStatements(krs);      // search + filter + download + parse
 
 `transport` is injectable — it must attach cookies/UA for Incapsula.
 
-## Incapsula reality (operational)
+## Incapsula + captcha (operational, solved)
 
-- The site is behind Incapsula + hCaptcha. A plain browser gets a challenge;
-  solving the "I am human" checkbox (or puzzle) grants session cookies.
-- Session cookies are **IP-bound** and include `incap_ses_*`, `visid_incap_*`,
-  `nlbi_*`, `reese84`, plus `dtCookie`. Cookie freshness is fragile:
-  some endpoints intermittently return 403/challenge even with a valid cookie.
-- **Changing IP (e.g., switching VPN) can invalidate the session** — we saw
-  requests get re-challenged right after a VPN IP change. The relay must run
-  on a stable IP (home or a fixed VPN endpoint) and must detect
-  403/challenge → pause + notify + let the operator re-solve captcha.
-- The console/curl flow that works (for testing):
-  solve captcha in the portal → copy cookies → use them in `transport`.
+- The site is behind Incapsula (reese84 sensor + hCaptcha). A plain curl gets a
+  challenge. The working flow:
+  1. **Solve**: headless Chromium (Playwright) loads the search page; on a
+     clean residential/mobile IP the sensor passes and sets `reese84` +
+     `incap_ses_*` + `visid_incap_*` — usually **without any captcha**.
+  2. **Use**: send requests with the Chrome-123 UA + `sec-ch-ua` headers and
+     the cookie (plain `fetch` works — Cloudflare-compatible transport in
+     `src/sources/rdf/transport.ts`).
+- **Budget**: ~10-15 requests per cookie/IP, then a challenge. Auto-refresh:
+  on a challenge (HTML/403) re-solve a fresh cookie and continue. `tresc`
+  (XML download) is IP-bound to the solve; `search` works cross-IP.
+- **IPs**: local machine IP (for `wrangler dev`), the phone via Tailscale
+  `tsproxy` (SOCKS 127.0.0.1:1080), or Webshare residential as fallback.
+  Tools that script this live under `tools/rdf-parity/` (pw-solver,
+  build-corpus). Production uses the fetch transport + a solved cookie from
+  config (`RDF_COOKIE`); the cookie is rotated by an operator/solver service.
+- [KNOWN BUG][fixed] `reese84` worked with plain `fetch` only after sending
+  the matching Chrome headers (UA + sec-ch-ua); mismatched UA → 403.
+
+## Well-known bugs & quirks
+
+See `tools/rdf-parity/PARITY.md` → "Well-known bugs & quirks" for the full
+list with pointers. Summary:
+- [KNOWN BUG][fixed] Diacritic matching missed "ł"; phrase matching cut at the
+  first "(...)" instead of the trailing formula. Fixed in `rzis/matching.ts`.
+- [KNOWN BUG][fixed] RZiS role scan stopped at letter P (consolidated goes to W);
+  podatek letter must only exist in the dict, not be filled. Fixed.
+- [KNOWN BUG][fixed] Detached XAdES (statement base64 in `ds:Object`).
+- [BIZRAPORT QUIRK] rounding to thousands, podatek sign flips, op=A−B on old
+  ABCF, messy extraction, mislabelled periods — tracked in `KNOWN_ISSUES`.
+- [NOT YET] Insurer layout (SFZURZ) — separate stage.
 
 ## Storage model (decided)
 

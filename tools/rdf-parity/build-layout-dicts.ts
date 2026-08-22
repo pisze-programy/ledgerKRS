@@ -10,6 +10,7 @@ export const LAYOUTS: Record<string, { wzor: string; label: string }> = {
   SFJMIZ: { wzor: "2025/08/12/13821", label: "JednostkaMikro (w złotych)" },
   SFJOPZ: { wzor: "2025/08/12/13822", label: "Jednostka poz. publicznego (w złotych)" },
   SFBNKZ: { wzor: "2025/08/12/13826", label: "Bank (w złotych)" },
+  SFSINZ: { wzor: "2025/09/16/13854", label: "Skonsolidowane — JednostkaInna (w złotych)" },
 };
 
 async function fetchText(url: string): Promise<string> {

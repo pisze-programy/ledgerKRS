@@ -1,6 +1,7 @@
 export interface AppConfig {
   krsApiBase: string;
   rdfBase: string;
+  rdfCookie: string;
   regonApiBase: string;
   regonApiKey: string;
   regonMode: "mock" | "live";
@@ -20,6 +21,7 @@ export interface Bindings {
   ASSETS?: Fetcher;
   KRS_API_BASE?: string;
   RDF_BASE?: string;
+  RDF_COOKIE?: string;
   REGON_API_BASE?: string;
   REGON_API_KEY?: string;
   REGON_MODE?: string;
@@ -44,6 +46,7 @@ export function loadConfig(bindings: Bindings = {}): AppConfig {
   return {
     krsApiBase: bindings.KRS_API_BASE ?? "https://api-krs.ms.gov.pl",
     rdfBase: bindings.RDF_BASE ?? "https://rdf-przegladarka.ms.gov.pl",
+    rdfCookie: bindings.RDF_COOKIE ?? "",
     regonApiBase: bindings.REGON_API_BASE ?? "https://wyszukiwarkaregon.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc",
     regonApiKey: bindings.REGON_API_KEY ?? "",
     regonMode: bindings.REGON_MODE === "live" ? "live" : "mock",

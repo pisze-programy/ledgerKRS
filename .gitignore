@@ -5,3 +5,9 @@ dist/
 *.log
 test/fixtures/bizraport/raw/
 tools/rdf-parity/creds.local.json
+
+test/fixtures/rdf-corpus/
+.dev.vars
+tools/rdf-parity/cookie-*.txt
+Webshare residential proxies.txt
+biz-*.html

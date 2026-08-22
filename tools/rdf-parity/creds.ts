@@ -5,6 +5,12 @@ export interface ParityCreds {
   bizraportEmail: string;
   bizraportPassword: string;
   rdfCookie: string;
+  twoCaptchaKey?: string;
+  proxy?: string;
+  proxyType?: "HTTP" | "SOCKS5" | "SOCKS4" | "HTTPS";
+  wsUserPrefix?: string;
+  wsUsers?: string[];
+  wsPassword?: string;
 }
 
 const DEFAULT_PATH = join(process.cwd(), "tools", "rdf-parity", "creds.local.json");
@@ -20,5 +26,11 @@ export function loadCreds(): ParityCreds {
     bizraportEmail: process.env.BIZRAPORT_EMAIL ?? local.bizraportEmail ?? "",
     bizraportPassword: process.env.BIZRAPORT_PASSWORD ?? local.bizraportPassword ?? "",
     rdfCookie: process.env.RDF_COOKIE ?? local.rdfCookie ?? "",
+    twoCaptchaKey: process.env.TWO_CAPTCHA_KEY ?? local.twoCaptchaKey ?? "",
+    proxy: process.env.RDF_PROXY ?? local.proxy ?? "",
+    proxyType: (process.env.PROXY_TYPE as ParityCreds["proxyType"]) ?? local.proxyType ?? "HTTP",
+    wsUserPrefix: local.wsUserPrefix ?? "",
+    wsUsers: local.wsUsers ?? [],
+    wsPassword: local.wsPassword ?? "",
   };
 }

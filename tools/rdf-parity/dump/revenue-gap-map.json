@@ -1,0 +1,469 @@
+{
+ "generated_at": "2026-08-22T18:24:26.090Z",
+ "total_rows": 216,
+ "match": 165,
+ "mismatch": 51,
+ "simplified_match": 34,
+ "simplified_bad": 0,
+ "mismatch_rows": [
+  {
+   "krs": "0000942976",
+   "year": "2023",
+   "ours": 6.45,
+   "theirs": 0,
+   "diff": 6.45,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000278980",
+   "year": "2018",
+   "ours": 1204787.85,
+   "theirs": 1183737.79,
+   "diff": 21050.06,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000278980",
+   "year": "2019",
+   "ours": 1314949.8199999998,
+   "theirs": 1296168.41,
+   "diff": 18781.41,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000278980",
+   "year": "2020",
+   "ours": 879799.3899999999,
+   "theirs": 858444.29,
+   "diff": 21355.1,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000278980",
+   "year": "2021",
+   "ours": 1061230.2,
+   "theirs": 1042260.61,
+   "diff": 18969.59,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000278980",
+   "year": "2022",
+   "ours": 1322486.18,
+   "theirs": 1303111.4,
+   "diff": 19374.78,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000278980",
+   "year": "2023",
+   "ours": 1717048,
+   "theirs": 1700290.42,
+   "diff": 16757.58,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000278980",
+   "year": "2024",
+   "ours": 1962296.18,
+   "theirs": 1953053.9,
+   "diff": 9242.28,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000278980",
+   "year": "2025",
+   "ours": 2119368.39,
+   "theirs": 2110974.11,
+   "diff": 8394.28,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0001007609",
+   "year": "2023",
+   "ours": 513992.32,
+   "theirs": 513897.07,
+   "diff": 95.25,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0001007609",
+   "year": "2024",
+   "ours": 369404.37999999995,
+   "theirs": 368867.54,
+   "diff": 536.84,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000325046",
+   "year": "2018",
+   "ours": 238998.06,
+   "theirs": 238830.47,
+   "diff": 167.59,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000325046",
+   "year": "2019",
+   "ours": 563705.19,
+   "theirs": 563618.52,
+   "diff": 86.67,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000325046",
+   "year": "2022",
+   "ours": 1776565.88,
+   "theirs": 1776884.47,
+   "diff": -318.59,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000325046",
+   "year": "2025",
+   "ours": 1265210.8,
+   "theirs": 1265482.11,
+   "diff": -271.31,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0001009813",
+   "year": "2024",
+   "ours": 1866056.8499999999,
+   "theirs": 1863511.97,
+   "diff": 2544.88,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0001009813",
+   "year": "2025",
+   "ours": 2404694.25,
+   "theirs": 2412287.13,
+   "diff": -7592.88,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000357139",
+   "year": "2018",
+   "ours": 358277.18,
+   "theirs": 319999.95,
+   "diff": 38277.23,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000357139",
+   "year": "2019",
+   "ours": 325330.3,
+   "theirs": 291771.44,
+   "diff": 33558.86,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000357139",
+   "year": "2020",
+   "ours": 313835.41000000003,
+   "theirs": 280068.23,
+   "diff": 33767.18,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000357139",
+   "year": "2021",
+   "ours": 312837.27999999997,
+   "theirs": 350087.1,
+   "diff": -37249.82,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000357139",
+   "year": "2022",
+   "ours": 405694.98,
+   "theirs": 396711.21,
+   "diff": 8983.77,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000357139",
+   "year": "2023",
+   "ours": 430276.91,
+   "theirs": 420020.88,
+   "diff": 10256.03,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000357139",
+   "year": "2024",
+   "ours": 473578.45999999996,
+   "theirs": 419056.31,
+   "diff": 54522.15,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000357139",
+   "year": "2025",
+   "ours": 438441.46,
+   "theirs": 383659.85,
+   "diff": 54781.61,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000721871",
+   "year": "2023",
+   "ours": 65572380.96,
+   "theirs": 97215748.49,
+   "diff": -31643367.53,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKL"
+  },
+  {
+   "krs": "0000893029",
+   "year": "2021",
+   "ours": 25031.74,
+   "theirs": 26033.47,
+   "diff": -1001.73,
+   "mode": "income-letters",
+   "letters": "ABCFHKMO"
+  },
+  {
+   "krs": "0000893029",
+   "year": "2022",
+   "ours": 59606.55,
+   "theirs": 42785.89,
+   "diff": 16820.66,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000893029",
+   "year": "2023",
+   "ours": 89265.16,
+   "theirs": 64129.15,
+   "diff": 25136.01,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000893029",
+   "year": "2024",
+   "ours": 291587.56,
+   "theirs": 216185.6,
+   "diff": 75401.96,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000893029",
+   "year": "2025",
+   "ours": 157255.99,
+   "theirs": 296821.27,
+   "diff": -139565.28,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKLMNO"
+  },
+  {
+   "krs": "0000723096",
+   "year": "2018",
+   "ours": 5863380.49,
+   "theirs": 5850058.61,
+   "diff": 13321.88,
+   "mode": "income-letters",
+   "letters": "ABCF"
+  },
+  {
+   "krs": "0000723096",
+   "year": "2019",
+   "ours": 10275644.88,
+   "theirs": 10251647.41,
+   "diff": 23997.47,
+   "mode": "income-letters",
+   "letters": "ABCF"
+  },
+  {
+   "krs": "0000723096",
+   "year": "2020",
+   "ours": 11394973.14,
+   "theirs": 11331703.34,
+   "diff": 63269.8,
+   "mode": "income-letters",
+   "letters": "ABCF"
+  },
+  {
+   "krs": "0000810502",
+   "year": "2020",
+   "ours": 635573.19,
+   "theirs": 624000,
+   "diff": 11573.19,
+   "mode": "income-letters",
+   "letters": "ACDEJKL"
+  },
+  {
+   "krs": "0000659179",
+   "year": "2019",
+   "ours": 10441720.36,
+   "theirs": 10398623.34,
+   "diff": 43097.02,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJL"
+  },
+  {
+   "krs": "0000659179",
+   "year": "2020",
+   "ours": 41437138.02,
+   "theirs": 41375542.35,
+   "diff": 61595.67,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJL"
+  },
+  {
+   "krs": "0000659179",
+   "year": "2021",
+   "ours": 34722298.12,
+   "theirs": 34482215.12,
+   "diff": 240083,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKL"
+  },
+  {
+   "krs": "0000085314",
+   "year": "2020",
+   "ours": 1340673.3199999998,
+   "theirs": 1299646.86,
+   "diff": 41026.46,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000554503",
+   "year": "2021",
+   "ours": 1437614.1099999999,
+   "theirs": 1441965.6,
+   "diff": -4351.49,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000554503",
+   "year": "2022",
+   "ours": 1903709.1300000001,
+   "theirs": 1880631.39,
+   "diff": 23077.74,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000554503",
+   "year": "2023",
+   "ours": 2312872.41,
+   "theirs": 2376941.12,
+   "diff": -64068.71,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000554503",
+   "year": "2024",
+   "ours": 2818416.47,
+   "theirs": 2787976.77,
+   "diff": 30439.7,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000554503",
+   "year": "2025",
+   "ours": 3886126.8,
+   "theirs": 3951720.72,
+   "diff": -65593.92,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  },
+  {
+   "krs": "0000878245",
+   "year": "2021",
+   "ours": 1170293.4000000001,
+   "theirs": 1170000,
+   "diff": 293.4,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJKL"
+  },
+  {
+   "krs": "0000878245",
+   "year": "2022",
+   "ours": 1054242.32,
+   "theirs": 1055000,
+   "diff": -757.68,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJL"
+  },
+  {
+   "krs": "0000878245",
+   "year": "2023",
+   "ours": 939761.97,
+   "theirs": 940000,
+   "diff": -238.03,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJL"
+  },
+  {
+   "krs": "0000878245",
+   "year": "2025",
+   "ours": 165906.77000000002,
+   "theirs": 165000,
+   "diff": 906.77,
+   "mode": "income-letters",
+   "letters": "ABCDEFGHIJL"
+  },
+  {
+   "krs": "0000139939",
+   "year": "2018",
+   "ours": 1354738.98,
+   "theirs": 1357985.61,
+   "diff": -3246.63,
+   "mode": "income-letters",
+   "letters": "ABCDF"
+  },
+  {
+   "krs": "0000139939",
+   "year": "2022",
+   "ours": 2347759.02,
+   "theirs": 2188972.05,
+   "diff": 158786.97,
+   "mode": "income-letters",
+   "letters": "ABCDEG"
+  },
+  {
+   "krs": "0000139939",
+   "year": "2025",
+   "ours": 102082.53,
+   "theirs": 135677.51,
+   "diff": -33594.98,
+   "mode": "income-letters",
+   "letters": "ABCDEF"
+  }
+ ]
+}

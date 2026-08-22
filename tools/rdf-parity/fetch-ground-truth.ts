@@ -1,0 +1,33 @@
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
+import { join } from "node:path";
+import { loadCreds } from "./creds";
+import { fetchBizraportDane } from "./bizraport";
+
+const CORPUS = join(process.cwd(), "test", "fixtures", "rdf-corpus");
+
+async function main() {
+  const corpus = JSON.parse(readFileSync(join(process.cwd(), "tools", "rdf-parity", "corpus.json"), "utf8")) as Record<string, unknown>;
+  const krsList = Object.keys(corpus).sort();
+  let used = 0;
+  for (const krs of krsList) {
+    const dir = join(CORPUS, krs);
+    mkdirSync(dir, { recursive: true });
+    const path = join(dir, "bizraport.json");
+    if (existsSync(path) && readFileSync(path, "utf8").trim() !== "null" && readFileSync(path, "utf8").includes('"nazwa"')) {
+      continue;
+    }
+    const creds = loadCreds();
+    const biz = await fetchBizraportDane(creds, krs);
+    writeFileSync(path, JSON.stringify(biz ?? null, null, 1));
+    used += 1;
+    const ok = biz ? "y" : "n";
+    console.log(`${krs}: biz=${ok}`);
+    await new Promise((r) => setTimeout(r, 250));
+  }
+  console.log(`DONE ground truth: ${used} credits used`);
+}
+
+main().catch((e) => {
+  console.error("FATAL", e);
+  process.exit(1);
+});

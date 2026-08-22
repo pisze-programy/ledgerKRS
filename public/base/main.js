@@ -86,6 +86,19 @@
     });
   }
 
+  document.querySelectorAll(".explorer").forEach((explorer) => {
+    const tabs = explorer.querySelectorAll(".explorer-tab");
+    const select = explorer.querySelector(".explorer-select");
+    const panels = explorer.querySelectorAll(".explorer-panel");
+    const activate = (key) => {
+      tabs.forEach((tab) => tab.classList.toggle("active", tab.dataset.explorer === key));
+      panels.forEach((panel) => panel.classList.toggle("active", panel.dataset.explorer === key));
+      if (select) select.value = key;
+    };
+    tabs.forEach((tab) => tab.addEventListener("click", () => activate(tab.dataset.explorer)));
+    if (select) select.addEventListener("change", () => activate(select.value));
+  });
+
   document.querySelectorAll("pre").forEach((pre) => {
     const code = pre.querySelector("code");
     const btn = document.createElement("button");

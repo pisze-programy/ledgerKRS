@@ -55,6 +55,134 @@ Check `get_balance` again after a moment.
 | `buy_credits` | Checkout URL for a credit package |
 | `get_usage` | Credits spent per endpoint, transactions |
 
+## Request examples (REST)
+
+Same data, plain HTTP. Base URL `https://raporty-firmowe.dev`.
+Send the key in the header `X-API-Key`.
+
+### Company report
+
+```bash
+curl "https://raporty-firmowe.dev/api/dane?krs=0000222483" -H "x-api-key: $KEY"
+```
+
+```json
+{ "data": [{
+    "krs": "0000222483_",
+    "nip": 7791011327,
+    "informacje_o_firmie": [ { "nazwa_pola": "nazwa", "wartosc": "JERONIMO MARTINS POLSKA S.A." } ],
+    "dane_finansowe": [ { "rok": 2024, "nazwa_wskaznika": "przychody", "kwota": 108317454729 } ],
+    "powiazania": [ … ]
+}]}
+```
+
+### Statements
+
+```bash
+curl "https://raporty-firmowe.dev/api/sprawozdania?krs=0000597711" -H "x-api-key: $KEY"
+```
+
+```json
+{ "data": [{
+    "krs": "0000597711_",
+    "okresy": [ { "okres_sprawozdawczy": "01-03-2024_28-02-2025", "sekcje": [ … ] } ]
+}]}
+```
+
+### Catalog filter
+
+```bash
+curl "https://raporty-firmowe.dev/api/katalog?przychody_od=10000000000&wojewodztwo=WIELKOPOLSKIE" -H "x-api-key: $KEY"
+```
+
+```json
+{ "count": 4, "fetchedCount": 4,
+  "data": [ { "krs": "0000222483", "name": "JERONIMO MARTINS POLSKA S.A.", "przychody": 108317454729 } ] }
+```
+
+### Search
+
+```bash
+curl "https://raporty-firmowe.dev/api/szukaj?q=baseli" -H "x-api-key: $KEY"
+```
+
+```json
+{ "data": [ { "krs": "0000795513" }, { "krs": "0000581581" } ], "dane_uciete": false }
+```
+
+### Branches
+
+```bash
+curl "https://raporty-firmowe.dev/api/branze" -H "x-api-key: $KEY"
+```
+
+```json
+{ "data": [ { "code": "A", "name": "Rolnictwo, leśnictwo, łowiectwo i rybactwo", "divisions": [ … ] } ] }
+```
+
+### PKD report
+
+```bash
+curl "https://raporty-firmowe.dev/api/pkd/47.11.Z?rok=2024" -H "x-api-key: $KEY"
+```
+
+```json
+{ "data": [ { "code": "47.11.Z", "summary": { "count": 3400 },
+    "percentiles": { "przychody": { "50": 1500000, "90": 23000000 } } } ] }
+```
+
+### Balance
+
+```bash
+curl "https://raporty-firmowe.dev/api/balance" -H "x-api-key: $KEY"
+```
+
+```json
+{ "balance": 98 }
+```
+
+### Usage
+
+```bash
+curl "https://raporty-firmowe.dev/api/zuzycie" -H "x-api-key: $KEY"
+```
+
+```json
+{ "model": "payg", "balance": 98, "zuzycie": { "/dane": 1, "/katalog": 1 } }
+```
+
+## Agents and harnesses
+
+MCP works with any agent that speaks JSON-RPC.
+Popular agents: Claude (Anthropic), ChatGPT / OpenAI, Gemini,
+Microsoft Copilot, DeepSeek / Qwen / Kimi, Llama / Mistral / Bielik,
+opencode, Perplexity.
+
+Popular harnesses: OpenAI Agents SDK, Claude Agent SDK, LangChain,
+LlamaIndex, CrewAI, AutoGen, n8n, Make, Zapier, Flowise, Dify.
+
+To connect:
+
+1. `POST /api/account` with an email. Keep the `api_key`.
+2. Add the MCP server `https://raporty-firmowe.dev/mcp`
+   and send `api_key` in the `X-API-Key` header.
+3. The agent calls the tools.
+
+Prefer plain HTTP instead? Define one tool and point it at the REST
+endpoint. Example function-calling schema:
+
+```json
+{
+  "name": "sprawdz_firme",
+  "description": "Dane firmy z KRS po NIP",
+  "parameters": {
+    "type": "object",
+    "properties": { "nip": { "type": "string" } },
+    "required": ["nip"]
+  }
+}
+```
+
 ## Common flows
 
 ### Verify a company before a contract

@@ -16,6 +16,7 @@ export const SECTIONS: SectionDef[] = [
   { id: "zastosowania", accent: "orange", css: "/sections/zastosowania/zastosowania.css", js: "/sections/zastosowania/zastosowania.js", html: (l) => `/sections/zastosowania/${l}.html` },
   { id: "automatyzacja", accent: "teal", css: "/sections/automatyzacja/automatyzacja.css", js: "/sections/automatyzacja/automatyzacja.js", html: (l) => `/sections/automatyzacja/${l}.html` },
   { id: "mcp", accent: "fuchsia", css: "/sections/mcp/mcp.css", js: "/sections/mcp/mcp.js", html: (l) => `/sections/mcp/${l}.html` },
+  { id: "agenci", accent: "fuchsia", css: "/sections/agenci/agenci.css", js: "/sections/agenci/agenci.js", html: (l) => `/sections/agenci/${l}.html` },
   { id: "api", accent: "blue", css: "/sections/api/api.css", js: "/sections/api/api.js", html: (l) => `/sections/api/${l}.html` },
   { id: "cennik", accent: "amber", css: "/sections/cennik/cennik.css", js: "/sections/cennik/cennik.js", html: (l) => `/sections/cennik/${l}.html` },
   { id: "start", accent: "green", css: "/sections/start/start.css", js: "/sections/start/start.js", html: (l) => `/sections/start/${l}.html` },

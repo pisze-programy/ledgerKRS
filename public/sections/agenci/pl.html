@@ -1,0 +1,53 @@
+<section data-accent="fuchsia" class="agenci">
+  <div class="container">
+    <p class="kicker reveal">Podłącz agenta</p>
+    <h2 class="reveal d1">Twój stack. Nasze dane.</h2>
+    <p class="lead reveal d2">MCP działa z każdym agentem, który rozumie JSON-RPC. A jeśli wolisz function calling — definicja narzędzia to kilka linii.</p>
+
+    <h3 class="group-title mono reveal d1">Agenty</h3>
+    <div class="chips reveal d1">
+      <span class="chip">Claude (Anthropic)</span>
+      <span class="chip">ChatGPT / OpenAI</span>
+      <span class="chip">Gemini</span>
+      <span class="chip">Microsoft Copilot</span>
+      <span class="chip">DeepSeek / Qwen / Kimi</span>
+      <span class="chip">Llama / Mistral / Bielik</span>
+      <span class="chip">opencode</span>
+      <span class="chip">Perplexity</span>
+    </div>
+
+    <h3 class="group-title mono reveal d2">Harnessy</h3>
+    <div class="chips reveal d2">
+      <span class="chip">OpenAI Agents SDK</span>
+      <span class="chip">Claude Agent SDK</span>
+      <span class="chip">LangChain</span>
+      <span class="chip">LlamaIndex</span>
+      <span class="chip">CrewAI</span>
+      <span class="chip">AutoGen</span>
+      <span class="chip">n8n</span>
+      <span class="chip">Make</span>
+      <span class="chip">Zapier</span>
+      <span class="chip">Flowise</span>
+      <span class="chip">Dify</span>
+    </div>
+
+    <div class="agenci-call reveal d3">
+      <h3>Jak podłączyć</h3>
+      <ol class="agenci-steps">
+        <li><span class="mono">1.</span> <code>POST /api/account</code> — dostajesz <code>api_key</code> i 100 kredytów.</li>
+        <li><span class="mono">2.</span> Dodaj serwer MCP <code>/mcp</code> z nagłówkiem <code>x-api-key</code>.</li>
+        <li><span class="mono">3.</span> Agent woła narzędzia — dane wracają jako JSON.</li>
+      </ol>
+      <pre><code>{
+  "name": "sprawdz_firme",
+  "description": "Dane firmy z KRS po NIP",
+  "parameters": {
+    "type": "object",
+    "properties": { "nip": { "type": "string" } },
+    "required": ["nip"]
+  }
+}</code></pre>
+      <p class="agenci-note">Agent wykonuje zwykły <code>GET /api/dane?nip=…</code> z kluczem. Albo podłączasz <code>/mcp</code> — i nie piszesz kodu.</p>
+    </div>
+  </div>
+</section>

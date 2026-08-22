@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { createApp } from "../../src/api/routes";
 import { createIngest } from "../../src/pipeline/ingest";
@@ -107,5 +107,45 @@ describe("section files", () => {
     for (const file of ["base.css", "main.js", "shell.html"]) {
       expect(existsSync(join(process.cwd(), "public", "base", file)), file).toBe(true);
     }
+  });
+});
+
+describe("explorers", () => {
+  function readPublic(relative: string): string {
+    return readFileSync(join(process.cwd(), "public", relative), "utf-8");
+  }
+
+  it("api section has one panel per endpoint", () => {
+    const html = readPublic("sections/api/pl.html");
+    const endpoints = ["dane", "sprawozdania", "katalog", "szukaj", "branze", "pkd", "balance", "zuzycie"];
+    for (const endpoint of endpoints) {
+      expect(html).toContain(`data-explorer="${endpoint}"`);
+    }
+    const panels = (html.match(/class="explorer-panel[" ]/g) ?? []).length;
+    expect(panels).toBe(endpoints.length);
+  });
+
+  it("mcp section has one panel per tool", () => {
+    const html = readPublic("sections/mcp/pl.html");
+    const tools = ["get_company", "get_statements", "search_companies", "filter_catalog", "list_branches", "get_pkd_report", "get_balance", "buy_credits", "get_usage"];
+    for (const tool of tools) {
+      expect(html).toContain(`data-explorer="${tool}"`);
+    }
+    const panels = (html.match(/class="explorer-panel[" ]/g) ?? []).length;
+    expect(panels).toBe(tools.length);
+  });
+
+  it("agenci section lists opencode and harnesses", () => {
+    const html = readPublic("sections/agenci/pl.html");
+    expect(html).toContain("opencode");
+    expect(html).toContain("LangChain");
+    expect(html).toContain("CrewAI");
+  });
+
+  it("base main.js wires the explorer tabs and select", () => {
+    const js = readPublic("base/main.js");
+    expect(js).toContain(".explorer-tab");
+    expect(js).toContain(".explorer-select");
+    expect(js).toContain("addEventListener");
   });
 });

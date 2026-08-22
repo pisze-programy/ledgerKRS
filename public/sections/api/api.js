@@ -1,15 +1,17 @@
 (() => {
-  const terminal = document.querySelector(".api-split");
-  if (!terminal) return;
-  const blocks = terminal.querySelectorAll("pre, .api-note");
-  terminal.addEventListener("mouseenter", () => {
-    blocks.forEach((block) => {
-      block.style.boxShadow = "0 0 0 1px var(--accent)";
-    });
+  const tabs = document.querySelectorAll(".explorer-tab");
+  if (!tabs.length) return;
+  const sync = () => {
+    tabs.forEach((tab) => tab.setAttribute("aria-selected", String(tab.classList.contains("active"))));
+  };
+  sync();
+  tabs.forEach((tab) => {
+    new MutationObserver(sync).observe(tab, { attributes: true, attributeFilter: ["class"] });
   });
-  terminal.addEventListener("mouseleave", () => {
-    blocks.forEach((block) => {
-      block.style.boxShadow = "";
-    });
-  });
+  const explorer = document.querySelector(".explorer");
+  if (explorer) {
+    explorer.setAttribute("role", "tablist");
+    const select = explorer.querySelector(".explorer-select");
+    if (select) select.setAttribute("aria-label", "endpoint");
+  }
 })();

@@ -3,17 +3,128 @@
     <p class="kicker reveal">Dla agentów</p>
     <h2 class="reveal d1">Twój agent pyta. Dostaje dane.</h2>
     <p class="lead reveal d2">Dziewięć narzędzi MCP. Agent sam decyduje, kiedy i o co zapytać.</p>
-    <div class="mcp-grid">
-      <div class="tool reveal d1"><span class="mono">get_company</span><p>Raport firmy po KRS albo NIP.</p></div>
-      <div class="tool reveal d2"><span class="mono">get_statements</span><p>Pełne sprawozdania, pozycja po pozycji.</p></div>
-      <div class="tool reveal d3"><span class="mono">search_companies</span><p>Szukanie po nazwie, NIP, KRS, REGON.</p></div>
-      <div class="tool reveal d1"><span class="mono">filter_catalog</span><p>Filtry finansowe, PKD, lokalizacja.</p></div>
-      <div class="tool reveal d2"><span class="mono">list_branches</span><p>Taksonomia PKD, sekcje i działy.</p></div>
-      <div class="tool reveal d3"><span class="mono">get_pkd_report</span><p>Raport branżowy z percentylami.</p></div>
-      <div class="tool reveal d1"><span class="mono">get_balance</span><p>Stan kredytów na koncie.</p></div>
-      <div class="tool reveal d2"><span class="mono">buy_credits</span><p>Pakiet 1000 kredytów, jeden checkout.</p></div>
-      <div class="tool reveal d3"><span class="mono">get_usage</span><p>Zużycie i transakcje.</p></div>
+
+    <div class="explorer reveal d3">
+      <div class="explorer-tabs" role="tablist">
+        <button class="explorer-tab active" data-explorer="get_company">get_company</button>
+        <button class="explorer-tab" data-explorer="get_statements">get_statements</button>
+        <button class="explorer-tab" data-explorer="search_companies">search_companies</button>
+        <button class="explorer-tab" data-explorer="filter_catalog">filter_catalog</button>
+        <button class="explorer-tab" data-explorer="list_branches">list_branches</button>
+        <button class="explorer-tab" data-explorer="get_pkd_report">get_pkd_report</button>
+        <button class="explorer-tab" data-explorer="get_balance">get_balance</button>
+        <button class="explorer-tab" data-explorer="buy_credits">buy_credits</button>
+        <button class="explorer-tab" data-explorer="get_usage">get_usage</button>
+      </div>
+      <select class="explorer-select" aria-label="narzędzie">
+        <option value="get_company">get_company</option>
+        <option value="get_statements">get_statements</option>
+        <option value="search_companies">search_companies</option>
+        <option value="filter_catalog">filter_catalog</option>
+        <option value="list_branches">list_branches</option>
+        <option value="get_pkd_report">get_pkd_report</option>
+        <option value="get_balance">get_balance</option>
+        <option value="buy_credits">buy_credits</option>
+        <option value="get_usage">get_usage</option>
+      </select>
+
+      <div class="explorer-panels">
+        <div class="explorer-panel active" data-explorer="get_company">
+          <div><span class="ex-label">tools/call — get_company</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+  "params": { "name": "get_company",
+    "arguments": { "krs": "0000222483" } } }</code></pre></div>
+          <div><span class="ex-label">Response (data)</span><pre><code>{
+  "data": [{
+    "krs": "0000222483_",
+    "nip": 7791011327,
+    "informacje_o_firmie": [ … ],
+    "dane_finansowe": [ … ],
+    "powiazania": [ … ]
+  }]
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="get_statements">
+          <div><span class="ex-label">tools/call — get_statements</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+  "params": { "name": "get_statements",
+    "arguments": { "krs": "0000597711" } } }</code></pre></div>
+          <div><span class="ex-label">Response (data)</span><pre><code>{
+  "data": [{
+    "krs": "0000597711_",
+    "okresy": [ { "okres_sprawozdawczy": "01-03-2024_28-02-2025", "sekcje": [ … ] } ]
+  }]
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="search_companies">
+          <div><span class="ex-label">tools/call — search_companies</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+  "params": { "name": "search_companies",
+    "arguments": { "q": "baseli" } } }</code></pre></div>
+          <div><span class="ex-label">Response (data)</span><pre><code>{
+  "data": [ { "krs": "0000795513" }, { "krs": "0000581581" } ],
+  "dane_uciete": false
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="filter_catalog">
+          <div><span class="ex-label">tools/call — filter_catalog</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+  "params": { "name": "filter_catalog",
+    "arguments": { "przychody_od": 10000000000, "wojewodztwo": "WIELKOPOLSKIE" } } }</code></pre></div>
+          <div><span class="ex-label">Response (data)</span><pre><code>{
+  "count": 4,
+  "fetchedCount": 4,
+  "data": [ { "krs": "0000222483", "przychody": 108317454729 } ]
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="list_branches">
+          <div><span class="ex-label">tools/call — list_branches</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+  "params": { "name": "list_branches", "arguments": {} } }</code></pre></div>
+          <div><span class="ex-label">Response (data)</span><pre><code>{
+  "data": [ { "code": "A", "name": "Rolnictwo, leśnictwo, łowiectwo i rybactwo", "divisions": [ … ] } ]
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="get_pkd_report">
+          <div><span class="ex-label">tools/call — get_pkd_report</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+  "params": { "name": "get_pkd_report",
+    "arguments": { "code": "47.11.Z", "rok": 2024 } } }</code></pre></div>
+          <div><span class="ex-label">Response (data)</span><pre><code>{
+  "data": [{
+    "code": "47.11.Z",
+    "summary": { "count": 3400 },
+    "percentiles": { "przychody": { "50": 1500000, "90": 23000000 } }
+  }]
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="get_balance">
+          <div><span class="ex-label">tools/call — get_balance</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+  "params": { "name": "get_balance", "arguments": {} } }</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{ "balance": 100 }</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="buy_credits">
+          <div><span class="ex-label">tools/call — buy_credits</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+  "params": { "name": "buy_credits", "arguments": {} } }</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{
+  "checkout_url": "https://checkout.stripe.com/…",
+  "credits": 1000,
+  "price_pln": 9.99
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="get_usage">
+          <div><span class="ex-label">tools/call — get_usage</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+  "params": { "name": "get_usage", "arguments": {} } }</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{
+  "balance": 100,
+  "zuzycie": { "/dane": 1, "/katalog": 1 }
+}</code></pre></div>
+        </div>
+      </div>
     </div>
+
     <div class="mcp-flow reveal d4">
       <span class="mono">Agent</span><i>→</i><span class="mono">MCP</span><i>→</i><span class="mono">dane KRS</span>
     </div>

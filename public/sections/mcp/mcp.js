@@ -1,12 +1,11 @@
 (() => {
-  document.querySelectorAll(".tool").forEach((tool) => {
-    tool.addEventListener("mouseenter", () => {
-      const name = tool.querySelector(".mono");
-      if (name) name.style.textDecoration = "underline";
-    });
-    tool.addEventListener("mouseleave", () => {
-      const name = tool.querySelector(".mono");
-      if (name) name.style.textDecoration = "";
-    });
+  const tabs = document.querySelectorAll(".explorer-tab");
+  if (!tabs.length) return;
+  const sync = () => {
+    tabs.forEach((tab) => tab.setAttribute("aria-selected", String(tab.classList.contains("active"))));
+  };
+  sync();
+  tabs.forEach((tab) => {
+    new MutationObserver(sync).observe(tab, { attributes: true, attributeFilter: ["class"] });
   });
 })();

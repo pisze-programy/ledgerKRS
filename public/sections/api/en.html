@@ -3,14 +3,130 @@
     <p class="kicker reveal">REST API</p>
     <h2 class="reveal d1">Business data as an endpoint.</h2>
     <p class="lead reveal d2">GET + JSON. No SDK, no OAuth. One endpoint, one credit.</p>
-    <div class="api-split">
-      <pre class="reveal d3" data-copy><code>curl "{{BASE}}/api/dane?krs=0000222483" \
-  -H "x-api-key: $KEY"</code></pre>
-      <div class="api-note reveal d3">
-        <span class="mono note-key">HTTP 200</span>
-        <p class="mono note-body">{"data":[{ "krs": "0000222483_", "dane_finansowe": [ … ], "powiazania": [ … ] }]}</p>
+
+    <div class="explorer reveal d3">
+      <div class="explorer-tabs" role="tablist">
+        <button class="explorer-tab active" data-explorer="dane">dane</button>
+        <button class="explorer-tab" data-explorer="sprawozdania">sprawozdania</button>
+        <button class="explorer-tab" data-explorer="katalog">katalog</button>
+        <button class="explorer-tab" data-explorer="szukaj">szukaj</button>
+        <button class="explorer-tab" data-explorer="branze">branze</button>
+        <button class="explorer-tab" data-explorer="pkd">pkd/{code}</button>
+        <button class="explorer-tab" data-explorer="balance">balance</button>
+        <button class="explorer-tab" data-explorer="zuzycie">zuzycie</button>
+      </div>
+      <select class="explorer-select" aria-label="endpoint">
+        <option value="dane">dane</option>
+        <option value="sprawozdania">sprawozdania</option>
+        <option value="katalog">katalog</option>
+        <option value="szukaj">szukaj</option>
+        <option value="branze">branze</option>
+        <option value="pkd">pkd/{code}</option>
+        <option value="balance">balance</option>
+        <option value="zuzycie">zuzycie</option>
+      </select>
+
+      <div class="explorer-panels">
+        <div class="explorer-panel active" data-explorer="dane">
+          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/dane?krs=0000222483" \
+  -H "x-api-key: $KEY"</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{
+  "data": [{
+    "krs": "0000222483_",
+    "nip": 7791011327,
+    "kod_pkd": "47.11.Z",
+    "informacje_o_firmie": [ { "nazwa_pola": "nazwa", "wartosc": "JERONIMO MARTINS POLSKA S.A." } ],
+    "dane_finansowe": [ { "rok": 2024, "nazwa_wskaznika": "przychody", "kwota": 108317454729 } ],
+    "powiazania": [ … ]
+  }]
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="sprawozdania">
+          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/sprawozdania?krs=0000597711" \
+  -H "x-api-key: $KEY"</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{
+  "data": [{
+    "krs": "0000597711_",
+    "okresy": [{
+      "okres_sprawozdawczy": "01-03-2024_28-02-2025",
+      "sekcje": [{
+        "sekcja": "Bilans",
+        "pozycje": [ { "kod_pozycji": "Aktywa", "poziom_zaglebienia": 1, "kwota": 20171082000 } ]
+      }]
+    }]
+  }]
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="katalog">
+          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/katalog?przychody_od=10000000000&amp;wojewodztwo=WIELKOPOLSKIE" \
+  -H "x-api-key: $KEY"</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{
+  "count": 4,
+  "fetchedCount": 4,
+  "data": [{
+    "krs": "0000222483",
+    "name": "JERONIMO MARTINS POLSKA S.A.",
+    "przychody": 108317454729,
+    "zysk_netto": 3600000000
+  }]
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="szukaj">
+          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/szukaj?q=baseli" \
+  -H "x-api-key: $KEY"</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{
+  "data": [ { "krs": "0000795513" }, { "krs": "0000581581" } ],
+  "dane_uciete": false
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="branze">
+          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/branze" \
+  -H "x-api-key: $KEY"</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{
+  "data": [{
+    "code": "A",
+    "name": "Rolnictwo, leśnictwo, łowiectwo i rybactwo",
+    "divisions": [ { "code": "01", "name": "Uprawy rolne, chów i hodowla zwierząt" } ]
+  }]
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="pkd">
+          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/pkd/47.11.Z?rok=2024" \
+  -H "x-api-key: $KEY"</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{
+  "data": [{
+    "code": "47.11.Z",
+    "year": 2024,
+    "summary": { "count": 3400, "total_przychody": 120000000000 },
+    "percentiles": { "przychody": { "50": 1500000, "90": 23000000 } },
+    "top": [ { "krs": "0000222483", "name": "JERONIMO MARTINS POLSKA S.A." } ]
+  }]
+}</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="balance">
+          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/balance" \
+  -H "x-api-key: $KEY"</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{ "balance": 98 }</code></pre></div>
+        </div>
+
+        <div class="explorer-panel" data-explorer="zuzycie">
+          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/zuzycie" \
+  -H "x-api-key: $KEY"</code></pre></div>
+          <div><span class="ex-label">Response</span><pre><code>{
+  "model": "payg",
+  "balance": 98,
+  "zuzycie": { "/dane": 1, "/katalog": 1 }
+}</code></pre></div>
+        </div>
       </div>
     </div>
+
     <div class="api-table reveal d4">
       <table>
         <thead><tr><th>Endpoint</th><th>What it returns</th></tr></thead>

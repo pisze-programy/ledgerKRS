@@ -1,3 +1,6 @@
+import { buildOpenApiDocument } from "../api/contract";
+import { renderApiSection } from "./api-section";
+
 export type WebLang = "pl" | "en";
 export type FetchAsset = (path: string) => Promise<string | null>;
 
@@ -31,6 +34,15 @@ const DESCRIPTIONS: Record<WebLang, string> = {
   en: "Full KRS data through API and MCP: company reports, statements, indicators, valuation, risk, MSiG and KRZ. 100 credits free, 1000 for 9.99 PLN.",
 };
 
+let openApiDocCache: Record<string, unknown> | null = null;
+
+function openApiDoc(): Record<string, unknown> {
+  if (!openApiDocCache) {
+    openApiDocCache = buildOpenApiDocument();
+  }
+  return openApiDocCache;
+}
+
 export async function renderLanding(lang: WebLang, origin: string, fetchAsset: FetchAsset): Promise<Response> {
   const shell = await fetchAsset("/base/shell.html");
   if (shell === null) {
@@ -38,6 +50,10 @@ export async function renderLanding(lang: WebLang, origin: string, fetchAsset: F
   }
   const sections: string[] = [];
   for (const section of SECTIONS) {
+    if (section.id === "api") {
+      sections.push(renderApiSection(openApiDoc(), lang, origin));
+      continue;
+    }
     const html = await fetchAsset(section.html(lang));
     if (html !== null) {
       sections.push(html);

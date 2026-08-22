@@ -96,6 +96,11 @@ describe("landing page", () => {
 describe("section files", () => {
   it("every section has pl.html, en.html, css and js on disk", () => {
     for (const section of SECTIONS) {
+      if (section.id === "api") {
+        expect(existsSync(join(process.cwd(), "public", `sections/${section.id}/${section.id}.css`)), "api css").toBe(true);
+        expect(existsSync(join(process.cwd(), "public", `sections/${section.id}/${section.id}.js`)), "api js").toBe(true);
+        continue;
+      }
       expect(existsSync(join(process.cwd(), "public", `sections/${section.id}/pl.html`)), `${section.id} pl.html`).toBe(true);
       expect(existsSync(join(process.cwd(), "public", `sections/${section.id}/en.html`)), `${section.id} en.html`).toBe(true);
       expect(existsSync(join(process.cwd(), "public", `sections/${section.id}/${section.id}.css`)), `${section.id} css`).toBe(true);
@@ -115,23 +120,35 @@ describe("explorers", () => {
     return readFileSync(join(process.cwd(), "public", relative), "utf-8");
   }
 
-  it("api section is an accordion reference, one row per endpoint", () => {
-    const html = readPublic("sections/api/pl.html");
-    const endpoints = ["/api/dane", "/api/sprawozdania", "/api/katalog", "/api/szukaj", "/api/branze", "/api/pkd/{kod}", "/api/balance", "/api/zuzycie", "/api/account"];
-    for (const endpoint of endpoints) {
-      expect(html).toContain(endpoint);
-    }
+  it("renders the api accordion from the openapi contract", async () => {
+    const app = buildApp();
+    const html = await (await app.request("/")).text();
     const rows = (html.match(/class="api-item"/g) ?? []).length;
-    expect(rows).toBe(endpoints.length);
-    expect(html).toContain("Parameters");
+    expect(rows).toBe(9);
+    expect(html).toContain("/api/account");
+    expect(html).toContain("/api/pkd/{code}");
+    expect(html).toContain("Parametry");
     expect(html).toContain("Request");
-    expect(html).toContain("Response");
+    expect(html).toContain("Response — schema");
     expect(html).not.toContain("data-explorer=");
   });
 
-  it("api reference has no side-by-side request/response columns", () => {
-    const html = readPublic("sections/api/pl.html");
-    expect(html).not.toContain("api-split");
+  it("response schema documents the real report fields", async () => {
+    const app = buildApp();
+    const html = await (await app.request("/")).text();
+    for (const field of ["company", "connections", "ownership", "financials", "monitor", "krz", "history", "descriptions", "benchmarks"]) {
+      expect(html).toContain(field);
+    }
+  });
+
+  it("serves the openapi document", async () => {
+    const app = buildApp();
+    const response = await app.request("/openapi.json");
+    expect(response.status).toBe(200);
+    const doc = (await response.json()) as { openapi: string; paths: Record<string, unknown> };
+    expect(doc.openapi).toContain("3.");
+    expect(doc.paths["/api/dane"]).toBeDefined();
+    expect(Object.keys(doc.paths).length).toBeGreaterThanOrEqual(9);
   });
 
   it("agenci section lists opencode and drops harness chips", () => {

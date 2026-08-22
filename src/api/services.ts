@@ -9,8 +9,15 @@ import type { ApiDeps } from "./deps";
 
 export class ServiceError extends Error {}
 
+export async function resolveKrs(deps: ApiDeps, krs?: string, nip?: string): Promise<string | null> {
+  if (krs) {
+    return krs;
+  }
+  return nip ? krsFromNip(deps, nip) : null;
+}
+
 export async function reportFor(deps: ApiDeps, krs?: string, nip?: string): Promise<CompanyReport | null> {
-  const target = krs ?? (nip ? await krsFromNip(deps, nip) : null);
+  const target = await resolveKrs(deps, krs, nip);
   if (!target) {
     return null;
   }

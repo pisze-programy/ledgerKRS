@@ -60,6 +60,10 @@ Check `get_balance` again after a moment.
 Same data, plain HTTP. Base URL `https://raporty-firmowe.dev`.
 Send the key in the header `X-API-Key`.
 
+The full contract lives at `/openapi.json`:
+every endpoint, every parameter and the complete response schema,
+field by field. The examples below are a quick reference.
+
 ### Company report
 
 ```bash

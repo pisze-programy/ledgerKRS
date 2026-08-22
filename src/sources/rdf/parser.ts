@@ -134,8 +134,9 @@ function findNode(node: unknown, name: string): unknown {
   if (!isRecord(node)) {
     return undefined;
   }
+  const expected = name.toLowerCase();
   for (const [key, value] of Object.entries(node)) {
-    if (key.replace(/^[A-Za-z0-9]+:/, "").toLowerCase() === name.toLowerCase()) {
+    if (stripPrefix(key).toLowerCase().startsWith(expected)) {
       return value;
     }
   }
@@ -144,6 +145,15 @@ function findNode(node: unknown, name: string): unknown {
       const found = findNode(value, name);
       if (found !== undefined) {
         return found;
+      }
+    } else if (Array.isArray(value)) {
+      for (const item of value) {
+        if (isRecord(item)) {
+          const found = findNode(item, name);
+          if (found !== undefined) {
+            return found;
+          }
+        }
       }
     }
   }

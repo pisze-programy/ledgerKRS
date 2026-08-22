@@ -41,6 +41,41 @@ Source: `characterize-bizraport.json` (8 random companies, 8 credits).
 - `zatrudnienie` present in 4/8, `wynagrodzenia` in 6/8.
 - Earliest year across the sample: 2017.
 
+## Parser findings (real, fixed)
+
+Two certain parser bugs found while checking the random sample:
+
+1. **New 2025 RDF schema** wraps statements in `<Dokument>` (CRD wzor
+   2025/08/12) and section tags carry a layout suffix:
+   `BilansJednostkaMikro`, `BilansJednostkaMala`, `RZiSJednostkaInna`, ...
+   `findNode` matched section names exactly → all sections empty.
+   **Fix**: prefix match on the section name. Verified on old + new formats.
+2. **XAdES-wrapped statements** (JPK_SF, eSPR `.xml.xades`) put the statement
+   inside `<ds:Signature><ds:Object>` which `fast-xml-parser` renders as an
+   **array**. `findNode` only recursed into objects → NULL.
+   **Fix**: also recurse into arrays. Verified on a real JPK_SF file
+   (148/51/55/57 positions). Fixture: `test/fixtures/rdf-xades-jpk.xml`.
+
+These fix the majority of the 12 `XML_UNPARSEABLE` cases seen in the first
+pass; the rest are genuine PDF-as-annual-statement / detached-signature
+documents (permanent gap).
+
+## Incapsula throttling reality
+
+One cookie survived ~18 sequential company searches before Incapsula returned
+a challenge page (`<!DOCTYPE ...>`, non-JSON). Consequences:
+
+- A full 200-company structural pass **cannot** run fast on one cookie.
+- `pass1.ts` is now resilient: challenge detection → 40s backoff → retry,
+  and it **resumes** from its dump; after 3 consecutive challenges it stops
+  (preserving the cookie) instead of corrupting results.
+- Recommended pacing: ~1.5s between companies; expect to re-solve the captcha
+  1–3 times for a 200-company pass (or run it in chunks).
+- The first (contaminated) run is saved as
+  `pass1-structural-UNVALIDATED.json` — its `NO_DOCS` entries are wrong
+  (challenge responses misclassified). A fresh run after re-solving overwrites
+  the main dump.
+
 ## Known gaps (vs BizRaport)
 
 | Gap | Free path? | Status |

@@ -80,3 +80,29 @@ describe("isXmlCapable", () => {
     expect(isXmlCapable({})).toBe(false);
   });
 });
+
+describe("new 2025 schema (Dokument wrapper, XAdES)", () => {
+  it("parses a Dokument-wrapped JednostkaMikro statement", () => {
+    const xml = `<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Dokument xmlns="http://crd.gov.pl/wzor/2025/08/12/13821/">
+  <TrescDokumentu>
+    <JednostkaMikro>
+      <BilansJednostkaMikro>
+        <Aktywa><dtsf:KwotaA>1234.50</dtsf:KwotaA><dtsf:KwotaB>0</dtsf:KwotaB></Aktywa>
+      </BilansJednostkaMikro>
+    </JednostkaMikro>
+  </TrescDokumentu>
+</Dokument>`;
+    const statement = parseSprawozdanie(xml)!;
+    const bilans = statement.sekcje.find((s) => s.sekcja === "Bilans");
+    expect(bilans).toBeDefined();
+    expect(bilans!.pozycje.find((p) => p.kod_pozycji === "Aktywa")?.kwota).toBe(1234.5);
+  });
+
+  it("parses a real XAdES-wrapped JPK_SF statement (fixture)", () => {
+    const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-xades-jpk.xml"), "utf8");
+    const statement = parseSprawozdanie(xml);
+    expect(statement).not.toBeNull();
+    expect(statement!.sekcje.find((s) => s.sekcja === "Bilans")!.pozycje.length).toBeGreaterThan(100);
+  });
+});

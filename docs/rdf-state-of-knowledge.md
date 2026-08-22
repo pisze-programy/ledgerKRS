@@ -63,6 +63,14 @@ Four statement sections:
 - `ZestZmianWKapitale` → "Zestawienie zmian w kapitale"
 - `RachPrzeplywow` → "Rachunek przepływów pieniężnych"
 
+Since the new RDF (23.02.2026, CRD wzor 2025/08/12) the file may be wrapped in
+`<Dokument>` (with `<TrescDokumentu>` holding the layout element) and section
+tags carry a layout suffix: `BilansJednostkaMikro`, `BilansJednostkaMala`,
+`RZiSJednostkaInna`, ... Also, submitted files are often XAdES-signed
+(`.xml.xades`, JPK_SF), with the statement inside `<ds:Signature><ds:Object>`
+(which fast-xml-parser renders as an array). The parser handles all three:
+wrapper, suffixed sections (prefix match), and XAdES object arrays.
+
 Each position is an element like `<jin:Aktywa_A_I_3>` containing
 `<dtsf:KwotaA>` (current year) and `<dtsf:KwotaB>` (previous year).
 Parents carry both amounts AND children (both must be emitted).

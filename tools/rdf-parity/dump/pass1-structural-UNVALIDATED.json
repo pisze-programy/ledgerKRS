@@ -1,0 +1,901 @@
+{
+  "generated_at": "2026-08-22T13:36:39.201Z",
+  "sample_size": 200,
+  "counts": {
+    "NO_DOCS": 179,
+    "XML_UNPARSEABLE": 3,
+    "HAS_XML": 18
+  },
+  "layouts": [
+    "JednostkaMala",
+    "JednostkaMikro",
+    "Bilans",
+    "JednostkaInna"
+  ],
+  "results": [
+    {
+      "krs": "0001219511",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001069716",
+      "status": "XML_UNPARSEABLE",
+      "docs": 4,
+      "annual": 2,
+      "latest_year": "2025-12-31",
+      "layout": null
+    },
+    {
+      "krs": "0000320584",
+      "status": "HAS_XML",
+      "docs": 13,
+      "annual": 8,
+      "latest_year": "2025-12-31",
+      "layout": "JednostkaMala"
+    },
+    {
+      "krs": "0000942976",
+      "status": "HAS_XML",
+      "docs": 13,
+      "annual": 4,
+      "latest_year": "2025-12-31",
+      "layout": "JednostkaMikro"
+    },
+    {
+      "krs": "0001007609",
+      "status": "HAS_XML",
+      "docs": 5,
+      "annual": 2,
+      "latest_year": "2024-12-31",
+      "layout": "JednostkaMikro"
+    },
+    {
+      "krs": "0000792741",
+      "status": "HAS_XML",
+      "docs": 12,
+      "annual": 6,
+      "latest_year": "2024-12-31",
+      "layout": "Bilans"
+    },
+    {
+      "krs": "0000617088",
+      "status": "HAS_XML",
+      "docs": 25,
+      "annual": 7,
+      "latest_year": "2024-12-31",
+      "layout": "Bilans"
+    },
+    {
+      "krs": "0001252366",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000903848",
+      "status": "HAS_XML",
+      "docs": 18,
+      "annual": 5,
+      "latest_year": "2025-12-31",
+      "layout": "JednostkaMala"
+    },
+    {
+      "krs": "0001009813",
+      "status": "HAS_XML",
+      "docs": 8,
+      "annual": 2,
+      "latest_year": "2025-12-31",
+      "layout": "JednostkaMikro"
+    },
+    {
+      "krs": "0000176134",
+      "status": "HAS_XML",
+      "docs": 46,
+      "annual": 8,
+      "latest_year": "2025-12-31",
+      "layout": "Bilans"
+    },
+    {
+      "krs": "0000936372",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000973400",
+      "status": "HAS_XML",
+      "docs": 18,
+      "annual": 5,
+      "latest_year": "2025-12-31",
+      "layout": "JednostkaInna"
+    },
+    {
+      "krs": "0000574829",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000912238",
+      "status": "HAS_XML",
+      "docs": 19,
+      "annual": 5,
+      "latest_year": "2025-12-31",
+      "layout": "Bilans"
+    },
+    {
+      "krs": "0000924933",
+      "status": "HAS_XML",
+      "docs": 14,
+      "annual": 4,
+      "latest_year": "2025-12-31",
+      "layout": "JednostkaMala"
+    },
+    {
+      "krs": "0000891869",
+      "status": "HAS_XML",
+      "docs": 13,
+      "annual": 5,
+      "latest_year": "2025-12-31",
+      "layout": "JednostkaMikro"
+    },
+    {
+      "krs": "0000416704",
+      "status": "HAS_XML",
+      "docs": 29,
+      "annual": 8,
+      "latest_year": "2025-12-31",
+      "layout": "Bilans"
+    },
+    {
+      "krs": "0000393416",
+      "status": "HAS_XML",
+      "docs": 33,
+      "annual": 8,
+      "latest_year": "2025-12-31",
+      "layout": "Bilans"
+    },
+    {
+      "krs": "0000952744",
+      "status": "HAS_XML",
+      "docs": 2,
+      "annual": 2,
+      "latest_year": "2023-12-31",
+      "layout": "JednostkaMikro"
+    },
+    {
+      "krs": "0000564889",
+      "status": "XML_UNPARSEABLE",
+      "docs": 29,
+      "annual": 8,
+      "latest_year": "2025-12-31",
+      "layout": null
+    },
+    {
+      "krs": "0000691408",
+      "status": "HAS_XML",
+      "docs": 2,
+      "annual": 1,
+      "latest_year": "2022-12-31",
+      "layout": "JednostkaMikro"
+    },
+    {
+      "krs": "0000079249",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000989074",
+      "status": "XML_UNPARSEABLE",
+      "docs": 3,
+      "annual": 1,
+      "latest_year": "2023-12-31",
+      "layout": null
+    },
+    {
+      "krs": "0000338570",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000720431",
+      "status": "HAS_XML",
+      "docs": 16,
+      "annual": 8,
+      "latest_year": "2025-12-31",
+      "layout": "JednostkaInna"
+    },
+    {
+      "krs": "0000327789",
+      "status": "HAS_XML",
+      "docs": 20,
+      "annual": 8,
+      "latest_year": "2025-12-31",
+      "layout": "Bilans"
+    },
+    {
+      "krs": "0000721871",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001259478",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000554503",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000571549",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000878245",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000582708",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001066345",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000917215",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001027948",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000139939",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000810502",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000085314",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001060670",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000094392",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001261346",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000506875",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000896454",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000030390",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001026976",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001261201",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000527714",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001259866",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001093629",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001261304",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001007185",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000946305",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000545924",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000971054",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000278980",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000629143",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000073115",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000999646",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000939854",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000109815",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000560392",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000848715",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001122535",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000468829",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001158393",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001156112",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000531948",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000855605",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000644867",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001122211",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000421400",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001141876",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001088183",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000930777",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000755995",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000325046",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000837293",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000233196",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000587507",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000788837",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000587590",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001260372",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000653881",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001162417",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001101622",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000860586",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000701432",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000692949",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000790651",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001000226",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000547435",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001027213",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001090302",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001185470",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000481245",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000369487",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001261420",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000426023",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000224401",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000462722",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000068376",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000952873",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000559666",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001251977",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000287436",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001259080",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000802552",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001033253",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001179797",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001261616",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000447723",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000843288",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000791206",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001261438",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001142122",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000540355",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000975668",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001173374",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001223816",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000357139",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000686599",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000574827",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000306786",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001260693",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000573788",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001125253",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001186753",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000672378",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000661624",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000325544",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000422956",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000082738",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001259494",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000735143",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000958626",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000764452",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000484982",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001101227",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001258191",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000765984",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000863514",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000736954",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001258854",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000502679",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001260197",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001261148",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000688508",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000925620",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001108207",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001244800",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001120018",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001256859",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000940449",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001253077",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000809921",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000963253",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000723096",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000506425",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000927657",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000978577",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000883954",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000942010",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001014303",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000876011",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000725825",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000330252",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000571619",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001247401",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000133235",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001260778",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000934358",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001039537",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000596285",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000748637",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001056231",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001261110",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001135157",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001261361",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001259910",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000238897",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000893029",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000960940",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000740073",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000593412",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000563633",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000959133",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001184204",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000386719",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000843733",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000659179",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000747439",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001258107",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000147283",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000234943",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000763595",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0001090768",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000253127",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000926987",
+      "status": "NO_DOCS"
+    },
+    {
+      "krs": "0000478163",
+      "status": "NO_DOCS"
+    }
+  ]
+}

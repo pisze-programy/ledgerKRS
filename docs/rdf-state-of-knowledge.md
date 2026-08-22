@@ -175,6 +175,18 @@ access path ever appears, the client just swaps the `transport`.
 - **Faza 1** — top ~10-20k firms (D1 fits).
 - **Faza 2** — full set (~380k firms) → R2 blob archive + D1 cache.
 
+## Employment and wages (zatrudnienie / wynagrodzenia)
+
+Investigated live on JERONIMO (0000222483, SFJINZ wariant 2, kalkulacyjny):
+the statement has **no** employment or total-wages field — not in the
+Wprowadzenie, not in the RZiS (by function), only a footnote mention
+("Koszty niezrealizowanych wynagrodzeń i składek"). BizRaport's
+`zatrudnienie` (85204) and `wynagrodzenia` (7.7B) therefore come from
+footnote text mining or estimation (they also expose
+`zatrudnienie_estymowane`). This is a genuine remaining gap: our parser
+would need to mine the free-text `DodatkoweInformacjeIObjasnienia` section,
+or estimate employment from wages. **Deferred** (separate, harder workstream).
+
 ## Parity with BizRaport (random-sample verification)
 
 Goal: match BizRaport coverage with the free RDF pipeline, verified on a

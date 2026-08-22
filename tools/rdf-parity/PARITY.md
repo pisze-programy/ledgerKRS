@@ -253,6 +253,22 @@ correction differences (we may pick a different filing), unit/rounding quirks
 for very small companies, and the old-schema Op statutory RZiS. These are
 data-definition/version issues, not parser structure bugs.
 
+### BizRaport revenue method (reconstructed)
+
+`przychody` is BizRaport's **total income**, not just sales:
+- `przychody` = sum of all RZiS income letters (dict names containing
+  "przychody"): **RZiSPor** → `A+D+G`, **RZiSKalk** → `A+G+J`,
+  legacy → `A+D+G`.
+- `przychody_operacyjne` = income letters excluding "finansowe" (`A+D` /
+  `A+G`).
+- `przychody_ze_sprzedazy` = `A`.
+
+Implemented in `src/sources/rdf/indicators.ts`. Offline on the stored dump:
+`przychody` 48% → **65%** (the residual is old-schema companies whose letter
+semantics differ from the 2025 dicts — per-version dictionary work).
+Proven exact: 0000176134's `przychody` now matches BizRaport precisely
+(38720880.34).
+
 ## How to run (needs a fresh RDF cookie + a fresh BizRaport account)
 
 ```bash

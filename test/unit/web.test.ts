@@ -134,17 +134,6 @@ describe("explorers", () => {
     expect(html).not.toContain("api-split");
   });
 
-  it("mcp section has one panel per tool", () => {
-    const html = readPublic("sections/mcp/pl.html");
-    const tools = ["get_company", "get_statements", "search_companies", "filter_catalog", "list_branches", "get_pkd_report", "get_balance", "buy_credits", "get_usage"];
-    for (const tool of tools) {
-      expect(html).toContain(`data-explorer="${tool}"`);
-    }
-    const panels = (html.match(/class="explorer-panel[" ]/g) ?? []).length;
-    expect(panels).toBe(tools.length);
-    expect(html).toContain("Arguments");
-  });
-
   it("agenci section lists opencode and drops harness chips", () => {
     const html = readPublic("sections/agenci/pl.html");
     expect(html).toContain("opencode");

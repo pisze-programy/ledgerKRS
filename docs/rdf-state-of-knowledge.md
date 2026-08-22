@@ -167,6 +167,19 @@ access path ever appears, the client just swaps the `transport`.
 - **Faza 1** — top ~10-20k firms (D1 fits).
 - **Faza 2** — full set (~380k firms) → R2 blob archive + D1 cache.
 
+## Parity with BizRaport (random-sample verification)
+
+Goal: match BizRaport coverage with the free RDF pipeline, verified on a
+**random** sample (not hand-picked KRS) — see `tools/rdf-parity/PARITY.md`.
+
+- 200 random KRS drawn from 6 KRS biuletyn days (16k unique) → `dump/sample-biuletyn.json`.
+- BizRaport-side characterization on 8 random companies (8 credits): 2/8 no
+  data, 2/8 have pre-2018 years, indicator sets 26-36 by layout,
+  employment in 4/8, salary in 6/8.
+- Pass 1 (structural RDF) and Pass 2 (value-by-value vs BizRaport) are
+  implemented but blocked on a fresh RDF cookie (IP-bound, captcha).
+- BizRaport account credits: 89/100 used, 11 left (new accounts pending).
+
 ## Implemented so far (commits)
 
 - `src/sources/rdf/client.ts` — encryption, search, metadata, download, client.

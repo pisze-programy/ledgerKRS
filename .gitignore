@@ -4,3 +4,4 @@ dist/
 .DS_Store
 *.log
 test/fixtures/bizraport/raw/
+tools/rdf-parity/creds.local.json

@@ -17,6 +17,7 @@ Read them in this order.
 | [08-whats-left.md](08-whats-left.md) | What is not finished yet |
 | [09-bizraport-coverage.md](09-bizraport-coverage.md) | BizRaport API coverage and credit ledger |
 | [10-api-mcp-billing.md](10-api-mcp-billing.md) | API, MCP server and credits |
+| [rdf-state-of-knowledge.md](rdf-state-of-knowledge.md) | RDF: decoded pipeline, storage model, scale numbers |
 
 ## Where the source code lives
 

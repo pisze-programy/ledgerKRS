@@ -36,7 +36,7 @@ describe("extractFinancialInput", () => {
     const meta = statementMeta(xml);
     const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
     expect(year.input.amortization).toBeCloseTo(5241.08, 2);
-    expect(year.input.revenue).toBeCloseTo(38663694.67, 1);
+    expect(year.input.revenue).toBeCloseTo(38720880.34, 1);
     expect(year.input.salesRevenue).toBeCloseTo(38609746.87, 1);
     expect(year.input.netProfit).toBeCloseTo(86544.95, 1);
     expect(year.input.totalAssets).toBeCloseTo(8046252.06, 1);
@@ -50,13 +50,13 @@ describe("extractFinancialInput", () => {
     expect(year.input.equity).toBeCloseTo(-32890677.18, 1);
   });
 
-  it("applies BizRaport operating definitions (przychody=A+D, koszty_operacyjne=B+E)", () => {
+  it("applies BizRaport revenue definitions (income letters from the dict; RZiSPor = A+D+G)", () => {
     const xml = load("rdf-jednostka-inna.xml");
     const meta = statementMeta(xml);
     const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
     expect(year.input.salesRevenue).toBeCloseTo(133252762.98, 1);
     expect(year.input.operatingRevenue).toBeCloseTo(134381535.36, 1);
-    expect(year.input.operatingCosts).toBeCloseTo(136459779.16, 1);
+    expect(year.input.revenue).toBeCloseTo(134496967.7, 1);
     expect(year.input.costOfGoodsSold).toBeCloseTo(134273963.29, 1);
   });
 });

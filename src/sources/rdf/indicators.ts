@@ -1,7 +1,8 @@
 import type { FinancialInput } from "../../metrics/indicators";
 import type { ParsedStatement } from "./parser";
 import { sectionsOf, type StatementMeta } from "./layouts";
-import { rzisRoles } from "./rzis";
+import { rzisRoles, type RzisRoles } from "./rzis";
+import { nameFor, rzisVariantOf, type RzisVariant } from "./names";
 
 export interface YearFinancials {
   okresSprawozdawczy: string;
@@ -30,6 +31,54 @@ function bilansValue(
   return bySection.get(section)?.get(code) ?? null;
 }
 
+const INCOME_LETTERS = "ABCDEFGHIJKLMNOP".split("");
+
+function incomeSumFor(meta: StatementMeta, rzis: RzisRoles, variant: RzisVariant, financial: boolean): number | null {
+  let sum = 0;
+  let has = false;
+  for (const code of INCOME_LETTERS) {
+    const name = nameFor(meta.layout, "RZiS", code, variant);
+    if (!name) {
+      continue;
+    }
+    const isIncome = /przychody/i.test(name);
+    const isFinancial = /finansowe/i.test(name);
+    if (!isIncome || (financial === false && isFinancial)) {
+      continue;
+    }
+    const value = rzis.codes[code] ?? null;
+    if (value !== null) {
+      sum += value;
+      has = true;
+    }
+  }
+  return has ? sum : null;
+}
+
+function revenueFor(meta: StatementMeta, rzis: RzisRoles): { total: number | null; operating: number | null; sales: number | null } {
+  if (meta.layout === "LEGACY") {
+    const a = rzis.przychody;
+    const d = rzis.codes["D"] ?? null;
+    const g = rzis.codes["G"] ?? null;
+    const total = a !== null ? a + (d ?? 0) + (g ?? 0) : null;
+    const operating = a !== null ? a + (d ?? 0) : null;
+    return { total, operating, sales: a };
+  }
+  const variants: RzisVariant[] = ["RZiSPor", "RZiSKalk"];
+  let total: number | null = null;
+  let operating: number | null = null;
+  for (const variant of variants) {
+    const t = incomeSumFor(meta, rzis, variant, true);
+    const o = incomeSumFor(meta, rzis, variant, false);
+    if (t !== null) {
+      total = t;
+      operating = o;
+      break;
+    }
+  }
+  return { total, operating, sales: rzis.przychody };
+}
+
 export function extractFinancialInput(statement: ParsedStatement, meta: StatementMeta): YearFinancials | null {
   const rzis = rzisRoles(statement, meta);
   const bySection = sectionsOf(statement);
@@ -46,16 +95,15 @@ export function extractFinancialInput(statement: ParsedStatement, meta: Statemen
   if (revenueBase === null) {
     return null;
   }
-  const pozPrzychodyOp = rzis.codes["D"] ?? null;
   const pozKosztyOp = rzis.codes["E"] ?? null;
-  const revenue = pozPrzychodyOp !== null ? revenueBase + pozPrzychodyOp : revenueBase;
-  const przychodyOperacyjne = revenue;
+  const revenue = revenueFor(meta, rzis);
+  const przychodyOperacyjne = revenue.operating ?? revenueBase;
   const kosztyOperacyjne = rzis.koszty !== null && pozKosztyOp !== null ? rzis.koszty + pozKosztyOp : rzis.koszty;
 
   const input: Partial<FinancialInput> = {
-    revenue,
+    revenue: revenue.total ?? revenueBase,
     operatingRevenue: przychodyOperacyjne,
-    salesRevenue: revenueBase,
+    salesRevenue: revenue.sales,
     operatingCosts: kosztyOperacyjne,
     costOfGoodsSold: rzis.koszty,
     incomeTax: rzis.podatek,

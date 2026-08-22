@@ -86,29 +86,55 @@ export function chainFromCodes(codes: Record<string, number | null>): RzisRoles 
   }
   const ze = przychody - koszty;
   const zeIdx = letters.findIndex((l) => near(v(l), ze));
-  const compute = (base: number, start: number): { result: number; nextStart: number } => {
-    const a = letters[start];
-    const b = letters[start + 1];
-    if (!a || !b) {
-      return { result: base, nextStart: start };
-    }
-    const result = base + (v(a) ?? 0) - (v(b) ?? 0);
-    const m = letters.findIndex((l, i) => i > start + 1 && near(v(l), result));
-    return { result, nextStart: m !== -1 ? m + 1 : start + 2 };
-  };
-
   const start = zeIdx === -1 ? 2 : zeIdx + 1;
-  const op = compute(ze, start);
-  const br = compute(op.result, op.nextStart);
+  const a = letters[start];
+  const b2 = letters[start + 1];
+  const opResult =
+    a && b2 ? ze + (v(a) ?? 0) - (v(b2) ?? 0) : ze;
+
   const zyskNetto = v(letters[letters.length - 1]!);
-  const brutto = br.result;
-  const podatek = zyskNetto !== null && brutto !== null ? brutto - zyskNetto : null;
+  let brutto: number | null = null;
+  let podatek: number | null = null;
+  if (zyskNetto !== null) {
+    let foundB: string | null = null;
+    let foundT: string | null = null;
+    for (let i = letters.length - 2; i >= 0; i -= 1) {
+      const b = letters[i]!;
+      const bv = v(b);
+      if (bv === null) {
+        continue;
+      }
+      for (let j = i + 1; j < letters.length - 1; j += 1) {
+        const t = letters[j]!;
+        const tv = v(t);
+        if (tv !== null && near(bv - tv, zyskNetto)) {
+          foundB = b;
+          foundT = t;
+          break;
+        }
+      }
+      if (foundB) {
+        break;
+      }
+    }
+    if (foundB && foundT) {
+      brutto = v(foundB);
+      podatek = v(foundT);
+    } else {
+      const fallbackStart = start + 2;
+      const fa = letters[fallbackStart];
+      const fb = letters[fallbackStart + 1];
+      const fallbackBrutto = fa && fb ? opResult + (v(fa) ?? 0) - (v(fb) ?? 0) : null;
+      brutto = fallbackBrutto;
+      podatek = brutto !== null && zyskNetto !== null ? brutto - zyskNetto : null;
+    }
+  }
 
   return {
     przychody,
     koszty,
     zyskZeSprzedazy: ze,
-    zyskOperacyjny: op.result,
+    zyskOperacyjny: opResult,
     zyskBrutto: brutto,
     podatek,
     zyskNetto,

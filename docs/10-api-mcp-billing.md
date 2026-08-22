@@ -81,6 +81,7 @@ curl https://raporty-firmowe.dev/api/zuzycie -H "x-api-key: $KEY"
 | POST | `/api/billing/checkout` | Checkout URL | 0 |
 | POST | `/api/billing/webhook` | Stripe confirmation | 0 |
 | GET | `/api/dane?krs\|nip` | Full company report | 1 |
+| GET | `/api/raport?krs\|nip` | Rich report (financials, risk, valuation, timeliness, market, graph) | 1 |
 | GET | `/api/sprawozdania?krs` | Financial statements | 1 |
 | GET | `/api/katalog?...` | Filter companies | 1 |
 | GET | `/api/szukaj?q` | Full-text search | 1 |
@@ -93,6 +94,29 @@ The company report contains:
 - `financials` — computed indicators by reporting period.
 - `connections`, `ownership`, `pkdCodes` — structure.
 - `monitor`, `krz`, `history` — announcements and statement history.
+- `descriptions`, `benchmarks` — AI descriptions and market position.
+
+## The rich report
+
+`/api/raport` builds the full derived layer on top of the report.
+It is assembled from small modules. Each module is a separate file.
+New capabilities become new modules.
+
+- `summary` — the four key metrics (aktywa, przychody, zysk, wartość firmy),
+  employment and the main PKD branch.
+- `finansowe` — per-year financial series with valuation (min/avg/max),
+  trade credit (min/avg/max) and risk (reliability, 24-month insolvency).
+- `terminowosc` — filings on time versus late, average delay.
+- `pozycja_na_tle_branzy` — percentiles against the PKD branch, per year.
+- `opisy_firmy` — company descriptions.
+- `powiazania_pochodne` — the connection graph: same NIP, same REGON,
+  reverse links.
+- `podobne_organizacje` — similar companies by PKD and size.
+- `monitor`, `krz`, `historia_sprawozdan`, `powiazania`, `udzialowcy`.
+
+The data comes from our own store. The seed currently uses BizRaport
+responses to fill it. When the REGON key arrives, only the seed source
+changes. The report structure stays the same.
 
 ## Catalog filters
 

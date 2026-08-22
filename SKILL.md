@@ -80,6 +80,35 @@ curl "https://raporty-firmowe.dev/api/dane?krs=0000222483" -H "x-api-key: $KEY"
 }]}
 ```
 
+### Rich company report
+
+The rich report adds the full derived layer on top of the raw report:
+per-year financials, valuation, credit, risk, timeliness, market position,
+descriptions, similar organizations and the connection graph.
+
+```bash
+curl "https://raporty-firmowe.dev/api/raport?krs=0000222483" -H "x-api-key: $KEY"
+```
+
+```json
+{ "data": [{
+    "summary": { "przychody": 108317454729, "zysk_netto": 3623931554, "wartosc_firmy": 90866097424 },
+    "finansowe": [ { "okres_sprawozdawczy": "01-01-2024_31-12-2024", "wskazniki": { … },
+      "wycena": { "minimalna": …, "srednia": …, "maksymalna": … },
+      "kredyt_kupiecki": { … }, "ryzyko": { "wiarygodnosc": …, "prawdopodobienstwo_24m": … } } ],
+    "terminowosc": { "razem": 9, "w_terminie": 9, "po_terminie": 0, "srednie_opoznienie_dni": -124 },
+    "pozycja_na_tle_branzy": [ … ],
+    "opisy_firmy": [ … ],
+    "powiazania_pochodne": { "identyczny_nip": [ … ], "identyczny_regon": [ … ], "zwrotne": [ … ] },
+    "podobne_organizacje": [ … ]
+}]}
+```
+
+Read the whole rich report with one call:
+`summary`, `finansowe` (per year), `monitor`, `krz`, `historia_sprawozdan`,
+`terminowosc`, `pozycja_na_tle_branzy`, `opisy_firmy`, `powiazania`,
+`powiazania_pochodne`, `udzialowcy`, `podobne_organizacje`.
+
 ### Statements
 
 ```bash

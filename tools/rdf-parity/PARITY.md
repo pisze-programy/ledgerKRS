@@ -195,6 +195,25 @@ CONNER), plus a few `podatek`/`zysk` cases and the JednostkaOp statutory RZiS
 (72%). Fixing these requires matching BizRaport's exact line choices per
 layout (follow-up).
 
+### Definition refinement (reverse-engineered from the pass-2 dump)
+
+BizRaport's operating definitions, derived from stored RZiS codes vs their
+values (near-unanimous matches):
+
+| Indicator | BizRaport definition |
+|---|---|
+| `przychody` | `A` + `D` (przychody netto + pozostałe przychody operacyjne) — 49/86 agree, 4 disagree |
+| `przychody_operacyjne` | `A` + `D` (80/86) |
+| `koszty_operacyjne` | `B` + `E` (koszty działalności op. + pozostałe koszty op., 68/86) |
+| `koszty_sprzedanych_produktow` | `B` (56/56) |
+| `zysk_netto` | chain (86/86) |
+
+Implemented in `src/sources/rdf/indicators.ts`. After the change, a live pass
+(8 of 15 companies had RDF data; 7 were throttled mid-run) gave **91% match**;
+per-company: 96–100% for LEGACY/Inna/Mala/Mikro, 71% for JednostkaOp (the
+statutory RZiS remains the hard case). `zysk_netto` and
+`koszty_sprzedanych_produktow` are at 100%.
+
 ## How to run (needs a fresh RDF cookie + a fresh BizRaport account)
 
 ```bash

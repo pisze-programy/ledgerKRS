@@ -42,16 +42,21 @@ export function extractFinancialInput(statement: ParsedStatement, meta: Statemen
       ? rzisCodes.get("B_VIII") ?? rzisCodes.get("B_I") ?? null
       : rzisCodes.get("B_I") ?? rzisCodes.get("B_VIII") ?? null;
 
-  const revenue = rzis.przychody;
-  if (revenue === null) {
+  const revenueBase = rzis.przychody;
+  if (revenueBase === null) {
     return null;
   }
+  const pozPrzychodyOp = rzis.codes["D"] ?? null;
+  const pozKosztyOp = rzis.codes["E"] ?? null;
+  const revenue = pozPrzychodyOp !== null ? revenueBase + pozPrzychodyOp : revenueBase;
+  const przychodyOperacyjne = revenue;
+  const kosztyOperacyjne = rzis.koszty !== null && pozKosztyOp !== null ? rzis.koszty + pozKosztyOp : rzis.koszty;
 
   const input: Partial<FinancialInput> = {
     revenue,
-    operatingRevenue: rzis.przychody,
-    salesRevenue: rzis.przychody,
-    operatingCosts: rzis.koszty,
+    operatingRevenue: przychodyOperacyjne,
+    salesRevenue: revenueBase,
+    operatingCosts: kosztyOperacyjne,
     costOfGoodsSold: rzis.koszty,
     incomeTax: rzis.podatek,
     amortization: amortyzacja,

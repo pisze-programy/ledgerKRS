@@ -36,7 +36,8 @@ describe("extractFinancialInput", () => {
     const meta = statementMeta(xml);
     const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
     expect(year.input.amortization).toBeCloseTo(5241.08, 2);
-    expect(year.input.revenue).toBeCloseTo(38609746.87, 1);
+    expect(year.input.revenue).toBeCloseTo(38663694.67, 1);
+    expect(year.input.salesRevenue).toBeCloseTo(38609746.87, 1);
     expect(year.input.netProfit).toBeCloseTo(86544.95, 1);
     expect(year.input.totalAssets).toBeCloseTo(8046252.06, 1);
   });

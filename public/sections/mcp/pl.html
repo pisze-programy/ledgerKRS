@@ -30,6 +30,8 @@
 
       <div class="explorer-panels">
         <div class="explorer-panel active" data-explorer="get_company">
+          <p class="ex-desc">Pełny raport firmy po KRS albo NIP.</p>
+          <p class="ex-args"><span class="ex-label">Arguments</span> krs?: string · nip?: string</p>
           <div><span class="ex-label">tools/call — get_company</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
   "params": { "name": "get_company",
     "arguments": { "krs": "0000222483" } } }</code></pre></div>
@@ -45,6 +47,8 @@
         </div>
 
         <div class="explorer-panel" data-explorer="get_statements">
+          <p class="ex-desc">Pełne sprawozdania, pozycja po pozycji.</p>
+          <p class="ex-args"><span class="ex-label">Arguments</span> krs?: string · nip?: string</p>
           <div><span class="ex-label">tools/call — get_statements</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
   "params": { "name": "get_statements",
     "arguments": { "krs": "0000597711" } } }</code></pre></div>
@@ -57,6 +61,8 @@
         </div>
 
         <div class="explorer-panel" data-explorer="search_companies">
+          <p class="ex-desc">Szukanie po nazwie, NIP, KRS, REGON.</p>
+          <p class="ex-args"><span class="ex-label">Arguments</span> q: string (wymagane)</p>
           <div><span class="ex-label">tools/call — search_companies</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
   "params": { "name": "search_companies",
     "arguments": { "q": "baseli" } } }</code></pre></div>
@@ -67,6 +73,8 @@
         </div>
 
         <div class="explorer-panel" data-explorer="filter_catalog">
+          <p class="ex-desc">Filtry katalogu: finanse, PKD, lokalizacja.</p>
+          <p class="ex-args"><span class="ex-label">Arguments</span> przychody_od?: number · pkd_podklasa?: string · wojewodztwo?: string · …</p>
           <div><span class="ex-label">tools/call — filter_catalog</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
   "params": { "name": "filter_catalog",
     "arguments": { "przychody_od": 10000000000, "wojewodztwo": "WIELKOPOLSKIE" } } }</code></pre></div>
@@ -78,6 +86,8 @@
         </div>
 
         <div class="explorer-panel" data-explorer="list_branches">
+          <p class="ex-desc">Taksonomia PKD, sekcje i działy.</p>
+          <p class="ex-args"><span class="ex-label">Arguments</span> brak</p>
           <div><span class="ex-label">tools/call — list_branches</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
   "params": { "name": "list_branches", "arguments": {} } }</code></pre></div>
           <div><span class="ex-label">Response (data)</span><pre><code>{
@@ -86,6 +96,8 @@
         </div>
 
         <div class="explorer-panel" data-explorer="get_pkd_report">
+          <p class="ex-desc">Raport branżowy z percentylami.</p>
+          <p class="ex-args"><span class="ex-label">Arguments</span> code: string (wymagane) · rok?: number</p>
           <div><span class="ex-label">tools/call — get_pkd_report</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
   "params": { "name": "get_pkd_report",
     "arguments": { "code": "47.11.Z", "rok": 2024 } } }</code></pre></div>
@@ -99,12 +111,16 @@
         </div>
 
         <div class="explorer-panel" data-explorer="get_balance">
+          <p class="ex-desc">Stan kredytów na koncie.</p>
+          <p class="ex-args"><span class="ex-label">Arguments</span> brak</p>
           <div><span class="ex-label">tools/call — get_balance</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
   "params": { "name": "get_balance", "arguments": {} } }</code></pre></div>
           <div><span class="ex-label">Response</span><pre><code>{ "balance": 100 }</code></pre></div>
         </div>
 
         <div class="explorer-panel" data-explorer="buy_credits">
+          <p class="ex-desc">Pakiet 1000 kredytów, jeden checkout.</p>
+          <p class="ex-args"><span class="ex-label">Arguments</span> brak</p>
           <div><span class="ex-label">tools/call — buy_credits</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
   "params": { "name": "buy_credits", "arguments": {} } }</code></pre></div>
           <div><span class="ex-label">Response</span><pre><code>{
@@ -115,6 +131,8 @@
         </div>
 
         <div class="explorer-panel" data-explorer="get_usage">
+          <p class="ex-desc">Zużycie i transakcje.</p>
+          <p class="ex-args"><span class="ex-label">Arguments</span> brak</p>
           <div><span class="ex-label">tools/call — get_usage</span><pre><code>{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
   "params": { "name": "get_usage", "arguments": {} } }</code></pre></div>
           <div><span class="ex-label">Response</span><pre><code>{

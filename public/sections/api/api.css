@@ -1,6 +1,111 @@
-.api-table {
+.api-list {
   margin-top: 2.5rem;
-  border: 1px solid var(--hairline);
-  border-radius: 0.75rem;
-  overflow: hidden;
+  border-top: 1px solid var(--hairline);
+}
+
+.api-item {
+  border-bottom: 1px solid var(--hairline);
+}
+
+.api-q {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  background: none;
+  border: none;
+  padding: 1.1rem 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.api-path {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.api-desc {
+  color: var(--muted);
+  font-size: 0.95rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.api-q i {
+  font-style: normal;
+  color: var(--accent);
+  font-size: 1.3rem;
+  line-height: 1;
+  transition: transform 0.25s ease;
+  margin-left: auto;
+}
+
+.api-item.open .api-q i {
+  transform: rotate(45deg);
+}
+
+.api-a {
+  display: none;
+  padding-bottom: 0.2rem;
+}
+
+.api-item.open .api-a {
+  display: block;
+  animation: api-open 0.25s ease;
+}
+
+@keyframes api-open {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.api-sub {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+  margin: 1.1rem 0 0.5rem;
+}
+
+.api-a .api-params {
+  margin: 0 0 0.5rem;
+  font-size: 0.88rem;
+}
+
+.api-a .api-params th,
+.api-a .api-params td {
+  padding: 0.45rem 0.7rem;
+}
+
+.api-none {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin: 0 0 0.5rem;
+}
+
+.api-a pre {
+  margin: 0 0 0.5rem;
+}
+
+@media (max-width: 560px) {
+  .api-q {
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+  .api-desc {
+    flex-basis: 100%;
+  }
 }

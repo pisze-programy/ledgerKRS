@@ -2,145 +2,231 @@
   <div class="container">
     <p class="kicker reveal">REST API</p>
     <h2 class="reveal d1">Dane gospodarcze jako endpoint.</h2>
-    <p class="lead reveal d2">GET + JSON. Bez SDK, bez OAuth. Jeden endpoint, jeden kredyt.</p>
+    <p class="lead reveal d2">GET + JSON. Bez SDK, bez OAuth. Jeden endpoint, jeden kredyt. Rozwiń endpoint, żeby zobaczyć parametry, request i response.</p>
 
-    <div class="explorer reveal d3">
-      <div class="explorer-tabs" role="tablist">
-        <button class="explorer-tab active" data-explorer="dane">dane</button>
-        <button class="explorer-tab" data-explorer="sprawozdania">sprawozdania</button>
-        <button class="explorer-tab" data-explorer="katalog">katalog</button>
-        <button class="explorer-tab" data-explorer="szukaj">szukaj</button>
-        <button class="explorer-tab" data-explorer="branze">branze</button>
-        <button class="explorer-tab" data-explorer="pkd">pkd/{kod}</button>
-        <button class="explorer-tab" data-explorer="balance">balance</button>
-        <button class="explorer-tab" data-explorer="zuzycie">zuzycie</button>
-      </div>
-      <select class="explorer-select" aria-label="endpoint">
-        <option value="dane">dane</option>
-        <option value="sprawozdania">sprawozdania</option>
-        <option value="katalog">katalog</option>
-        <option value="szukaj">szukaj</option>
-        <option value="branze">branze</option>
-        <option value="pkd">pkd/{kod}</option>
-        <option value="balance">balance</option>
-        <option value="zuzycie">zuzycie</option>
-      </select>
-
-      <div class="explorer-panels">
-        <div class="explorer-panel active" data-explorer="dane">
-          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/dane?krs=0000222483" \
-  -H "x-api-key: $KEY"</code></pre></div>
-          <div><span class="ex-label">Response</span><pre><code>{
+    <div class="api-list reveal d3">
+      <div class="api-item">
+        <button class="api-q" aria-expanded="false"><span class="api-path mono">/api/dane</span><span class="api-desc">Raport firmy po KRS albo NIP</span><i>+</i></button>
+        <div class="api-a">
+          <h4 class="api-sub">Parameters</h4>
+          <table class="api-params">
+            <thead><tr><th>Pole</th><th>Typ</th><th>Opis</th><th>Wymagane</th></tr></thead>
+            <tbody>
+              <tr><td class="mono">krs</td><td>string</td><td>Numer KRS (1–10 cyfr)</td><td>krs albo nip</td></tr>
+              <tr><td class="mono">nip</td><td>string</td><td>Numer NIP (10 cyfr)</td><td>nip albo krs</td></tr>
+            </tbody>
+          </table>
+          <h4 class="api-sub">Request</h4>
+          <pre><code>curl "{{BASE}}/api/dane?krs=0000222483" \
+  -H "x-api-key: $KEY"</code></pre>
+          <h4 class="api-sub">Response — schema pól</h4>
+          <pre><code>{
   "data": [{
     "krs": "0000222483_",
     "nip": 7791011327,
     "kod_pkd": "47.11.Z",
-    "informacje_o_firmie": [ { "nazwa_pola": "nazwa", "wartosc": "JERONIMO MARTINS POLSKA S.A." } ],
-    "dane_finansowe": [ { "rok": 2024, "nazwa_wskaznika": "przychody", "kwota": 108317454729 } ],
-    "powiazania": [ … ]
+    "opis_pkd": "…",
+    "informacje_o_firmie": [ … ],
+    "dane_finansowe": [ … ],
+    "opisy_firmy": [ … ],
+    "powiazania": [ … ],
+    "udzialy": [ … ],
+    "monitor_sadowy": [ … ],
+    "krz": null,
+    "historia_sprawozdan": [ … ],
+    "pozycja_na_tle_branzy": [ … ]
   }]
-}</code></pre></div>
+}</code></pre>
         </div>
+      </div>
 
-        <div class="explorer-panel" data-explorer="sprawozdania">
-          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/sprawozdania?krs=0000597711" \
-  -H "x-api-key: $KEY"</code></pre></div>
-          <div><span class="ex-label">Response</span><pre><code>{
+      <div class="api-item">
+        <button class="api-q" aria-expanded="false"><span class="api-path mono">/api/sprawozdania</span><span class="api-desc">Sprawozdania, pozycja po pozycji</span><i>+</i></button>
+        <div class="api-a">
+          <h4 class="api-sub">Parameters</h4>
+          <table class="api-params">
+            <thead><tr><th>Pole</th><th>Typ</th><th>Opis</th><th>Wymagane</th></tr></thead>
+            <tbody>
+              <tr><td class="mono">krs</td><td>string</td><td>Numer KRS (1–10 cyfr)</td><td>krs albo nip</td></tr>
+              <tr><td class="mono">nip</td><td>string</td><td>Numer NIP (10 cyfr)</td><td>nip albo krs</td></tr>
+            </tbody>
+          </table>
+          <h4 class="api-sub">Request</h4>
+          <pre><code>curl "{{BASE}}/api/sprawozdania?krs=0000597711" \
+  -H "x-api-key: $KEY"</code></pre>
+          <h4 class="api-sub">Response — schema</h4>
+          <pre><code>{
   "data": [{
     "krs": "0000597711_",
     "okresy": [{
       "okres_sprawozdawczy": "01-03-2024_28-02-2025",
+      "rok": 2024,
       "sekcje": [{
         "sekcja": "Bilans",
-        "pozycje": [ { "kod_pozycji": "Aktywa", "poziom_zaglebienia": 1, "kwota": 20171082000 } ]
+        "pozycje": [ { "pozycja_szczegolowa": "Aktywa", "kod_pozycji": "Aktywa",
+          "poziom_zaglebienia": 1, "nazwa_pozycji": "Aktywa razem", "kwota": 20171082000 } ]
       }]
     }]
   }]
-}</code></pre></div>
+}</code></pre>
         </div>
+      </div>
 
-        <div class="explorer-panel" data-explorer="katalog">
-          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/katalog?przychody_od=10000000000&amp;wojewodztwo=WIELKOPOLSKIE" \
-  -H "x-api-key: $KEY"</code></pre></div>
-          <div><span class="ex-label">Response</span><pre><code>{
+      <div class="api-item">
+        <button class="api-q" aria-expanded="false"><span class="api-path mono">/api/katalog</span><span class="api-desc">Filtry, licznik, metryki</span><i>+</i></button>
+        <div class="api-a">
+          <h4 class="api-sub">Parameters (główne)</h4>
+          <table class="api-params">
+            <thead><tr><th>Pole</th><th>Typ</th><th>Opis</th></tr></thead>
+            <tbody>
+              <tr><td class="mono">przychody_od / _do</td><td>number</td><td>Widełki przychodów</td></tr>
+              <tr><td class="mono">zysk_netto_od / _do</td><td>number</td><td>Widełki zysku netto</td></tr>
+              <tr><td class="mono">pkd_sekcja</td><td>string</td><td>Sekcja PKD, np. J</td></tr>
+              <tr><td class="mono">pkd_dzial</td><td>string</td><td>Dział PKD, np. 62</td></tr>
+              <tr><td class="mono">pkd_podklasa</td><td>string</td><td>Podklasa PKD, np. 62.01.Z</td></tr>
+              <tr><td class="mono">wojewodztwo</td><td>string</td><td>Np. MAZOWIECKIE</td></tr>
+              <tr><td class="mono">miasto</td><td>string</td><td>Fragment nazwy</td></tr>
+              <tr><td class="mono">roa_od / _do</td><td>number</td><td>Procent, np. 15 = 15%</td></tr>
+              <tr><td class="mono">nie_wykreslona</td><td>string</td><td><span class="mono">tak</span> — tylko aktywne</td></tr>
+              <tr><td class="mono">sort · order · limit · offset</td><td>…</td><td>Sortowanie i strony</td></tr>
+            </tbody>
+          </table>
+          <h4 class="api-sub">Request</h4>
+          <pre><code>curl "{{BASE}}/api/katalog?przychody_od=10000000000&amp;wojewodztwo=WIELKOPOLSKIE" \
+  -H "x-api-key: $KEY"</code></pre>
+          <h4 class="api-sub">Response</h4>
+          <pre><code>{
   "count": 4,
   "fetchedCount": 4,
   "data": [{
-    "krs": "0000222483",
-    "name": "JERONIMO MARTINS POLSKA S.A.",
-    "przychody": 108317454729,
-    "zysk_netto": 3600000000
+    "krs": "0000222483", "name": "JERONIMO MARTINS POLSKA S.A.",
+    "przychody": 108317454729, "zysk_netto": 3600000000,
+    "aktywa": 30341528084, "wartosc_firmy": 90900000000
   }]
-}</code></pre></div>
-        </div>
-
-        <div class="explorer-panel" data-explorer="szukaj">
-          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/szukaj?q=baseli" \
-  -H "x-api-key: $KEY"</code></pre></div>
-          <div><span class="ex-label">Response</span><pre><code>{
-  "data": [ { "krs": "0000795513" }, { "krs": "0000581581" } ],
-  "dane_uciete": false
-}</code></pre></div>
-        </div>
-
-        <div class="explorer-panel" data-explorer="branze">
-          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/branze" \
-  -H "x-api-key: $KEY"</code></pre></div>
-          <div><span class="ex-label">Response</span><pre><code>{
-  "data": [{
-    "code": "A",
-    "name": "Rolnictwo, leśnictwo, łowiectwo i rybactwo",
-    "divisions": [ { "code": "01", "name": "Uprawy rolne, chów i hodowla zwierząt" } ]
-  }]
-}</code></pre></div>
-        </div>
-
-        <div class="explorer-panel" data-explorer="pkd">
-          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/pkd/47.11.Z?rok=2024" \
-  -H "x-api-key: $KEY"</code></pre></div>
-          <div><span class="ex-label">Response</span><pre><code>{
-  "data": [{
-    "code": "47.11.Z",
-    "year": 2024,
-    "summary": { "count": 3400, "total_przychody": 120000000000 },
-    "percentiles": { "przychody": { "50": 1500000, "90": 23000000 } },
-    "top": [ { "krs": "0000222483", "name": "JERONIMO MARTINS POLSKA S.A." } ]
-  }]
-}</code></pre></div>
-        </div>
-
-        <div class="explorer-panel" data-explorer="balance">
-          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/balance" \
-  -H "x-api-key: $KEY"</code></pre></div>
-          <div><span class="ex-label">Response</span><pre><code>{ "balance": 98 }</code></pre></div>
-        </div>
-
-        <div class="explorer-panel" data-explorer="zuzycie">
-          <div><span class="ex-label">Request</span><pre><code>curl "{{BASE}}/api/zuzycie" \
-  -H "x-api-key: $KEY"</code></pre></div>
-          <div><span class="ex-label">Response</span><pre><code>{
-  "model": "payg",
-  "balance": 98,
-  "zuzycie": { "/dane": 1, "/katalog": 1 }
-}</code></pre></div>
+}</code></pre>
         </div>
       </div>
-    </div>
 
-    <div class="api-table reveal d4">
-      <table>
-        <thead><tr><th>Endpoint</th><th>Co zwraca</th></tr></thead>
-        <tbody>
-          <tr><td class="mono">/api/dane</td><td>Raport firmy po KRS albo NIP</td></tr>
-          <tr><td class="mono">/api/sprawozdania</td><td>Sprawozdania, pozycja po pozycji</td></tr>
-          <tr><td class="mono">/api/katalog</td><td>Filtry, licznik, metryki</td></tr>
-          <tr><td class="mono">/api/szukaj</td><td>Szukanie po nazwie, NIP, KRS, REGON</td></tr>
-          <tr><td class="mono">/api/branze</td><td>Branże PKD</td></tr>
-          <tr><td class="mono">/api/pkd/{kod}</td><td>Raport branżowy</td></tr>
-          <tr><td class="mono">/api/balance</td><td>Stan kredytów</td></tr>
-          <tr><td class="mono">/api/zuzycie</td><td>Zużycie per endpoint</td></tr>
-        </tbody>
-      </table>
+      <div class="api-item">
+        <button class="api-q" aria-expanded="false"><span class="api-path mono">/api/szukaj</span><span class="api-desc">Szukanie po nazwie, NIP, KRS, REGON</span><i>+</i></button>
+        <div class="api-a">
+          <h4 class="api-sub">Parameters</h4>
+          <table class="api-params">
+            <thead><tr><th>Pole</th><th>Typ</th><th>Opis</th><th>Wymagane</th></tr></thead>
+            <tbody>
+              <tr><td class="mono">q</td><td>string</td><td>Fraza: nazwa, NIP, KRS albo REGON</td><td>tak</td></tr>
+            </tbody>
+          </table>
+          <h4 class="api-sub">Request</h4>
+          <pre><code>curl "{{BASE}}/api/szukaj?q=baseli" \
+  -H "x-api-key: $KEY"</code></pre>
+          <h4 class="api-sub">Response</h4>
+          <pre><code>{
+  "data": [ { "krs": "0000795513" }, { "krs": "0000581581" } ],
+  "dane_uciete": false
+}</code></pre>
+        </div>
+      </div>
+
+      <div class="api-item">
+        <button class="api-q" aria-expanded="false"><span class="api-path mono">/api/branze</span><span class="api-desc">Branże PKD</span><i>+</i></button>
+        <div class="api-a">
+          <h4 class="api-sub">Parameters</h4>
+          <p class="api-none">Brak parametrów.</p>
+          <h4 class="api-sub">Request</h4>
+          <pre><code>curl "{{BASE}}/api/branze" \
+  -H "x-api-key: $KEY"</code></pre>
+          <h4 class="api-sub">Response</h4>
+          <pre><code>{
+  "data": [{
+    "code": "A", "name": "Rolnictwo, leśnictwo, łowiectwo i rybactwo",
+    "divisions": [ { "code": "01", "name": "Uprawy rolne, chów i hodowla zwierząt" } ]
+  }]
+}</code></pre>
+        </div>
+      </div>
+
+      <div class="api-item">
+        <button class="api-q" aria-expanded="false"><span class="api-path mono">/api/pkd/{kod}</span><span class="api-desc">Raport branżowy</span><i>+</i></button>
+        <div class="api-a">
+          <h4 class="api-sub">Parameters</h4>
+          <table class="api-params">
+            <thead><tr><th>Pole</th><th>Typ</th><th>Opis</th><th>Wymagane</th></tr></thead>
+            <tbody>
+              <tr><td class="mono">kod</td><td>string</td><td>Kod PKD w ścieżce: sekcja, dział, grupa, podklasa</td><td>tak</td></tr>
+              <tr><td class="mono">rok</td><td>number</td><td>Rok sprawozdawczy</td><td>nie</td></tr>
+            </tbody>
+          </table>
+          <h4 class="api-sub">Request</h4>
+          <pre><code>curl "{{BASE}}/api/pkd/47.11.Z?rok=2024" \
+  -H "x-api-key: $KEY"</code></pre>
+          <h4 class="api-sub">Response</h4>
+          <pre><code>{
+  "data": [{
+    "code": "47.11.Z", "year": 2024,
+    "summary": { "count": 3400, "total_przychody": 120000000000 },
+    "size": { "count": 3400, "total_przychody": 120000000000, "growth": { … } },
+    "top": [ { "krs": "0000222483", "name": "JERONIMO MARTINS POLSKA S.A." } ],
+    "geo": { "WIELKOPOLSKIE": 410 },
+    "percentiles": { "przychody": { "50": 1500000, "90": 23000000 } }
+  }]
+}</code></pre>
+        </div>
+      </div>
+
+      <div class="api-item">
+        <button class="api-q" aria-expanded="false"><span class="api-path mono">/api/balance</span><span class="api-desc">Stan kredytów</span><i>+</i></button>
+        <div class="api-a">
+          <h4 class="api-sub">Parameters</h4>
+          <p class="api-none">Brak parametrów.</p>
+          <h4 class="api-sub">Request</h4>
+          <pre><code>curl "{{BASE}}/api/balance" \
+  -H "x-api-key: $KEY"</code></pre>
+          <h4 class="api-sub">Response</h4>
+          <pre><code>{ "balance": 98 }</code></pre>
+        </div>
+      </div>
+
+      <div class="api-item">
+        <button class="api-q" aria-expanded="false"><span class="api-path mono">/api/zuzycie</span><span class="api-desc">Zużycie per endpoint</span><i>+</i></button>
+        <div class="api-a">
+          <h4 class="api-sub">Parameters</h4>
+          <p class="api-none">Brak parametrów.</p>
+          <h4 class="api-sub">Request</h4>
+          <pre><code>curl "{{BASE}}/api/zuzycie" \
+  -H "x-api-key: $KEY"</code></pre>
+          <h4 class="api-sub">Response</h4>
+          <pre><code>{
+  "model": "payg",
+  "balance": 98,
+  "zuzycie": { "/dane": 1, "/katalog": 1 },
+  "transactions": [ … ]
+}</code></pre>
+        </div>
+      </div>
+
+      <div class="api-item">
+        <button class="api-q" aria-expanded="false"><span class="api-path mono">/api/account</span><span class="api-desc">Załóż konto — POST</span><i>+</i></button>
+        <div class="api-a">
+          <h4 class="api-sub">Parameters (body JSON)</h4>
+          <table class="api-params">
+            <thead><tr><th>Pole</th><th>Typ</th><th>Opis</th><th>Wymagane</th></tr></thead>
+            <tbody>
+              <tr><td class="mono">email</td><td>string</td><td>Adres email</td><td>tak</td></tr>
+            </tbody>
+          </table>
+          <h4 class="api-sub">Request</h4>
+          <pre><code>curl -X POST -H "Content-Type: application/json" \
+  -d '{"email":"ty@przyklad.pl"}' "{{BASE}}/api/account"</code></pre>
+          <h4 class="api-sub">Response</h4>
+          <pre><code>{
+  "account_id": 1,
+  "email": "ty@przyklad.pl",
+  "api_key": "5c52…",
+  "balance": 100
+}</code></pre>
+        </div>
+      </div>
     </div>
   </div>
 </section>

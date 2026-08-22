@@ -157,9 +157,7 @@ MCP works with any agent that speaks JSON-RPC.
 Popular agents: Claude (Anthropic), ChatGPT / OpenAI, Gemini,
 Microsoft Copilot, DeepSeek / Qwen / Kimi, Llama / Mistral / Bielik,
 opencode, Perplexity.
-
-Popular harnesses: OpenAI Agents SDK, Claude Agent SDK, LangChain,
-LlamaIndex, CrewAI, AutoGen, n8n, Make, Zapier, Flowise, Dify.
+It also works with any harness that talks to MCP servers.
 
 To connect:
 

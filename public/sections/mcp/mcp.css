@@ -18,3 +18,23 @@
   font-style: normal;
   color: var(--accent);
 }
+
+.ex-desc {
+  margin: 0;
+  color: #2b2b2b;
+}
+
+.ex-args {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.86rem;
+  color: #3a3a3a;
+  border: 1px dashed var(--hairline);
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.8rem;
+  background: var(--accent-soft);
+}
+
+.ex-args .ex-label {
+  margin-bottom: 0.25rem;
+}

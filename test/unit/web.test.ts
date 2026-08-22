@@ -115,14 +115,23 @@ describe("explorers", () => {
     return readFileSync(join(process.cwd(), "public", relative), "utf-8");
   }
 
-  it("api section has one panel per endpoint", () => {
+  it("api section is an accordion reference, one row per endpoint", () => {
     const html = readPublic("sections/api/pl.html");
-    const endpoints = ["dane", "sprawozdania", "katalog", "szukaj", "branze", "pkd", "balance", "zuzycie"];
+    const endpoints = ["/api/dane", "/api/sprawozdania", "/api/katalog", "/api/szukaj", "/api/branze", "/api/pkd/{kod}", "/api/balance", "/api/zuzycie", "/api/account"];
     for (const endpoint of endpoints) {
-      expect(html).toContain(`data-explorer="${endpoint}"`);
+      expect(html).toContain(endpoint);
     }
-    const panels = (html.match(/class="explorer-panel[" ]/g) ?? []).length;
-    expect(panels).toBe(endpoints.length);
+    const rows = (html.match(/class="api-item"/g) ?? []).length;
+    expect(rows).toBe(endpoints.length);
+    expect(html).toContain("Parameters");
+    expect(html).toContain("Request");
+    expect(html).toContain("Response");
+    expect(html).not.toContain("data-explorer=");
+  });
+
+  it("api reference has no side-by-side request/response columns", () => {
+    const html = readPublic("sections/api/pl.html");
+    expect(html).not.toContain("api-split");
   });
 
   it("mcp section has one panel per tool", () => {
@@ -133,13 +142,23 @@ describe("explorers", () => {
     }
     const panels = (html.match(/class="explorer-panel[" ]/g) ?? []).length;
     expect(panels).toBe(tools.length);
+    expect(html).toContain("Arguments");
   });
 
-  it("agenci section lists opencode and harnesses", () => {
+  it("agenci section lists opencode and drops harness chips", () => {
     const html = readPublic("sections/agenci/pl.html");
     expect(html).toContain("opencode");
-    expect(html).toContain("LangChain");
-    expect(html).toContain("CrewAI");
+    expect(html).not.toContain("LangChain");
+    expect(html).not.toContain("CrewAI");
+  });
+
+  it("hero and closing CTAs point to #start, not to the api endpoint", () => {
+    const hero = readPublic("sections/hero/pl.html");
+    const closing = readPublic("sections/closing/pl.html");
+    expect(hero).toContain('href="#start"');
+    expect(closing).toContain('href="#start"');
+    expect(hero).not.toContain('href="/api/account"');
+    expect(closing).not.toContain('href="/api/account"');
   });
 
   it("base main.js wires the explorer tabs and select", () => {

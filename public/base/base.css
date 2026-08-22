@@ -456,7 +456,7 @@ footer.site-footer .container {
 
 .explorer-panel.active {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
 }
 
@@ -480,8 +480,5 @@ footer.site-footer .container {
   }
   .explorer-select {
     display: block;
-  }
-  .explorer-panel.active {
-    grid-template-columns: 1fr;
   }
 }

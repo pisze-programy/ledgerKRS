@@ -1,6 +1,6 @@
 ---
 name: raporty-firmowe
-description: Paid MCP server with public data about Polish companies (KRS). Query company reports, financial statements, a filterable company catalog, PKD industry branches and benchmarks. Credits are pay-as-you-go: 1000 credits for 9.99 USD, one credit per data call. Use when the user asks for Polish company data, financials, company catalog filters, or industry reports.
+description: Paid MCP server with public data about Polish companies (KRS). Query company reports, financial statements, a filterable company catalog, PKD industry branches and benchmarks. Credits are pay-as-you-go: 1000 credits for 9.99 PLN, one credit per data call. Use when the user asks for Polish company data, financials, company catalog filters, or industry reports.
 ---
 
 # raporty-firmowe — paid company data MCP
@@ -25,7 +25,7 @@ The agent serves the data. The agent composes the view.
 ## Buying credits
 
 Call `buy_credits`.
-It returns a Stripe checkout URL for 1000 credits (9.99 USD).
+It returns a Stripe checkout URL for 1000 credits (9.99 PLN).
 The user pays on the Stripe page.
 
 In the mock billing mode, the credits arrive automatically
@@ -34,7 +34,7 @@ Check `get_balance` again after a moment.
 
 ## Pricing
 
-- 1000 credits for 9.99 USD.
+- 1000 credits for 9.99 PLN.
 - One credit per call that returns data.
 - Empty results and errors cost nothing.
 - 100 free credits on signup.

@@ -16,12 +16,12 @@ export function createBillingRoutes(deps: ApiDeps): Hono<AppEnv> {
         checkout_url: session.url,
         mode: "mock",
         credits: deps.config.packageCredits,
-        price_usd: deps.config.packagePriceUsd,
+        price_pln: deps.config.packagePrice,
         confirm_after_ms: session.confirmInMs ?? MOCK_CONFIRM_MS,
         pending: true,
       });
     }
-    return c.json({ checkout_url: session.url, mode: "live", credits: deps.config.packageCredits, price_usd: deps.config.packagePriceUsd });
+    return c.json({ checkout_url: session.url, mode: "live", credits: deps.config.packageCredits, price_pln: deps.config.packagePrice });
   });
 
   app.post("/billing/webhook", async (c) => {

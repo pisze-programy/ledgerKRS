@@ -1,0 +1,53 @@
+.mcp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+.tool {
+  border: 1px solid var(--hairline);
+  border-radius: 0.7rem;
+  padding: 0.9rem 1rem;
+  background: #fff;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.tool:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.tool .mono {
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.tool p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #3a3a3a;
+}
+
+.mcp-flow {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 2.2rem;
+  font-size: 0.85rem;
+}
+
+.mcp-flow .mono {
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  background: #fff;
+}
+
+.mcp-flow i {
+  font-style: normal;
+  color: var(--accent);
+}

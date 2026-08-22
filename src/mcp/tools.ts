@@ -139,7 +139,7 @@ export const TOOLS: ToolDef[] = [
   },
   {
     name: "buy_credits",
-    description: "Zakup pakietu 1000 kredytów za 9.99 USD. Zwraca adres checkout (Stripe). W trybie mock kredyty dochodzą po chwili.",
+    description: "Zakup pakietu 1000 kredytów za 9,99 zł. Zwraca adres checkout (Stripe). W trybie mock kredyty dochodzą po chwili.",
     inputSchema: { type: "object", properties: {} },
     async handler({ accountId, deps }) {
       const session = await createCheckoutSession(deps.config, accountId);
@@ -151,7 +151,7 @@ export const TOOLS: ToolDef[] = [
         checkout_url: session.url,
         mode: session.mode,
         credits: deps.config.packageCredits,
-        price_usd: deps.config.packagePriceUsd,
+        price_pln: deps.config.packagePrice,
         confirm_after_ms: session.confirmInMs,
       };
     },

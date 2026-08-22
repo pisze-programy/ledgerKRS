@@ -1,0 +1,33 @@
+.price-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.price-item {
+  border: 1px solid var(--hairline);
+  border-radius: 0.9rem;
+  padding: 1.6rem 1.4rem;
+  background: #fff;
+}
+
+.price-num {
+  display: block;
+  font-size: clamp(2.6rem, 6vw, 4rem);
+  line-height: 1;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 0.8rem;
+}
+
+.price-label {
+  font-size: 0.95rem;
+  color: #3a3a3a;
+}
+
+.price-note {
+  margin-top: 2rem;
+  color: var(--muted);
+  max-width: 52ch;
+}

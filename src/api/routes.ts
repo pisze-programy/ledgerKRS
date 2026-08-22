@@ -23,7 +23,7 @@ export function createApp(deps: ApiDeps): Hono {
     return handleMcpPost(c.req.raw, deps, accountId);
   });
 
-  app.route("/", createWebRoutes());
+  app.route("/", createWebRoutes(deps.fetchAsset));
   app.route("/api", createAccountRoutes(deps));
   app.route("/api", createBillingRoutes(deps));
   app.route("/api", createDataRoutes(deps));

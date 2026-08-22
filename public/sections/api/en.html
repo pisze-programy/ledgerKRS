@@ -1,0 +1,30 @@
+<section data-accent="blue" class="api" id="api">
+  <div class="container">
+    <p class="kicker reveal">REST API</p>
+    <h2 class="reveal d1">Business data as an endpoint.</h2>
+    <p class="lead reveal d2">GET + JSON. No SDK, no OAuth. One endpoint, one credit.</p>
+    <div class="api-split">
+      <pre class="reveal d3" data-copy><code>curl "{{BASE}}/api/dane?krs=0000222483" \
+  -H "x-api-key: $KEY"</code></pre>
+      <div class="api-note reveal d3">
+        <span class="mono note-key">HTTP 200</span>
+        <p class="mono note-body">{"data":[{ "krs": "0000222483_", "dane_finansowe": [ … ], "powiazania": [ … ] }]}</p>
+      </div>
+    </div>
+    <div class="api-table reveal d4">
+      <table>
+        <thead><tr><th>Endpoint</th><th>What it returns</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">/api/dane</td><td>Company report by KRS or NIP</td></tr>
+          <tr><td class="mono">/api/sprawozdania</td><td>Statements, position by position</td></tr>
+          <tr><td class="mono">/api/katalog</td><td>Filters, counter, metrics</td></tr>
+          <tr><td class="mono">/api/szukaj</td><td>Search by name, NIP, KRS, REGON</td></tr>
+          <tr><td class="mono">/api/branze</td><td>PKD branches</td></tr>
+          <tr><td class="mono">/api/pkd/{code}</td><td>Branch report</td></tr>
+          <tr><td class="mono">/api/balance</td><td>Credit balance</td></tr>
+          <tr><td class="mono">/api/zuzycie</td><td>Usage per endpoint</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

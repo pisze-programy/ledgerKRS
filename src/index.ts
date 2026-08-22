@@ -21,7 +21,19 @@ export default {
       billing: createD1BillingRepository(env.DB),
       catalog: createD1CatalogRepository(env.DB),
       config,
+      fetchAsset: assetsFetcher(request, env),
     });
     return app.fetch(request, env);
   },
 } satisfies ExportedHandler<Bindings>;
+
+function assetsFetcher(request: Request, env: Bindings) {
+  return async (path: string): Promise<string | null> => {
+    if (!env.ASSETS) {
+      return null;
+    }
+    const url = new URL(path, request.url);
+    const response = await env.ASSETS.fetch(url);
+    return response.ok ? response.text() : null;
+  };
+}

@@ -1,0 +1,22 @@
+.hero {
+  min-height: 86vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  max-width: 15ch;
+}
+
+.hero h1 em {
+  font-style: normal;
+  color: var(--accent);
+}
+
+.hero .lead {
+  margin-bottom: 2rem;
+}
+
+.hero .pills {
+  margin-top: 2.2rem;
+}

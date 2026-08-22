@@ -1,0 +1,28 @@
+.use-list {
+  list-style: none;
+  margin: 2.5rem 0 0;
+  padding: 0;
+}
+
+.use-list li {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  padding: 1.3rem 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.use-num {
+  font-size: 0.85rem;
+  color: var(--accent);
+  padding-top: 0.15rem;
+}
+
+.use-list h3 {
+  font-family: var(--font-sans);
+}
+
+.use-list p {
+  margin: 0;
+  color: #3a3a3a;
+}

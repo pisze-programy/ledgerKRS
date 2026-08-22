@@ -1,39 +1,16 @@
 import { Hono } from "hono";
-import { CSS_PATH, JS_PATH, renderLanding, type WebLang } from "./landing";
-import styleRaw from "./css/style.txt?raw";
-import mainJsRaw from "./js/main.txt?raw";
+import { renderLanding, type FetchAsset, type WebLang } from "./landing";
 
-const style = rawText(styleRaw);
-const mainJs = rawText(mainJsRaw);
-
-function rawText(value: unknown): string {
-  if (typeof value === "string") {
-    return value;
-  }
-  if (value && typeof value === "object" && "default" in value) {
-    const nested = (value as { default: unknown }).default;
-    return typeof nested === "string" ? nested : "";
-  }
-  return "";
-}
-
-export function createWebRoutes(): Hono {
+export function createWebRoutes(fetchAsset: FetchAsset): Hono {
   const app = new Hono();
 
-  app.get("/", (c) => {
+  app.get("/", async (c) => {
     const lang = pickLang(c.req.query("lang"));
-    return renderLanding(lang, originOf(c.req.url));
+    return renderLanding(lang, originOf(c.req.url), fetchAsset);
   });
 
-  app.get("/pl", (c) => renderLanding("pl", originOf(c.req.url)));
-  app.get("/en", (c) => renderLanding("en", originOf(c.req.url)));
-
-  app.get(CSS_PATH, (c) =>
-    new Response(style, { headers: { "content-type": "text/css; charset=utf-8", "cache-control": "public, max-age=3600" } }),
-  );
-  app.get(JS_PATH, (c) =>
-    new Response(mainJs, { headers: { "content-type": "application/javascript; charset=utf-8", "cache-control": "public, max-age=3600" } }),
-  );
+  app.get("/pl", async (c) => renderLanding("pl", originOf(c.req.url), fetchAsset));
+  app.get("/en", async (c) => renderLanding("en", originOf(c.req.url), fetchAsset));
 
   return app;
 }

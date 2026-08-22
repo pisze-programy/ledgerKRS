@@ -9,12 +9,13 @@ export interface AppConfig {
   stripeWebhookSecret: string;
   stripePriceId: string;
   packageCredits: number;
-  packagePriceUsd: number;
+  packagePrice: number;
   freeCredits: number;
 }
 
 export interface Bindings {
   DB?: D1Database;
+  ASSETS?: Fetcher;
   KRS_API_BASE?: string;
   RDF_BASE?: string;
   REGON_API_BASE?: string;
@@ -25,13 +26,14 @@ export interface Bindings {
   STRIPE_WEBHOOK_SECRET?: string;
   STRIPE_PRICE_ID?: string;
   PACKAGE_CREDITS?: string;
-  PACKAGE_PRICE_USD?: string;
+  PACKAGE_PRICE?: string;
   FREE_CREDITS?: string;
 }
 
 export const PACKAGE = {
   Credits: 1000,
-  PriceUsd: 9.99,
+  Price: 9.99,
+  Currency: "PLN",
 } as const;
 
 export function loadConfig(bindings: Bindings = {}): AppConfig {
@@ -46,7 +48,7 @@ export function loadConfig(bindings: Bindings = {}): AppConfig {
     stripeWebhookSecret: bindings.STRIPE_WEBHOOK_SECRET ?? "",
     stripePriceId: bindings.STRIPE_PRICE_ID ?? "price_1000_credits",
     packageCredits: numberOrDefault(bindings.PACKAGE_CREDITS, PACKAGE.Credits),
-    packagePriceUsd: numberOrDefault(bindings.PACKAGE_PRICE_USD, PACKAGE.PriceUsd),
+    packagePrice: numberOrDefault(bindings.PACKAGE_PRICE, PACKAGE.Price),
     freeCredits: numberOrDefault(bindings.FREE_CREDITS, 100),
   };
 }

@@ -66,7 +66,7 @@ Keep the same types and indicator names.
 - REST API: accounts, credits, billing, reports, catalog,
   search, branches, PKD reports.
 - MCP server: 9 tools over JSON-RPC at `/mcp`.
-- Billing: pay-as-you-go, 1000 credits for 9.99 USD,
+- Billing: pay-as-you-go, 1000 credits for 9.99 PLN,
   one credit per data call, 100 free credits on signup.
 - REGON mock: several BIR variants.
 - PKD taxonomy: 1037 entries.

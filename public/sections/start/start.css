@@ -1,0 +1,40 @@
+.steps {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 1.6rem;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.4rem;
+  align-items: start;
+}
+
+.step-num {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent);
+  padding-top: 0.1rem;
+}
+
+.step h3 {
+  font-family: var(--font-sans);
+  margin-bottom: 0.7rem;
+}
+
+.step pre {
+  margin-bottom: 0.7rem;
+}
+
+.step p {
+  margin: 0;
+  color: #3a3a3a;
+}
+
+@media (max-width: 560px) {
+  .step {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+}

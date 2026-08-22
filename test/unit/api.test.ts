@@ -7,6 +7,7 @@ import { createKrsClient } from "../../src/sources/krs/client";
 import { createMemoryRepository } from "../helpers/memory-repository";
 import { createMemoryBillingRepository } from "../../src/store/billing-memory";
 import { createMemoryCatalogRepository } from "../../src/store/catalog-memory";
+import { fsFetchAsset } from "../helpers/assets";
 import { loadConfig } from "../../src/config";
 import type { ApiDeps } from "../../src/api/deps";
 import type { CatalogRow } from "../../src/store/catalog";
@@ -24,6 +25,7 @@ function buildDeps(): ApiDeps & { repository: ReturnType<typeof createMemoryRepo
     billing: createMemoryBillingRepository(),
     catalog: createMemoryCatalogRepository(),
     config: loadConfig({ FREE_CREDITS: "100" }),
+    fetchAsset: fsFetchAsset(),
   };
 }
 

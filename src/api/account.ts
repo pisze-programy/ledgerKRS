@@ -38,7 +38,7 @@ export function createAccountRoutes(deps: ApiDeps): Hono<AppEnv> {
     const balance = await deps.billing.getBalance(accountId);
     return c.json({
       model: "payg",
-      price_per_credit_usd: (deps.config.packagePriceUsd / deps.config.packageCredits),
+      price_per_credit_pln: (deps.config.packagePrice / deps.config.packageCredits),
       balance,
       zuzycie: usage,
       transactions: await deps.billing.transactions(accountId),

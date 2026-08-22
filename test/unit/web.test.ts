@@ -1,11 +1,15 @@
 import { describe, expect, it } from "vitest";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { createApp } from "../../src/api/routes";
 import { createIngest } from "../../src/pipeline/ingest";
 import { createKrsClient } from "../../src/sources/krs/client";
 import { createMemoryRepository } from "../helpers/memory-repository";
 import { createMemoryBillingRepository } from "../../src/store/billing-memory";
 import { createMemoryCatalogRepository } from "../../src/store/catalog-memory";
+import { fsFetchAsset } from "../helpers/assets";
 import { loadConfig } from "../../src/config";
+import { SECTIONS } from "../../src/web/landing";
 
 function buildApp() {
   const repository = createMemoryRepository();
@@ -19,64 +23,89 @@ function buildApp() {
     billing: createMemoryBillingRepository(),
     catalog: createMemoryCatalogRepository(),
     config: loadConfig(),
+    fetchAsset: fsFetchAsset(),
   });
   return app;
 }
 
 describe("landing page", () => {
-  it("serves the polish landing by default", async () => {
+  it("serves the polish landing at /", async () => {
     const app = buildApp();
     const response = await app.request("/");
     expect(response.status).toBe(200);
     expect(response.headers.get("content-type")).toContain("text/html");
     const html = await response.text();
-    expect(html).toContain("Dane polskich firm z KRS");
-    expect(html).toContain("/css/style.css");
+    expect(html).toContain("Sprawozdania firmowe dla Twojego");
+    expect(html).toContain('lang="pl"');
   });
 
   it("serves the english landing at /en", async () => {
     const app = buildApp();
     const html = await (await app.request("/en")).text();
-    expect(html).toContain("Polish company data from KRS");
+    expect(html).toContain("Financial statements for your");
     expect(html).toContain('lang="en"');
   });
 
   it("serves polish at / regardless of accept-language", async () => {
     const app = buildApp();
     const html = await (await app.request("/", { headers: { "accept-language": "en-US,en;q=0.9" } })).text();
-    expect(html).toContain("Dane polskich firm z KRS");
+    expect(html).toContain("Sprawozdania firmowe dla Twojego");
   });
 
   it("honors the lang query parameter", async () => {
     const app = buildApp();
     const html = await (await app.request("/?lang=en")).text();
-    expect(html).toContain("Polish company data from KRS");
+    expect(html).toContain("Financial statements for your");
+  });
+
+  it("links every section css and js asset", async () => {
+    const app = buildApp();
+    const html = await (await app.request("/")).text();
+    for (const section of SECTIONS) {
+      expect(html).toContain(`href="${section.css}"`);
+      expect(html).toContain(`src="${section.js}"`);
+    }
+  });
+
+  it("marks every section with a data-accent", async () => {
+    const app = buildApp();
+    const html = await (await app.request("/")).text();
+    const accents = (html.match(/data-accent="/g) ?? []).length;
+    expect(accents).toBe(SECTIONS.length);
   });
 
   it("injects the request origin into curl examples", async () => {
     const app = buildApp();
     const html = await (await app.request("https://raporty-firmowe.dev/")).text();
     expect(html).not.toContain("{{BASE}}");
-  });
-
-  it("serves the stylesheet", async () => {
-    const app = buildApp();
-    const response = await app.request("/css/style.css");
-    expect(response.status).toBe(200);
-    expect(response.headers.get("content-type")).toContain("text/css");
-    expect(await response.text()).toContain("--primary");
-  });
-
-  it("serves the script", async () => {
-    const app = buildApp();
-    const response = await app.request("/js/main.js");
-    expect(response.status).toBe(200);
-    expect(response.headers.get("content-type")).toContain("javascript");
+    expect(html).toContain("https://raporty-firmowe.dev/api/dane");
   });
 
   it("keeps the api routes working", async () => {
     const app = buildApp();
     expect(await (await app.request("/health")).json()).toEqual({ status: "ok" });
-    expect((await app.request("/api/account", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ email: "x@y.pl" }) })).status).toBe(200);
+    const account = await app.request("/api/account", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ email: "x@y.pl" }),
+    });
+    expect(account.status).toBe(200);
+  });
+});
+
+describe("section files", () => {
+  it("every section has pl.html, en.html, css and js on disk", () => {
+    for (const section of SECTIONS) {
+      expect(existsSync(join(process.cwd(), "public", `sections/${section.id}/pl.html`)), `${section.id} pl.html`).toBe(true);
+      expect(existsSync(join(process.cwd(), "public", `sections/${section.id}/en.html`)), `${section.id} en.html`).toBe(true);
+      expect(existsSync(join(process.cwd(), "public", `sections/${section.id}/${section.id}.css`)), `${section.id} css`).toBe(true);
+      expect(existsSync(join(process.cwd(), "public", `sections/${section.id}/${section.id}.js`)), `${section.id} js`).toBe(true);
+    }
+  });
+
+  it("base assets exist", () => {
+    for (const file of ["base.css", "main.js", "shell.html"]) {
+      expect(existsSync(join(process.cwd(), "public", "base", file)), file).toBe(true);
+    }
   });
 });

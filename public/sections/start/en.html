@@ -1,0 +1,33 @@
+<section data-accent="green" class="start">
+  <div class="container">
+    <p class="kicker reveal">Three steps</p>
+    <h2 class="reveal d1">From zero to your first data.</h2>
+    <div class="steps">
+      <div class="step reveal d1">
+        <span class="step-num mono">01</span>
+        <div>
+          <h3>Create an account</h3>
+          <pre><code>curl -X POST -H "Content-Type: application/json" \
+  -d '{"email":"you@example.com"}' "{{BASE}}/api/account"</code></pre>
+          <p>The response contains the <code>api_key</code> and 100 free credits.</p>
+        </div>
+      </div>
+      <div class="step reveal d2">
+        <span class="step-num mono">02</span>
+        <div>
+          <h3>Use the key</h3>
+          <p>Send the <code>api_key</code> in the <code>x-api-key</code> header.</p>
+        </div>
+      </div>
+      <div class="step reveal d3">
+        <span class="step-num mono">03</span>
+        <div>
+          <h3>Ask about a company</h3>
+          <pre><code>curl "{{BASE}}/api/dane?nip=7791011327" \
+  -H "x-api-key: $KEY"</code></pre>
+          <p>You get the full report. One credit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

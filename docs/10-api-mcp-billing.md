@@ -36,7 +36,7 @@ A missing or wrong key returns 401.
 - One credit per call that returns data.
 - Empty results and errors cost nothing.
 - 100 free credits on signup.
-- One package: 1000 credits for 9.99 USD.
+- One package: 1000 credits for 9.99 PLN.
 - The price is pay-as-you-go. There is no subscription.
 
 A data response carries two extra fields:

@@ -214,6 +214,25 @@ per-company: 96–100% for LEGACY/Inna/Mala/Mikro, 71% for JednostkaOp (the
 statutory RZiS remains the hard case). `zysk_netto` and
 `koszty_sprzedanych_produktow` are at 100%.
 
+### Full-sample live parity (15 random companies, complete run)
+
+With the refined definitions and a fresh cookie the full sample gives
+**89% exact match** (1595/1784 rows, 2018–2025; `only_theirs`/`only_ours` = 0):
+
+| Group | Rows | Match % |
+|---|---|---|
+| LEGACY | 403 | 94% |
+| New — JednostkaInna | 446 | 95% |
+| New — JednostkaMala | 368 | 96% |
+| New — JednostkaMikro | 137 | 87% |
+| New — JednostkaOp | 430 | 74% |
+
+Remaining mismatches (11%) are definitional: `przychody` (44 rows — the
+A vs A+D line choice, layout-dependent), `podatek`/`zysk` (14/11/9 — old-schema
+Op letters and CONNER-type definitions), plus a few ratios. These are data
+definition differences, not parser bugs. Fixing `przychody` per layout is the
+next refinement; old-schema Op needs its per-version dictionary.
+
 ## How to run (needs a fresh RDF cookie + a fresh BizRaport account)
 
 ```bash

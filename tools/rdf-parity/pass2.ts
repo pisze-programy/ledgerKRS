@@ -10,8 +10,26 @@ import { fetchBizraportDane } from "./bizraport";
 import { summarizeComparison, type ComparisonRow } from "./compare";
 
 const DUMP = join(process.cwd(), "tools", "rdf-parity", "dump");
-const PACE_MS = Number(process.env.PACE_MS ?? 1000);
+const PACE_MS = Number(process.env.PACE_MS ?? 1200);
+const BACKOFF_MS = Number(process.env.BACKOFF_MS ?? 25000);
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+async function robust<T>(fn: () => Promise<T | null>): Promise<T | null> {
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    if (attempt > 0) {
+      await sleep(BACKOFF_MS);
+    }
+    try {
+      const result = await fn();
+      if (result !== null) {
+        return result;
+      }
+    } catch {
+      // challenge / network — retry
+    }
+  }
+  return null;
+}
 
 interface YearIndicators {
   rok: number;
@@ -105,12 +123,12 @@ async function main() {
 
   const allRows: ComparisonRow[] = [];
   for (const krs of picked) {
-    const hits = await withRetry(() => client.searchDocuments(krs));
+    const hits = await robust(() => client.searchDocuments(krs).catch(() => null));
     const annual = hits ? annualStatementHits(hits) : [];
     const ourByYear = new Map<number, YearIndicators>();
     const rzisByYear = new Map<number, Record<string, number | null>>();
     for (const hit of annual) {
-      const xml = await withRetry(() => client.downloadXml(hit.id));
+      const xml = await robust(() => client.downloadXml(hit.id).catch(() => null));
       if (!xml) continue;
       const production = productionIndicators(xml, hit.okresSprawozdawczyKoniec);
       if (production) {

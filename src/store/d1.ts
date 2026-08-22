@@ -7,10 +7,12 @@ import {
   readPkd,
   readStatements,
   readIndicators,
+  readIndicatorsByYear,
   readMonitor,
   readKrz,
   readHistory,
-  groupIndicators,
+  readDescriptions,
+  readCompanyBenchmarks,
 } from "./d1-read";
 
 export function createD1Repository(db: D1Database): Repository {
@@ -20,15 +22,22 @@ export function createD1Repository(db: D1Database): Repository {
       await db
         .prepare(
           `INSERT INTO companies (krs, nip, regon, name, legal_form, street, postal_code, city, voivodeship,
-            country, registration_date, capital, capital_currency, status_opp, liquidation, bankruptcy, updated_at)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            country, registration_date, start_date, capital, capital_currency, status_opp, liquidation, bankruptcy,
+            restructuring, arrangement, organ_rejestrowy, forma_wlasnosci, sposob_reprezentacji, organ_reprezentujacy,
+            organ_nadzoru, cel_dzialalnosci, website, email, updated_at)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
            ON CONFLICT(krs) DO UPDATE SET
              nip = excluded.nip, regon = excluded.regon, name = excluded.name, legal_form = excluded.legal_form,
              street = excluded.street, postal_code = excluded.postal_code, city = excluded.city,
              voivodeship = excluded.voivodeship, country = excluded.country,
-             registration_date = excluded.registration_date, capital = excluded.capital,
-             capital_currency = excluded.capital_currency, status_opp = excluded.status_opp,
-             liquidation = excluded.liquidation, bankruptcy = excluded.bankruptcy, updated_at = excluded.updated_at`,
+             registration_date = excluded.registration_date, start_date = excluded.start_date,
+             capital = excluded.capital, capital_currency = excluded.capital_currency,
+             status_opp = excluded.status_opp, liquidation = excluded.liquidation, bankruptcy = excluded.bankruptcy,
+             restructuring = excluded.restructuring, arrangement = excluded.arrangement,
+             organ_rejestrowy = excluded.organ_rejestrowy, forma_wlasnosci = excluded.forma_wlasnosci,
+             sposob_reprezentacji = excluded.sposob_reprezentacji, organ_reprezentujacy = excluded.organ_reprezentujacy,
+             organ_nadzoru = excluded.organ_nadzoru, cel_dzialalnosci = excluded.cel_dzialalnosci,
+             website = excluded.website, email = excluded.email, updated_at = excluded.updated_at`,
         )
         .bind(
           company.krs,
@@ -41,12 +50,23 @@ export function createD1Repository(db: D1Database): Repository {
           company.address?.city,
           company.address?.voivodeship,
           company.address?.country,
-          company.registrationDate,
-          company.capital,
-          company.capitalCurrency,
+          company.registrationDate ?? null,
+          company.startDate ?? null,
+          company.capital ?? null,
+          company.capitalCurrency ?? null,
           boolToInt(company.statusOpp),
           boolToInt(company.liquidation),
           boolToInt(company.bankruptcy),
+          boolToInt(company.restructuring),
+          boolToInt(company.arrangement),
+          company.organRejestrowy ?? null,
+          company.formaWlasnosci ?? null,
+          company.sposobReprezentacji ?? null,
+          company.organReprezentujacy ?? null,
+          company.organNadzoru ?? null,
+          company.celDzialalnosci ?? null,
+          company.website ?? null,
+          company.email ?? null,
           new Date().toISOString(),
         )
         .run();
@@ -105,6 +125,18 @@ export function createD1Repository(db: D1Database): Repository {
     async upsertHistory(krs: string, entries: CompanyReport["history"]): Promise<void> {
       await upsertHistory(db, krs, entries);
     },
+    async upsertDescriptions(krs: string, entries: CompanyReport["descriptions"]): Promise<void> {
+      await upsertDescriptions(db, krs, entries);
+    },
+    async upsertCompanyBenchmarks(krs: string, entries: CompanyReport["benchmarks"]): Promise<void> {
+      await upsertCompanyBenchmarks(db, krs, entries);
+    },
+    async getDescriptions(krs: string): Promise<CompanyReport["descriptions"]> {
+      return readDescriptions(db, krs);
+    },
+    async getCompanyBenchmarks(krs: string): Promise<CompanyReport["benchmarks"]> {
+      return readCompanyBenchmarks(db, krs);
+    },
     async upsertStatement(krs: string, statement: CompanyReport["statements"][number]): Promise<number> {
       const result = await db
         .prepare(
@@ -129,6 +161,9 @@ export function createD1Repository(db: D1Database): Repository {
         .all<Indicator>();
       return result.results;
     },
+    async readIndicatorsByYear(krs: string): Promise<CompanyReport["financials"]> {
+      return readIndicatorsByYear(db, krs);
+    },
     async getCompany(krs: string): Promise<Company | null> {
       const row = await db
         .prepare(
@@ -141,16 +176,18 @@ export function createD1Repository(db: D1Database): Repository {
       return row ? mapRow(row) : null;
     },
     async getReport(krs: string): Promise<CompanyReport | null> {
-      const [company, connections, ownership, pkdCodes, statements, indicators, monitor, krz, history] = await Promise.all([
+      const [company, connections, ownership, pkdCodes, statements, financials, monitor, krz, history, descriptions, benchmarks] = await Promise.all([
         readCompany(db, krs),
         readConnections(db, krs),
         readOwnership(db, krs),
         readPkd(db, krs),
         readStatements(db, krs),
-        readIndicators(db, krs),
+        readIndicatorsByYear(db, krs),
         readMonitor(db, krs),
         readKrz(db, krs),
         readHistory(db, krs),
+        readDescriptions(db, krs),
+        readCompanyBenchmarks(db, krs),
       ]);
       if (!company) {
         return null;
@@ -161,12 +198,12 @@ export function createD1Repository(db: D1Database): Repository {
         ownership,
         pkdCodes,
         statements,
-        financials: groupIndicators(indicators),
+        financials,
         monitor,
         krz,
         history,
-        descriptions: [],
-        benchmarks: [],
+        descriptions,
+        benchmarks,
       };
     },
     async getStatementPositions(krs: string): Promise<StatementPosition[]> {
@@ -291,6 +328,30 @@ async function upsertHistory(db: D1Database, krs: string, entries: CompanyReport
         `INSERT OR IGNORE INTO statement_history (krs, okres, rok, termin_zlozenia, data_dodania) VALUES (?, ?, ?, ?, ?)`,
       )
       .bind(krs, entry.okresSprawozdawczy ?? null, entry.rok ?? null, entry.terminZlozenia ?? null, entry.dataDodaniaDoKrs ?? null)
+      .run();
+  }
+}
+
+async function upsertDescriptions(db: D1Database, krs: string, entries: CompanyReport["descriptions"]): Promise<void> {
+  for (const entry of entries) {
+    await db
+      .prepare(
+        `INSERT OR REPLACE INTO company_descriptions (krs, opis, punkt_kluczowy_1, punkt_kluczowy_2, punkt_kluczowy_3, punkt_kluczowy_4, punkt_kluczowy_5)
+         VALUES (?, ?, ?, ?, ?, ?, ?)`,
+      )
+      .bind(krs, entry.opis ?? null, entry.punktKluczowy1 ?? null, entry.punktKluczowy2 ?? null, entry.punktKluczowy3 ?? null, entry.punktKluczowy4 ?? null, entry.punktKluczowy5 ?? null)
+      .run();
+  }
+}
+
+async function upsertCompanyBenchmarks(db: D1Database, krs: string, entries: CompanyReport["benchmarks"]): Promise<void> {
+  for (const entry of entries) {
+    await db
+      .prepare(
+        `INSERT OR REPLACE INTO company_benchmarks (krs, okres, rok, nazwa_wskaznika, percentyl, udzial_w_rynku, przychody_branzy, liczba_firm)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+      )
+      .bind(krs, entry.okresSprawozdawczy ?? null, entry.rok ?? null, entry.nazwaWskaznika, entry.percentylWPkd, entry.udzialWRynku ?? null, entry.przychodyCalejBranzy ?? null, entry.liczbaFirmWBranzy ?? null)
       .run();
   }
 }

@@ -11,6 +11,8 @@ export interface AppConfig {
   packageCredits: number;
   packagePrice: number;
   freeCredits: number;
+  bizraportEmail: string;
+  bizraportPassword: string;
 }
 
 export interface Bindings {
@@ -28,6 +30,8 @@ export interface Bindings {
   PACKAGE_CREDITS?: string;
   PACKAGE_PRICE?: string;
   FREE_CREDITS?: string;
+  BIZRAPORT_EMAIL?: string;
+  BIZRAPORT_PASSWORD?: string;
 }
 
 export const PACKAGE = {
@@ -50,6 +54,8 @@ export function loadConfig(bindings: Bindings = {}): AppConfig {
     packageCredits: numberOrDefault(bindings.PACKAGE_CREDITS, PACKAGE.Credits),
     packagePrice: numberOrDefault(bindings.PACKAGE_PRICE, PACKAGE.Price),
     freeCredits: numberOrDefault(bindings.FREE_CREDITS, 100),
+    bizraportEmail: bindings.BIZRAPORT_EMAIL ?? "",
+    bizraportPassword: bindings.BIZRAPORT_PASSWORD ?? "",
   };
 }
 

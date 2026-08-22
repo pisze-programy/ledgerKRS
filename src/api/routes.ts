@@ -13,6 +13,7 @@ import {
   daneRoute,
   katalogRoute,
   pkdRoute,
+  raportRoute,
   sprawozdaniaRoute,
   szukajRoute,
   webhookRoute,
@@ -51,6 +52,7 @@ export function createApp(deps: ApiDeps): OpenAPIHono<AppEnv> {
   app.use("/api/szukaj", auth, charge);
   app.use("/api/branze", auth, charge);
   app.use("/api/pkd/:code", auth, charge);
+  app.use("/api/raport", auth, charge);
 
   app.openapi(accountRoute, h.account as never);
   app.openapi(webhookRoute, h.webhook as never);
@@ -63,6 +65,7 @@ export function createApp(deps: ApiDeps): OpenAPIHono<AppEnv> {
   app.openapi(szukajRoute, h.szukaj as never);
   app.openapi(branzeRoute, h.branze as never);
   app.openapi(pkdRoute, h.pkd as never);
+  app.openapi(raportRoute, h.raport as never);
 
   app.route("/", createWebRoutes(deps.fetchAsset));
   app.route("/", createIngestRoutes(deps));

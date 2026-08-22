@@ -124,9 +124,10 @@ describe("explorers", () => {
     const app = buildApp();
     const html = await (await app.request("/")).text();
     const rows = (html.match(/class="api-item"/g) ?? []).length;
-    expect(rows).toBe(9);
+    expect(rows).toBe(10);
     expect(html).toContain("/api/account");
     expect(html).toContain("/api/pkd/{code}");
+    expect(html).toContain("/api/raport");
     expect(html).toContain("Parametry");
     expect(html).toContain("Request");
     expect(html).toContain("Response — schema");

@@ -27,7 +27,12 @@ export interface Repository {
   upsertMonitor(krs: string, entries: CompanyReport["monitor"]): Promise<void>;
   upsertKrz(krs: string, entries: CompanyReport["krz"]): Promise<void>;
   upsertHistory(krs: string, entries: CompanyReport["history"]): Promise<void>;
+  upsertDescriptions(krs: string, entries: CompanyReport["descriptions"]): Promise<void>;
+  upsertCompanyBenchmarks(krs: string, entries: CompanyReport["benchmarks"]): Promise<void>;
   readIndicators(krs: string): Promise<Indicator[]>;
+  readIndicatorsByYear(krs: string): Promise<CompanyReport["financials"]>;
+  getDescriptions(krs: string): Promise<CompanyReport["descriptions"]>;
+  getCompanyBenchmarks(krs: string): Promise<CompanyReport["benchmarks"]>;
   getCompany(krs: string): Promise<Company | null>;
   getReport(krs: string): Promise<CompanyReport | null>;
   getStatementPositions(krs: string): Promise<StatementPosition[]>;

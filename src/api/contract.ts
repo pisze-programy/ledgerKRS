@@ -709,6 +709,23 @@ export const API_EXAMPLES: Record<string, { request: string; response: string }>
   }]
 }`,
   },
+  raport: {
+    request: `curl "{{BASE}}/api/raport?krs=0000222483" \
+  -H "x-api-key: $KEY"`,
+    response: `{
+  "data": [{
+    "krs": "0000222483",
+    "summary": { "przychody": 108317454729, "zysk_netto": 3600000000, "wartosc_firmy": 90900000000 },
+    "finansowe": [ { "okres_sprawozdawczy": "01-01-2024_31-12-2024", "wskazniki": { … },
+      "wycena": { "srednia": … }, "kredyt_kupiecki": { … }, "ryzyko": { … } } ],
+    "terminowosc": { "razem": 3, "w_terminie": 2, "po_terminie": 1, "srednie_opoznienie_dni": 21 },
+    "pozycja_na_tle_branzy": [ … ],
+    "opisy_firmy": [ … ],
+    "powiazania_pochodne": { "identyczny_nip": [ … ], "zwrotne": [ … ] },
+    "podobne_organizacje": [ { "krs": "…", "name": "…" } ]
+  }]
+}`,
+  },
 };
 
 export const ENDPOINT_ORDER = [
@@ -722,6 +739,115 @@ export const ENDPOINT_ORDER = [
   "balance",
   "zuzycie",
 ] as const;
+
+
+const summarySchema = z
+  .strictObject({
+    aktywa: z.number().nullable().openapi({ description: "Suma bilansowa (aktywa) za ostatni rok" }),
+    przychody: z.number().nullable().openapi({ description: "Przychody za ostatni rok" }),
+    zysk_netto: z.number().nullable().openapi({ description: "Zysk netto za ostatni rok" }),
+    wartosc_firmy: z.number().nullable().openapi({ description: "Szacowana wartość firmy (średnia)" }),
+    zatrudnienie: z.number().nullable().openapi({ description: "Zatrudnienie" }),
+    branza_glowna: z
+      .strictObject({ kod: z.string().nullable().openapi({ description: "Kod głównej branży PKD" }), opis: z.string().nullable().openapi({ description: "Opis głównej branży" }) })
+      .openapi({ description: "Główna branża PKD" }),
+    rok: z.number().nullable().openapi({ description: "Rok podsumowania" }),
+  })
+  .openapi("ReportSummary");
+
+const financialSeriesSchema = z
+  .strictObject({
+    okres_sprawozdawczy: z.string().openapi({ description: "Okres sprawozdawczy" }),
+    rok: z.number().nullable().openapi({ description: "Rok" }),
+    wskazniki: z.record(z.string(), z.number()).openapi({ description: "Wskaźniki finansowe za okres (nazwa -> kwota)" }),
+    wycena: z
+      .strictObject({
+        minimalna: z.number().nullable().openapi({ description: "Wycena minimalna" }),
+        srednia: z.number().nullable().openapi({ description: "Wycena średnia" }),
+        maksymalna: z.number().nullable().openapi({ description: "Wycena maksymalna" }),
+      })
+      .openapi({ description: "Wycena firmy" }),
+    kredyt_kupiecki: z
+      .strictObject({
+        minimalny: z.number().nullable().openapi({ description: "Kredyt kupiecki minimalny" }),
+        sredni: z.number().nullable().openapi({ description: "Kredyt kupiecki średni" }),
+        maksymalny: z.number().nullable().openapi({ description: "Kredyt kupiecki maksymalny" }),
+      })
+      .openapi({ description: "Kredyt kupiecki" }),
+    ryzyko: z
+      .strictObject({
+        prawdopodobienstwo_24m: z.number().nullable().openapi({ description: "Prawdopodobieństwo niewypłacalności w ciągu 24 miesięcy (0-1)" }),
+        wiarygodnosc: z.number().nullable().openapi({ description: "Wiarygodność 1-5 (1 = najwyższa)" }),
+      })
+      .openapi({ description: "Ryzyko i wiarygodność" }),
+  })
+  .openapi("FinancialSeries");
+
+const terminowoscSchema = z
+  .strictObject({
+    razem: z.number().openapi({ description: "Liczba złożonych sprawozdań" }),
+    w_terminie: z.number().openapi({ description: "Złożone w terminie" }),
+    po_terminie: z.number().openapi({ description: "Złożone po terminie" }),
+    srednie_opoznienie_dni: z.number().nullable().openapi({ description: "Średnie opóźnienie w dniach (ujemne = przed terminem)" }),
+  })
+  .openapi("Terminowosc");
+
+const similarOrgSchema = z
+  .strictObject({
+    krs: z.string().openapi({ description: "Numer KRS" }),
+    name: z.string().nullable().openapi({ description: "Nazwa" }),
+    pkd_podklasa: z.string().nullable().openapi({ description: "Podklasa PKD" }),
+    przychody: z.number().nullable().openapi({ description: "Przychody" }),
+    zysk_netto: z.number().nullable().openapi({ description: "Zysk netto" }),
+  })
+  .openapi("SimilarOrganization");
+
+const derivedConnectionsSchema = z
+  .strictObject({
+    identyczny_nip: z.array(z.strictObject({ krs: z.string(), name: z.string().nullable() })).openapi({ description: "Firmy o identycznym NIP" }),
+    identyczny_regon: z.array(z.strictObject({ krs: z.string(), name: z.string().nullable() })).openapi({ description: "Firmy o identycznym REGON" }),
+    zwrotne: z.array(z.strictObject({ krs: z.string(), name: z.string().nullable(), typ: z.string() })).openapi({ description: "Powiązania zwrotne" }),
+  })
+  .openapi("DerivedConnections");
+
+const raportSchema = z
+  .strictObject({
+    krs: z.string().openapi({ description: "Numer KRS" }),
+    nip: z.string().nullable().openapi({ description: "NIP" }),
+    regon: z.string().nullable().openapi({ description: "REGON" }),
+    kod_pkd: z.string().nullable().openapi({ description: "Kod głównej branży PKD" }),
+    opis_pkd: z.string().nullable().openapi({ description: "Opis głównej branży" }),
+    informacje_o_firmie: companySchema.openapi({ description: "Pełne dane rejestrowe" }),
+    summary: summarySchema.openapi({ description: "Podsumowanie (4 karty + branża)" }),
+    finansowe: z.array(financialSeriesSchema).openapi({ description: "Serie finansowe per rok" }),
+    monitor: z.array(monitorSchema).openapi({ description: "Monitor Sądowy i Gospodarczy" }),
+    krz: z.array(krzSchema).openapi({ description: "Krajowy Rejestr Zadłużonych" }),
+    historia_sprawozdan: z.array(historySchema).openapi({ description: "Historia złożonych sprawozdań" }),
+    terminowosc: terminowoscSchema.openapi({ description: "Terminowość sprawozdań" }),
+    pozycja_na_tle_branzy: z.array(benchmarkRowSchema).openapi({ description: "Percentyle na tle branży PKD per rok" }),
+    opisy_firmy: z.array(descriptionSchema).openapi({ description: "Opisy działalności" }),
+    powiazania: z.array(connectionSchema).openapi({ description: "Powiązania" }),
+    powiazania_pochodne: derivedConnectionsSchema.openapi({ description: "Powiązania pochodne (graf)" }),
+    udzialowcy: z.array(ownershipSchema).openapi({ description: "Struktura właścicielska" }),
+    podobne_organizacje: z.array(similarOrgSchema).openapi({ description: "Podobne organizacje" }),
+  })
+  .openapi("CompanyRaport");
+
+const raportResponse = z
+  .strictObject({ data: z.array(raportSchema).openapi({ description: "Bogaty raport firmy" }), ...chargeMeta })
+  .openapi("RaportResponse");
+
+export const raportRoute = createRoute({
+  method: "get",
+  path: "/api/raport",
+  request: { query: krsOrNip },
+  responses: {
+    200: { description: "Bogaty raport firmy", content: { "application/json": { schema: raportResponse } } },
+    400: { description: "Brak krs albo nip", content: { "application/json": { schema: errorSchema } } },
+    401: { description: "Brak klucza API", content: { "application/json": { schema: errorSchema } } },
+    402: { description: "Brak wystarczających kredytów", content: { "application/json": { schema: errorSchema } } },
+  },
+});
 
 
 export function buildOpenApiDocument(): Record<string, unknown> {
@@ -738,6 +864,7 @@ export function buildOpenApiDocument(): Record<string, unknown> {
   app.openapi(szukajRoute, dummy as never);
   app.openapi(branzeRoute, dummy as never);
   app.openapi(pkdRoute, dummy as never);
+  app.openapi(raportRoute, dummy as never);
   return app.getOpenAPIDocument({
     openapi: "3.1.0",
     info: { title: "raporty-firmowe API", version: "0.1.0" },

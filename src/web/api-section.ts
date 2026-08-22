@@ -16,6 +16,7 @@ const ENDPOINTS: EndpointRef[] = [
   { id: "szukaj", path: "/api/szukaj", method: "get" },
   { id: "branze", path: "/api/branze", method: "get" },
   { id: "pkd", path: "/api/pkd/{code}", method: "get" },
+  { id: "raport", path: "/api/raport", method: "get" },
   { id: "balance", path: "/api/balance", method: "get" },
   { id: "zuzycie", path: "/api/zuzycie", method: "get" },
 ];

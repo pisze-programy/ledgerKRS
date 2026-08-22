@@ -58,7 +58,7 @@ function parseCompany(naglowek: Record<string, unknown>, dzial1: Record<string, 
     registrationDate: toIsoDate(naglowek.dataRejestracjiWKRS),
     capital: toNumber(kapital.wartosc),
     capitalCurrency: asString(kapital.waluta) ?? null,
-    statusOpp: hasOpp(dzial1),
+    statusOpp: hasOpp(dzial1, danePodmiotu),
     liquidation: hasPostepowanie(dzial5, dzial6, "likwidacj"),
     bankruptcy: hasPostepowanie(dzial5, dzial6, "upadlosc"),
     restructuring: hasPostepowanie(dzial5, dzial6, "restrukturyzacj"),
@@ -309,9 +309,9 @@ function parsePolishDate(value: string): string | null {
 
 const MONTHS = ["STYCZNIA", "LUTEGO", "MARCA", "KWIETNIA", "MAJA", "CZERWCA", "LIPCA", "SIERPNIA", "WRZEŚNIA", "PAŹDZIERNIKA", "LISTOPADA", "GRUDNIA"];
 
-function hasOpp(dzial1: Record<string, unknown>): boolean {
+function hasOpp(dzial1: Record<string, unknown>, danePodmiotu: Record<string, unknown>): boolean {
   const pozostale = asRecord(dzial1.pozostaleInformacje);
-  return asBoolean(pozostale?.czyJestOrganizacjaPozytkuPublicznego);
+  return asBoolean(pozostale?.czyJestOrganizacjaPozytkuPublicznego) || asBoolean(danePodmiotu.czyPosiadaStatusOPP);
 }
 
 function hasPostepowanie(dzial5: Record<string, unknown>, dzial6: Record<string, unknown>, needle: string): boolean {

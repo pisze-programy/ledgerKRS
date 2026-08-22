@@ -10,6 +10,7 @@ import {
   ServiceError,
   statementsFor,
 } from "./services";
+import { buildCompanyReport } from "../report";
 import type { ApiDeps, AppEnv } from "./deps";
 
 export function createHandlers(deps: ApiDeps) {
@@ -136,6 +137,17 @@ export function createHandlers(deps: ApiDeps) {
 
   const branze: Handler<AppEnv> = async (c) => c.json({ data: await branchesTree(deps) });
 
+  const raport: Handler<AppEnv> = async (c) => {
+    const krs = c.req.query("krs");
+    const nip = c.req.query("nip");
+    const target = await resolveKrs(deps, krs, nip);
+    if (!target) {
+      return c.json({ data: [] });
+    }
+    const report = await buildCompanyReport(deps, target);
+    return c.json({ data: report ? [report] : [] });
+  };
+
   const pkd: Handler<AppEnv> = async (c) => {
     const code = c.req.param("code") ?? "";
     const rok = c.req.query("rok");
@@ -147,7 +159,7 @@ export function createHandlers(deps: ApiDeps) {
     return c.json({ data: [report] });
   };
 
-  return { account, balance, zuzycie, checkout, webhook, dane, sprawozdania, katalog, szukaj, branze, pkd };
+  return { account, balance, zuzycie, checkout, webhook, dane, sprawozdania, katalog, szukaj, branze, pkd, raport };
 }
 
 interface StripeEvent {

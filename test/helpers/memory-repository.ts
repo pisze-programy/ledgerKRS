@@ -14,11 +14,13 @@ export function createMemoryRepository(): Repository & MemorySnapshot {
   const pkd = new Map<string, CompanyReport["pkdCodes"]>();
   const statements = new Map<string, number>();
   const positions = new Map<number, unknown[]>();
-  const indicators = new Map<string, Indicator[]>();
+  const indicators = new Map<string, Map<string, Indicator[]>>();
   const benchmarks = new Map<string, Benchmark[]>();
   const monitor = new Map<string, CompanyReport["monitor"]>();
   const krz = new Map<string, CompanyReport["krz"]>();
   const history = new Map<string, CompanyReport["history"]>();
+  const descriptions = new Map<string, CompanyReport["descriptions"]>();
+  const companyBenchmarks = new Map<string, CompanyReport["benchmarks"]>();
   let ingestState: string | null = null;
 
   const repository: Repository = {
@@ -45,8 +47,21 @@ export function createMemoryRepository(): Repository & MemorySnapshot {
     async upsertPositions(statementId: number, value: unknown[]): Promise<void> {
       positions.set(statementId, value);
     },
-    async upsertIndicators(krs: string, _okres: string | null, value: Indicator[]): Promise<void> {
-      indicators.set(krs, value);
+    async upsertIndicators(krs: string, okres: string | null, value: Indicator[]): Promise<void> {
+      const byOkres = indicators.get(krs) ?? new Map<string, Indicator[]>();
+      byOkres.set(okres ?? "", value);
+      indicators.set(krs, byOkres);
+    },
+    async readIndicatorsByYear(krs: string): Promise<CompanyReport["financials"]> {
+      const byOkres = indicators.get(krs) ?? new Map<string, Indicator[]>();
+      return [...byOkres.entries()].map(([okresSprawozdawczy, items]) => ({
+        okresSprawozdawczy,
+        rok: null,
+        indicators: items.map((item) => ({
+          nazwa_wskaznika: item.nazwa_wskaznika as CompanyReport["financials"][number]["indicators"][number]["nazwa_wskaznika"],
+          kwota: item.kwota,
+        })),
+      }));
     },
     async upsertBenchmarks(pkd: string, _rok: number, value: Benchmark[]): Promise<void> {
       benchmarks.set(pkd, value);
@@ -60,8 +75,21 @@ export function createMemoryRepository(): Repository & MemorySnapshot {
     async upsertHistory(krs: string, value: CompanyReport["history"]): Promise<void> {
       history.set(krs, value);
     },
+    async upsertDescriptions(krs: string, value: CompanyReport["descriptions"]): Promise<void> {
+      descriptions.set(krs, value);
+    },
+    async upsertCompanyBenchmarks(krs: string, value: CompanyReport["benchmarks"]): Promise<void> {
+      companyBenchmarks.set(krs, value);
+    },
+    async getDescriptions(krs: string): Promise<CompanyReport["descriptions"]> {
+      return descriptions.get(krs) ?? [];
+    },
+    async getCompanyBenchmarks(krs: string): Promise<CompanyReport["benchmarks"]> {
+      return companyBenchmarks.get(krs) ?? [];
+    },
     async readIndicators(krs: string): Promise<Indicator[]> {
-      return indicators.get(krs) ?? [];
+      const byOkres = indicators.get(krs) ?? new Map<string, Indicator[]>();
+      return [...byOkres.values()].flat();
     },
     async getCompany(krs: string): Promise<Company | null> {
       return companies.get(krs) ?? null;
@@ -71,7 +99,7 @@ export function createMemoryRepository(): Repository & MemorySnapshot {
       if (!company) {
         return null;
       }
-      const indicatorList = indicators.get(krs) ?? [];
+      const indicatorList = [...(indicators.get(krs) ?? new Map<string, Indicator[]>()).values()].flat();
       const reportIndicators: CompanyReport["financials"][number]["indicators"] = indicatorList.map((item) => ({
         nazwa_wskaznika: item.nazwa_wskaznika as CompanyReport["financials"][number]["indicators"][number]["nazwa_wskaznika"],
         kwota: item.kwota,
@@ -86,8 +114,8 @@ export function createMemoryRepository(): Repository & MemorySnapshot {
         monitor: monitor.get(krs) ?? [],
         krz: krz.get(krs) ?? [],
         history: history.get(krs) ?? [],
-        descriptions: [],
-        benchmarks: [],
+        descriptions: descriptions.get(krs) ?? [],
+        benchmarks: companyBenchmarks.get(krs) ?? [],
       };
     },
     async getStatementPositions(krs: string): Promise<StatementPosition[]> {

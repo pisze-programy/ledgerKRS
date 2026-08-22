@@ -10,11 +10,22 @@ CREATE TABLE IF NOT EXISTS companies (
   voivodeship TEXT,
   country TEXT,
   registration_date TEXT,
+  start_date TEXT,
   capital INTEGER,
   capital_currency TEXT,
   status_opp INTEGER DEFAULT 0,
   liquidation INTEGER DEFAULT 0,
   bankruptcy INTEGER DEFAULT 0,
+  restructuring INTEGER DEFAULT 0,
+  arrangement INTEGER DEFAULT 0,
+  organ_rejestrowy TEXT,
+  forma_wlasnosci TEXT,
+  sposob_reprezentacji TEXT,
+  organ_reprezentujacy TEXT,
+  organ_nadzoru TEXT,
+  cel_dzialalnosci TEXT,
+  website TEXT,
+  email TEXT,
   updated_at TEXT
 );
 
@@ -232,4 +243,29 @@ CREATE TABLE IF NOT EXISTS branch_stats (
   p50_wartosc REAL,
   p90_wartosc REAL,
   PRIMARY KEY (pkd, rok)
+);
+
+CREATE TABLE IF NOT EXISTS company_descriptions (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  krs TEXT NOT NULL,
+  opis TEXT,
+  punkt_kluczowy_1 TEXT,
+  punkt_kluczowy_2 TEXT,
+  punkt_kluczowy_3 TEXT,
+  punkt_kluczowy_4 TEXT,
+  punkt_kluczowy_5 TEXT,
+  UNIQUE(krs)
+);
+
+CREATE TABLE IF NOT EXISTS company_benchmarks (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  krs TEXT NOT NULL,
+  okres TEXT,
+  rok INTEGER,
+  nazwa_wskaznika TEXT NOT NULL,
+  percentyl REAL,
+  udzial_w_rynku REAL,
+  przychody_branzy REAL,
+  liczba_firm INTEGER,
+  UNIQUE(krs, okres, nazwa_wskaznika)
 );

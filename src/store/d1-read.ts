@@ -1,8 +1,10 @@
 import type {
   Company,
+  CompanyDescription,
   Connection,
   FinancialYear,
   Indicator,
+  IndustryBenchmarkRow,
   KrzEntry,
   MonitorEntry,
   OwnershipShare,
@@ -17,7 +19,9 @@ export async function readCompany(db: D1Database, krs: string): Promise<Company 
   const row = await db
     .prepare(
       `SELECT krs, nip, regon, name, legal_form, street, postal_code, city, voivodeship, country,
-        registration_date, capital, capital_currency, status_opp, liquidation, bankruptcy
+        registration_date, start_date, capital, capital_currency, status_opp, liquidation, bankruptcy,
+        restructuring, arrangement, organ_rejestrowy, forma_wlasnosci, sposob_reprezentacji,
+        organ_reprezentujacy, organ_nadzoru, cel_dzialalnosci, website, email
        FROM companies WHERE krs = ?`,
     )
     .bind(krs)
@@ -77,6 +81,25 @@ export async function readIndicators(db: D1Database, krs: string): Promise<Store
   return rows.results;
 }
 
+export async function readIndicatorsByYear(db: D1Database, krs: string): Promise<FinancialYear[]> {
+  const rows = await db
+    .prepare(`SELECT okres, nazwa_wskaznika, kwota FROM indicators WHERE krs = ? ORDER BY okres, nazwa_wskaznika`)
+    .bind(krs)
+    .all<{ okres: string | null; nazwa_wskaznika: string; kwota: number }>();
+  const byPeriod = new Map<string, Indicator[]>();
+  for (const row of rows.results) {
+    const key = row.okres ?? "";
+    const list = byPeriod.get(key) ?? [];
+    list.push({ nazwa_wskaznika: row.nazwa_wskaznika as Indicator["nazwa_wskaznika"], kwota: row.kwota });
+    byPeriod.set(key, list);
+  }
+  return [...byPeriod.entries()].map(([okresSprawozdawczy, indicators]) => ({
+    okresSprawozdawczy,
+    rok: null,
+    indicators,
+  }));
+}
+
 export async function readMonitor(db: D1Database, krs: string): Promise<MonitorEntry[]> {
   const rows = await db
     .prepare(`SELECT numer_ogloszenia, sygnatura_sprawy, nr_monitora, rozdzial, tresc_ogloszenia, data_publikacji, poziom_istotnosci FROM monitor_entries WHERE krs = ?`)
@@ -123,6 +146,37 @@ export async function readHistory(db: D1Database, krs: string): Promise<Statemen
   }));
 }
 
+export async function readDescriptions(db: D1Database, krs: string): Promise<CompanyDescription[]> {
+  const rows = await db
+    .prepare(`SELECT opis, punkt_kluczowy_1, punkt_kluczowy_2, punkt_kluczowy_3, punkt_kluczowy_4, punkt_kluczowy_5 FROM company_descriptions WHERE krs = ?`)
+    .bind(krs)
+    .all<DescriptionRow>();
+  return rows.results.map((row) => ({
+    opis: row.opis,
+    punktKluczowy1: row.punkt_kluczowy_1,
+    punktKluczowy2: row.punkt_kluczowy_2,
+    punktKluczowy3: row.punkt_kluczowy_3,
+    punktKluczowy4: row.punkt_kluczowy_4,
+    punktKluczowy5: row.punkt_kluczowy_5,
+  }));
+}
+
+export async function readCompanyBenchmarks(db: D1Database, krs: string): Promise<IndustryBenchmarkRow[]> {
+  const rows = await db
+    .prepare(`SELECT okres, rok, nazwa_wskaznika, percentyl, udzial_w_rynku, przychody_branzy, liczba_firm FROM company_benchmarks WHERE krs = ? ORDER BY rok DESC`)
+    .bind(krs)
+    .all<BenchmarkRow>();
+  return rows.results.map((row) => ({
+    okresSprawozdawczy: row.okres,
+    rok: row.rok,
+    nazwaWskaznika: row.nazwa_wskaznika as IndustryBenchmarkRow["nazwaWskaznika"],
+    percentylWPkd: row.percentyl ?? 0,
+    udzialWRynku: row.udzial_w_rynku,
+    przychodyCalejBranzy: row.przychody_branzy,
+    liczbaFirmWBranzy: row.liczba_firm,
+  }));
+}
+
 export function groupIndicators(stored: StoredIndicator[]): FinancialYear[] {
   const byPeriod = new Map<string, Indicator[]>();
   for (const indicator of stored) {
@@ -152,6 +206,7 @@ function mapCompany(row: CompanyRow): Company {
     regon: row.regon,
     name: row.name,
     legalForm: row.legal_form,
+    legalFormNormalized: row.legal_form ?? null,
     address: {
       street: row.street,
       postalCode: row.postal_code,
@@ -160,11 +215,22 @@ function mapCompany(row: CompanyRow): Company {
       country: row.country,
     },
     registrationDate: row.registration_date,
+    startDate: row.start_date,
     capital: row.capital,
     capitalCurrency: row.capital_currency,
     statusOpp: row.status_opp === 1,
     liquidation: row.liquidation === 1,
     bankruptcy: row.bankruptcy === 1,
+    restructuring: row.restructuring === 1,
+    arrangement: row.arrangement === 1,
+    organRejestrowy: row.organ_rejestrowy,
+    formaWlasnosci: row.forma_wlasnosci,
+    sposobReprezentacji: row.sposob_reprezentacji,
+    organReprezentujacy: row.organ_reprezentujacy,
+    organNadzoru: row.organ_nadzoru,
+    celDzialalnosci: row.cel_dzialalnosci,
+    website: row.website,
+    email: row.email,
   };
 }
 
@@ -180,11 +246,22 @@ interface CompanyRow {
   voivodeship: string | null;
   country: string | null;
   registration_date: string | null;
+  start_date: string | null;
   capital: number | null;
   capital_currency: string | null;
   status_opp: number;
   liquidation: number;
   bankruptcy: number;
+  restructuring: number;
+  arrangement: number;
+  organ_rejestrowy: string | null;
+  forma_wlasnosci: string | null;
+  sposob_reprezentacji: string | null;
+  organ_reprezentujacy: string | null;
+  organ_nadzoru: string | null;
+  cel_dzialalnosci: string | null;
+  website: string | null;
+  email: string | null;
 }
 
 interface ConnectionRow {
@@ -234,4 +311,23 @@ interface HistoryRow {
   rok: number | null;
   termin_zlozenia: string | null;
   data_dodania: string | null;
+}
+
+interface DescriptionRow {
+  opis: string | null;
+  punkt_kluczowy_1: string | null;
+  punkt_kluczowy_2: string | null;
+  punkt_kluczowy_3: string | null;
+  punkt_kluczowy_4: string | null;
+  punkt_kluczowy_5: string | null;
+}
+
+interface BenchmarkRow {
+  okres: string | null;
+  rok: number | null;
+  nazwa_wskaznika: string;
+  percentyl: number | null;
+  udzial_w_rynku: number | null;
+  przychody_branzy: number | null;
+  liczba_firm: number | null;
 }

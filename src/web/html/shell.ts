@@ -27,7 +27,7 @@ export function shell(options: ShellOptions): string {
     <section class="hero">${options.bodyHtml}</section>
   </main>
   <footer>
-    <p>raporty-firmowe · public data about Polish companies · <a href="https://github.com/pisze-programy/ledgerKRS" data-embed>GitHub</a> · kontakt@raporty-firmowe.dev</p>
+    <p>raporty-firmowe · public data about Polish companies</p>
   </footer>
   <script src="${options.jsPath}" defer></script>
 </body>

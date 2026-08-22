@@ -21,7 +21,7 @@ export function createWebRoutes(): Hono {
   const app = new Hono();
 
   app.get("/", (c) => {
-    const lang = pickLang(c.req.query("lang"), c.req.header("accept-language"));
+    const lang = pickLang(c.req.query("lang"));
     return renderLanding(lang, originOf(c.req.url));
   });
 
@@ -38,14 +38,8 @@ export function createWebRoutes(): Hono {
   return app;
 }
 
-function pickLang(query: string | undefined, acceptLanguage: string | undefined): WebLang {
-  if (query === "en") {
-    return "en";
-  }
-  if (query === "pl") {
-    return "pl";
-  }
-  return (acceptLanguage ?? "").toLowerCase().startsWith("en") ? "en" : "pl";
+function pickLang(query: string | undefined): WebLang {
+  return query === "en" ? "en" : "pl";
 }
 
 function originOf(url: string): string {

@@ -41,10 +41,10 @@ describe("landing page", () => {
     expect(html).toContain('lang="en"');
   });
 
-  it("serves the english landing via accept-language", async () => {
+  it("serves polish at / regardless of accept-language", async () => {
     const app = buildApp();
     const html = await (await app.request("/", { headers: { "accept-language": "en-US,en;q=0.9" } })).text();
-    expect(html).toContain("Polish company data from KRS");
+    expect(html).toContain("Dane polskich firm z KRS");
   });
 
   it("honors the lang query parameter", async () => {

@@ -4,7 +4,7 @@ import { loadCreds } from "./creds";
 import { makeRdfClient, annualStatementHits, withRetry } from "./rdf";
 import { parseSprawozdanie } from "../../src/sources/rdf/parser";
 import { fetchBizraportDane } from "./bizraport";
-import { ourIndicators, compareYear, summarizeComparison, type ComparisonRow } from "./compare";
+import { ourIndicators, detectLayout, compareYear, summarizeComparison, type ComparisonRow } from "./compare";
 
 const DUMP = join(process.cwd(), "tools", "rdf-parity", "dump");
 const PACE_MS = Number(process.env.PACE_MS ?? 1000);
@@ -70,7 +70,7 @@ async function main() {
       const statement = parseSprawozdanie(xml);
       if (!statement) continue;
       const year = statement.rok ?? Number(hit.okresSprawozdawczyKoniec?.slice(0, 4));
-      if (year) ourByYear.set(year, ourIndicators(statement));
+      if (year) ourByYear.set(year, ourIndicators(statement, detectLayout(xml)));
       await sleep(PACE_MS);
     }
     const biz = await fetchBizraportDane(creds, krs);

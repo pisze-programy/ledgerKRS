@@ -1,4 +1,6 @@
 import type { ParsedStatement } from "../../src/sources/rdf/parser";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 
 export interface IndicatorSet {
   rok: number;
@@ -46,7 +48,44 @@ const CODE_MAP: Record<string, [string, string]> = {
   amortyzacja: ["RZiS", "B_VIII"],
 };
 
-export function ourIndicators(statement: ParsedStatement): Map<string, number | null> {
+const XML_LAYOUT_TO_KEY: Record<string, string> = {
+  JednostkaInna: "SFJINZ",
+  JednostkaMala: "SFJMAZ",
+  JednostkaMikro: "SFJMIZ",
+  JednostkaOp: "SFJOPZ",
+  JednostkaPozytkuPublicznego: "SFJOPZ",
+  Bank: "SFBNKZ",
+};
+
+export function detectLayout(xml: string): string | null {
+  const match = xml.match(/<(?:[A-Za-z0-9]+:)?(Jednostka[A-Za-z]*|Bank)[\s>]/);
+  if (!match) return null;
+  const name = match[1]!;
+  return XML_LAYOUT_TO_KEY[name] ?? null;
+}
+
+let layoutMapCache: Record<string, { map: Record<string, [string, string]> }> | null = null;
+function loadLayoutMap(): Record<string, { map: Record<string, [string, string]> }> {
+  if (!layoutMapCache) {
+    layoutMapCache = JSON.parse(
+      readFileSync(join(process.cwd(), "tools", "rdf-parity", "dump", "layout-indicator-map.json"), "utf8"),
+    );
+  }
+  return layoutMapCache!;
+}
+
+export function ourIndicators(statement: ParsedStatement, layoutKey?: string | null): Map<string, number | null> {
+  let map = CODE_MAP;
+  if (layoutKey) {
+    const byKey = loadLayoutMap()[layoutKey]?.map;
+    if (byKey && Object.keys(byKey).length > 0) {
+      const layoutMap: Record<string, [string, string]> = {};
+      for (const [ind, [key, _doc]] of Object.entries(byKey)) {
+        layoutMap[ind] = key.split(".") as [string, string];
+      }
+      map = { ...CODE_MAP, ...layoutMap };
+    }
+  }
   const bySection = new Map<string, Map<string, number | null>>();
   for (const section of statement.sekcje) {
     const internal = SECTION_BY_NAME[section.sekcja] ?? section.sekcja;
@@ -60,7 +99,7 @@ export function ourIndicators(statement: ParsedStatement): Map<string, number | 
   }
   const out = new Map<string, number | null>();
   for (const name of CANONICAL) {
-    const [section, code] = CODE_MAP[name];
+    const [section, code] = map[name] ?? CODE_MAP[name]!;
     out.set(name, bySection.get(section)?.get(code) ?? null);
   }
   return out;

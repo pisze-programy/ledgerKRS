@@ -94,27 +94,40 @@ Comparable rows: **544** across 2018–2025.
 
 ### What mismatches reveal (three real causes)
 
-1. **Per-layout RZiS code alphabets.** Our canonical mapping assumes the
-   SFJednostkaInna RZiS (A–L: A=przychody, ..., F=zysk operacyjny, L=zysk
-   netto). Other layouts differ:
-   - Fundacja/pożytku publicznego (SFPozostale) RZiS runs **A–O**;
-     `O` = zysk netto (verified live: 0000617088, O=4045.87 = BizRaport's).
-   - JednostkaMala / JednostkaInna variants shift letter meanings
-     (e.g. 0000320584: `H`=zysk brutto, `I`=podatek dochodowy, not our F/L).
-   → Fix is layout-aware mapping, needs more samples of each layout +
-   BizRaport ground truth (new credits). **Deferred.**
+1. **Per-layout RZiS code alphabets.** The 2025 CRWDE structures split RZiS
+   into two variants — `RZiSKalk` (A=przychody, F=zysk ze sprzedaży,
+   I=operacyjny, L=brutto, M=podatek) and `RZiSPor` (A=przychody,
+   F=operacyjny, I=brutto, J=podatek, L=netto) — but a statement's
+   `WariantSprawozdania` does **not** map 1:1 (GOING `Wariant=1` uses the
+   `RZiSPor` letters; old-schema companies use yet other letters, e.g.
+   CONNER: `H`=brutto, `I`=podatek, `J`=netto).
 2. **Document version / corrections.** Small `przychody` diffs (0.01–0.3%)
    on otherwise-correct companies → we sometimes pick a different document
    than BizRaport's "latest version" (corrections). Fix: resolve the latest
    non-corrected version per period. **Needs more analysis.**
 3. **amortyzacja mapping.** `B_VIII` ("w tym: koszty amortyzacji") can be far
-   off the `amortyzacja` indicator (0000176134: 31.5M vs 5.2k) — the real
-   value often lives in the Wprowadzenie / dodatkowe informacje.
-   → part of the full-extract + per-layout work. **Deferred.**
+   off the `amortyzacja` indicator (0000176134: 31.5M vs 5.2k). **Fixed** via
+   the CRWDE dict: the 2025 schema puts `amortyzacja` at `RZiS.B_I` — now
+   exactly matches BizRaport (5241.08).
 
-- `ONLY_THEIRS` (9%) is mostly `zatrudnienie`/`wynagrodzenia` — we don't parse
+### Match rate by schema/layout (after the layout-aware mapping)
+
+| Group | Firms | Rows | Match % |
+|---|---|---|---|
+| **LEGACY (plain `Bilans`)** | 3 | 271 | **88%** |
+| **New schema — JednostkaInna** | 2 | 159 | **93%** |
+| New schema — JednostkaOp (poż. publicznego) | 2 | 222 | 40% |
+| New schema — JednostkaMala | 2 | 172 | 63% |
+| New schema — JednostkaMikro | 2 | 80 | 60% |
+
+Core cases are strong (legacy 88%, new JednostkaInna 93–94%). The remaining
+mismatches concentrate in the exotic layouts (JednostkaOp statutory RZiS, and
+porównawczy/old-schema variants in Mala/Mikro) — these need per-schema-version
+dictionaries or a robust value-chain inference. **Deferred.**
+
+- `ONLY_THEIRS` is mostly `zatrudnienie`/`wynagrodzenia` — we don't parse
   the Wprowadzenie / footnotes yet (planned).
-- `ONLY_OURS` (3.5%) — years/statements we extract that BizRaport omits.
+- `ONLY_OURS` — years/statements we extract that BizRaport omits.
 
 ## Parser fixes (found while checking random data)
 

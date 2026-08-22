@@ -19,6 +19,7 @@ async function fetchText(url: string): Promise<string> {
 }
 
 const SECTION_NAMES = ["Bilans", "RZiS", "ZestZmianWKapitale", "RachPrzeplywow", "Naglowek", "WprowadzenieDoSprawozdaniaFinansowego", "DodatkoweInformacjeIObjasnienia", "InformacjaDodatkowa"];
+const RZIS_VARIANTS = ["RZiSKalk", "RZiSPor"];
 
 function sectionOf(name: unknown): string | null {
   if (typeof name !== "string") return null;
@@ -32,14 +33,15 @@ function extractNames(xsd: string): Record<string, string> {
   const parser = new XMLParser({ ignoreAttributes: false, removeNSPrefix: true, parseTagValue: false });
   const root = parser.parse(xsd) as any;
   const out: Record<string, string> = {};
-  const walk = (node: any, section: string | null): void => {
+  const walk = (node: any, section: string | null, variant: string | null): void => {
     if (!node || typeof node !== "object") return;
     if (Array.isArray(node)) {
-      node.forEach((n) => walk(n, section));
+      node.forEach((n) => walk(n, section, variant));
       return;
     }
     const name = node["@_name"];
     const ownSection = sectionOf(name) ?? section;
+    const ownVariant = typeof name === "string" && RZIS_VARIANTS.includes(name) ? name : variant;
     let doc: string | null = null;
     if (node.annotation) {
       const d = Array.isArray(node.annotation) ? node.annotation[0] : node.annotation;
@@ -47,13 +49,14 @@ function extractNames(xsd: string): Record<string, string> {
       doc = typeof docs === "string" ? docs : Array.isArray(docs) ? (docs[0] ?? null) : null;
     }
     if (typeof name === "string" && typeof doc === "string" && doc.trim().length > 0) {
-      out[ownSection ? `${ownSection}.${name}` : name] = doc.replace(/\s+/g, " ").trim();
+      const key = ownSection ? (ownSection === "RZiS" && ownVariant ? `${ownSection}.${ownVariant}.${name}` : `${ownSection}.${name}`) : name;
+      out[key] = doc.replace(/\s+/g, " ").trim();
     }
     for (const v of Object.values(node)) {
-      if (v && typeof v === "object") walk(v, ownSection);
+      if (v && typeof v === "object") walk(v, ownSection, ownVariant);
     }
   };
-  walk(root, null);
+  walk(root, null, null);
   return out;
 }
 

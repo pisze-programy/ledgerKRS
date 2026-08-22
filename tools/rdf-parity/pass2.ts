@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { loadCreds } from "./creds";
 import { makeRdfClient, annualStatementHits, withRetry } from "./rdf";
@@ -120,9 +120,20 @@ async function main() {
     per_company: {},
     summary: null,
   };
+  const existing = existsSync(join(DUMP, "pass2-parity.json"))
+    ? (JSON.parse(readFileSync(join(DUMP, "pass2-parity.json"), "utf8")) as Record<string, unknown>)
+    : null;
+  if (existing) {
+    report.picked = existing.picked as string[];
+    report.per_company = existing.per_company as Record<string, unknown>;
+  }
+  const done = new Set(report.picked as string[]);
 
   const allRows: ComparisonRow[] = [];
   for (const krs of picked) {
+    if (done.has(krs)) {
+      continue;
+    }
     const hits = await robust(() => client.searchDocuments(krs).catch(() => null));
     const annual = hits ? annualStatementHits(hits) : [];
     const ourByYear = new Map<number, YearIndicators>();
@@ -177,7 +188,25 @@ async function main() {
     report.picked.push(krs);
     await sleep(PACE_MS);
   }
-  report.summary = summarizeComparison(allRows);
+  const agg = { total_rows: 0, match: 0, mismatch: 0, only_theirs: 0, only_ours: 0, mismatches: [] as string[] };
+  for (const info of Object.values(report.per_company as Record<string, { summary?: Record<string, unknown> }>)) {
+    const s = info.summary;
+    if (!s) {
+      continue;
+    }
+    agg.total_rows += (s.total_rows as number) ?? 0;
+    agg.match += (s.match as number) ?? 0;
+    agg.mismatch += (s.mismatch as number) ?? 0;
+    agg.only_theirs += (s.only_theirs as number) ?? 0;
+    agg.only_ours += (s.only_ours as number) ?? 0;
+    if (Array.isArray(s.mismatches)) {
+      agg.mismatches.push(...(s.mismatches as string[]));
+    }
+  }
+  if (agg.total_rows > 0) {
+    agg.match_pct = Math.round((agg.match / agg.total_rows) * 100);
+  }
+  report.summary = agg;
   mkdirSync(DUMP, { recursive: true });
   writeFileSync(join(DUMP, "pass2-parity.json"), JSON.stringify(report, null, 2));
   console.log("picked:", report.picked.length);

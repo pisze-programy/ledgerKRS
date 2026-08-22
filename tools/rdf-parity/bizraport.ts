@@ -9,16 +9,29 @@ export interface BizraportCompany {
 }
 
 export async function fetchBizraportDane(creds: ParityCreds, krs: string): Promise<BizraportCompany | null> {
-  const url = new URL(`${BASE}/api/dane`);
-  url.searchParams.set("email", creds.bizraportEmail);
-  url.searchParams.set("password", creds.bizraportPassword);
-  url.searchParams.set("krs", krs);
-  const response = await fetch(url);
-  if (!response.ok) {
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    if (attempt > 0) {
+      await new Promise((r) => setTimeout(r, 3000));
+    }
+    const url = new URL(`${BASE}/api/dane`);
+    url.searchParams.set("email", creds.bizraportEmail);
+    url.searchParams.set("password", creds.bizraportPassword);
+    url.searchParams.set("krs", krs);
+    const response = await fetch(url);
+    if (response.status === 429) {
+      continue;
+    }
+    if (!response.ok) {
+      return null;
+    }
+    const body = (await response.json()) as { data?: BizraportCompany[] };
+    const company = body.data?.[0] ?? null;
+    if (company && company.dane_finansowe && company.dane_finansowe.length > 0) {
+      return company;
+    }
     return null;
   }
-  const body = (await response.json()) as { data?: BizraportCompany[] };
-  return body.data?.[0] ?? null;
+  return null;
 }
 
 export function summarize(c: BizraportCompany): Record<string, unknown> {

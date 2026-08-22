@@ -180,13 +180,23 @@ access path ever appears, the client just swaps the `transport`.
 Goal: match BizRaport coverage with the free RDF pipeline, verified on a
 **random** sample (not hand-picked KRS) — see `tools/rdf-parity/PARITY.md`.
 
-- 200 random KRS drawn from 6 KRS biuletyn days (16k unique) → `dump/sample-biuletyn.json`.
-- BizRaport-side characterization on 8 random companies (8 credits): 2/8 no
-  data, 2/8 have pre-2018 years, indicator sets 26-36 by layout,
-  employment in 4/8, salary in 6/8.
-- Pass 1 (structural RDF) and Pass 2 (value-by-value vs BizRaport) are
-  implemented but blocked on a fresh RDF cookie (IP-bound, captcha).
-- BizRaport account credits: 89/100 used, 11 left (new accounts pending).
+Results so far (200 random companies from the KRS biuletyn):
+
+- **Pass 1 (structural, free):** 74% have parseable e-sprawozdanie XML
+  (`HAS_XML`), 24% no financial documents, 2% PDF-as-annual (the real PDF gap).
+  Layouts: legacy `Bilans` 68, `JednostkaMikro` 42, `JednostkaMala` 28,
+  `JednostkaInna` 6, `JednostkaOp` 4.
+- **Pass 2 (parity, 15 companies):** 544 comparable rows across 2018–2025,
+  **70% exact match**, 17% mismatch, 9% only-BizRaport, 3.5% only-ours.
+  Mismatches trace to (1) per-layout RZiS code alphabets (SFPozostale runs
+  A–O; other layouts shift letter meanings) — layout-aware mapping deferred,
+  (2) document version / corrections, (3) `amortyzacja` from the wrong
+  section. `ONLY_THEIRS` is mostly employment/salary (Wprowadzenie parse,
+  planned).
+- Parser fixes found while checking random data: new 2025 `<Dokument>` wrapper
+  (suffixed section tags) and XAdES/JPK_SF object arrays — both fixed + tested.
+- BizRaport account reached 100/100 credits; new accounts pending for the
+  layout-aware parity rerun.
 
 ## Implemented so far (commits)
 

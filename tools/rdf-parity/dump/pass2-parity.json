@@ -1,0 +1,567 @@
+{
+  "generated_at": "2026-08-22T13:48:43.665Z",
+  "picked": [
+    "0000320584",
+    "0000942976",
+    "0001007609",
+    "0000792741",
+    "0000617088",
+    "0000903848",
+    "0001009813",
+    "0000176134",
+    "0000973400",
+    "0000912238",
+    "0000924933",
+    "0000891869",
+    "0000416704",
+    "0000393416",
+    "0000952744"
+  ],
+  "per_company": {
+    "0000320584": {
+      "our_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "their_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "rows": 102,
+      "summary": {
+        "total_rows": 102,
+        "match": 57,
+        "mismatch": 27,
+        "only_theirs": 17,
+        "only_ours": 1,
+        "years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "match_pct": 56,
+        "mismatches": [
+          "2025:przychody ours=6148188.93 theirs=6149155.11",
+          "2025:zysk_operacyjny ours=175.6 theirs=108583.43",
+          "2025:zysk_brutto ours=10256 theirs=84797.55",
+          "2025:podatek_dochodowy ours=74541.55 theirs=10256",
+          "2024:przychody ours=5912524.58 theirs=5917627.34",
+          "2024:zysk_operacyjny ours=363.35 theirs=99708.57",
+          "2024:zysk_brutto ours=9945 theirs=83210.77",
+          "2024:podatek_dochodowy ours=73265.77 theirs=9945",
+          "2023:przychody ours=6495813.16 theirs=6510643.97",
+          "2023:zysk_operacyjny ours=0 theirs=100592.22"
+        ]
+      },
+      "layout": "JednostkaMala"
+    },
+    "0000942976": {
+      "our_years": [
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "their_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "rows": 54,
+      "summary": {
+        "total_rows": 54,
+        "match": 37,
+        "mismatch": 1,
+        "only_theirs": 10,
+        "only_ours": 6,
+        "years": [
+          2021,
+          2022,
+          2023,
+          2025
+        ],
+        "match_pct": 69,
+        "mismatches": [
+          "2023:zysk_operacyjny ours=-2486.03 theirs=-2479.58"
+        ]
+      },
+      "layout": "JednostkaMikro"
+    },
+    "0001007609": {
+      "our_years": [
+        2023,
+        2024
+      ],
+      "their_years": [
+        2022,
+        2023,
+        2024
+      ],
+      "rows": 26,
+      "summary": {
+        "total_rows": 26,
+        "match": 10,
+        "mismatch": 4,
+        "only_theirs": 6,
+        "only_ours": 6,
+        "years": [
+          2023,
+          2024
+        ],
+        "match_pct": 38,
+        "mismatches": [
+          "2024:przychody ours=368866.41 theirs=368867.54",
+          "2024:zysk_operacyjny ours=50837.88 theirs=51374.72",
+          "2023:przychody ours=513894.07 theirs=513897.07",
+          "2023:zysk_operacyjny ours=19876.81 theirs=19972.06"
+        ]
+      },
+      "layout": "JednostkaMikro"
+    },
+    "0000792741": {
+      "our_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "their_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "rows": 61,
+      "summary": {
+        "total_rows": 61,
+        "match": 59,
+        "mismatch": 0,
+        "only_theirs": 2,
+        "only_ours": 0,
+        "years": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "match_pct": 97,
+        "mismatches": []
+      },
+      "layout": "Bilans"
+    },
+    "0000617088": {
+      "our_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "their_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "rows": 93,
+      "summary": {
+        "total_rows": 93,
+        "match": 75,
+        "mismatch": 18,
+        "only_theirs": 0,
+        "only_ours": 0,
+        "years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "match_pct": 81,
+        "mismatches": [
+          "2024:zysk_netto ours=0 theirs=4045.87",
+          "2023:zysk_operacyjny ours=0 theirs=-2814.66",
+          "2023:zysk_brutto ours=-2814.66 theirs=0",
+          "2023:zysk_netto ours=0 theirs=-2814.66",
+          "2022:zysk_ze_sprzedazy ours=36698.81 theirs=0",
+          "2022:zysk_operacyjny ours=0 theirs=36698.81",
+          "2022:zysk_brutto ours=36698.81 theirs=0",
+          "2022:zysk_netto ours=0 theirs=33395.81",
+          "2022:podatek_dochodowy ours=0 theirs=3303",
+          "2021:zysk_ze_sprzedazy ours=11512.69 theirs=0"
+        ]
+      },
+      "layout": "Bilans"
+    },
+    "0000903848": {
+      "our_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "their_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "rows": 70,
+      "summary": {
+        "total_rows": 70,
+        "match": 40,
+        "mismatch": 20,
+        "only_theirs": 10,
+        "only_ours": 0,
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "match_pct": 57,
+        "mismatches": [
+          "2025:przychody ours=3368981.89 theirs=3583527.96",
+          "2025:zysk_operacyjny ours=180129.74 theirs=1172539.95",
+          "2025:zysk_brutto ours=25872 theirs=-133479.36",
+          "2025:podatek_dochodowy ours=-159351.36 theirs=25872",
+          "2024:przychody ours=3273852.95 theirs=3957718.63",
+          "2024:zysk_operacyjny ours=683863.22 theirs=1007903.45",
+          "2024:zysk_brutto ours=25872 theirs=-245481.38",
+          "2024:podatek_dochodowy ours=-271353.38 theirs=25872",
+          "2023:przychody ours=3352289.99 theirs=5111152.64",
+          "2023:zysk_operacyjny ours=1746236.2 theirs=952731.64"
+        ]
+      },
+      "layout": "JednostkaMala"
+    },
+    "0001009813": {
+      "our_years": [
+        2024,
+        2025
+      ],
+      "their_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "rows": 26,
+      "summary": {
+        "total_rows": 26,
+        "match": 10,
+        "mismatch": 4,
+        "only_theirs": 6,
+        "only_ours": 6,
+        "years": [
+          2024,
+          2025
+        ],
+        "match_pct": 38,
+        "mismatches": [
+          "2025:przychody ours=2404691.86 theirs=2412287.13",
+          "2025:zysk_operacyjny ours=62111.93 theirs=60797.05",
+          "2024:przychody ours=1865452.2 theirs=1863511.97",
+          "2024:zysk_operacyjny ours=179461.12 theirs=197168"
+        ]
+      },
+      "layout": "JednostkaMikro"
+    },
+    "0000176134": {
+      "our_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "their_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "rows": 112,
+      "summary": {
+        "total_rows": 112,
+        "match": 95,
+        "mismatch": 17,
+        "only_theirs": 0,
+        "only_ours": 0,
+        "years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "match_pct": 85,
+        "mismatches": [
+          "2025:przychody ours=38609746.87 theirs=38720880.34",
+          "2025:amortyzacja ours=31512275.18 theirs=5241.08",
+          "2024:przychody ours=34953102.77 theirs=35064873.68",
+          "2024:amortyzacja ours=27776674.34 theirs=13139.91",
+          "2023:przychody ours=40743582.78 theirs=40933100.93",
+          "2023:podatek_dochodowy ours=-69303 theirs=69303",
+          "2023:amortyzacja ours=33002131.04 theirs=10184.44",
+          "2022:przychody ours=49224607.69 theirs=49401849.99",
+          "2022:amortyzacja ours=39922340.33 theirs=24676.94",
+          "2021:przychody ours=48076691.66 theirs=48514734.84"
+        ]
+      },
+      "layout": "Bilans"
+    },
+    "0000973400": {
+      "our_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "their_years": [],
+      "rows": 0,
+      "summary": {
+        "total_rows": 0,
+        "match": 0,
+        "mismatch": 0,
+        "only_theirs": 0,
+        "only_ours": 0,
+        "years": [],
+        "match_pct": null,
+        "mismatches": []
+      },
+      "layout": "JednostkaInna"
+    },
+    "0000912238": {
+      "our_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "their_years": [],
+      "rows": 0,
+      "summary": {
+        "total_rows": 0,
+        "match": 0,
+        "mismatch": 0,
+        "only_theirs": 0,
+        "only_ours": 0,
+        "years": [],
+        "match_pct": null,
+        "mismatches": []
+      },
+      "layout": "Bilans"
+    },
+    "0000924933": {
+      "our_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "their_years": [],
+      "rows": 0,
+      "summary": {
+        "total_rows": 0,
+        "match": 0,
+        "mismatch": 0,
+        "only_theirs": 0,
+        "only_ours": 0,
+        "years": [],
+        "match_pct": null,
+        "mismatches": []
+      },
+      "layout": "JednostkaMala"
+    },
+    "0000891869": {
+      "our_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "their_years": [],
+      "rows": 0,
+      "summary": {
+        "total_rows": 0,
+        "match": 0,
+        "mismatch": 0,
+        "only_theirs": 0,
+        "only_ours": 0,
+        "years": [],
+        "match_pct": null,
+        "mismatches": []
+      },
+      "layout": "JednostkaMikro"
+    },
+    "0000416704": {
+      "our_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "their_years": [],
+      "rows": 0,
+      "summary": {
+        "total_rows": 0,
+        "match": 0,
+        "mismatch": 0,
+        "only_theirs": 0,
+        "only_ours": 0,
+        "years": [],
+        "match_pct": null,
+        "mismatches": []
+      },
+      "layout": "Bilans"
+    },
+    "0000393416": {
+      "our_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "their_years": [],
+      "rows": 0,
+      "summary": {
+        "total_rows": 0,
+        "match": 0,
+        "mismatch": 0,
+        "only_theirs": 0,
+        "only_ours": 0,
+        "years": [],
+        "match_pct": null,
+        "mismatches": []
+      },
+      "layout": "Bilans"
+    },
+    "0000952744": {
+      "our_years": [
+        2022,
+        2023
+      ],
+      "their_years": [],
+      "rows": 0,
+      "summary": {
+        "total_rows": 0,
+        "match": 0,
+        "mismatch": 0,
+        "only_theirs": 0,
+        "only_ours": 0,
+        "years": [],
+        "match_pct": null,
+        "mismatches": []
+      },
+      "layout": "JednostkaMikro"
+    }
+  },
+  "summary": {
+    "total_rows": 544,
+    "match": 383,
+    "mismatch": 91,
+    "only_theirs": 51,
+    "only_ours": 19,
+    "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "match_pct": 70,
+    "mismatches": [
+      "2025:przychody ours=6148188.93 theirs=6149155.11",
+      "2025:zysk_operacyjny ours=175.6 theirs=108583.43",
+      "2025:zysk_brutto ours=10256 theirs=84797.55",
+      "2025:podatek_dochodowy ours=74541.55 theirs=10256",
+      "2024:przychody ours=5912524.58 theirs=5917627.34",
+      "2024:zysk_operacyjny ours=363.35 theirs=99708.57",
+      "2024:zysk_brutto ours=9945 theirs=83210.77",
+      "2024:podatek_dochodowy ours=73265.77 theirs=9945",
+      "2023:przychody ours=6495813.16 theirs=6510643.97",
+      "2023:zysk_operacyjny ours=0 theirs=100592.22"
+    ]
+  },
+  "layouts": {
+    "0000320584": "JednostkaMala",
+    "0000942976": "JednostkaMikro",
+    "0001007609": "JednostkaMikro",
+    "0000792741": "Bilans",
+    "0000617088": "Bilans",
+    "0000903848": "JednostkaMala",
+    "0001009813": "JednostkaMikro",
+    "0000176134": "Bilans",
+    "0000973400": "JednostkaInna",
+    "0000912238": "Bilans",
+    "0000924933": "JednostkaMala",
+    "0000891869": "JednostkaMikro",
+    "0000416704": "Bilans",
+    "0000393416": "Bilans",
+    "0000952744": "JednostkaMikro"
+  }
+}

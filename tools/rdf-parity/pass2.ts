@@ -7,6 +7,8 @@ import { fetchBizraportDane } from "./bizraport";
 import { ourIndicators, compareYear, summarizeComparison, type ComparisonRow } from "./compare";
 
 const DUMP = join(process.cwd(), "tools", "rdf-parity", "dump");
+const PACE_MS = Number(process.env.PACE_MS ?? 1000);
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 interface Pass1Entry {
   krs: string;
@@ -48,7 +50,7 @@ async function main() {
       if (!statement) continue;
       const year = statement.rok ?? Number(hit.okresSprawozdawczyKoniec?.slice(0, 4));
       if (year) ourByYear.set(year, ourIndicators(statement));
-      await new Promise((r) => setTimeout(r, 250));
+      await sleep(PACE_MS);
     }
     const biz = await fetchBizraportDane(creds, krs);
     const theirByYear = new Map<number, Map<string, number | null>>();
@@ -75,7 +77,7 @@ async function main() {
       summary: summarizeComparison(companyRows),
     };
     report.picked.push(krs);
-    await new Promise((r) => setTimeout(r, 300));
+    await sleep(PACE_MS);
   }
   report.summary = summarizeComparison(allRows);
   mkdirSync(DUMP, { recursive: true });

@@ -1,0 +1,299 @@
+{
+  "email": "karby92@gmail.com",
+  "model": "konto testowe",
+  "freeLimit": 100,
+  "usedBefore": 91,
+  "usedAfter": 91,
+  "creditsSpentThisRun": 0,
+  "history": [
+    {
+      "at": "2026-08-22T02:02",
+      "usedBefore": 61,
+      "usedAfter": 84,
+      "spent": 23,
+      "calls": 32
+    },
+    {
+      "at": "2026-08-22T02:06",
+      "usedBefore": 84,
+      "usedAfter": 91,
+      "spent": 7,
+      "calls": 0
+    },
+    {
+      "at": "2026-08-22T02:11",
+      "usedBefore": 91,
+      "usedAfter": 91,
+      "spent": 0,
+      "calls": 24
+    },
+    {
+      "at": "2026-08-22T00:22:18.238Z",
+      "usedBefore": 91,
+      "usedAfter": 91,
+      "spent": 0,
+      "calls": 24
+    }
+  ],
+  "calls": [
+    {
+      "at": "2026-08-22T00:22:13.630Z",
+      "endpoint": "/api/dane",
+      "params": {
+        "krs": "0000795513",
+        "password": "wrong-password"
+      },
+      "status": 401,
+      "credits": 0,
+      "fixture": null
+    },
+    {
+      "at": "2026-08-22T00:22:14.141Z",
+      "endpoint": "/api/dane",
+      "params": {},
+      "status": 400,
+      "credits": 0,
+      "fixture": null
+    },
+    {
+      "at": "2026-08-22T00:22:15.472Z",
+      "endpoint": "/api/dane",
+      "params": {
+        "krs": "0000000000"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": null
+    },
+    {
+      "at": "2026-08-22T00:22:16.701Z",
+      "endpoint": "/api/katalog",
+      "params": {},
+      "status": 400,
+      "credits": 0,
+      "fixture": null
+    },
+    {
+      "at": "2026-08-22T00:22:17.212Z",
+      "endpoint": "/api/szukaj",
+      "params": {
+        "q": ""
+      },
+      "status": 400,
+      "credits": 0,
+      "fixture": null
+    },
+    {
+      "at": "2026-08-22T00:22:17.215Z",
+      "endpoint": "/api/sprawozdania",
+      "params": {
+        "krs": "0001023457"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "sprawozdania-psa.json",
+      "note": "reused fixture (originally 0 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.218Z",
+      "endpoint": "/api/sprawozdania",
+      "params": {
+        "krs": "0000781241"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "sprawozdania-ska.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.224Z",
+      "endpoint": "/api/sprawozdania",
+      "params": {
+        "krs": "0000166742"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "sprawozdania-spoldzielnia.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.227Z",
+      "endpoint": "/api/katalog",
+      "params": {
+        "zysk_netto_do": "-5000000"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "katalog-strata.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.228Z",
+      "endpoint": "/api/dane",
+      "params": {
+        "krs": "0000059307"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "strata.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.229Z",
+      "endpoint": "/api/katalog",
+      "params": {
+        "rok_wpisu_do_rejestru_od": "2026"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "katalog-mikro.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.229Z",
+      "endpoint": "/api/dane",
+      "params": {
+        "krs": "0001214155"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "mikro.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.231Z",
+      "endpoint": "/api/dane",
+      "params": {
+        "krs": "0000060888"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "krz-upadlosc.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.233Z",
+      "endpoint": "/api/dane",
+      "params": {
+        "krs": "0000222483",
+        "rozszerz_polaczenia": "tak"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "jeronimo-graf.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.235Z",
+      "endpoint": "/api/sprawozdania",
+      "params": {
+        "krs": "0000597711"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "sprawozdania-komandytowa.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.236Z",
+      "endpoint": "/api/katalog",
+      "params": {
+        "pkd_sekcja": "J",
+        "wojewodztwo": "MAZOWIECKIE"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "katalog-pkd-maz-fresh.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.236Z",
+      "endpoint": "/api/katalog",
+      "params": {
+        "roa_od": "15",
+        "nie_wykreslona": "tak"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "katalog-roa-fresh.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.236Z",
+      "endpoint": "/api/katalog",
+      "params": {
+        "cit_estonski": "tak"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "katalog-cit-fresh.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.236Z",
+      "endpoint": "/api/katalog",
+      "params": {
+        "ostatni_krz": "90"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "katalog-krz-fresh.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.236Z",
+      "endpoint": "/api/katalog",
+      "params": {
+        "pkd_podklasa": "99.99.Z"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "katalog-zero.json",
+      "note": "reused fixture (originally 0 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.237Z",
+      "endpoint": "/api/szukaj",
+      "params": {
+        "q": "baseli"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "szukaj-fragment-fresh.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.237Z",
+      "endpoint": "/api/szukaj",
+      "params": {
+        "q": "8971868567"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "szukaj-nip-fresh.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.237Z",
+      "endpoint": "/api/szukaj",
+      "params": {
+        "q": "0000795513"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "szukaj-krs-fresh.json",
+      "note": "reused fixture (originally 1 credit)"
+    },
+    {
+      "at": "2026-08-22T00:22:17.237Z",
+      "endpoint": "/api/szukaj",
+      "params": {
+        "q": "361587283"
+      },
+      "status": 200,
+      "credits": 0,
+      "fixture": "szukaj-regon-fresh.json",
+      "note": "reused fixture (originally 0 credit)"
+    }
+  ]
+}

@@ -1,0 +1,2656 @@
+{
+  "data": [
+    {
+      "krs": "0000060888_",
+      "nip": 7640001443,
+      "kod_pkd": "27.40.Z",
+      "opis_pkd": "Produkcja elektrycznego sprzętu oświetleniowego",
+      "informacje_o_firmie": [
+        {
+          "nazwa_pola": "adres_strony_internetowej",
+          "wartosc": "http://www.lighting.philips.pl/connect/news/spolkiphilipslighting_2.wpd"
+        },
+        {
+          "nazwa_pola": "data_rozpoczecia_dzialalnosci",
+          "wartosc": "1990-12-31"
+        },
+        {
+          "nazwa_pola": "data_wpisu_do_rejestru",
+          "wartosc": "2001-11-14"
+        },
+        {
+          "nazwa_pola": "forma_prawna",
+          "wartosc": "SPÓŁKA AKCYJNA"
+        },
+        {
+          "nazwa_pola": "forma_wlasnosci",
+          "wartosc": "WŁASNOŚĆ ZAGRANICZNA"
+        },
+        {
+          "nazwa_pola": "kod_pocztowy",
+          "wartosc": "95-200"
+        },
+        {
+          "nazwa_pola": "miejscowosc",
+          "wartosc": "PABIANICE"
+        },
+        {
+          "nazwa_pola": "nazwa",
+          "wartosc": "ULTINON MOTION POLAND SPÓŁKA AKCYJNA"
+        },
+        {
+          "nazwa_pola": "nip",
+          "wartosc": "7640001443"
+        },
+        {
+          "nazwa_pola": "numer_nieruchomosci",
+          "wartosc": "66/72"
+        },
+        {
+          "nazwa_pola": "organ_nadzoru",
+          "wartosc": "RADA NADZORCZA"
+        },
+        {
+          "nazwa_pola": "organ_rejestrowy",
+          "wartosc": "SĄD REJONOWY DLA ŁODZI ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "nazwa_pola": "organ_reprezentujacy",
+          "wartosc": "ZARZĄD"
+        },
+        {
+          "nazwa_pola": "postepowanie_upadlosciowe",
+          "wartosc": "Tak"
+        },
+        {
+          "nazwa_pola": "regon",
+          "wartosc": "570007259"
+        },
+        {
+          "nazwa_pola": "sposob_reprezentacji",
+          "wartosc": "KAŻDY CZŁONEK ZARZĄDU JEST UPRAWNIONY DO SAMODZIELNEGO DZIAŁANIA I SKŁADANIA OŚWIADCZEŃ WOLI W IMIENIU SPÓŁKI"
+        },
+        {
+          "nazwa_pola": "ulica",
+          "wartosc": "UL. PARTYZANCKA"
+        },
+        {
+          "nazwa_pola": "kapital_zakladowy",
+          "wartosc": "40614299,00 PLN"
+        },
+        {
+          "nazwa_pola": "wojewodztwo",
+          "wartosc": "ŁÓDZKIE"
+        }
+      ],
+      "dane_finansowe": [
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 420724000,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 136915000,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 16079000,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 39019000,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 55098000,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 127721000,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 702325000,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 698229000,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 29653760,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 15934803.33,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.1,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.95,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 30369000,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 768737000,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 741344000,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 740660000,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.13,
+          "nazwa_wskaznika": "roa",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.58,
+          "nazwa_wskaznika": "roe",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 557639000,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 1921842500,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 95790750,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 902558083.33,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 5,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.77,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 84197000,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 665.0005,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 429918000,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 43200000,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 73569000,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 39019000,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 42431000,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 401514000,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 127020000,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 14074000,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 50818000,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 64892000,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 90354000,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 671592000,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 670692000,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 28896400,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 11833140,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.07,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.009,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 9158000,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 733388000,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 722410000,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 719519000,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.07,
+          "nazwa_wskaznika": "roa",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.4,
+          "nazwa_wskaznika": "roe",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 528534000,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 1833470000,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 67765500,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 701498833.33,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.83,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 76600000,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 700.4426,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 438180000,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 45360000,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 36202000,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 50818000,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 48827000,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 446355000,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 102604000,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 13576000,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 69273000,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 82849000,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 87403000,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 649979000,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 647874000,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 28770080,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 13294073.33,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.1,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.009,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 27818000,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 726432000,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 719252000,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 713254000,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.06,
+          "nazwa_wskaznika": "roa",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.38,
+          "nazwa_wskaznika": "roe",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 548959000,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 1816080000,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 65552250,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 682844250,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.84,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 75524000,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 736,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 461556000,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 61069000,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 33251000,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 69273000,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 65380000,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 412249000,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 88476000,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 15650000,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 52087000,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 67737000,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 76105000,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 577610000,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 575516000,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 25187880,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 11233098.33,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.03,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.08,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.0144,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 20815000,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 637197000,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 629697000,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 625227000,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "roa",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.29,
+          "nazwa_wskaznika": "roe",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 500725000,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 1592992500,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 57078750,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 569688750,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 3,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.85,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 66358000,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 769,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 424620000,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 42768000,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 21953000,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 52087000,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 49711000,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 385416000,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 96681000,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 16431000,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 77465000,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 93896000,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 98431000,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 607283000,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 606943000,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 27389920,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 612500,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 14798155,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.06,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.11,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.009,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 23943000,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 687492000,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 684748000,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 684571000,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.09,
+          "nazwa_wskaznika": "roa",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.45,
+          "nazwa_wskaznika": "roe",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 482097000,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 1718730000,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 73823250,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 709267250,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.8,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 73394000,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 809,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 383666000,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 68222000,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 44279000,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 77465000,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 77628000,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 356071000,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 101287000,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 15656000,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 93675000,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 109331000,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 111200000,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 623654000,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 622091000,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 28693160,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 3469550,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 16905233.33,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.08,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.13,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.0062,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 27250000,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 718928000,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 717329000,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 716616000,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.12,
+          "nazwa_wskaznika": "roa",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.51,
+          "nazwa_wskaznika": "roe",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 457358000,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 1797320000,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 83400000,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 790877333.33,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.76,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 72142000,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 861,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 346158000,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 84298000,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 57048000,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 93675000,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 94525000,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 352820000,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 109908000,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 14560000,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 54563000,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 69123000,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 137525000,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 642877000,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 641185000,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 27897600,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 7141600,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 16891350,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.08,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.009,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 9164000,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 698450000,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 697440000,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 693468000,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.08,
+          "nazwa_wskaznika": "roa",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.26,
+          "nazwa_wskaznika": "roe",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 462728000,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 1746125000,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 103143750,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 711609083.33,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.7,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 67893000,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 719.5505,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 325203000,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 44872000,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 35708000,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 54563000,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 52283000,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2017
+        }
+      ],
+      "opisy_firmy": [
+        {
+          "opis": "LUMILEDS POLAND to renomowana firma specjalizująca się w dostarczaniu zaawansowanych rozwiązań oświetleniowych pod marką Philips. W ofercie firmy znajdują się zarówno lampy LED, jak i klasyczne żarówki, tuby oraz oprawy oświetleniowe, zaprojektowane z myślą o różnych zastosowaniach zarówno wewnętrznych, jak i zewnętrznych. Firma wyróżnia się na rynku dzięki swojej dbałości o energooszczędność i wysoką jakość produktów. Rozwiązania oferowane przez LUMILEDS POLAND obejmują szeroki zakres produktów, dedykowanych zarówno dla obiektów komercyjnych, jak i przestrzeni publicznych, takich jak biura, hotele, sklepy, obiekty sportowe, przemysłowe oraz drogowe. Philips nie tylko dostarcza produktów, ale oferuje także kompleksowe systemy zarządzania oświetleniem oraz usługi wsparcia technicznego i konsultingowe. W portfolio znajdują się m.in. systemy do sterowania oświetleniem, systemy dezynfekcji UV-C oraz narzędzia do selekcji sprzętu. Ponadto, firma prowadzi Lighting Academy, oferującą materiały edukacyjne dla profesjonalistów pragnących poszerzyć swoją wiedzę w dziedzinie oświetlenia. LUMILEDS POLAND dąży do ciągłego ulepszania swoich produktów i technologii, wpisując się tym samym w globalne dążenia do zrównoważonego rozwoju i oszczędności energetycznej.",
+          "punkt_kluczowy_1": "Dostawca zaawansowanych rozwiązań oświetleniowych LED pod marką Philips",
+          "punkt_kluczowy_2": "Produkty obejmują lampy, tuby, żarówki, oprawy wewnętrzne i zewnętrzne",
+          "punkt_kluczowy_3": "Rozwiązania dla komercyjnych i publicznych przestrzeni: biura, hotele, sklepy, obiekty sportowe",
+          "punkt_kluczowy_4": "Systemy zarządzania oświetleniem, sterowanie, dezynfekcja UV-C",
+          "punkt_kluczowy_5": "Edukacyjne materiały dla profesjonalistów poprzez Lighting Academy"
+        }
+      ],
+      "powiazania": [
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "LUMILEDS HOLDING POLAND",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000530411_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "PHILIPS CONSUMER LUMINAIRES POLAND",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000034437_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "PHILIPS LIGHTING PABIANICE",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000103892_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "PHILIPS LIGHTING-FAREL MAZURY",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000051172_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "SIGNIFY POLAND",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000491219_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "ULTINON MOTION POLAND",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000060888_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "BAKER MICHAEL SIMON",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "GRAHAM STEPHEN EDWARD KINGSLEY",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "PARKER DAVID WILLIAM",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "PHILIPS LIGHTING EXPORT EASTERN EUROPE LTD.",
+          "typ_powiazania": "powiązanie zwrotne",
+          "id_podmiotu": "0000174136_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "POLAMP-PIŁA",
+          "typ_powiazania": "powiązanie zwrotne",
+          "id_podmiotu": "0000174129_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "ZAKŁADY SPRZĘTU OŚWIETLENIOWEGO \"POLAM-PIŁA\"",
+          "typ_powiazania": "powstanie organizacji",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KUMAR SHEKHAR",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": null,
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "SIPAHI FREDERIC",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": null,
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KASICA KAMIL",
+          "typ_powiazania": "syndyk",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "ULTINON MOTION HOLDING B.V.",
+          "typ_powiazania": "wspólnik",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null
+        }
+      ],
+      "udzialy": [
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "ULTINON MOTION HOLDING B.V.",
+          "procent_udzialow": 100,
+          "id_podmiotu": null
+        }
+      ],
+      "monitor_sadowy": [
+        {
+          "numer_ogloszenia": "321916",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/12544/25/559",
+          "tresc_naglowka": "Poz. 321916. „ULTINON MOTION POLAND SPÓŁKA\n    AKCYJNA” . KRS 0000060888. SĄD REJONOWY\n    DLA ŁODZI ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ\n    GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 14.11.2001.\n    [LD.XX NS-REJ.KRS/12544/25/559]",
+          "nr_monitora": "82/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 14.04.2025 dokonano wpisu do rejestru KRS\n    nr 98 następującej treści:\n    Dz. 1. Rub. 4. Informacje o statucie wpisać: 1 1. AKT\n    NOTARIALNY Z DNIA 28 LUTEGO 2025 ROKU,\n    REPERTORIUM A NR 702/2025, NOTARIUSZ KAROL\n    SZYRMA, KANCELARIA NOTARIALNA W WARSZAWIE. ZMIENIONO ART. 1",
+          "data_publikacji": "2025-04-29",
+          "nazwa_podmiotu": "„ULTINON MOTION POLAND SPÓŁKA AKCYJNA” .",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "300958",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/8753/25/100",
+          "tresc_naglowka": "Poz. 300958. „ULTINON MOTION POLAND SPÓŁKA\nAKCYJNA” . KRS 0000060888. SĄD REJONOWY\nDLA ŁODZI ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ\nGOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 14.11.2001.\n[LD.XX NS-REJ.KRS/8753/25/100]",
+          "nr_monitora": "79/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "K R A J O W E G O R E J E S T R U S Ą D O W E G O\n\n  W dniu 09.04.2025 dokonano wpisu do rejestru KRS\n  nr 97 następującej treści:\n  Dz. 1. Rub. 1. Dane podmiotu wykreślić: 3. LUMILEDS POLAND SPÓŁKA AKCYJNA wpisać: 3. „ULTINON MOTION POLAND SPÓŁKA AKCYJNA”\n  Rub. 7. Dane jedynego akcjonariusza wykreślić:\n  1 1. LAMPS HOLDING B.V. 6. TAK wpisać: 2 1. ULTINON MOTION HOLDING B.V. 6. TAK\n  Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n  podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub. Dane\n  osób wchodzących w skład organu wykreślić:\n  1 1. SOBIERAJ 2. MAREK ANTONI 3. [ukryto]\n  5. PREZES ZARZĄDU 6. NIE 2 1. PIĘTA 2. DARIUSZ\n  MIKOŁAJ 3. [ukryto] 5. WICEPREZES ZARZĄDU\n  6. NIE wpisać: 3 1. KUMAR 2. SHEKHAR 5. CZŁONEK\n  ZARZĄDU 6. NIE 4 1. SIPAHI 2. FREDERIC 5. CZŁONEK ZARZĄDU 6. NIE\n  Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RADA NADZORCZA) PRub. Dane osób wchodzących w skład\n  organu wykreślić: 1 1. LATZ 2. ARMIN 2 1. KANIA\n  2. ARKADIUSZ 3. [ukryto] 3 1. RANIC 2. VINCENT wpisać: 4 1. BAKER 2. MICHAEL SIMON\n  5 1. PARKER 2. DAVID WILLIAM 6 1. GRAHAM\n  2. STEPHEN EDWARD KINGSLEY",
+          "data_publikacji": "2025-04-24",
+          "nazwa_podmiotu": "„ULTINON MOTION POLAND SPÓŁKA AKCYJNA” .",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "1454320",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/30739/24/314",
+          "tresc_naglowka": "Poz. 1454320. LUMILEDS POLAND SPÓŁKA\n   AKCYJNA. KRS 0000060888. SĄD REJONOWY\n   DLA ŁODZI ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ\n   GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 14.11.2001.\n   [LD.XX NS-REJ.KRS/30739/24/314]",
+          "nr_monitora": "246/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 27.11.2024 dokonano wpisu do rejestru KRS\n   nr 95 następującej treści:\n   Dz. 1. Rub. 7. Dane jedynego akcjonariusza wykreślić: 1 1. LUMILEDS HOLDING B.V. 6. TAK wpisać:\n   2 1. LAMPS HOLDING B.V. 6. TAK",
+          "data_publikacji": "2024-12-19",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "846308",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/18754/24/505",
+          "tresc_naglowka": "Poz. 846308. LUMILEDS POLAND SPÓŁKA\n  AKCYJNA. KRS 0000060888. SĄD REJONOWY\n  DLA ŁODZI ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ\n  GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 14.11.2001.\n  [LD.XX NS-REJ.KRS/18754/24/505]",
+          "nr_monitora": "144/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 03.07.2024 dokonano wpisu do rejestru KRS\n  nr 94 następującej treści:\n  Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RADA\n  NADZORCZA) PRub. Dane osób wchodzących\n  w skład organu wykreślić: 1 1. RUST 2. MAARTEN 2 1. BARLOW 2. STEVE 3 (dla pozycji: 1. LATZ\n  2. ARMIN wpisać: 4 1. KANIA 2. ARKADIUSZ\n  3. [ukryto] 5 1. RANIC 2. VINCENT",
+          "data_publikacji": "2024-07-25",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "544908",
+          "sygnatura_sprawy": "RDF/612829/24/165",
+          "tresc_naglowka": "Poz. 544908. LUMILEDS POLAND SPÓŁKA\n    AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n    rejestru: 14.11.2001.\n    [RDF/612829/24/165]",
+          "nr_monitora": "122/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 11.06.2024 dokonano wpisu do rejestru KRS\n     nr 93 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 4. OD 01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-06-25",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "544907",
+          "sygnatura_sprawy": "RDF/612829/24/764",
+          "tresc_naglowka": "Poz. 544907. LUMILEDS POLAND SPÓŁKA\n    AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n    rejestru: 14.11.2001.\n    [RDF/612829/24/764]",
+          "nr_monitora": "122/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 11.06.2024 dokonano wpisu do rejestru KRS\n    nr 92 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 3. OD 01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-06-25",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "544906",
+          "sygnatura_sprawy": "RDF/612829/24/363",
+          "tresc_naglowka": "Poz. 544906. LUMILEDS POLAND SPÓŁKA\n    AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n    rejestru: 14.11.2001.\n    [RDF/612829/24/363]",
+          "nr_monitora": "122/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 11.06.2024 dokonano wpisu do rejestru KRS\n    nr 91 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 2. OD 01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-06-25",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "544905",
+          "sygnatura_sprawy": "RDF/612829/24/962",
+          "tresc_naglowka": "Poz. 544905. LUMILEDS POLAND SPÓŁKA\n    AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n    rejestru: 14.11.2001.\n    [RDF/612829/24/962]",
+          "nr_monitora": "122/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 11.06.2024 dokonano wpisu do rejestru KRS\n    nr 90 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach wpisać: 1 1. data złożenia 11.06.2024 okres O\n    01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-06-25",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "430393",
+          "sygnatura_sprawy": "RDF/491381/23/399",
+          "tresc_naglowka": "Poz. 430393. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/491381/23/399]",
+          "nr_monitora": "111/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 29.05.2023 dokonano wpisu do rejestru KRS\nnr 89 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 4. OD 01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-06-12",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "430392",
+          "sygnatura_sprawy": "RDF/491381/23/998",
+          "tresc_naglowka": "Poz. 430392. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/491381/23/998]",
+          "nr_monitora": "111/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 29.05.2023 dokonano wpisu do rejestru KRS\nnr 88 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 3. OD 01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-06-12",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "430391",
+          "sygnatura_sprawy": "RDF/491381/23/597",
+          "tresc_naglowka": "Poz. 430391. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/491381/23/597]",
+          "nr_monitora": "111/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 29.05.2023 dokonano wpisu do rejestru KRS\nnr 87 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 2. OD 01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-06-12",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "430390",
+          "sygnatura_sprawy": "RDF/491381/23/196",
+          "tresc_naglowka": "Poz. 430390. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/491381/23/196]",
+          "nr_monitora": "111/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 29.05.2023 dokonano wpisu do rejestru KRS\nnr 86 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 29.05.2023 okres OD\n01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-06-12",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "321627",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/12777/23/921",
+          "tresc_naglowka": "Poz. 321627. LUMILEDS POLAND SPÓŁKA\n  AKCYJNA. KRS 0000060888. SĄD REJONOWY\n  DLA ŁODZI ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ\n  GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 14.11.2001.\n  [LD.XX NS-REJ.KRS/12777/23/921]",
+          "nr_monitora": "89/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 25.04.2023 dokonano wpisu do rejestru KRS\n  nr 85 następującej treści:\n  Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RADA\n  NADZORCZA) PRub. Dane osób wchodzących\n  w skład organu wykreślić: 1 1. VAN BOCKSTAL\n  2. GEERT wpisać: 2 1. LATZ 2. ARMIN",
+          "data_publikacji": "2023-05-10",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "392519",
+          "sygnatura_sprawy": "RDF/388149/22/489",
+          "tresc_naglowka": "Poz. 392519. LUMILEDS POLAND SPÓŁKA\n    AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n    rejestru: 14.11.2001.\n    [RDF/388149/22/489]",
+          "nr_monitora": "121/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 10.06.2022 dokonano wpisu do rejestru KRS\n    nr 84 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 4. OD 01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-06-24",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "392518",
+          "sygnatura_sprawy": "RDF/388149/22/88",
+          "tresc_naglowka": "Poz. 392518. LUMILEDS POLAND SPÓŁKA\n    AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n    rejestru: 14.11.2001.\n    [RDF/388149/22/88]",
+          "nr_monitora": "121/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 10.06.2022 dokonano wpisu do rejestru KRS\n    nr 83 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 3. OD 01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-06-24",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "392517",
+          "sygnatura_sprawy": "RDF/388148/22/376",
+          "tresc_naglowka": "Poz. 392517. LUMILEDS POLAND SPÓŁKA\nA   AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n    rejestru: 14.11.2001.\n    [RDF/388148/22/376]",
+          "nr_monitora": "121/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 10.06.2022 dokonano wpisu do rejestru KRS\n    nr 82 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 2. OD 01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-06-24",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "392516",
+          "sygnatura_sprawy": "RDF/388148/22/975",
+          "tresc_naglowka": "Poz. 392516. LUMILEDS POLAND SPÓŁKA\n    AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n    rejestru: 14.11.2001.\n    [RDF/388148/22/975]",
+          "nr_monitora": "121/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 10.06.2022 dokonano wpisu do rejestru KRS\n    nr 81 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 1. data złożenia 10.06.2022 okres OD\n    01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-06-24",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "911961",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/19424/21/301",
+          "tresc_naglowka": "Poz. 911961. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SĄD REJONOWY\nDLA ŁODZI ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ\nGOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 14.11.2001.\n[LD.XX NS-REJ.KRS/19424/21/301]",
+          "nr_monitora": "202/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.10.2021 dokonano wpisu do rejestru KRS\nnr 80 następującej treści:\nDz. 1. Rub. 4. Informacje o statucie wpisać: 1 1. A\nNOTARIALNY Z DNIA 27.01.2021 R., REP. A NR\n453/2021 , NOTARIUSZ KATARZYNA WEŁPA , KANCELARIA NOTARIALNA W ŁODZI - ZMIENIONO ART.\n9\nDz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RAD\nNADZORCZA) PRub. Dane osób wchodzących\nw skład organu wykreślić: 1 1. BUZGAR NAZARE\n2. MIRCEA IRIMIA 2 1. SCHOONEN 2. ROGER wpisać: 3 1. RUST 2. MAARTEN 4 1. BARLOW 2. STEVE",
+          "data_publikacji": "2021-10-18",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "534368",
+          "sygnatura_sprawy": "RDF/309204/21/797",
+          "tresc_naglowka": "Poz. 534368. LUMILEDS POLAND SPÓŁKA\n      AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n      rejestru: 14.11.2001.\n      [RDF/309204/21/797]",
+          "nr_monitora": "135/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "ć:\n      W dniu 01.07.2021 dokonano wpisu do rejestru KRS\n      nr 79 następującej treści:\n      Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n      wpisać: 1 4. OD 01.01.2020 DO 31.12.2020",
+          "data_publikacji": "2021-07-15",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "534367",
+          "sygnatura_sprawy": "RDF/309204/21/396",
+          "tresc_naglowka": "Poz. 534367. LUMILEDS POLAND SPÓŁKA\n      AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n      rejestru: 14.11.2001.\n      [RDF/309204/21/396]",
+          "nr_monitora": "135/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 01.07.2021 dokonano wpisu do rejestru KRS\n      nr 78 następującej treści:\n      Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n      wpisać: 1 3. OD 01.01.2020 DO 31.12.2020",
+          "data_publikacji": "2021-07-15",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "534366",
+          "sygnatura_sprawy": "RDF/309204/21/995",
+          "tresc_naglowka": "Poz. 534366. LUMILEDS POLAND SPÓŁKA\n      AKCYJNA. KRS 0000060888. SYSTEM, wpis do\nlub   rejestru: 14.11.2001.\n      [RDF/309204/21/995]",
+          "nr_monitora": "135/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 01.07.2021 dokonano wpisu do rejestru KRS\n      nr 77 następującej treści:\n      Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n      wpisać: 1 2. OD 01.01.2020 DO 31.12.2020",
+          "data_publikacji": "2021-07-15",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "534365",
+          "sygnatura_sprawy": "RDF/309204/21/594",
+          "tresc_naglowka": "Poz. 534365. LUMILEDS POLAND SPÓŁKA\n   AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n   rejestru: 14.11.2001.\n   [RDF/309204/21/594]",
+          "nr_monitora": "135/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 01.07.2021 dokonano wpisu do rejestru KRS\n      nr 76 następującej treści:\n      Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach wpisać: 1 1. data złożenia 01.07.2021 okres OD\n      01.01.2020 DO 31.12.2020",
+          "data_publikacji": "2021-07-15",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "483425",
+          "sygnatura_sprawy": "RDF/218625/20/162",
+          "tresc_naglowka": "Poz. 483425. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/218625/20/162]",
+          "nr_monitora": "167/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 06.07.2020 dokonano wpisu do rejestru KRS\nnr 75 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 4. OD 01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-08-27",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "483424",
+          "sygnatura_sprawy": "RDF/218625/20/761",
+          "tresc_naglowka": "Poz. 483424. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/218625/20/761]",
+          "nr_monitora": "167/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 06.07.2020 dokonano wpisu do rejestru KRS\nnr 74 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 3. OD 01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-08-27",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "483423",
+          "sygnatura_sprawy": "RDF/218624/20/49",
+          "tresc_naglowka": "Poz. 483423. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/218624/20/49]",
+          "nr_monitora": "167/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 06.07.2020 dokonano wpisu do rejestru KRS\nnr 73 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 2. OD 01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-08-27",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "483422",
+          "sygnatura_sprawy": "RDF/218624/20/648",
+          "tresc_naglowka": "Poz. 483422. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/218624/20/648]",
+          "nr_monitora": "167/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 06.07.2020 dokonano wpisu do rejestru KRS\nnr 72 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 06.07.2020 okres OD\n01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-08-27",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "402560",
+          "sygnatura_sprawy": "RDF/119979/19/502",
+          "tresc_naglowka": "Poz. 402560. LUMILEDS POLAND SPÓŁKA\n   AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n   rejestru: 14.11.2001.\n   [RDF/119979/19/502]",
+          "nr_monitora": "115/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 07.06.2019 dokonano wpisu do rejestru KRS\n   nr 71 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 4. OD 01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-06-14",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "402559",
+          "sygnatura_sprawy": "RDF/119979/19/101",
+          "tresc_naglowka": "Poz. 402559. LUMILEDS POLAND SPÓŁKA\n   AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n   rejestru: 14.11.2001.\n   [RDF/119979/19/101]",
+          "nr_monitora": "115/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 07.06.2019 dokonano wpisu do rejestru KRS\n   nr 70 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 3. OD 01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-06-14",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "402558",
+          "sygnatura_sprawy": "RDF/119979/19/700",
+          "tresc_naglowka": "Poz. 402558. LUMILEDS POLAND SPÓŁKA\n   AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n   rejestru: 14.11.2001.\n   [RDF/119979/19/700]",
+          "nr_monitora": "115/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 07.06.2019 dokonano wpisu do rejestru KRS\n   nr 69 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 2. OD 01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-06-14",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "402557",
+          "sygnatura_sprawy": "RDF/119979/19/299",
+          "tresc_naglowka": "Poz. 402557. LUMILEDS POLAND SPÓŁKA\n   AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n   rejestru: 14.11.2001.\n   [RDF/119979/19/299]",
+          "nr_monitora": "115/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 07.06.2019 dokonano wpisu do rejestru KRS\n   nr 68 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 1. data złożenia 07.06.2019 okres OD\n   01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-06-14",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "1012437",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/13676/18/504",
+          "tresc_naglowka": "Poz. 1012437. LUMILEDS POLAND SPÓŁKA\n   AKCYJNA. KRS 0000060888. SĄD REJONOWY\n   DLA ŁODZI-ŚRÓDMIEŚCIA W ŁODZI SĄD GOSPODARCZY XX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n   14.11.2001.\n   [LD.XX NS-REJ.KRS/13676/18/504]",
+          "nr_monitora": "220/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "X V. W P I S Y D\n\nW dniu 07.09.2018 dokonano wpisu do rejestru KRS\nnr 67 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 2. OD 01.01.2016 DO 31.12.2016 1 3. OD\n01.01.2016 DO 31.12.2016",
+          "data_publikacji": "2018-11-14",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "927293",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/13159/18/560",
+          "tresc_naglowka": "Poz. 927293. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SĄD REJONOWY\nDLA ŁODZI-ŚRÓDMIEŚCIA W ŁODZI SĄD GOSPODARCZY XX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n14.11.2001.\n[LD.XX NS-REJ.KRS/13159/18/560]",
+          "nr_monitora": "215/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 06.08.2018 dokonano wpisu do rejestru KRS\nnr 66 następującej treści:\nDz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RAD\nNADZORCZA) PRub. Dane osób wchodzących\nw skład organu wykreślić: 1 1. ROMERO 2. JUAN\nJOSE wpisać: 2 1. SCHOONEN 2. ROGER",
+          "data_publikacji": "2018-11-06",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "389207",
+          "sygnatura_sprawy": "RDF/216799/18/803",
+          "tresc_naglowka": "Poz. 389207. LUMILEDS POLAND SPÓŁKA\n  AKCYJNA. KRS 0000060888. SYSTEM, wpis do\n  rejestru: 14.11.2001.\n  [RDF/216799/18/803]",
+          "nr_monitora": "177/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.06.2018 dokonano wpisu do rejestru KRS\n  nr 65 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 4. OD 01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2018-09-12",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "389206",
+          "sygnatura_sprawy": "RDF/216798/18/402",
+          "tresc_naglowka": "Poz. 389206. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/216798/18/402]",
+          "nr_monitora": "177/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.06.2018 dokonano wpisu do rejestru KRS\nnr 64 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 3. OD 01.01.2017 DO 31.12.2017\n\n\n\n\n\n\n\nK R A J O W E G O R E J E S T R U S Ą D O W E G O",
+          "data_publikacji": "2018-09-12",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "389205",
+          "sygnatura_sprawy": "RDF/216797/18/1",
+          "tresc_naglowka": "Poz. 389205. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/216797/18/1]",
+          "nr_monitora": "177/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.06.2018 dokonano wpisu do rejestru KRS\nnr 63 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 2. OD 01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2018-09-12",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "389204",
+          "sygnatura_sprawy": "RDF/216796/18/600",
+          "tresc_naglowka": "Poz. 389204. LUMILEDS POLAND SPÓŁKA\nAKCYJNA. KRS 0000060888. SYSTEM, wpis do\nrejestru: 14.11.2001.\n[RDF/216796/18/600]",
+          "nr_monitora": "177/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.06.2018 dokonano wpisu do rejestru KRS\nnr 62 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 28.06.2018 okres OD\n01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2018-09-12",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "366952",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/31280/17/884",
+          "tresc_naglowka": "Poz. 366952. LUMILEDS POLAND SPÓŁKA\n     AKCYJNA. KRS 0000060888. SĄD REJONOWY\n     DLA ŁODZI-ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ\n     GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 14.11.2001.\n     [LD.XX NS-REJ.KRS/31280/17/884]",
+          "nr_monitora": "198/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 02.10.2017 dokonano wpisu do rejestru KRS\n     nr 61 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 1. data złożenia 12.07.2017 okres OD\n     01.01.2016 DO 31.12.2016 1 4. OD 01.01.2016 DO\n     31.12.2016",
+          "data_publikacji": "2017-10-12",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "363018",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/25199/17/990",
+          "tresc_naglowka": "Poz. 363018. LUMILEDS POLAND SPÓŁKA\n      AKCYJNA. KRS 0000060888. SĄD REJONOWY DLA\n      ŁODZI-ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n      14.11.2001.\n      [LD.XX NS-REJ.KRS/25199/17/990]",
+          "nr_monitora": "197/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 29.09.2017 dokonano wpisu do rejestru KRS\n      nr 60 następującej treści:\n      Dz. 1. Rub. 4. Informacje o statucie wpisać:\n      1 1. 03.07.2017 R., NOTARIUSZ BARTOSZ ŁUSZCZAK KANCELARIA NOTARIALNA W WARSZAWIE REP. A NR 10024/2017, WYKREŚLONO USTĘP\n      3 W ARTYKULE 1, ZMIENIONO UST. 2 W ARTYKULE\n      8, DODANO USTĘP 8 W ARTYKULE 10, WYKREŚLONO USTĘP 2 W ART. 35",
+          "data_publikacji": "2017-10-11",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "87401",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/8159/17/905",
+          "tresc_naglowka": "Poz. 87401. LUMILEDS POLAND SPÓŁKA AKCYJNA.\n    KRS 0000060888. SĄD REJONOWY DLA ŁODZI-ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO,\n    wpis do rejestru: 14.11.2001.\n    [LD.XX NS-REJ.KRS/8159/17/905]",
+          "nr_monitora": "66/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 27.03.2017 dokonano wpisu do rejestru KRS\n    nr 59 następującej treści:\n    Dz. 2. Rub. 1. Organ uprawniony do reprezentacji podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub.\n    Dane osób wchodzących w skład organu wykreślić: 1 1. HUZAREWICZ 2. MAREK FRANCISZEK\n    3. [ukryto] 5. WICEPREZES ZARZĄDU 6. NIE\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 2. OD 01.01.2015 DO 31.12.2015 1 3. OD\n    01.01.2015 DO 31.12.2015",
+          "data_publikacji": "2017-04-04",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "417966",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/29019/16/602",
+          "tresc_naglowka": "Poz. 417966. LUMILEDS POLAND SPÓŁKA\n     AKCYJNA. KRS 0000060888. SĄD REJONOWY\n     DLA ŁODZI-ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ\n     GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 14.11.2001.\n     [LD.XX NS-REJ.KRS/29019/16/602]",
+          "nr_monitora": "248/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 15.12.2016 dokonano wpisu do rejestru KRS\n     nr 58 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 1. data złożenia 14.07.2016 okres OD\n     01.01.2015 DO 31.12.2015 1 4. OD 01.01.2015 DO\nD    31.12.2015",
+          "data_publikacji": "2016-12-23",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "277995",
+          "sygnatura_sprawy": "LD.XX NS-REJ.KRS/22866/16/315",
+          "tresc_naglowka": "Poz. 277995. LUMILEDS POLAND SPÓŁKA\n      AKCYJNA. KRS 0000060888. SĄD REJONOWY\n      DLA ŁODZI-ŚRÓDMIEŚCIA W ŁODZI, XX WYDZIAŁ\n      GOSPODARCZY KRAJOWEGO REJESTRU SĄDO68   WEGO, wpis do rejestru: 14.11.2001.\n      [LD.XX NS-REJ.KRS/22866/16/315]",
+          "nr_monitora": "175/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 01.09.2016 dokonano wpisu do rejestru KRS\n      nr 57 następującej treści:\n      Dz. 1. Rub. 4. Informacje o statucie wpisać:\n      1 1. 21.07.2016 R., NOTARIUSZ RENATA IZDEBSKA-SKWARA, KANCELARIA NOTARIALNA W WARSZAWIE, REPERTORIUM A NR 5120/2016 - ZMIANA\n      § 16 STATUTU\n      Rub. 7. Dane jedynego akcjonariusza wykreślić:\n      1 1. KERSEY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ 3. 360103043 4. 0000530411 5. TAK\n      wpisać: 2 1. LUMILEDS HOLDING B.V. 5. TAK\n      Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n      podmiotu 1 (dla pozycji: 1. ZARZĄD) wykreślić:\n      2. DO SKŁADANIA OŚWIADCZEŃ WOLI I PODPISYWANIA W IMIENIU SPÓŁKI WYMAGANE JEST\n      WSPÓŁDZIAŁANIE PREZESA I JEDNEGO Z CZŁONKÓW ZARZĄDU WZGLĘDNIE DWÓCH CZŁONKÓW\n      ZARZĄDU LUB JEDNEGO CZŁONKA ZARZĄDU\n      Z PROKURENTEM. wpisać: 2. KAŻDY CZŁONEK\n      ZARZĄDU JEST UPRAWNIONY DO SAMODZIELNEGO DZIAŁANIA I SKŁADANIA OŚWIADCZEŃ\n      WOLI W IMIENIU SPÓŁKI\n      Dz. 6. Rub. 4. Informacja o połączeniu, podziale\n      lub przekształceniu wpisać: 1 1. PRZEJĘCIE INNEJ\n      SPÓŁKI 2. POŁĄCZENIE ZOSTANIE PRZEPROWADZONE ZGODNIE Z ART. 492 § 1 PKT 1 K.S.H.\n      POPRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU\n      SPÓŁKI LUMILEDS HOLDING POLAND SPÓŁKA\n      Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ\n\n\n\n\n\n\n\n     Z SIEDZIBĄ W PABIANICACH (SPÓŁKA PRZEJMOWANA) NA LUMILEDS POLAND SPÓŁKA\n     AKCYJNA Z SIEDZIBĄ W PABIANIACACH (SPÓŁKA\n     PRZEJMUJĄCA). NA SKUTEK POŁĄCZENIA,\n     ZGODNIE Z ART. 494 § 1 K.S.H., SPÓŁKA PRZEJMUJĄCA WSTĄPI WE WSZYSTKIE PRAWA I OBOWIĄZKI SPÓŁKI PRZEJMOWANEJ, A SPÓŁKA\n     PRZEJMOWANA ZOSTANIE ROZWIĄZANA, BEZ\n     PRZEPROWADZANIA POSTĘPOWANIA LIKWIDACYJNEGO, Z DNIEM WPISANIA POŁĄCZENIA DO\n     REJESTRU WŁAŚCIWEGO WEDŁUG SIEDZIBY\n     SPÓŁKI PRZEJMUJĄCEJ. UCHWAŁA O POŁĄCZENIU ZOSTAŁA PODJĘTA PRZEZ NADZWYCZAJNE\n     WALNE ZGROMADZENIE AKCJONARUSZY LUMILEDS POLAND SPÓŁKA AKCYJNA (SPÓŁKA\n     PRZEJMUJĄCA) W DNIU 21.07.2016 R. I UMIESZCZONA W PROTOKOLE SPRZĄDZONYM PRZEZ\n     RENATĘ IZDEBSKĄ-SKWARĘ, NOTARIUSZA\n     W WARSZAWIE W KANCELARII NOTARIALNEJ\n     W WARSZAWIE, REP A NR 5120/2016. UCHWAŁA\n     O POŁĄCZENIU ZOSTAŁA PODJĘTA PRZEZ NADZWYCZAJNE ZGROMADZENIE WSPÓLNIKÓW\n     LUMILEDS HOLDING POLAND SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ(SPÓŁKA\n     PRZEJMOWANA) W DNIU 21.07.2016 R. I UMIESZCZONA W PROTOKOLE SPRZĄDZONYM PRZEZ\n     RENATĘ IZDEBSKĄ-SKWARĘ, NOTARIUSZA\n     W WARSZAWIE W KANCELARII NOTARIALNEJ\n     W WARSZAWIE, REP A NR 5116/2016.\nDO\nD",
+          "data_publikacji": "2016-09-09",
+          "nazwa_podmiotu": "LUMILEDS POLAND SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        }
+      ],
+      "krz": [
+        {
+          "data_krz": "2026-08-04",
+          "grupa_kategorii_tytul": "Postępowanie restrukturyzacyjne",
+          "kategoria_tytul": "Wniosek restrukturyzacyjny złożony przez dłużnika",
+          "poziom_istotnosci": "UWAGA",
+          "numer_obwieszczenia": "20260804/00216",
+          "tytul_obwieszczenia": "Obwieszczenie prawomocnego postanowienia o umorzeniu postępowania w przedmiocie rozpoznania wniosku restrukturyzacyjnego",
+          "sygnatura_akt": "LD1M/GR/5/2026",
+          "sad": "Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi",
+          "wydzial_sadu": "XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych",
+          "dluznik_typ": "podmiot",
+          "tresc": "Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi, XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych, ul. Pomorska 37, 90-203 Łódź, obwieszcza, że postanowieniem z dnia 10 lipca 2026 roku wydanym w sprawie o otwarcie postępowania sanacyjnego dłużnika, którym jest ULTINON MOTION POLAND SPÓŁKA AKCYJNA Spółka akcyjna, KRS 0000060888, prowadzonej pod sygn. akt LD1M/GR/5/2026, postanowił: umorzyć postępowanie wskutek cofnięcia wniosku.",
+          "id_osoby": null,
+          "przypisanie_do_krs": "podmiot"
+        },
+        {
+          "data_krz": "2026-07-15",
+          "grupa_kategorii_tytul": "Postępowanie upadłościowe",
+          "kategoria_tytul": "Ogłoszenie upadłości/oddalenie wniosku (art. 13 p.u.)",
+          "poziom_istotnosci": "UWAGA",
+          "numer_obwieszczenia": "20260715/00722",
+          "tytul_obwieszczenia": "Obwieszczenie postanowienia o ogłoszeniu upadłości",
+          "sygnatura_akt": "LD1M/GU/362/2026",
+          "sad": "Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi",
+          "wydzial_sadu": "XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych",
+          "dluznik_typ": "podmiot",
+          "tresc": "Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi, XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych, ul. Pomorska 37, 90-203 Łódź, obwieszcza, że postanowieniem z dnia 15 lipca 2026 roku wydanym w sprawie o ogłoszenie upadłości dłużnika, którym jest Ultinon Motion Poland Spółka akcyjna, KRS 0000060888, prowadzonej pod sygn. akt LD1M/GU/362/2026, postanowił: ogłosić upadłość dłużnika, którym jest \"ULTINON MOTION POLAND SPÓŁKA AKCYJNA\" S.A., KRS 0000060888, siedziba: Pabianice, adres Partyzancka 66/72, 95-200 Pabianice, NIP 7640001443; wezwać wierzycieli upadłego do zgłoszenia wierzytelności syndykowi za pośrednictwem systemu teleinformatycznego obsługującego postępowanie sądowe, w terminie trzydziestu dni od dnia obwieszczenia postanowienia o ogłoszeniu upadłości w Rejestrze; dla wierzycieli, o których mowa w art. 216aa ust. 1 ustawy z dnia 28 lutego 2003 r. Prawo upadłościowe, wskazać adres do zgłoszenia wierzytelności syndykowi: Kancelaria Radcy Prawnego, ul. Modrzewiowa 11, 91-487 Łódź; wezwać osoby, którym przysługują prawa oraz prawa i roszczenia osobiste ciążące na nieruchomości należącej do upadłego, jeżeli nie zostały ujawnione przez wpis w księdze wieczystej, do ich zgłaszania syndykowi za pośrednictwem systemu teleinformatycznego obsługującego postępowanie sądowe w terminie trzydziestu dni od dnia obwieszczenia postanowienia o ogłoszeniu upadłości w Rejestrze pod rygorem utraty prawa powoływania się na nie w postępowaniu upadłościowym; dla wierzycieli, o których mowa w art. 216aa ust. 1 ustawy z dnia 28 lutego 2003 r. Prawo upadłościowe, wskazać adres do zgłoszenia praw oraz praw osobistych i roszczeń ciążących na nieruchomości syndykowi: Kancelaria Radcy Prawnego, ul. Modrzewiowa 11, 91-487 Łódź; stwierdzić, że funkcję sędziego komisarza będzie pełnił sędzia; stwierdzić, że funkcję zastępcy sędziego komisarza będzie pełnił sędzia; wyznaczyć syndyka, którego funkcję będzie pełnić: Kamil Kasica (numer licencji 1677); wskazać, że podstawą jurysdykcji sądów polskich jest art. 3 ust.1 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2015/848 z dnia 20 maja 2015 r. w sprawie postępowania upadłościowego (Dz. U. UE. L. z 2015 r. Nr 141, str. 19 z późn. zm.), a postępowanie ma charakter główny; umorzyć postępowanie w przedmiocie wniosku wierzyciela Lumileds Holding B.V. z 22 czerwca 2026 r. o zabezpieczenie majątku dłużnika; umorzyć postępowanie w przedmiocie wniosków dłużnika z 18 czerwca 2026 r., 24 czerwca 2026 r. i 1 lipca 2026 r. o zabezpieczenie majątku dłużnika. Sygnatura akt w korespondencji dla syndyka: LD1M/GUp/18/2026. Poucza się, że wierzycielowi przysługuje zażalenie na postanowienie o ogłoszeniu upadłości wyłącznie w części dotyczącej jurysdykcji sądów polskich. Zażalenie wnosi się w następujący sposób: wierzyciel może w terminie tygodnia od dnia obwieszczenia postanowienia o ogłoszeniu upadłości wnieść zażalenie wyłącznie w części dotyczącej jurysdykcji sądów polskich. Dla wierzyciela, którego siedziba lub miejsce zwykłego pobytu w dniu otwarcia postępowania znajdowały się za granicą termin do wniesienia zażalenia wynosi trzydzieści dni od dnia obwieszczenia postanowienia o ogłoszeniu upadłości. Zażalenie podlega opłacie w wysokości 200,00 zł. Sąd odrzuci zażalenie jeżeli będzie ono spóźnione, nieopłacone lub dotknięte brakami, które nie zostaną usunięte mimo wezwania. Zażalenie należy skierować do Sądu Okręgowego w Łodzi, XIII Wydział Gospodarczy Odwoławczy za pośrednictwem Sądu Rejonowego dla Łodzi-Śródmieścia w Łodzi, XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych.",
+          "id_osoby": null,
+          "przypisanie_do_krs": "podmiot"
+        },
+        {
+          "data_krz": "2026-04-28",
+          "grupa_kategorii_tytul": "Postępowanie upadłościowe",
+          "kategoria_tytul": "Zabezpieczenie majątku",
+          "poziom_istotnosci": "UWAGA",
+          "numer_obwieszczenia": "20260428/00799",
+          "tytul_obwieszczenia": "Obwieszczenie postanowienia o ustanowieniu tymczasowego nadzorcy sądowego",
+          "sygnatura_akt": "LD1M/GU/362/2026",
+          "sad": "Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi",
+          "wydzial_sadu": "XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych",
+          "dluznik_typ": "podmiot",
+          "tresc": "Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi, XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych, ul. Pomorska 37, 90-203 Łódź, obwieszcza, że postanowieniem z dnia 28 kwietnia 2026 roku wydanym w sprawie o ogłoszenie upadłości dłużnika, którym jest Ultinon Motion Poland Spółka akcyjna z siedzibą w Pabianicach (KRS 0000060888), prowadzonej pod sygn. akt LD1M/GU/362/2026, postanowił: zabezpieczyć majątek dłużnika, którym jest Ultinon Motion Poland Spółka akcyjna z siedzibą w Pabianicach (KRS 0000060888) , przez ustanowienie tymczasowego nadzorcy sądowego, którego funkcję będzie pełnić: Kamil Kasica (numer licencji 1677). zobowiązać tymczasowego nadzorcę sądowego do złożenia w formie elektronicznej, w terminie dwóch miesięcy, sprawozdania obejmującego w szczególności informacje na temat stanu finansowego dłużnika, rodzaju i wartości rynkowej majątku dłużnika, przewidywanych kosztów postępowania upadłościowego i wypowiedzenia się: - czy na majątku dłużnika ustanowione są zabezpieczenia - jeśli tak, to w jakiej wysokości, - czy majątek dłużnika jest przedmiotem umów przewłaszczenia – jeśli tak, to jaki składnik majątku, - jaka jest wartość majątku nieobjętego zabezpieczeniami i umowami przewłaszczenia, - czy majątek dłużnika jest trudno zbywalny, - czy zachodzą okoliczności określone w art. 13 ust. 3 prawa upadłościowego, - czy opóźnienie w wykonywaniu zobowiązań pieniężnych przekracza trzy miesiące, - czy zobowiązania pieniężne przekraczają wartość majątku dłużnika, a stan ten utrzymuje się przez okres przekraczający 24 miesiące, - czy istnieje zagrożenie utraty przez dłużnika zdolności do wykonywania jego wymagalnych zobowiązań pieniężnych w niedługim czasie, - czy posiadany przez dłużnika majątek wystarczy na zaspokojenie kosztów postępowania upadłościowego, albo wystarczy jedynie na zaspokojenie tych kosztów, - czy dłużnik posiada wierzytelności sporne – jeśli tak, to w jakiej wysokości, - czy dłużnik posiada należności i w jakiej wysokości, czy posiada tytuły na należności, czy istnieją realne szanse odzyskania należności – jeśli tak, to w jakiej wysokości, czy dłużnik podejmował próby odzyskania należności, - czy do majątku dłużnika były kierowane egzekucje i z jakim skutkiem. Dłużnik po ustanowieniu tymczasowego nadzorcy sądowego jest uprawniony do dokonywania czynności zwykłego zarządu. Na dokonanie czynności przekraczających zakres zwykłego zarządu jest wymagana zgoda tymczasowego nadzorcy sądowego pod rygorem nieważności. Zgoda może zostać udzielona również po dokonaniu czynności w terminie trzydziestu dni od jej dokonania.",
+          "id_osoby": null,
+          "przypisanie_do_krs": "podmiot"
+        },
+        {
+          "data_krz": "2026-03-20",
+          "grupa_kategorii_tytul": "Postępowanie upadłościowe",
+          "kategoria_tytul": "Wniosek o ogłoszenie upadłości złożony przez dłużnika",
+          "poziom_istotnosci": "UWAGA",
+          "numer_obwieszczenia": "20260320/00052",
+          "tytul_obwieszczenia": "Obwieszczenie zarządzenia o wpisaniu do repertorium wniosku o ogłoszenie upadłości",
+          "sygnatura_akt": "LD1M/GU/362/2026",
+          "sad": "Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi",
+          "wydzial_sadu": "XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych",
+          "dluznik_typ": "podmiot",
+          "tresc": "Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi, XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych w sprawie o ogłoszenie upadłości dłużnika, którym jest \"ULTINON MOTION POLAND SPÓŁKA AKCYJNA\" Spółka akcyjna, zarządził o wpisaniu do repertorium GU sygn. akt LD1M/GU/362/2026 wniosku dłużnika, złożonego w dniu 19 marca 2026 r.",
+          "id_osoby": null,
+          "przypisanie_do_krs": "podmiot"
+        },
+        {
+          "data_krz": "2026-03-18",
+          "grupa_kategorii_tytul": "Postępowanie upadłościowe",
+          "kategoria_tytul": "Wniosek o ogłoszenie upadłości złożony przez dłużnika",
+          "poziom_istotnosci": "UWAGA",
+          "numer_obwieszczenia": "20260318/00197",
+          "tytul_obwieszczenia": "Obwieszczenie prawomocnego zarządzenia o zwrocie wniosku o ogłoszenie upadłości",
+          "sygnatura_akt": "LD1M/GU/260/2026",
+          "sad": "Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi",
+          "wydzial_sadu": "XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych",
+          "dluznik_typ": "podmiot",
+          "tresc": "Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi, XIV Wydział Gospodarczy ds. Upadłościowych i Restrukturyzacyjnych, ul. Pomorska 37, 90-203 Łódź, obwieszcza, że prawomocnym zarządzeniem z dnia 10 marca 2026 roku w sprawie o ogłoszenie upadłości dłużnika, którym jest \"ULTINON MOTION POLAND SPÓŁKA AKCYJNA\" Spółka akcyjna z siedzibą w Pabianicach (KRS 0000060888), sygnatura akt LD1M/GU/260/2026 zarządził zwrócić wniosek o ogłoszenie upadłości.",
+          "id_osoby": null,
+          "przypisanie_do_krs": "podmiot"
+        },
+        {
+          "data_krz": "2026-03-09",
+          "grupa_kategorii_tytul": "Postępowanie upadłościowe",
+          "kategoria_tytul": "Wniosek o ogłoszenie upadłości złożony przez dłużnika",
+          "poziom_istotnosci": "UWAGA",
+          "numer_obwieszczenia": "20260309/00150",
+          "tytul_obwieszczenia": "Obwieszczenie zarządzenia o wpisaniu do repertorium wniosku o ogłoszenie upadłości",
+          "sygnatura_akt": "LD1M/GU/260/2026",
+          "sad": "Sąd Rejonowy dla Łodzi-Śródmieścia",
+          "wydzial_sadu": "XIV Wydz.Gospod.ds.Upadł. i Restrukt.",
+          "dluznik_typ": "podmiot",
+          "tresc": "Sąd Rejonowy dla Łodzi-Śródmieścia, XIV Wydz.Gospod.ds.Upadł. i Restrukt. w sprawie o ogłoszenie upadłości dłużnika, którym jest \"ULTINON MOTION POLAND SPÓŁKA AKCYJNA\" Spółka akcyjna, zarządził o wpisaniu do repertorium GU sygn. akt LD1M/GU/260/2026 wniosku dłużnika, złożonego w dniu 6 marca 2026 r.",
+          "id_osoby": null,
+          "przypisanie_do_krs": "podmiot"
+        }
+      ],
+      "historia_sprawozdan": [
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "termin_zlozenia": "15-07-2024",
+          "data_dodania_do_krs": "11-06-2024"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "termin_zlozenia": "15-07-2023",
+          "data_dodania_do_krs": "29-05-2023"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "termin_zlozenia": "15-10-2022",
+          "data_dodania_do_krs": "10-06-2022"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "termin_zlozenia": "15-10-2021",
+          "data_dodania_do_krs": "01-07-2021"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "termin_zlozenia": "15-10-2020",
+          "data_dodania_do_krs": "06-07-2020"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "termin_zlozenia": "15-07-2019",
+          "data_dodania_do_krs": "07-06-2019"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "termin_zlozenia": "15-07-2018",
+          "data_dodania_do_krs": "28-06-2018"
+        }
+      ],
+      "pozycja_na_tle_branzy": [
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.6877
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.4549
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9965
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9933,
+          "udzial_w_rynku": 0.0666,
+          "przychody_calej_branzy": 11542413616.66,
+          "liczba_firm_w_branzy": 299
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.7103
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.7828
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9934
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9934
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.7
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9967
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5231
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.5339
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9931
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9933,
+          "udzial_w_rynku": 0.0495,
+          "przychody_calej_branzy": 14825396165.62,
+          "liczba_firm_w_branzy": 299
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.6074
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.7358
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9935
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9935
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.7148
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9869
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5119
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.6173
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9932
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9935,
+          "udzial_w_rynku": 0.0561,
+          "przychody_calej_branzy": 12946406739.43,
+          "liczba_firm_w_branzy": 309
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.5597
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.7177
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9937
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9937
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6997
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9905
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.4531
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.6356
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9927
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9933,
+          "udzial_w_rynku": 0.0582,
+          "przychody_calej_branzy": 10954436541.62,
+          "liczba_firm_w_branzy": 298
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.5395
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.6517
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9901
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9901
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.7251
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9868
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.6275
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.7155
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9964
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9934,
+          "udzial_w_rynku": 0.0634,
+          "przychody_calej_branzy": 10842122276.49,
+          "liczba_firm_w_branzy": 303
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.6897
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.7647
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9936
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9936
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6724
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9936
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.7119
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.7749
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9924
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9931,
+          "udzial_w_rynku": 0.0642,
+          "przychody_calej_branzy": 11194464116.22,
+          "liczba_firm_w_branzy": 290
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.7428
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.8
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9933
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9933
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6522
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9933
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.6465
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.6781
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9916
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9924,
+          "udzial_w_rynku": 0.0647,
+          "przychody_calej_branzy": 10788892249.85,
+          "liczba_firm_w_branzy": 263
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.6895
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.6492
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9926
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9926
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6129
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9926
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejS",
+      "numerKRS": "0000003409",
+      "dataCzasOdpisu": "22.08.2026 01:20:05",
+      "stanZDnia": "21.08.2026",
+      "dataRejestracjiWKRS": "16.03.2001",
+      "numerOstatniegoWpisu": 34,
+      "dataOstatniegoWpisu": "21.08.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "RDF/899887/26/342",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SYSTEM",
+      "stanPozycji": 4
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "STOWARZYSZENIE",
+          "identyfikatory": {
+            "nip": "8621558197"
+          },
+          "nazwa": "STOWARZYSZENIE KULTURALNO-SPORTOWE \"PEGAZ\"",
+          "daneOWczesniejszejRejestracji": {},
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "LUBELSKIE",
+            "powiat": "JANOWSKI",
+            "gmina": "JANÓW LUBELSKI",
+            "miejscowosc": "JANÓW LUBELSKI"
+          },
+          "adres": {
+            "ulica": "UL. TURYSTYCZNA",
+            "nrDomu": "2",
+            "miejscowosc": "JANÓW LUBELSKI",
+            "kodPocztowy": "23-300",
+            "poczta": "JANÓW LUBELSKI",
+            "kraj": "POLSKA"
+          }
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "05.02.2001 R."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "11.05.2006R- ZMIANA § 6, § 7, § 8 PKT.3, § 8 PKT. 4(DODANO), § 16 PKT.2, § 27 PKT.2 (DODANO)"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "03.03.2011 R.W § 19 DODANO PKT 3,W § 22 DODANO PKT 8,§ 26 DOTYCHCZASOWĄ TREŚĆ OZNACZONO JAKO PKT 1 ORAZ DODANO PKT 2."
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY"
+        },
+        "komitetZalozycielski": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "Ł*****"
+            },
+            "imiona": {
+              "imie": "G******",
+              "imieDrugie": "I****"
+            },
+            "identyfikator": {
+              "pesel": "6**********"
+            }
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "K*****"
+            },
+            "imiona": {
+              "imie": "K********",
+              "imieDrugie": "A***"
+            },
+            "identyfikator": {
+              "pesel": "6**********"
+            }
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "D*******"
+            },
+            "imiona": {
+              "imie": "Ł*****",
+              "imieDrugie": "Z******"
+            },
+            "identyfikator": {
+              "pesel": "6**********"
+            }
+          }
+        ],
+        "organSprawujacyNadzor": {
+          "nazwa": "STAROSTA POWIATU JANOWSKIEGO"
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "WSPÓLNIE DWÓCH CZŁONKÓW ZARZĄDU",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B**"
+              },
+              "imiona": {
+                "imie": "B******"
+              },
+              "identyfikator": {
+                "pesel": "9**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES"
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B**"
+              },
+              "imiona": {
+                "imie": "J*****"
+              },
+              "identyfikator": {
+                "pesel": "9**********"
+              },
+              "funkcjaWOrganie": "SKARBNIK"
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B**"
+              },
+              "imiona": {
+                "imie": "B*****"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "PREZES ZARZĄDU"
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "KOMISJA REWIZYJNA",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "B**"
+                },
+                "imiona": {
+                  "imie": "K*****"
+                },
+                "identyfikator": {
+                  "pesel": "9**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "B**"
+                },
+                "imiona": {
+                  "imie": "R*****"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "K******"
+                },
+                "imiona": {
+                  "imie": "M*****"
+                },
+                "identyfikator": {
+                  "pesel": "9**********"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dzial3": {
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "11.07.2008",
+              "zaOkresOdDo": "2007 ROK"
+            },
+            {
+              "dataZlozenia": "23.06.2009",
+              "zaOkresOdDo": "01.01.2008 - 31.12.2008R."
+            },
+            {
+              "dataZlozenia": "17.06.2010",
+              "zaOkresOdDo": "2009 ROK"
+            },
+            {
+              "dataZlozenia": "12.04.2011",
+              "zaOkresOdDo": "ZA ROK 2010"
+            },
+            {
+              "dataZlozenia": "10.09.2018",
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "dataZlozenia": "10.09.2018",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "10.09.2018",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "10.09.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "02.09.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "04.08.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "09.07.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "22.02.2023",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "26.07.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "04.07.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "30.08.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "dataZlozenia": "21.08.2026",
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "2008 ROK"
+            },
+            {
+              "zaOkresOdDo": "2009 ROK"
+            },
+            {
+              "zaOkresOdDo": "ZA ROK 2010"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "2007 ROK"
+            },
+            {
+              "zaOkresOdDo": "2009 ROK"
+            }
+          ]
+        },
+        "celDzialaniaOrganizacji": {
+          "celDzialania": "UPOWSZECHNIANIE KULTURY FIZYCZNEJ,SPORTU I REKREACJI,\nUPOWSZECHNIANIE KRAJOZNAWSTWA, TURYSTYKI ORAZ WYPOCZYNKU W TYM WYPOCZYNKU DZIECI I MŁODZIEŻY,\nUPOWSZECHNIANIE KULTURY, SZTUKI, OCHRONY DÓBR KULTURY I TRADYCJI,\nPROMOCJA REGIONU,\nDZIAŁANIE NA RZECZ OSÓB NIEPEŁNOSPRAWNYCH,\nPRZECIWDZIAŁANIE PATOLOGIOM SPOŁECZNYM,\nSPEŁNIANIE ŚWIADCZEŃ ZWIĄZANYCH Z OCHRONĄ ZDROWIA ORAZ UDZIELANIE POMOCY OSOBOM POSZKODOWANYM W WYPADKACH KOMUNIKACYJNYCH."
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

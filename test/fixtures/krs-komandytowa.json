@@ -1,0 +1,803 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000597711",
+      "dataCzasOdpisu": "22.08.2026 01:18:57",
+      "stanZDnia": "27.07.2026",
+      "dataRejestracjiWKRS": "01.02.2016",
+      "numerOstatniegoWpisu": 76,
+      "dataOstatniegoWpisu": "27.07.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "PO.VIII NS-REJ.KRS/23769/26/489",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SĄD REJONOWY POZNAŃ - NOWE MIASTO I WILDA W POZNANIU, VIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA KOMANDYTOWA",
+          "identyfikatory": {
+            "regon": "30282177200000",
+            "nip": "7811897358"
+          },
+          "nazwa": "LIDL SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "WIELKOPOLSKIE",
+            "powiat": "POZNAŃSKI",
+            "gmina": "TARNOWO PODGÓRNE",
+            "miejscowosc": "JANKOWICE"
+          },
+          "adres": {
+            "ulica": "UL. POZNAŃSKA",
+            "nrDomu": "48",
+            "miejscowosc": "JANKOWICE",
+            "kodPocztowy": "62-080",
+            "poczta": "TARNOWO PODGÓRNE",
+            "kraj": "POLSKA"
+          },
+          "adresStronyInternetowej": "WWW.LIDL.PL",
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-78831-59700-WSDIE-19"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "11.01.2016 R., NOTARIUSZ MAŁGORZATA MUSZALSKA, KANCELARIA NOTARIALNA MAŁGORZATA MUSZALSKA - NOTARIUSZ, IZABELA WALKOWIAK - NOTARIUSZ S.C. W POZNANIU PRZY UL. GARBARY 53/4, REP. A NR 91/2016"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "07.07.2017 R., REP. A NR 5320/2017, NOTARIUSZ DR MAŁGORZATA MUSZALSKA, KANCELARIA NOTARIALNA MAŁGORZATA MUSZALSKA IZABELA WALKOWIAK SPÓŁKA CYWILNA, UL. GARBARY 53/4, 61-869 POZNAŃ, ZMIANA UMOWY SPÓŁKI: PKT. 4 UST. 4.1, PKT. 5 UST. 5.5. ORAZ PKT. 9; PRZYJĘCIE TEKSTU JEDNOLITEGO UMOWY SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 7 LUTEGO 2019 R., REP. A NR 626/2019, SPORZĄDZONY PRZEZ NOTARIUSZA W POZNANIU DR MAŁGORZATĘ MUSZALSKĄ, KANCELARIA NOTARIALNA MAŁGORZATA MUSZALSKA, UL. GARBARY 53/4, 61-869 POZNAŃ, ZMIANA PKT. 9.1 ORAZ PKT. 9.2, UCHWALENIE TEKSTU JEDNOLITEGO UMOWY SPÓŁKI KOMANDYTOWEJ."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "17.05.2021 R., REP. A NR 2845/2021, NOTARIUSZ MAŁGORZATA MUSZALSKA, KANCELARIA NOTARIALNA W POZNANIU - W PUNKCIE 4 UST. 4.1 DODANO PKT 76) ORAZ PRZYJĘTO TEKST JEDNOLITY UMOWY SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "04.03.2024 R., REP. A NR 1699/2024 R., NOTARIUSZ DR MAŁGORZATA MUSZALSKA, KANCELARIA NOTARIALNA W POZNANIU - ZMIANA PKT. 1 UST. 1.2, PKT. 4.1, PKT. 9 UMOWY SPÓŁKI ORAZ PRZYJĘTO TEKST JEDNOLITY UMOWY SPÓŁKI."
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY"
+        },
+        "sposobPowstaniaPodmiotu": {
+          "okolicznosciPowstania": "PRZEKSZTAŁCENIE",
+          "opisSposobuPowstaniaInformacjaOUchwale": "SPÓŁKA POWSTAŁA W WYNIKU PRZEKSZTAŁCENIA SPÓŁKI POD FIRMĄ LIDL SKLEPY SPOŻYWCZE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W SPÓŁKĘ KOMANDYTOWĄ PRZEPROWADZONEGO NA PODSTAWIE ART. 551 § 1 KODEKSU SPÓŁEK HANDLOWYCH UCHWAŁA NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW SPÓŁKI LIDL SKLEPY SPOŻYWCZE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ O PRZEKSZTAŁCENIU ZOSTAŁA PODJĘTA W DNIU 11.01.2016 R.",
+          "podmioty": [
+            {
+              "nazwa": "LIDL SKLEPY SPOŻYWCZE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,------",
+              "krajNazwaRejestruEwidencji": "KRAJOWY REJESTR SĄDOWY",
+              "krs": {
+                "krs": "0000521877"
+              },
+              "nazwaSaduOrganuProwadzacegoRejestrEwidencje": "******",
+              "identyfikator": {
+                "regon": "30282177200000"
+              },
+              "nip": "7811897358"
+            }
+          ]
+        },
+        "wspolnicyPartnerzy": [
+          {
+            "nazwa": "LIDL SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+            "identyfikator": {
+              "regon": "63446344000000"
+            },
+            "krs": {
+              "krs": "0000152904"
+            },
+            "czyJestKomandytariuszem": false
+          },
+          {
+            "nazwa": "LIDL INTERNATIONAL SERVICES GESELLSCHAFT MIT BESCHRÄNKTER HAFTUNG",
+            "identyfikator": {},
+            "krs": {
+              "krs": "0000000000"
+            },
+            "czyJestKomandytariuszem": true,
+            "wysokoscSumyKomandytowej": "100 000,00 ZŁ",
+            "wartoscWkladuWspolnikaWUmowie": "4 758 150 278,35 ZŁ",
+            "wkladWspolnikaWUmowieCzyNiepieniezny": false,
+            "wkladyWniesione": [
+              {
+                "wartosc": "4 758 150 278,35 ZŁ",
+                "czyWkladNiepieniezny": false
+              }
+            ]
+          }
+        ]
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "WSPÓLNICY REPREZENTUJĄCY SPÓŁKĘ",
+          "sposobReprezentacji": "DO REPREZENTACJI I PROWADZENIA SPRAW SPÓŁKI UPRAWNIONY JEST KOMPLEMENTARIUSZ SAMODZIELNIE",
+          "sklad": [
+            {
+              "nazwa": "LIDL SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+              "imiona": {},
+              "identyfikator": {
+                "regon": "63446344000000"
+              },
+              "krs": {
+                "krs": "0000152904"
+              }
+            }
+          ]
+        },
+        "prokurenci": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "M*****"
+            },
+            "imiona": {
+              "imie": "P****",
+              "imieDrugie": "A******"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "G****"
+            },
+            "imiona": {
+              "imie": "R*****",
+              "imieDrugie": "M*****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "M***********"
+            },
+            "imiona": {
+              "imie": "M*****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "C*****"
+            },
+            "imiona": {
+              "imie": "A***",
+              "imieDrugie": "A*********"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "D*****"
+            },
+            "imiona": {
+              "imie": "J*******"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "R******"
+            },
+            "imiona": {
+              "imie": "K********",
+              "imieDrugie": "J****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "J*******"
+            },
+            "imiona": {
+              "imie": "D*****",
+              "imieDrugie": "J**"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW."
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "M********"
+            },
+            "imiona": {
+              "imie": "R****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW."
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "M******"
+            },
+            "imiona": {
+              "imie": "A********",
+              "imieDrugie": "I****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "B********"
+            },
+            "imiona": {
+              "imie": "R*****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "M****"
+            },
+            "imiona": {
+              "imie": "M*****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "G***"
+            },
+            "imiona": {
+              "imie": "R****",
+              "imieDrugie": "D******"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "G*******"
+            },
+            "imiona": {
+              "imie": "B******"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "M*****"
+            },
+            "imiona": {
+              "imie": "A******",
+              "imieDrugie": "Z****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW."
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "J******"
+            },
+            "imiona": {
+              "imie": "J*****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA  Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW."
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "K*****"
+            },
+            "imiona": {
+              "imie": "P****",
+              "imieDrugie": "S********"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "T*****"
+            },
+            "imiona": {
+              "imie": "K********",
+              "imieDrugie": "J****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "N********"
+            },
+            "imiona": {
+              "imie": "A***"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "D***"
+            },
+            "imiona": {
+              "imie": "K*******"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "S*********"
+            },
+            "imiona": {
+              "imie": "J****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "S*****"
+            },
+            "imiona": {
+              "imie": "Z*******"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "R*****"
+            },
+            "imiona": {
+              "imie": "M*****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "M*******"
+            },
+            "imiona": {
+              "imie": "E**",
+              "imieDrugie": "K********"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "S*********"
+            },
+            "imiona": {
+              "imie": "P****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "R************"
+            },
+            "imiona": {
+              "imie": "A*********",
+              "imieDrugie": "M****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "J*******"
+            },
+            "imiona": {
+              "imie": "Ł*****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "S*****"
+            },
+            "imiona": {
+              "imie": "J**",
+              "imieDrugie": "S*****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "N******"
+            },
+            "imiona": {
+              "imie": "D*****",
+              "imieDrugie": "W*****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "K********"
+            },
+            "imiona": {
+              "imie": "I*******"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "M*****"
+            },
+            "imiona": {
+              "imie": "Ł*****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "S*****"
+            },
+            "imiona": {
+              "imie": "P****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "Ż********"
+            },
+            "imiona": {
+              "imie": "K*****",
+              "imieDrugie": "J*****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "K****"
+            },
+            "imiona": {
+              "imie": "B******"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "J********"
+            },
+            "imiona": {
+              "imie": "B******",
+              "imieDrugie": "M*******"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "F***"
+            },
+            "imiona": {
+              "imie": "D*****"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "W*********"
+            },
+            "imiona": {
+              "imie": "A********"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "rodzajProkury": "PROKURA ŁĄCZNA Z JEDNYM Z POZOSTAŁYCH PROKURENTÓW"
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "SPRZEDAŻ DETALICZNA PROWADZONA W NIEWYSPECJALIZOWANYCH SKLEPACH Z PRZEWAGĄ ŻYWNOŚCI, NAPOJÓW I WYROBÓW TYTONIOWYCH",
+              "kodDzial": "47",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "POZOSTAŁA SPRZEDAŻ DETALICZNA PROWADZONA W NIEWYSPECJALIZOWANYCH SKLEPACH",
+              "kodDzial": "47",
+              "kodKlasa": "19",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "MAGAZYNOWANIE I PRZECHOWYWANIE POZOSTAŁYCH TOWARÓW",
+              "kodDzial": "52",
+              "kodKlasa": "10",
+              "kodPodklasa": "B"
+            },
+            {
+              "opis": "KUPNO I SPRZEDAŻ NIERUCHOMOŚCI NA WŁASNY RACHUNEK",
+              "kodDzial": "68",
+              "kodKlasa": "10",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYNAJEM I ZARZĄDZANIE NIERUCHOMOŚCIAMI WŁASNYMI LUB DZIERŻAWIONYMI",
+              "kodDzial": "68",
+              "kodKlasa": "20",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ ZWIĄZANA Z OBSŁUGĄ RYNKU NIERUCHOMOŚCI WYKONYWANA NA ZLECENIE",
+              "kodDzial": "68",
+              "kodKlasa": "32",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ RACHUNKOWO-KSIĘGOWA; DORADZTWO PODATKOWE",
+              "kodDzial": "69",
+              "kodKlasa": "20",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁE DORADZTWO W ZAKRESIE PROWADZENIA DZIAŁALNOŚCI GOSPODARCZEJ I ZARZĄDZANIA",
+              "kodDzial": "70",
+              "kodKlasa": "22",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ WSPOMAGAJĄCA PROWADZENIE DZIAŁALNOŚCI GOSPODARCZEJ, GDZIE INDZIEJ NIESKLASYFIKOWANA",
+              "kodDzial": "82",
+              "kodKlasa": "99",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRODUKCJA PIECZYWA; PRODUKCJA ŚWIEŻYCH WYROBÓW CIASTKARSKICH I CIASTEK",
+              "kodDzial": "10",
+              "kodKlasa": "71",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "06.09.2016",
+              "zaOkresOdDo": "OD 01.03.2015 DO 29.02.2016"
+            },
+            {
+              "dataZlozenia": "17.07.2017",
+              "zaOkresOdDo": "OD 01.03.2016 DO 28.02.2017"
+            },
+            {
+              "dataZlozenia": "31.08.2018",
+              "zaOkresOdDo": "OD 01.03.2017 DO 28.02.2018"
+            },
+            {
+              "dataZlozenia": "05.09.2019",
+              "zaOkresOdDo": "OD 01.03.2018 DO 28.02.2019"
+            },
+            {
+              "dataZlozenia": "11.12.2020",
+              "zaOkresOdDo": "OD 01.03.2019 DO 29.02.2020"
+            },
+            {
+              "dataZlozenia": "09.09.2021",
+              "zaOkresOdDo": "OD 01.03.2020 DO 28.02.2021"
+            },
+            {
+              "dataZlozenia": "08.09.2022",
+              "zaOkresOdDo": "OD 01.03.2021 DO 28.02.2022"
+            },
+            {
+              "dataZlozenia": "07.09.2023",
+              "zaOkresOdDo": "OD 01.03.2022 DO 28.02.2023"
+            },
+            {
+              "dataZlozenia": "09.09.2024",
+              "zaOkresOdDo": "OD 01.03.2023 DO 29.02.2024"
+            },
+            {
+              "dataZlozenia": "01.09.2025",
+              "zaOkresOdDo": "OD 01.03.2024 DO 28.02.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 01.03.2015 DO 29.02.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2016 DO 28.02.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2017 DO 28.02.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2018 DO 28.02.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2019 DO 29.02.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2020 DO 28.02.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2021 DO 28.02.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2022 DO 28.02.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2023 DO 29.02.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2024 DO 28.02.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 01.03.2015 DO 29.02.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2016 DO 28.02.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2017 DO 28.02.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2018 DO 28.02.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2019 DO 29.02.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2020 DO 28.02.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2021 DO 28.02.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2022 DO 28.02.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2023 DO 29.02.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2024 DO 28.02.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "OD 01.03.2017 DO 28.02.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2018 DO 28.02.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2019 DO 29.02.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2020 DO 28.02.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2021 DO 28.02.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2022 DO 28.02.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2023 DO 29.02.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.03.2024 DO 28.02.2025"
+            }
+          ]
+        },
+        "sprawozdaniaGrupyKapitalowej": {
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 01.03.2024 DO 28.02.2025"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "29.02.2016"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

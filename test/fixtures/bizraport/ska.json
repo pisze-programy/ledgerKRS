@@ -1,0 +1,1740 @@
+{
+  "data": [
+    {
+      "krs": "0000781241_",
+      "nip": 7543224368,
+      "kod_pkd": "43.99.Z",
+      "opis_pkd": "Pozostałe specjalistyczne roboty budowlane, gdzie indziej niesklasyfikowane",
+      "informacje_o_firmie": [
+        {
+          "nazwa_pola": "data_rozpoczecia_dzialalnosci",
+          "wartosc": "2019-05-17"
+        },
+        {
+          "nazwa_pola": "data_wpisu_do_rejestru",
+          "wartosc": "2019-05-17"
+        },
+        {
+          "nazwa_pola": "forma_prawna",
+          "wartosc": "SPÓŁKA KOMANDYTOWO-AKCYJNA"
+        },
+        {
+          "nazwa_pola": "kod_pocztowy",
+          "wartosc": "45-310"
+        },
+        {
+          "nazwa_pola": "miejscowosc",
+          "wartosc": "OPOLE"
+        },
+        {
+          "nazwa_pola": "nazwa",
+          "wartosc": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA"
+        },
+        {
+          "nazwa_pola": "nip",
+          "wartosc": "7543224368"
+        },
+        {
+          "nazwa_pola": "numer_nieruchomosci",
+          "wartosc": "184"
+        },
+        {
+          "nazwa_pola": "organ_rejestrowy",
+          "wartosc": "SĄD REJONOWY W OPOLU, VIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "nazwa_pola": "regon",
+          "wartosc": "383393333"
+        },
+        {
+          "nazwa_pola": "sposob_reprezentacji",
+          "wartosc": "UPRAWNIONYM DO REPREZENTACJI SPÓŁKI JEST KOMPLEMENTARIUSZ."
+        },
+        {
+          "nazwa_pola": "ulica",
+          "wartosc": "OZIMSKA"
+        },
+        {
+          "nazwa_pola": "kapital_zakladowy",
+          "wartosc": "50000,00 PLN"
+        },
+        {
+          "nazwa_pola": "wojewodztwo",
+          "wartosc": "OPOLSKIE"
+        }
+      ],
+      "dane_finansowe": [
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": -153669,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.0051,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "roe",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 3,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 153669,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": -221296,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.0054,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "roe",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 4,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 221296,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": -221296,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.0205,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "roe",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 5,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 221296,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 315739.87,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 197036.4,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 197036.4,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 228925.23,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 199833.49,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 199833.02,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 80123.83,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 11906.11,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 36505.05,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.45,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.5,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.002,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 181110,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 396870.23,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 396869.89,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 396868.6,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.57,
+          "nazwa_wskaznika": "roa",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.78,
+          "nazwa_wskaznika": "roe",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 315739.87,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 2504953.22,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 171693.92,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 1151975,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 3,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.28,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 28477.71,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 86814.64,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 197036.23,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 178925.23,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 197036.4,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 197035.58,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 315739.87,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 197036.4,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 197036.4,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 228925.23,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 199833.49,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 199833.02,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 80123.83,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 11906.11,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 36505.05,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.45,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.5,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.002,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 181110,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 396870.23,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 396869.89,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 396868.6,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.57,
+          "nazwa_wskaznika": "roa",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.78,
+          "nazwa_wskaznika": "roe",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 315739.87,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 2504953.22,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 171693.92,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 1151975,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 3,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.28,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 28477.71,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.9271,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 86814.64,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 197036.23,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 178925.23,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 197036.4,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 197035.58,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 315739.87,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 197036.4,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 197036.4,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 228925.23,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 199833.49,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 199833.02,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 80123.83,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 11906.11,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 36505.05,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 0.45,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 0.5,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 0.0033,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 181110,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 396870.23,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 396869.89,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 396868.6,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 0.57,
+          "nazwa_wskaznika": "roa",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 0.78,
+          "nazwa_wskaznika": "roe",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 315739.87,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 2504953.22,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 171693.92,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 1151975,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 0.28,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 28477.71,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 86814.64,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 197036.23,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 178925.23,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 197036.4,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "kwota": 197035.58,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0.0017,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 4,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2018
+        }
+      ],
+      "opisy_firmy": null,
+      "powiazania": [
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "Q",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "0000767654_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "Q",
+          "typ_powiazania": "wspólnik",
+          "id_podmiotu": "0000767654_",
+          "organ": null,
+          "funkcja": null
+        }
+      ],
+      "udzialy": null,
+      "monitor_sadowy": [
+        {
+          "numer_ogloszenia": "1411145",
+          "sygnatura_sprawy": "RDF/806944/25/590",
+          "tresc_naglowka": "Poz. 1411145. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA. KRS 0000781241. SYSTEM, wpis do\n   rejestru: 17.05.2019.\n   [RDF/806944/25/590]",
+          "nr_monitora": "221/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.10.2025 dokonano wpisu do rejestru KRS\n   nr 11 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 1. data złożenia 28.10.2025 okres OD\n   01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-11-14",
+          "nazwa_podmiotu": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "1411144",
+          "sygnatura_sprawy": "RDF/806942/25/146",
+          "tresc_naglowka": "Poz. 1411144. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA. KRS 0000781241. SYSTEM, wpis do\n   rejestru: 17.05.2019.\n   [RDF/806942/25/146]",
+          "nr_monitora": "221/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.10.2025 dokonano wpisu do rejestru KRS\n   nr 10 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 1. data złożenia 28.10.2025 okres OD\n   01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2025-11-14",
+          "nazwa_podmiotu": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "1349856",
+          "sygnatura_sprawy": "RDF/570187/23/736",
+          "tresc_naglowka": "Poz. 1349856. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-\n-AKCYJNA. KRS 0000781241. SYSTEM, wpis do\nrejestru: 17.05.2019.\n[RDF/570187/23/736]",
+          "nr_monitora": "226/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 12.11.2023 dokonano wpisu do rejestru KRS\nnr 9 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach wpisać: 1 1. data złożenia 12.11.2023 okres OD\n01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2023-11-22",
+          "nazwa_podmiotu": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "1349855",
+          "sygnatura_sprawy": "RDF/570186/23/212",
+          "tresc_naglowka": "Poz. 1349855. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-\n-AKCYJNA. KRS 0000781241. SYSTEM, wpis do\nrejestru: 17.05.2019.\n[RDF/570186/23/212]",
+          "nr_monitora": "226/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 12.11.2023 dokonano wpisu do rejestru KRS\nnr 8 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach wpisać: 1 1. data złożenia 12.11.2023 okres OD\n01.01.2020 DO 31.12.2020",
+          "data_publikacji": "2023-11-22",
+          "nazwa_podmiotu": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "49818",
+          "sygnatura_sprawy": "BMSiG-49422/2023",
+          "tresc_naglowka": "Poz. 49818. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA w Opolu.\nKRS 0000781241. SĄD REJONOWY W OPOLU, VIII WYDZIAŁ\nGOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO,\nwpis do rejestru: 17 maja 2019 r., sygn. akt OP VIII Ns-Rej.\nKRS 7652/23/521.\n[BMSiG-49422/2023]",
+          "nr_monitora": "201/2023",
+          "rozdzial": "IV. OGŁOSZENIA WYMAGANE PRZEZ USTAWĘ O KRAJOWYM REJESTRZE SĄDOWYM",
+          "tresc_ogloszenia": "Sąd Rejonowy w Opolu, VIII Wydział Gospodarczy Krajowego\nRejestru Sądowego, ogłasza, iż wobec: Q SPÓŁKA Z O.O.\nSPÓŁKA KOMANDYTOWO-AKCYJNA W OPOLU, wpisanej\ndo Krajowego Rejestru Sądowego pod nr KRS 0000781241,\nktórej ostatni ujawniony w Rejestrze adres siedziby to:\nul. Ozimska 184/11, 45-310 Opole, gmina Opole, powiat Opole,\nwoj. opolskie, wszczęto postępowanie, sygn. akt OP VIII\nNs-Rej. KRS 7652/23/521, o rozwiązanie podmiotu wpisanego\ndo Rejestru bez przeprowadzania postępowania likwidacyjnego.\n\nRównocześnie Sąd wzywa wszystkie osoby, których uzasadniony interes mógłby sprzeciwiać się rozwiązaniu podmiotu\n\n\n                                                             –\n\n\nTAW Ę O K R A J O W Y M R E J E S T R Z E S Ą D O W Y M\n\n     bez przeprowadzenia postępowania likwidacyjnego i jego\n     wykreśleniu z Rejestru, do zgłaszania okoliczności przemawiających przeciwko rozwiązaniu w terminie 3 miesięcy od\n     dnia ogłoszenia.\n\n     POUCZENIE:\n     W przypadku stwierdzenia, że podmiot wpisany do Rejestru\n     nie posiada zbywalnego majątku i faktycznie nie prowadzi\n     działalności, sąd rejestrowy może orzec o rozwiązaniu tego\n     podmiotu bez przeprowadzania postępowania likwidacyjnego i zarządzić jego wykreślenie z Rejestru.",
+          "data_publikacji": "2023-10-17",
+          "nazwa_podmiotu": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA w Opolu.",
+          "poziom_istotnosci": "UWAGA"
+        },
+        {
+          "numer_ogloszenia": "144120",
+          "sygnatura_sprawy": "OP.VIII NS-REJ.KRS/2070/21/394",
+          "tresc_naglowka": "Poz. 144120. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-\n-AKCYJNA. KRS 0000781241. SĄD REJONOWY\nW OPOLU, VIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n17.05.2019.\n[OP.VIII NS-REJ.KRS/2070/21/394]",
+          "nr_monitora": "59/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 16.03.2021 dokonano wpisu do rejestru KRS\nnr 7 następującej treści:\nDz. 1. Rub. 2. Siedziba i adres podmiotu wykreśli\n2. miejscowość OPOLE ulica UL. 1 MAJA nr domu\n30A kod pocztowy 45-355 poczta OPOLE kraj POLSKA wpisać: 2. miejscowość OPOLE ulica OZIMSKA nr domu 184 nr lokalu 11 kod pocztowy 45-310\npoczta OPOLE kraj POLSKA\n\n\n\n     f) Spółki z ograniczoną\n\n       odpowiedzialnością",
+          "data_publikacji": "2021-03-26",
+          "nazwa_podmiotu": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "134832",
+          "sygnatura_sprawy": "RDF/279970/21/507",
+          "tresc_naglowka": "Poz. 134832. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA. KRS 0000781241. SYSTEM, wpis do\n     rejestru: 17.05.2019.\n     [RDF/279970/21/507]",
+          "nr_monitora": "56/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 11.03.2021 dokonano wpisu do rejestru KRS\n     nr 6 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 4. OD 17.05.2019 DO 31.12.2019\nRS\n\nh",
+          "data_publikacji": "2021-03-23",
+          "nazwa_podmiotu": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "130190",
+          "sygnatura_sprawy": "RDF/279970/21/106",
+          "tresc_naglowka": "Poz. 130190. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA. KRS 0000781241. SYSTEM, wpis do\n     rejestru: 17.05.2019.\n     [RDF/279970/21/106]",
+          "nr_monitora": "55/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 11.03.2021 dokonano wpisu do rejestru KRS\n     nr 5 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 3. OD 17.05.2019 DO 31.12.2019",
+          "data_publikacji": "2021-03-22",
+          "nazwa_podmiotu": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "130189",
+          "sygnatura_sprawy": "RDF/279970/21/705",
+          "tresc_naglowka": "Poz. 130189. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA. KRS 0000781241. SYSTEM, wpis do\n     rejestru: 17.05.2019.\n     [RDF/279970/21/705]",
+          "nr_monitora": "55/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 11.03.2021 dokonano wpisu do rejestru KRS\n     nr 4 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 1. data złożenia 11.03.2021 okres OD\n     17.05.2019 DO 31.12.2019",
+          "data_publikacji": "2021-03-22",
+          "nazwa_podmiotu": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "312198",
+          "sygnatura_sprawy": "OP.VIII NS-REJ.KRS/2177/19/325",
+          "tresc_naglowka": "Poz. 312198. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA. KRS 0000781241. SĄD REJONOWY\n      W OPOLU, VIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n      17.05.2019.\n      [OP.VIII NS-REJ.KRS/2177/19/325]",
+          "nr_monitora": "100/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/1. Wpisy pierwsze",
+          "tresc_ogloszenia": "W dniu 17.05.2019 dokonano wpisu do rejestru KRS\n      nr 1 następującej treści:\n      Dz. 1. Rub. 1. Dane podmiotu 1. SPÓŁKA KOMANDYTOWO-AKCYJNA 3. Q SPÓŁKA Z OGRANICZONĄ\n      ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA 4. NIE 5. NIE Rub. 2. Siedziba\n      i adres podmiotu 1. kraj POLSKA województwo\n      OPOLSKIE powiat OPOLE gmina OPOLE miejscowość OPOLE 2. miejscowość OPOLE ulica UL.\n      1 MAJA nr domu 30A kod pocztowy 45-355 poczta\n      OPOLE kraj POLSKA Rub. 4. Informacje o statucie\n      1 1. 04.03.2019R. REP. A NR 786/2019, NOTARIUSZ\n      ALEKSANDRA FELCENLOBEN, KANCELARIA\n      NOTARIALNA W KĘDZIERZYNIE-KOŹLU ANEKS\n      DO STATUTU SPÓŁKI Z DNIA 10.05.2019R. REP.\n      A NR 891/2019, NOTARIUSZ BARBARA SOTOR,\n      KANCELARIA NOTARIALNA W KRAPKOWICACH,\n      SKREŚLONO: § 8 UST. 10, § 8 UST. 11, § 9 UST.\n      13, ZMIENIONO § 19 UST. 14 STATUTU SPÓŁKI\n      Rub. 5. 1. CZAS NIEOZNACZONY Rub. 7. Dane\n      komplementariuszy 1 1. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ 3. 382367049\n      4. 0000767654 Rub. 8. Kapitał spółki 1. 50000,00\n      2. 500 3. 100,00 ZŁ 4. 50000,00 ZŁ Rub. 9. Emisje\n      akcji 1 1. A 2. 500 3. AKCJE NIE SĄ UPRZYWILEJOWANE\n      Dz. 2. Rub. 1. Uprawnieni do reprezentowania\n      spółki 1 1. UPRAWNIONYM DO REPREZENTACJI SPÓŁKI JEST KOMPLEMENTARIUSZ. PRub.\n      Dane komplementariuszy reprezentujących spółkę\n      1 1. Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ 3. 382367049 4. 0000767654\n      Dz. 3. Rub. 1. Przedmiot działalności 1 1. 43 99\n      Z POZOSTAŁE SPECJALISTYCZNE ROBOTY\n      BUDOWLANE, GDZIE INDZIEJ NIESKLASYFIKOWANE 1 2. 42 21 Z ROBOTY ZWIĄZANE Z BUDOWĄ\n      RUROCIĄGÓW PRZESYŁOWYCH I SIECI ROZDZIELCZYCH 2 2. 43 12 Z PRZYGOTOWANIE TERENU\n      POD BUDOWĘ 3 2. 43 29 Z WYKONYWANIE POZOSTAŁYCH INSTALACJI BUDOWLANYCH 4 2. 42 99\n      Z ROBOTY ZWIĄZANE Z BUDOWĄ POZOSTAŁYCH\n      OBIEKTÓW INŻYNIERII LĄDOWEJ I WODNEJ,\n      GDZIE INDZIEJ NIESKLASYFIKOWANE 5 2. 55 10\n      Z HOTELE I PODOBNE OBIEKTY ZAKWATEROWANIA 6 2. 55 90 Z POZOSTAŁE ZAKWATEROWANIE\n0     7 2. 49 41 Z TRANSPORT DROGOWY TOWARÓW\n\n\n\n\n\n\n     8 2. 70 10 Z DZIAŁALNOŚĆ FIRM CENTRALNYCH\n     (HEAD OFFICES) I HOLDINGÓW, Z WYŁĄCZENIEM\n     HOLDINGÓW FINANSOWYCH 9 2. 82 11 Z DZIAŁALNOŚĆ USŁUGOWA ZWIĄZANA Z ADMINISTRACYJNĄ OBSŁUGĄ BIURA\n\n\n\n           f) Spółki z ograniczoną\n\n             odpowiedzialnością",
+          "data_publikacji": "2019-05-24",
+          "nazwa_podmiotu": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        }
+      ],
+      "krz": null,
+      "historia_sprawozdan": [
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "termin_zlozenia": "15-07-2025",
+          "data_dodania_do_krs": "28-10-2025"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "termin_zlozenia": "15-07-2024",
+          "data_dodania_do_krs": "28-10-2025"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "termin_zlozenia": "15-10-2022",
+          "data_dodania_do_krs": "12-11-2023"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "termin_zlozenia": "15-10-2021",
+          "data_dodania_do_krs": "12-11-2023"
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "termin_zlozenia": "15-10-2020",
+          "data_dodania_do_krs": "11-03-2021"
+        }
+      ],
+      "pozycja_na_tle_branzy": [
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.0012,
+          "udzial_w_rynku": 0,
+          "przychody_calej_branzy": 13436443630.08,
+          "liczba_firm_w_branzy": 2498
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.2132
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.0004
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.2814
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.0004,
+          "udzial_w_rynku": 0,
+          "przychody_calej_branzy": 12998835954.31,
+          "liczba_firm_w_branzy": 2500
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.2228
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.0004
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.2742
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0,
+          "udzial_w_rynku": 0,
+          "przychody_calej_branzy": 12048713285.47,
+          "liczba_firm_w_branzy": 2334
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.217
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.0008
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.2838
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.9154
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.9325
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9554
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.5251,
+          "udzial_w_rynku": 0,
+          "przychody_calej_branzy": 10297475319.58,
+          "liczba_firm_w_branzy": 2171
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.9174
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.7846
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.5158
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.6173
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.3536
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.7793
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.8999
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.9201
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9474
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.5382,
+          "udzial_w_rynku": 0.0001,
+          "przychody_calej_branzy": 7836436478.43,
+          "liczba_firm_w_branzy": 1988
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.8922
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.7889
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.5208
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.6365
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.3733
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.787
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.9115
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.9234
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9498
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.5255,
+          "udzial_w_rynku": 0.0001,
+          "przychody_calej_branzy": 7326142631.38,
+          "liczba_firm_w_branzy": 1802
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.9068
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.7752
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.5208
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.6219
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.3632
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.7751
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.0018,
+          "udzial_w_rynku": 0,
+          "przychody_calej_branzy": 6728220406.36,
+          "liczba_firm_w_branzy": 1646
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.0006
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0
+        },
+        {
+          "okres_sprawozdawczy": "17-05-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.2842
+        }
+      ]
+    }
+  ]
+}

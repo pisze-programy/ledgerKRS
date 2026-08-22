@@ -1,0 +1,683 @@
+{
+  "data": [
+    {
+      "krs": "0001214155_",
+      "nip": 5491826024,
+      "kod_pkd": "24.42.A",
+      "opis_pkd": "Produkcja aluminium hutniczego",
+      "informacje_o_firmie": [
+        {
+          "nazwa_pola": "data_wpisu_do_rejestru",
+          "wartosc": "2026-01-02"
+        },
+        {
+          "nazwa_pola": "forma_prawna",
+          "wartosc": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+        },
+        {
+          "nazwa_pola": "kod_pocztowy",
+          "wartosc": "32-661"
+        },
+        {
+          "nazwa_pola": "miejscowosc",
+          "wartosc": "BOBREK"
+        },
+        {
+          "nazwa_pola": "nazwa",
+          "wartosc": "GRUPA BOBREK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+        },
+        {
+          "nazwa_pola": "nip",
+          "wartosc": "5491826024"
+        },
+        {
+          "nazwa_pola": "numer_nieruchomosci",
+          "wartosc": "1A"
+        },
+        {
+          "nazwa_pola": "organ_reprezentujacy",
+          "wartosc": "ZARZĄD"
+        },
+        {
+          "nazwa_pola": "regon",
+          "wartosc": "070851344"
+        },
+        {
+          "nazwa_pola": "sposob_reprezentacji",
+          "wartosc": "W PRZYPADKU ZARZĄDU WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI UPRAWNIONY JEST CZŁONEK ZARZĄDU DS. INWESTYCJI DZIAŁAJĄCY ŁĄCZNIE Z CZŁONKIEM ZARZĄDU DS. ZAKUPÓW LUB CZŁONKIEM ZARZĄDU DS. SPRZEDAŻY LUB PROKURENTEM, A JEŻELI CZŁONEK ZARZĄDU DS. INWESTYCJI NIE ZOSTAŁ POWOŁANY, DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI UPRAWNIONY JEST CZŁONEK ZARZĄDU DS. ZAKUPÓW DZIAŁAJĄCY ŁĄCZNIE Z CZŁONKIEM ZARZĄDU DS. SPRZEDAŻY LUB KAŻDY Z NICH DZIAŁAJĄCY ŁĄCZNIE Z PROKURENTEM."
+        },
+        {
+          "nazwa_pola": "ulica",
+          "wartosc": "UL. KRAKOWSKA"
+        },
+        {
+          "nazwa_pola": "kapital_zakladowy",
+          "wartosc": "2100000,00 PLN"
+        },
+        {
+          "nazwa_pola": "wojewodztwo",
+          "wartosc": "MAŁOPOLSKIE"
+        }
+      ],
+      "dane_finansowe": [
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 91371790.78,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 18158178.59,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 1238030.56,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 12431141.82,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 13669172.38,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 25225500.24,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 565096037.39,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 552179433.3,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 23101087.17,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 1864671.27,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 8688629.98,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.0062,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 579436726.49,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 577527179.21,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 564419786.53,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.1,
+          "nazwa_wskaznika": "roa",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.45,
+          "nazwa_wskaznika": "roe",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 109529969.37,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 1448591816.22,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 18919125.18,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 450495416.57,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.77,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 24911919.38,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 159.3789,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 84304469.13,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 11321285.1,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 11321285.1,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 12431141.82,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 12240353.23,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 109849269.15,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 16854380.21,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 1543614.21,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 3653036.18,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 5196650.39,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 47400234.4,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 471308585.18,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 460332344.17,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 18998464.85,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 8822622.63,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": -0.01,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.01,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.0062,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 477831591.95,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 474961621.36,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 463889837.13,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": -0.04,
+          "nazwa_wskaznika": "roa",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": -0.12,
+          "nazwa_wskaznika": "roe",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 126703649.36,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 1194578979.88,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 354104570.43,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 4,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.63,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 21476167.22,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 179.9467,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 79303414.96,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": -5583640.57,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": -5583640.57,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 3653036.18,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 3557492.96,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2024
+        }
+      ],
+      "opisy_firmy": null,
+      "powiazania": [
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "PRZEDSIĘBIORSTWO METALI NIEŻELAZNYCH \"BOBREK\" SPÓŁKA JAWNA DAWID I PAWEŁ KLESZCZ, BRONISŁAW KOŹBIAŁ",
+          "typ_powiazania": "podmioty o identycznym NIP",
+          "id_podmiotu": "0000105018_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "PRZEDSIĘBIORSTWO METALI NIEŻELAZNYCH \"BOBREK\" SPÓŁKA JAWNA DAWID I PAWEŁ KLESZCZ, BRONISŁAW KOŹBIAŁ",
+          "typ_powiazania": "podmioty o identycznym REGON",
+          "id_podmiotu": "0000105018_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "PRZEDSIĘBIORSTWO METALI NIEŻELAZNYCH \"BOBREK\" SPÓŁKA JAWNA DAWID I PAWEŁ KLESZCZ, BRONISŁAW KOŹBIAŁ",
+          "typ_powiazania": "powstanie organizacji",
+          "id_podmiotu": "0000105018_",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KLESZCZ DAWID",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "953325bfd538b23501fc099b7be26316",
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU DS. ZAKUPÓW"
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KLESZCZ PAWEŁ",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "6ec53d55a872015cc14d359c60a561f0",
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU DS. SPRZEDAŻY"
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "SIDZINA PRZEMYSŁAW",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "48e497f2b5a0ae0c857bcb18ee64f22e",
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU DS. INWESTYCJI"
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KLESZCZ DAWID",
+          "typ_powiazania": "wspólnik",
+          "id_podmiotu": "953325bfd538b23501fc099b7be26316",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KLESZCZ PAWEŁ",
+          "typ_powiazania": "wspólnik",
+          "id_podmiotu": "6ec53d55a872015cc14d359c60a561f0",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KOŹBIAŁ BRONISŁAW",
+          "typ_powiazania": "wspólnik",
+          "id_podmiotu": "f4351451a4dc8b09e168e603e78f81c3",
+          "organ": null,
+          "funkcja": null
+        }
+      ],
+      "udzialy": [
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KLESZCZ DAWID",
+          "procent_udzialow": 33.3,
+          "id_podmiotu": "953325bfd538b23501fc099b7be26316"
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KLESZCZ PAWEŁ",
+          "procent_udzialow": 33.3,
+          "id_podmiotu": "6ec53d55a872015cc14d359c60a561f0"
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KOŹBIAŁ BRONISŁAW",
+          "procent_udzialow": 33.3,
+          "id_podmiotu": "f4351451a4dc8b09e168e603e78f81c3"
+        }
+      ],
+      "monitor_sadowy": [
+        {
+          "numer_ogloszenia": "716",
+          "sygnatura_sprawy": "KR.XII NS-REJ.KRS/21499/25/4",
+          "tresc_naglowka": "Poz. 716. GRUPA BOBREK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS\n      0001214155. SĄD REJONOWY DLA KRAKOWA\n      ŚRÓDMIEŚCIA W KRAKOWIE, XII WYDZIAŁ\n      GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 02.01.2026.\nS     [KR.XII NS-REJ.KRS/21499/25/4]",
+          "nr_monitora": "4/2026",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/1. Wpisy pierwsze",
+          "tresc_ogloszenia": "W dniu 02.01.2026 dokonano wpisu do rejestru KRS\n      nr 1 następującej treści:\n      Dz. 1. Rub. 1. Dane podmiotu 1. SPÓŁKA Z OGRAres   NICZONĄ ODPOWIEDZIALNOŚCIĄ 2. REGON\n      070851344 NIP 5491826024 3. GRUPA BOBREK\n      SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ 5. NIE 6. NIE Rub. 2. Siedziba i adres podmiotu 1. kraj POLSKA województwo MAŁOPOLSKIE\n      powiat OŚWIĘCIMSKI gmina CHEŁMEK miejscowość BOBREK 2. miejscowość BOBREK ulica UL.\n      KRAKOWSKA nr domu 1A kod pocztowy 32-661\n      poczta BOBREK kraj POLSKA Rub. 4. Informacje\n      o umowie 1 1. 31.10.2025 R., NOTARIUSZ ŁUKASZ\n      BIES, KANCELARIA NOTARIALNA W KĘTACH, REP.\n      A NR 6739/2025. Rub. 5. 1. CZAS NIEOZNACZONY\n      3. WIĘKSZĄ LICZBĘ UDZIAŁÓW Rub. 6. Sposób\n      powstania spółki 1. PRZEKSZTAŁCENIE 2. SPÓŁKA\n      POWSTAŁA W WYNIKU PRZEKSZTAŁCENIA SPÓŁKI\n      PRZEDSIĘBIORSTWO METALI NIEŻELAZNYCH\n      „BOBREK” SPÓŁKA JAWNA DAWID I PAWEŁ\n      KLESZCZ, BRONISŁAW KOŹBIAŁ Z SIEDZIBĄ\n      W BOBRKU W SPÓŁKĘ GRUPA BOBREK SPÓŁKA\n      Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ Z SIEDZIBĄ W BOBRKU NA PODSTAWIE UCHWAŁY\n      NR 1 WSPÓLNIKÓW Z DNIA 31.10.2025 R. OBJĘTEJ AKTEM NOTARIALNYM SPORZĄDZONYM\n      PRZEZ NOTARIUSZA ŁUKASZA BIESA W KANCELARII NOTARIALNEJ W KĘTACH, REP. A NR\n      6739/2025 R PRub. Podmioty, z których powstała\n      spółka 1 1. PRZEDSIĘBIORSTWO METALI NIEŻELAZNYCH „BOBREK” SPÓŁKA JAWNA DAWID\n      I PAWEŁ KLESZCZ, BRONISŁAW KOŹBIAŁ, SPÓŁKA\n      JAWNA 2. POLSKA, KRAJOWY REJESTR SĄDOWY\n      3. 0000105018 5. 070851344 6. 5491826024\n      Rub. 7. Dane wspólników 1 1. KOŹBIAŁ 2. BRONISŁAW 3. [ukryto] 5. 7.000 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 700.000,00 ZŁ 6. NIE 2 1. KLESZCZ\n      2. DAWID 3. [ukryto] 5. 7.000 UDZIAŁÓW\n      O ŁĄCZNEJ WARTOŚCI 700.000,00 ZŁ 6. NIE\n      3 1. KLESZCZ 2. PAWEŁ 3. [ukryto] 5. 7.000\n      UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 700.000,00 ZŁ\nZ     6. NIE Rub. 8. Kapitał spółki 1. 2100000,00 ZŁ\n      Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n      podmiotu 1 1. ZARZĄD 2. W PRZYPADKU ZARZĄDU\n      WIELOOSOBOWEGO DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI UPRAWNIONY JEST\ni     CZŁONEK ZARZĄDU DS. INWESTYCJI DZIAŁAJĄCY\n      ŁĄCZNIE Z CZŁONKIEM ZARZĄDU DS. ZAKUPÓW\n      LUB CZŁONKIEM ZARZĄDU DS. SPRZEDAŻY LUB\n      PROKURENTEM, A JEŻELI CZŁONEK ZARZĄDU DS.\n      INWESTYCJI NIE ZOSTAŁ POWOŁANY, DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI UPRAWX V. W P I S Y D\n\nNIONY JEST CZŁONEK ZARZĄDU DS. ZAKUPÓW\nDZIAŁAJĄCY ŁĄCZNIE Z CZŁONKIEM ZARZĄDU\nDS. SPRZEDAŻY LUB KAŻDY Z NICH DZIAŁAJĄCY\nŁĄCZNIE Z PROKURENTEM. PRub. Dane osób\nwchodzących w skład organu 1 1. SIDZINA 2. PRZEMYSŁAW 3. [ukryto] 5. CZŁONEK ZARZĄDU\nDS. INWESTYCJI 6. NIE 2 1. KLESZCZ 2. PAWEŁ\n3. [ukryto] 5. CZŁONEK ZARZĄDU DS. SPRZEDAŻY 6. NIE 3 1. KLESZCZ 2. DAWID 3. [ukryto]\n5. CZŁONEK ZARZĄDU DS. ZAKUPÓW 6. NIE\nDz. 3. Rub. 1. Przedmiot działalności 1 1. 24 42\nA PRODUKCJA ALUMINIUM HUTNICZEGO 1 2. 24\n31 Z PRODUKCJA PRĘTÓW CIĄGNIONYCH NA\nZIMNO 2 2. 24 53 Z ODLEWNICTWO METALI LEKKICH 3 2. 24 54 B ODLEWNICTWO POZOSTAŁYCH\nMETALI NIEŻELAZNYCH, GDZIE INDZIEJ NIESKLASYFIKOWANE 4 2. 25 11 Z PRODUKCJA KONSTRUKCJI METALOWYCH I ICH CZĘŚCI 5 2. 25\n21 Z PRODUKCJA GRZEJNIKÓW CENTRALNEGO\nOGRZEWANIA, WYTWORNIC PARY I KOTŁÓW\n6 2. 25 22 Z PRODUKCJA POZOSTAŁYCH ZBIORNIKÓW, CYSTERN I POJEMNIKÓW METALOWYCH\n7 2. 46 87 Z SPRZEDAŻ HURTOWA ODPADÓW\nI ZŁOMU 8 2. 24 42 B PRODUKCJA WYROBÓW\nZ ALUMINIUM I STOPÓW ALUMINIUM 9 2. 38 21\nZ ODZYSK SUROWCÓW",
+          "data_publikacji": "2026-01-08",
+          "nazwa_podmiotu": "GRUPA BOBREK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Zmiana formalna"
+        }
+      ],
+      "krz": null,
+      "historia_sprawozdan": [
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "termin_zlozenia": "15-07-2026",
+          "data_dodania_do_krs": "07-07-2026"
+        }
+      ],
+      "pozycja_na_tle_branzy": [
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.375
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.25
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.8889,
+          "udzial_w_rynku": 0.3548,
+          "przychody_calej_branzy": 1633323243.28,
+          "liczba_firm_w_branzy": 9
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.4444
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.7778
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.7
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.8
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6667
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.8
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.4167
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.4167
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.75,
+          "udzial_w_rynku": 0.2296,
+          "przychody_calej_branzy": 2081153074.79,
+          "liczba_firm_w_branzy": 12
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.25
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.3333
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.6923
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.6923
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.4167
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.0769
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000222483",
+      "dataCzasOdpisu": "22.08.2026 00:50:42",
+      "stanZDnia": "27.04.2026",
+      "dataRejestracjiWKRS": "01.12.2004",
+      "numerOstatniegoWpisu": 99,
+      "dataOstatniegoWpisu": "27.04.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "RDF/814617/26/96",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SYSTEM",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA AKCYJNA",
+          "identyfikatory": {
+            "regon": "63030302300000",
+            "nip": "7791011327"
+          },
+          "nazwa": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "WIELKOPOLSKIE",
+            "powiat": "POZNAŃSKI",
+            "gmina": "KOSTRZYN",
+            "miejscowosc": "KOSTRZYN"
+          },
+          "adres": {
+            "ulica": "ŻNIWNA",
+            "nrDomu": "5",
+            "miejscowosc": "KOSTRZYN",
+            "kodPocztowy": "62-025",
+            "poczta": "KOSTRZYN",
+            "kraj": "POLSKA"
+          },
+          "adresStronyInternetowej": "WWW.BIEDRONKA.PL",
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-78401-10866-CRJVB-35"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY SPORZĄDZONY 18 LISTOPADA 2004 ROKU PRZEZ NOTARIUSZA WOJCIECHA  ZIELIŃSKIEGO, KANCELARIA NOTARIALNA W POZNANIU, UL. KOŚCIUSZKI 86/6, 61-715 POZNAŃ, REPERTORIUM A NR 10372/2004."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY SPORZĄDZONY 18 KWIETNIA 2005 R. PRZEZ NOTARIUSZA KRZYSZTOFA NURKOWSKIEGO, KANCELARIA NOTARIALNA W WARSZAWIE , UL. DOMANIEWSKA 41, 02-672 WARSZAWA, REPERTORIUM A NR 3900/2005 ZMIENIONO § 4 STATUTU."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "09.08.2006 R., REP. A NR 3054/2006, NOTARIUSZ TOMASZ FILIPOWSKI, KANCELARIA NOTARIALNA W WARSZAWIE Z SIEDZIBĄ PRZY UL. WARECKIEJ 4/6 LOK. 56; ZMIANA § 2 UST. 1, § 3 UST. 2, § 6 UST. 1 I 2 STATUTU SPÓŁKI, UCHWALONO TEKST JEDNOLITY STATUTU."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "10.01.2007 R., REP. A NR 95/2007, NOTARIUSZ TOMASZ FILIPOWSKI, KANCELARIA NOTARIALNA W WARSZAWIE Z SIEDZIBĄ PRZY UL. WARECKIEJ 4/6 LOK. 56, UCHWAŁA NR 2 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA \"JERONIMO MARTINS DYSTRYBUCJA\" SPÓŁKA AKCYJNA W SPRAWIE ZMIANY UCHWAŁY NR 4 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA \"JERONIMO MARTINS DYSTRYBUCJA\" SPÓŁKA AKCYJNA Z DNIA 9 SIERPNIA 2006 ROKU I USTALENIA TEKSTU JEDNOLITEGO STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "4 CZERWCA 2007 ROKU, REP. A NR 2184/2007 SPORZĄDZONY PRZEZ NOTARIUSZA TOMASZA FILIPOWSKIEGO PROWADZĄCEGO KANCELARIĘ NOTARIALNĄ W WARSZAWIE PRZY UL. WARECKIEJ 4/6 LOK. 56, ZMIANA § 2 UST. 1 STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "25 LUTEGO 2008 ROKU, AKT NOTARIALNY REP. A NR 630/2008, SPORZĄDZONY PRZEZ NOTARIUSZA JÓZEFA ORTONOWSKIEGO, EMERYTOWANEGO NOTARIUSZA, ZASTĘPCĘ NOTARIUSZA TOMASZA FILIPOWSKIEGO PROWADZĄCEGO KANCELARIĘ NOTARIALNĄ W WARSZAWIE PRZY UL. WARECKIEJ 4/6 LOK. 56,\nZMIANA PAR. 2 UST. 1."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 22 LUTEGO 2010 R., REP. A NR 480/2010, SPORZĄDZONY PRZEZ NOTARIUSZA TOMASZA FILIPOWSKIEGO W KANCELARII NOTARIALNEJ W WARSZAWIE PRZY UL. WARECKIEJ 4/6 LOK. 56, ZMIANA § 2 STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKTEM NOTARIALNYM Z DNIA 01.04.2010 R. REP. A NR 767/2010 SPORZĄDZONYM PRZEZ NOTARIUSZA TOMASZA FILIPOWSKIEGO PROWADZĄCEGO KANCELARIĘ NOTARIALNĄ W WARSZAWIE. ZAPROTOKOŁOWANO UCHWAŁĄ WALNEGO ZGROMADZENIA W SPRAWIE PRZYJĘCIA TEKSTU JEDNOLITEGO STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "30.06.2011R., REP. A NR 4526/2011, NOTARIUSZ KRZYSZTOF DYBALSKI, KANCELARIA NOTARIALNA W WARSZAWIE - ZMIENIONO § 2 UST. 1 STATUTU."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "11.08.2011R., NOTARIUSZ TOMASZ FILIPOWSKI , KANCELARIA NOTARIALNA W WARSZAWIE, REP. A NR 2341/2011 - NADANO NOWE BRZMIENIE § 2 STATUTU (Z WYŁĄCZENIEM PUNKTU 130 W UST. 1 § 2)."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY SPORZĄDZONY DNIA 20.12.2011 R., PRZEZ NOTARIUSZA TOMASZA FILIPOWSKIEGO W WARSZAWIE, PROWADZĄCEGO KANCELARIĘ NOTARIALNĄ PRZY UL. DOMANIEWSKIEJ 41 A W WARSZAWIE, REP. A NR 3993/2011.\nZMIANA: § 2, § 6. PRZYJĘTO TEKST JEDNOLITY STATUTU SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "28.05.2012 R. ASESOR NOTARIALNY KATARZYNA GURDA - UPOWAŻNIONY ZASTĘPCA NOTARIUSZA TOMASZA FILIPOWSKIEGO, KANCELARIA NOTARIALNA W WARSZAWIE, REP. A NR 1617/2012 ZMIENIONO PAR. 1 STATUTU ORAZ PRZYJĘTO TEKST JEDNOLITY STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "19.10.2018R., AKT NOTARIALNY REP. A NR 9769/2018, NOTARIUSZ JOANNA DECZKOWSKA, KANCELARIA NOTARIALNA W WARSZAWIE\n- ZMIENIONO: §6 UST. 1, §6 UST. 2, §6 UST. 3\n- PRZYJĘTO TEKST JEDNOLITY STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 11.09.2020R., REP. A NR 6673/2020, NOTARIUSZ KRZYSZTOF DYBALSKI, KANCELARIA NOTARIALNA W WARSZAWIE\n- DODANO §16 UST. 5 STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 25.03.2022 R., REP. A NR 2402/2022, NOTARIUSZ PAWEŁ ZIEMIAŃCZYK, KANCELARIA NOTARIALNA W WARSZAWIE \n- DODANO PKT 146 I 147 DO §2 UST. 1,\n- PRZYJĘTO TEKST JEDNOLITY STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "04.09.2023 R., REP. A NR 5129/2023, NOTARIUSZ PAWEŁ ZIEMIAŃCZYK, KANCELARIA NOTARIALNA W WARSZAWIE \n- DODANO DO §2 UST. 1 PKT 148, 149 I 150,\n- PRZYJĘTO TEKST JEDNOLITY STATUTU SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "AKT NOTARIALNY Z DNIA 09.04.2024R., REP. A NR 1491/2024, NOTARIUSZ PAWEŁ ZIEMIAŃCZYK, KANCELARIA NOTARIALNA W WARSZAWIE\n- DODANO: §8 UST. 3\n- PRZYJĘTO TEKST JEDNOLITY STATUTU SPÓŁKI"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "czyUmowaStatutPrzyznajeUprawnieniaOsobiste": false,
+          "czyObligatoriuszeMajaPrawoDoUdzialuWZysku": false
+        },
+        "sposobPowstaniaPodmiotu": {
+          "okolicznosciPowstania": "PRZEKSZTAŁCENIE",
+          "opisSposobuPowstaniaInformacjaOUchwale": "SPÓŁKA POWSTAŁA POPRZEZ PRZEKSZTAŁCENIE SPÓŁKI JERONIMO MARTINS DYSTRYBUCJA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, ZGODNIE Z PRZEPISAMI TYTUŁU IV, DZIAŁU III USTAWY KODEKS SPÓŁEK HANDLOWYCH, NA MOCY UCHWAŁY ZGROMADZENIA WSPÓLNIKÓW JERONIMO MARTINS DYSTRYBUCJA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ Z DNIA 18 LISTOPADA 2004 R.",
+          "podmioty": [
+            {
+              "nazwa": "JERONIMO MARTINS DYSTRYBUCJA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,------",
+              "krajNazwaRejestruEwidencji": "KRAJOWY REJESTR SĄDOWY",
+              "krs": {
+                "krs": "0000037276"
+              },
+              "nazwaSaduOrganuProwadzacegoRejestrEwidencje": "******",
+              "identyfikator": {
+                "regon": "63030302300000"
+              }
+            }
+          ]
+        },
+        "jedynyAkcjonariusz": [
+          {
+            "nazwa": "WARTA - RETAIL & SERVICES INVESTMENTS B.V.",
+            "identyfikator": {},
+            "krs": {
+              "krs": "0000000000"
+            },
+            "czyPosiadaCaloscAkcji": true
+          }
+        ],
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "798214120,00",
+            "waluta": "PLN"
+          },
+          "lacznaLiczbaAkcjiUdzialow": "79821412",
+          "wartoscJednejAkcji": {
+            "wartosc": "10,00",
+            "waluta": "PLN"
+          },
+          "czescKapitaluWplaconegoPokrytego": {
+            "wartosc": "798214120,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {}
+        },
+        "emisjeAkcji": [
+          {
+            "nazwaSeriiAkcji": "A",
+            "liczbaAkcjiWSerii": "71500000",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          },
+          {
+            "nazwaSeriiAkcji": "B",
+            "liczbaAkcjiWSerii": "8321412",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          }
+        ],
+        "wzmiankaOUpowaznieniuDoEmisjiWarrantowSubskrypcyjnych": {
+          "czyZarzadJestUprawnionyDoEmisjiWarrantowSubskrypcyjnych": false
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "DWÓCH CZŁONKÓW ZARZĄDU DZIAŁAJĄCYCH ŁĄCZNIE, BĄDŹ TEŻ JEDEN CZŁONEK ZARZĄDU DZIAŁAJĄCY ŁĄCZNIE Z PROKURENTEM.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "D***************",
+                "nazwiskoIICzlon": "D*********"
+              },
+              "imiona": {
+                "imie": "P****",
+                "imieDrugie": "M*****"
+              },
+              "identyfikator": {},
+              "funkcjaWOrganie": "PREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "S******"
+              },
+              "imiona": {
+                "imie": "J*******",
+                "imieDrugie": "A***"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "A***********",
+                "nazwiskoIICzlon": "D********"
+              },
+              "imiona": {
+                "imie": "L***",
+                "imieDrugie": "F*****"
+              },
+              "identyfikator": {},
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "Ł*******"
+              },
+              "imiona": {
+                "imie": "M*****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "D*********************",
+                "nazwiskoIICzlon": "D********"
+              },
+              "imiona": {
+                "imie": "M****",
+                "imieDrugie": "M******"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "Ł****"
+              },
+              "imiona": {
+                "imie": "M*****",
+                "imieDrugie": "J****"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "S*******"
+              },
+              "imiona": {
+                "imie": "P****",
+                "imieDrugie": "M*****"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "RADA NADZORCZA",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "P******"
+                },
+                "imiona": {
+                  "imie": "A******"
+                },
+                "identyfikator": {}
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "Ł*****"
+                },
+                "imiona": {
+                  "imie": "S*******"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "M***"
+                },
+                "imiona": {
+                  "imie": "M*******"
+                },
+                "identyfikator": {}
+              }
+            ]
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "POZOSTAŁA SPRZEDAŻ DETALICZNA PROWADZONA W NIEWYSPECJALIZOWANYCH SKLEPACH",
+              "kodDzial": "47",
+              "kodKlasa": "19",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "WYTWARZANIE GOTOWYCH POSIŁKÓW I DAŃ",
+              "kodDzial": "10",
+              "kodKlasa": "85",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRODUKCJA POZOSTAŁYCH ARTYKUŁÓW SPOŻYWCZYCH, GDZIE INDZIEJ NIESKLASYFIKOWANA",
+              "kodDzial": "10",
+              "kodKlasa": "89",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "ROBOTY BUDOWLANE ZWIĄZANE ZE WZNOSZENIEM BUDYNKÓW MIESZKALNYCH I NIEMIESZKALNYCH",
+              "kodDzial": "41",
+              "kodKlasa": "20",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ HURTOWA NAPOJÓW ALKOHOLOWYCH",
+              "kodDzial": "46",
+              "kodKlasa": "34",
+              "kodPodklasa": "A"
+            },
+            {
+              "opis": "SPRZEDAŻ DETALICZNA PALIW DO POJAZDÓW SILNIKOWYCH NA STACJACH PALIW",
+              "kodDzial": "47",
+              "kodKlasa": "30",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "TRANSPORT DROGOWY TOWARÓW",
+              "kodDzial": "49",
+              "kodKlasa": "41",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYDAWANIE KSIĄŻEK",
+              "kodDzial": "58",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "ZARZĄDZANIE NIERUCHOMOŚCIAMI WYKONYWANE NA ZLECENIE",
+              "kodDzial": "68",
+              "kodKlasa": "32",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁE FORMY UDZIELANIA KREDYTÓW",
+              "kodDzial": "64",
+              "kodKlasa": "92",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "23.03.2007",
+              "zaOkresOdDo": "1 GRUDNIA 2004 R. - 30 WRZEŚNIA 2006 R."
+            },
+            {
+              "dataZlozenia": "12.05.2008",
+              "zaOkresOdDo": "OD 1 PAŹDZIERNIKA 2006 R. DO 31 GRUDNIA 2007 R."
+            },
+            {
+              "dataZlozenia": "05.05.2009",
+              "zaOkresOdDo": "01.01.2008 R. - 31.12.2008 R."
+            },
+            {
+              "dataZlozenia": "10.08.2010",
+              "zaOkresOdDo": "01.01.2009 R. - 31.12.2009 R."
+            },
+            {
+              "dataZlozenia": "29.07.2011",
+              "zaOkresOdDo": "01.01.2010R. - 31.12.2010R."
+            },
+            {
+              "dataZlozenia": "15.06.2012",
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "dataZlozenia": "10.07.2013",
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R"
+            },
+            {
+              "dataZlozenia": "24.04.2014",
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "dataZlozenia": "14.05.2015",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "27.05.2016",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "31.05.2017",
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "dataZlozenia": "28.03.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "29.04.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "25.03.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "20.04.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "04.04.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "05.04.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "19.04.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "14.04.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "dataZlozenia": "27.04.2026",
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "1 GRUDNIA 2004 R. - 30 WRZEŚNIA 2006 R."
+            },
+            {
+              "zaOkresOdDo": "OD 1 PAŹDZIERNIKA 2006 R. DO 31 GRUDNIA 2007 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2008 R. - 31.12.2008 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2009 R. - 31.12.2009 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2010R. - 31.12.2010R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "1 GRUDNIA 2004 R. - 30 WRZEŚNIA 2006 R."
+            },
+            {
+              "zaOkresOdDo": "OD 1 PAŹDZIERNIKA 2006 R. DO 31 GRUDNIA 2007 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2008 R. - 31.12.2008 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2009 R. - 31.12.2009 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2010R. - 31.12.2010R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "1 GRUDNIA 2004 R. - 30 WRZEŚNIA 2006 R."
+            },
+            {
+              "zaOkresOdDo": "OD 1 PAŹDZIERNIKA 2006 R. DO 31 GRUDNIA 2007 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2008 R. - 31.12.2008 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2009 R. - 31.12.2009 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2010R. - 31.12.2010R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2011R. - 31.12.2011R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2012R. - 31.12.2012R"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ]
+        },
+        "sprawozdaniaGrupyKapitalowej": {
+          "wzmiankaOZlozeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "15.02.2007",
+              "zaOkresOdDo": "1 STYCZNIA 2004 R. - 31 LISTOPADA 2004 R."
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2004 R. - 31 LISTOPADA 2004 R."
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuSkonsolidowanegoRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2004 R. - 31 LISTOPADA 2004 R."
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2007"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {
+        "polaczeniePodzialPrzeksztalcenie": [
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "UCHWAŁĄ NADZWYCZAJNEGO WALNEGO ZGROMADZENIA \"JERONIMO MARTINS DYSTRYBUCJA\" SPÓŁKA AKCYJNA Z SIEDZIBĄ W KOSTRZYNIE Z DNIA 09.09.2005 R., AKT NOTARIALNY REP. A NR 2752/2005, NA PODSTAWIE ART. 492 § 1 PKT 1 KODEKSU SPÓŁEK HANDLOWYCH NASTĄPIŁO POŁĄCZENIE POPRZEZ PRZENIESIENIE NA SPÓŁKĘ \"JERONIMO MARTINS DYSTRYBUCJA\" SPÓŁKA AKCYJNA JAKO SPÓŁKĘ PRZEJMUJĄCĄ CAŁYCH MAJĄTKÓW PRZEJMOWANYCH SPÓŁEK: PITT SPOŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, SKLEPY SPOŻYWCZE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, TWOJE SKLEPY SPOŻYWCZE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (ŁĄCZENIE SIĘ PRZEZ PRZEJĘCIE). Z UWAGI NA TO, ŻE SPÓŁKA \"JERONIMO MARTINS DYSTRYBUCJA\" SPÓŁKA AKCYJNA JEST JEDYNYM WSPÓLNIKIEM PRZEJMOWANYCH SPÓŁEK, NA PODSTAWIE ART. 516 § 6 KSH W ZW. Z ART. 516 § 1 KSH POŁĄCZENIE PRZEPROWADZONE ZOSTAŁO BEZ PODWYŻSZENIA KAPITAŁU ZAKŁADOWEGO SPÓŁKI \"JERONIMO MARTINS DYSTRYBUCJA\" SPÓŁKA AKCYJNA ORAZ BEZ JAKICHKOLWIEK INNYCH ZMIAN JEJ STATUTU.",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "PITT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "01120174400000"
+                }
+              },
+              {
+                "nazwa": "SKLEPY SPOŻYWCZE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "63450654000000"
+                }
+              },
+              {
+                "nazwa": "TWOJE SKLEPY SPOŻYWCZE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,------",
+                "krajNazwaRejestru": "------,",
+                "identyfikator": {
+                  "regon": "01556752500000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "POŁĄCZENIE NA PODSTAWIE ART. 492 §1 PKT 1 KSH I ART. 506 §1 KSH PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI OPTIMUM MARK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ NA SPÓŁKĘ JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA (ŁĄCZENIE PRZEZ PRZEJĘCIE) W ZAMIAN ZA AKCJE O WARTOŚCI EMISYJNEJ ODPOWIADAJĄCEJ RYNKOWEJ WARTOŚCI MAJĄTKU OPTIMUM MARK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, KTÓRE SPÓŁKA PRZEJMUJĄCA WYDAJE WSPÓLNIKOWI OPTIMUM MARK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ ZGODNIE Z POSTANOWIENIAMI PLANU POŁĄCZENIA - UCHWAŁA NR 1 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA JERONIMO MARTINS POLSKA S.A. Z 19.10.2018R., AKT  NOTARIALNY REP. A NR 9769/2018, ORAZ UCHWAŁA NR 1 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW OPTIMUM MARK SPÓŁKA Z O.O. Z 19.10.2018R. AKT NOTARIALNY REP. A NR 9776/2018.",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "OPTIMUM MARK, SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+                "krajNazwaRejestru": "POLSKA, KRAJOWY REJESTR SĄDOWY",
+                "krs": {
+                  "krs": "0000218675"
+                },
+                "nazwaSadu": "*******",
+                "identyfikator": {
+                  "regon": "01583779800000"
+                }
+              }
+            ]
+          },
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "POŁĄCZENIE NA PODSTAWIE ART. 492 §1 PKT 1 KSH I ART. 506 §1 KSH PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI JM NIERUCHOMOŚCI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (SPÓŁKA PRZEJMOWANA) NA SPÓŁKĘ PRZEJMUJĄCĄ - JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA (ŁĄCZENIE PRZEZ PRZEJĘCIE), A TAKŻE ZGODNIE Z ART. 514 KSH I 516 §6 KSH (PRZEJĘCIE SWOJEJ SPÓŁKI JEDNOOSOBOWEJ), ZGODNIE Z POSTANOWIENIAMI PLANU POŁĄCZENIA - UCHWAŁA NR 1/2019 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA Z DNIA 16.12.2019R., AKT NOTARIALNY REP. A NR 7345/2019, NOTARIUSZ PAWEŁ ZIEMIAŃCZYK, KANCELARIA NOTARIALNA W WARSZAWIE, ORAZ UCHWAŁA NR 1/2019 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW JM NIERUCHOMOŚCI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ Z DNIA 16.12.2019R., AKT NOTARIALNY REP. A NR 7351/2019, NOTARIUSZ PAWEŁ ZIEMIAŃCZYK, KANCELARIA NOTARIALNA W WARSZAWIE",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "JM NIERUCHOMOŚCI, SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+                "krajNazwaRejestru": "POLSKA, KRAJOWY REJESTR SĄDOWY",
+                "krs": {
+                  "krs": "0000319738"
+                },
+                "nazwaSadu": "*******",
+                "identyfikator": {
+                  "regon": "30100272400000"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

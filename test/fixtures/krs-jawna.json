@@ -1,0 +1,344 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000005714",
+      "dataCzasOdpisu": "22.08.2026 01:20:05",
+      "stanZDnia": "21.08.2026",
+      "dataRejestracjiWKRS": "02.04.2001",
+      "numerOstatniegoWpisu": 22,
+      "dataOstatniegoWpisu": "21.08.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "KI.X NS-REJ.KRS/7059/26/731",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SĄD REJONOWY W KIELCACH, X WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA JAWNA",
+          "identyfikatory": {
+            "regon": "29050646000000",
+            "nip": "6570311734"
+          },
+          "nazwa": "ALEX W.ADAMCZYK SPÓŁKA JAWNA",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "ŚWIĘTOKRZYSKIE",
+            "powiat": "KIELECKI",
+            "gmina": "NOWINY",
+            "miejscowosc": "NOWINY"
+          },
+          "adres": {
+            "ulica": "UL. PRZEMYSŁOWA",
+            "nrDomu": "25",
+            "miejscowosc": "NOWINY",
+            "kodPocztowy": "26-052",
+            "poczta": "NOWINY",
+            "kraj": "POLSKA"
+          },
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-78309-56993-WGBGG-26"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "23.10.1990 R. - UMOWA SPÓŁKI CYWILNEJ\n24.03.2001 R. - ANEKS NR.5 DO UMOWY SPÓŁKI CYWILNEJ"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "07.08.2007 R. - ANEKS NR 6 DO UMOWY SPÓŁKI CYWILNEJ - ZMIANA: § 1, § 4 PKT 2, § 5 PKT 2, § 6 PKT 2;\n07.08.2007 R. - TEKST JEDNOLITY UMOWY SPÓŁKI JAWNEJ."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "29.12.2008 R. - ZMIANA UMOWY SPÓŁKI - ZMIENIONO: § 1, § 2, § 4, § 5 I § 6;\n16.02.2009 R. - ZMIANA UMOWY SPÓŁKI - ZMIENIONO: § 2."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "20.11.2009 R. - ANEKS NR 9 DO UMOWY SPÓŁKI JAWNEJ - ZMIANA UMOWY SPÓŁKI - ZMIENIONO: § 1, § 4, § 5 Z MOCĄ OBOWIĄZUJĄCĄ OD DNIA 01.01.2010 R."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "10.12.2014 R. - ZMIENIONO: § 1, § 2 PKT 1."
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY"
+        },
+        "wspolnicyPartnerzy": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "A*******"
+            },
+            "imiona": {
+              "imie": "W**********",
+              "imieDrugie": "A******"
+            },
+            "identyfikator": {
+              "pesel": "5**********"
+            },
+            "czyPozostajeWZwiazkuMalzenskim": true,
+            "czyZawartaMalzenskaUmowaMajatkowa": false,
+            "czyPowstalaRozdzielnoscMajatkowa": false,
+            "czyMaOgraniczonaZdolnoscDoCzynnosciPrawnych": false
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "A*******",
+              "nazwiskoIICzlon": "Ś***********"
+            },
+            "imiona": {
+              "imie": "A********",
+              "imieDrugie": "M****"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "czyPozostajeWZwiazkuMalzenskim": true,
+            "czyZawartaMalzenskaUmowaMajatkowa": false,
+            "czyPowstalaRozdzielnoscMajatkowa": false,
+            "czyMaOgraniczonaZdolnoscDoCzynnosciPrawnych": false
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "B*******"
+            },
+            "imiona": {
+              "imie": "I****",
+              "imieDrugie": "K********"
+            },
+            "identyfikator": {
+              "pesel": "7**********"
+            },
+            "czyPozostajeWZwiazkuMalzenskim": true,
+            "czyZawartaMalzenskaUmowaMajatkowa": false,
+            "czyPowstalaRozdzielnoscMajatkowa": false,
+            "czyMaOgraniczonaZdolnoscDoCzynnosciPrawnych": false
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "A*******"
+            },
+            "imiona": {
+              "imie": "M*****",
+              "imieDrugie": "B******"
+            },
+            "identyfikator": {
+              "pesel": "8**********"
+            },
+            "czyPozostajeWZwiazkuMalzenskim": true,
+            "czyZawartaMalzenskaUmowaMajatkowa": false,
+            "czyPowstalaRozdzielnoscMajatkowa": false,
+            "czyMaOgraniczonaZdolnoscDoCzynnosciPrawnych": false
+          }
+        ]
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "WSPÓLNICY REPREZENTUJĄCY SPÓŁKĘ",
+          "sposobReprezentacji": "KAŻDY ZE WSPÓLNIKÓW SAMODZIELNIE",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "A*******"
+              },
+              "imiona": {
+                "imie": "W**********",
+                "imieDrugie": "A******"
+              },
+              "identyfikator": {
+                "pesel": "5**********"
+              }
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "A*******",
+                "nazwiskoIICzlon": "Ś***********"
+              },
+              "imiona": {
+                "imie": "A********",
+                "imieDrugie": "M****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              }
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B*******"
+              },
+              "imiona": {
+                "imie": "I****",
+                "imieDrugie": "K********"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              }
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "A*******"
+              },
+              "imiona": {
+                "imie": "M*****",
+                "imieDrugie": "B******"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              }
+            }
+          ]
+        },
+        "prokurenci": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "A*******"
+            },
+            "imiona": {
+              "imie": "K*******"
+            },
+            "identyfikator": {
+              "pesel": "5**********"
+            },
+            "rodzajProkury": "ODDZIELNA (SAMOISTNA)"
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "SPRZEDAŻ HURTOWA WYROBÓW TYTONIOWYCH",
+              "kodDzial": "46",
+              "kodKlasa": "35",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "SPRZEDAŻ HURTOWA NAPOJÓW ALKOHOLOWYCH I BEZALKOHOLOWYCH",
+              "kodDzial": "46",
+              "kodKlasa": "34"
+            },
+            {
+              "opis": "HANDEL DETALICZNY, Z WYŁĄCZENIEM HANDLU DETALICZNEGO POJAZDAMI SAMOCHODOWYMI",
+              "kodDzial": "47"
+            },
+            {
+              "opis": "WYNAJEM I ZARZĄDZANIE NIERUCHOMOŚCIAMI WŁASNYMI LUB DZIERŻAWIONYMI",
+              "kodDzial": "68",
+              "kodKlasa": "20",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYNAJEM I DZIERŻAWA SAMOCHODÓW OSOBOWYCH I FURGONETEK",
+              "kodDzial": "77",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYNAJEM I DZIERŻAWA POZOSTAŁYCH POJAZDÓW SAMOCHODOWYCH, Z WYŁĄCZENIEM MOTOCYKLI",
+              "kodDzial": "77",
+              "kodKlasa": "12",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYNAJEM I DZIERŻAWA POZOSTAŁYCH MASZYN, URZĄDZEŃ ORAZ DÓBR MATERIALNYCH",
+              "kodDzial": "77",
+              "kodKlasa": "3"
+            },
+            {
+              "opis": "PRANIE I CZYSZCZENIE WYROBÓW WŁÓKIENNICZYCH I FUTRZARSKICH",
+              "kodDzial": "96",
+              "kodKlasa": "01",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "24.03.2017",
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "dataZlozenia": "24.03.2017",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "24.03.2017",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "05.07.2017",
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "dataZlozenia": "28.06.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "15.07.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "30.06.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "29.06.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "23.06.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "01.08.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "11.07.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "14.07.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "dataZlozenia": "16.07.2026",
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2001"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000166742",
+      "dataCzasOdpisu": "22.08.2026 02:12:17",
+      "stanZDnia": "13.05.2026",
+      "dataRejestracjiWKRS": "09.09.2003",
+      "numerOstatniegoWpisu": 94,
+      "dataOstatniegoWpisu": "13.05.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "SZ.XIII NS-REJ.KRS/8659/26/408",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁDZIELNIA",
+          "identyfikatory": {
+            "regon": "00048950900000",
+            "nip": "8540011276"
+          },
+          "nazwa": "SPÓŁDZIELNIA MIESZKANIOWA",
+          "daneOWczesniejszejRejestracji": {
+            "nazwaPoprzedniegoRejestru": "REJESTR SPÓŁDZIELNI",
+            "numerWPoprzednimRejestrze": "1547",
+            "sadProwadzacyRejestr": "SĄD REJONOWY W SZCZECINIE, WYDZIAŁ XI GOSPODARCZY"
+          },
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "ZACHODNIOPOMORSKIE",
+            "powiat": "STARGARDZKI",
+            "gmina": "STARGARD",
+            "miejscowosc": "STARGARD"
+          },
+          "adres": {
+            "ulica": "OSIEDLE ZACHÓD",
+            "nrDomu": "A/7",
+            "miejscowosc": "STARGARD",
+            "kodPocztowy": "73-110",
+            "poczta": "STARGARD",
+            "kraj": "POLSKA"
+          },
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-24378-53066-TWEBV-21"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "19.10.1959 R. - SPORZĄDZENIE STATUTU\n12.01.2002 R. - UCHWAŁA ZEBRANIA PRZEDSTAWICIELI - ZMIENIONO §§ OD § 1 DO § 119 STATUTU"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "TEKST JEDNOLITY STATUTU W BRZMIENIU UCHWALONYM PRZEZ ZEBRANIE PRZEDSTAWICIELI W DNIU 13 GRUDNIA 2003 R. UWZGLĘDNIAJĄCY ZMIANY STATUTU PRZYJĘTE UCHWAŁĄ NR 8/2003 ZEBRANIA PRZEDSTAWICIELI Z DNIA 13.12.2003 R."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "05.01.2008 R. - TEKST JEDNOLITY STATUTU USTALONY UCHWAŁĄ NR 5/2008 ZEBRANIA PRZEDSTAWICIELI CZŁONKÓW SPÓŁDZIELNI Z WYŁĄCZENIEM ZAPISÓW NASTĘPUJĄCYCH PARAGRAFÓW STATUTU: § 9 UST. 1 PKT 12, §12, §33 UST. 1 PKT 5, § 38 UST 3 W CZĘŚCI: \"LUB CZĘŚĆ WALNEGO ZGROMADZENIA ORAZ \"C) 1/10 CZŁONKÓW CZĘŚCI WALNEGO ZGROMADZENIA\", § 38 UST. 5 ZDANIE TRZECIE, § 40 UST. 1 W CZĘŚCI: \"RADA OSIEDLA\", § 40 UST. 6 W CZĘŚCI: \"ZGODNIE Z USTĘPEM 2\", § 43 UST. 1 PKT 1B W CZĘŚCI: \"DANEJ CZĘŚCI\", § 44 UST. 1, § 50 UST. 5, 9, 13, 15, § 51 W CZĘŚCI: \"NA TEJ CZĘŚCI WALNEGO ZGROMADZENIA, NA KTÓREJ ZOSTAŁ WYBRANY\", § 53 UST. 3 I 4, § 56 UST. 1, UST. 2 W CZĘŚCI: \"W TRYBIE USTALONYM W § 35 UST. 3 W POWIĄZANIU Z § 49\", § 57 UST. 2 PKT 1 W CZĘŚCI: \"PRZEZ TĘ CZĘŚĆ WALNEGO ZGROMADZENIA, KTÓRA GO WYBRAŁA\", § 61 UST. 1 PKT 10 W CZĘŚCI: \"PRZEZ TĘ CZĘŚĆ WALNEGO ZGROMADZENIA, KTÓRA GO WYBRAŁA\", § 61 UST. 2 PKT 4, § 61 UST. 2 PKT 11 W CZĘŚCI: \"POZYTYWNEJ\", § 63 UST. 1 W CZĘŚCI: \"ZAMIESZKUJĄCY W JEJ ZASOBACH\", § 69 UST. 4, § 69 UST. 6 ZDANIE DRUGIE, § 71, § 113, § 188, § 190 UST. 1 W CZĘŚCI: \"W DNIU 24.11.2007\"."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "5 STYCZNIA 2008 R. - TEKST JEDNOLITY STATUTU USTALONY UCHWAŁĄ NR 5/2008 ZEBRANIA PRZEDSTAWICIELI CZŁONKÓW SPÓŁDZIELNI - ZMIENIONO: §6 UST.2; §33 UST.1 PKT 1; §38 UST.7; §44 UST.4 PKT 4; §45 UST.3; §52; §55; §61 UST.1 PKT 6."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "23.06.2010R., § 12, § 13, § 13 UST. 2, 3; § 14, § 14 UST. 5, § 15 - 32, § 32 UST. 1,4; § 33, § 33 UST. 1,2; § 34, § 34 UST. 1,2, § 35, § 36, §36 UST. 2,3,4, § 37, § 37 UST. 2,4,6,7,14,15, § 38, §38 UST. 1, 5,6,§ 39, § 39 UST.1, § 40, §40 UST. 1, 2, § 41, § 41 UST. 2, 3,5, § 42, § 42 UST.1, 2,3,5,6, § 43, § 43 UST.1, § 43 UST. 1 PKT.1, § 43 UST. 4, 5, § 44, § 44 UST.2,3,4,5,6,7,8,9,10, § 45, § 45 UST. 1,2,3, §46, § 46 UST. 1,2,3,4,5,6, §47, § 48,§ 49, § 50, § 50 UST.1,2,6,7,8,10,11,12,14,16,17,18,19,20,21, § 50 UST.21 PPKT.2, 22, 23, 24,25,26,27,28,29,30,31,32,33,34,35, § 51, § 52, §53, § 54, § 55, § 56, § 56 UST. 2,3,4,5,6, § 57, § 58, § 58 UST.1, 2, § 59, § 59 UST. 3,§ 60, § 61,§ 61 UST.1, § 61 UST. 1 PKT.2, 3,5,7,8,9,10,11,12, § 61 UST. 2 PKT.4, 5,6,7,8,9,11,10, § 61 UST.4,5,6, NOWY PODROZDZIAŁ O NUMERACJI 4.5, § 59, PODROZDZIAŁ 4.5, § 62, § 63, § 63 UST. 2,§ 65, § 64, § 64 UST. 1 PKT. 13, § 66, § 67, § 68, PODROZDZIAŁ 4.6, § 69, § 69 UST. 4, § 70, 71,72,73,74, § 74 UST.1, § 75,76, § 76 UST. 2, § 77,78,79,80,81,82, § 82 UST. 1,2, 3, § 83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111, § 111 UST. 1,5, § 112, 113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131, § 131 UST. 3,§ 132,§ 132 UST. 1, § 133,134, § 134 UST. 2, §135,136,137,138,139,140,§ 140 UST. 1,2, §141,142, 143, §143 UST. 1 PKT. 1,3, §144,145, 146,147,148, § 148 UST. Ą. PKT. 1,3, § 149, 150,151,§ 151 UST. 1 PKT. 2, § 152,153,154,155,156,157, § 157 UST. 1 PKT. 2, § 158,\n159,160,161,162,163,164,165,166,167,168,169,170,171,§ 171 UST. 1 LIT. E,G,H, § 172,173, § 173 UST. 3, § 174,175,176, § 176 UST. 1,2 PKT.2, § 177,178,§ 178 UST. 3, §179, § 179 PKT. 1,2,4,3, § 180, § 180 PKT. 1, 2,4,5,6, § 181, § 181 UST. 1,2,3,§ 181 UST. 1 PKT.2, § 182,183, § 183 UST. 1, § 184, § 184 UST. 1,3,4,6, § 185,186, § 186 UST. 2,3, § 186 UST. 2,3, § 188,189,190,§ 190 UST. 1,2."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "UCHWAŁA WALNEGO ZGROMADZENIA NR 7/2017 Z 10 CZERWCA 2017 R. O PRZYJĘCIU NOWEGO TEKSTU STATUTU."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "12 MAJA 2018 R. - UCHWALONO STATUT W NOWYM BRZMIENIU"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY"
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "OŚWIADCZENIA WOLI ZA SPÓŁDZIELNIĘ SKŁADAJĄ DWAJ CZŁONKOWIE ZARZĄDU LUB JEDEN CŻŁONEK I PEŁNOMOCNIK.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "P********"
+              },
+              "imiona": {
+                "imie": "E**",
+                "imieDrugie": "A***"
+              },
+              "identyfikator": {
+                "pesel": "7**********"
+              },
+              "funkcjaWOrganie": "Z-CA PREZESA DS. TECHNICZNYCH SPÓŁDZIELNI MIESZKANIOWEJ W STARGARDZIE SZCZECIŃSKIM",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "Z****"
+              },
+              "imiona": {
+                "imie": "T*****"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "PREZES ZARZĄDU SPÓŁDZIELNI MIESZKANIOWEJ W STARGARDZIE SZCZECIŃSKIM",
+              "czyZawieszona": false
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "RADA NADZORCZA",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "Ż********"
+                },
+                "imiona": {
+                  "imie": "K********"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "K******"
+                },
+                "imiona": {
+                  "imie": "K********"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "J******"
+                },
+                "imiona": {
+                  "imie": "W*******",
+                  "imieDrugie": "M****"
+                },
+                "identyfikator": {
+                  "pesel": "5**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "S***"
+                },
+                "imiona": {
+                  "imie": "R*******",
+                  "imieDrugie": "P****"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "K****"
+                },
+                "imiona": {
+                  "imie": "M****",
+                  "imieDrugie": "K********"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "D********"
+                },
+                "imiona": {
+                  "imie": "H*****",
+                  "imieDrugie": "Z****"
+                },
+                "identyfikator": {
+                  "pesel": "4**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "F*******"
+                },
+                "imiona": {
+                  "imie": "U******"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "K********",
+                  "nazwiskoIICzlon": "Ł**"
+                },
+                "imiona": {
+                  "imie": "L****",
+                  "imieDrugie": "A*****"
+                },
+                "identyfikator": {
+                  "pesel": "9**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "P*****"
+                },
+                "imiona": {
+                  "imie": "D*****"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "Z********"
+                },
+                "imiona": {
+                  "imie": "L*****"
+                },
+                "identyfikator": {
+                  "pesel": "6**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "C*****"
+                },
+                "imiona": {
+                  "imie": "A*****",
+                  "imieDrugie": "M****"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "M*********"
+                },
+                "imiona": {
+                  "imie": "J**",
+                  "imieDrugie": "S********"
+                },
+                "identyfikator": {
+                  "pesel": "5**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "D******"
+                },
+                "imiona": {
+                  "imie": "A********",
+                  "imieDrugie": "E**"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "Z*********"
+                },
+                "imiona": {
+                  "imie": "P****"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "ZARZĄDZANIE NIERUCHOMOŚCIAMI WYKONYWANE NA ZLECENIE",
+              "kodDzial": "68",
+              "kodKlasa": "32",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "REALIZACJA PROJEKTÓW BUDOWLANYCH ZWIĄZANYCH ZE WZNOSZENIEM BUDYNKÓW",
+              "kodDzial": "41",
+              "kodKlasa": "10",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "KUPNO I SPRZEDAŻ NIERUCHOMOŚCI NA WŁASNY RACHUNEK",
+              "kodDzial": "68",
+              "kodKlasa": "10",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYNAJEM I ZARZĄDZANIE NIERUCHOMOŚCIAMI WŁASNYMI LUB DZIERŻAWIONYMI",
+              "kodDzial": "68",
+              "kodKlasa": "20",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "ZARZĄDZANIE NIERUCHOMOŚCIAMI WYKONYWANE NA ZLECENIE",
+              "kodDzial": "68",
+              "kodKlasa": "32",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ OBIEKTÓW KULTURALNYCH",
+              "kodDzial": "90",
+              "kodKlasa": "04",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ POZOSTAŁYCH ORGANIZACJI CZŁONKOWSKICH, GDZIE INDZIEJ NIESKLASYFIKOWANA",
+              "kodDzial": "94",
+              "kodKlasa": "99",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ ROZRYWKOWA I REKREACYJNA, GDZIE INDZIEJ NIESKLASYFIKOWANA",
+              "kodDzial": "93",
+              "kodKlasa": "29",
+              "kodPodklasa": "B"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "08.07.2004",
+              "zaOkresOdDo": "01.01.2003 R. - 31.12.2003 R."
+            },
+            {
+              "dataZlozenia": "24.06.2005",
+              "zaOkresOdDo": "01.01.2004 R. - 31.12.2004 R."
+            },
+            {
+              "dataZlozenia": "14.06.2006",
+              "zaOkresOdDo": "01.01.2005 R. - 31.12.2005 R."
+            },
+            {
+              "dataZlozenia": "06.07.2007",
+              "zaOkresOdDo": "1 STYCZNIA 2006 DO 31 GRUDNIA 2006"
+            },
+            {
+              "dataZlozenia": "28.02.2008",
+              "zaOkresOdDo": "1 STYCZNIA 2007 DO 31 GRUDNIA 2007"
+            },
+            {
+              "dataZlozenia": "19.08.2009",
+              "zaOkresOdDo": "1 STYCZNIA 2008 DO 31 GRUDNIA 2008"
+            },
+            {
+              "dataZlozenia": "15.07.2010",
+              "zaOkresOdDo": "1 STYCZNIA 2009 DO 31 GRUDNIA 2009"
+            },
+            {
+              "dataZlozenia": "10.07.2011",
+              "zaOkresOdDo": "1 STYCZNIA 2010 DO 31 GRUDNIA 2010"
+            },
+            {
+              "dataZlozenia": "16.07.2012",
+              "zaOkresOdDo": "1 STYCZNIA 2011 DO 31 GRUDNIA 2011"
+            },
+            {
+              "dataZlozenia": "26.03.2013",
+              "zaOkresOdDo": "1 STYCZNIA 2012 DO 31 GRUDNIA 2012"
+            },
+            {
+              "dataZlozenia": "23.06.2014",
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "dataZlozenia": "22.06.2015",
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "dataZlozenia": "11.04.2016",
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "dataZlozenia": "19.06.2017",
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "dataZlozenia": "22.05.2018",
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "09.05.2019",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "17.09.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "16.09.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "08.09.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "04.05.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "25.04.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "07.05.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "dataZlozenia": "05.05.2026",
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "01.01.2003 R. - 31.12.2003 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2004 R. - 31.12.2004 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2005 R. - 31.12.2005 R."
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2006 DO 31 GRUDNIA 2006"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2007 DO 31 GRUDNIA 2007"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2008 DO 31 GRUDNIA 2008"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2009 DO 31 GRUDNIA 2009"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2010 DO 31 GRUDNIA 2010"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2011 DO 31 GRUDNIA 2011"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2012 DO 31 GRUDNIA 2012"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "01.01.2003 R. - 31.12.2003 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2004 R. - 31.12.2004 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2005 R. - 31.12.2005 R."
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2006 DO 31 GRUDNIA 2006"
+            },
+            {
+              "zaOkresOdDo": "01.01.2007 R. - 31.12.2007 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2008 R. - 31.12.2008 R."
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2009 DO 31 GRUDNIA 2009"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2010 DO 31 GRUDNIA 2010"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2012 DO 31 GRUDNIA 2012"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "01.01.2004 R. - 31.12.2004 R."
+            },
+            {
+              "zaOkresOdDo": "01.01.2005 R. - 31.12.2005 R."
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2006 DO 31 GRUDNIA 2006"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2007 DO 31 GRUDNIA 2007"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2008 DO 31 GRUDNIA 2008"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2009 DO 31 GRUDNIA 2009"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2010 DO 31 GRUDNIA 2010"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2011 DO 31 GRUDNIA 2011"
+            },
+            {
+              "zaOkresOdDo": "1 STYCZNIA 2012 DO 31 GRUDNIA 2012"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2003"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

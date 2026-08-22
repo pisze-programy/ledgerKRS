@@ -1,0 +1,3771 @@
+{
+  "data": [
+    {
+      "krs": "0000222483_",
+      "nip": 7791011327,
+      "kod_pkd": "47.19.Z",
+      "opis_pkd": "Pozostała sprzedaż detaliczna prowadzona w niewyspecjalizowanych sklepach",
+      "informacje_o_firmie": [
+        {
+          "nazwa_pola": "adres_strony_internetowej",
+          "wartosc": "www.biedronka.pl"
+        },
+        {
+          "nazwa_pola": "data_rozpoczecia_dzialalnosci",
+          "wartosc": "1995-02-28"
+        },
+        {
+          "nazwa_pola": "data_wpisu_do_rejestru",
+          "wartosc": "2004-12-01"
+        },
+        {
+          "nazwa_pola": "forma_prawna",
+          "wartosc": "SPÓŁKA AKCYJNA"
+        },
+        {
+          "nazwa_pola": "forma_wlasnosci",
+          "wartosc": "WŁASNOŚĆ ZAGRANICZNA"
+        },
+        {
+          "nazwa_pola": "kod_pocztowy",
+          "wartosc": "62-025"
+        },
+        {
+          "nazwa_pola": "miejscowosc",
+          "wartosc": "KOSTRZYN"
+        },
+        {
+          "nazwa_pola": "nazwa",
+          "wartosc": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA"
+        },
+        {
+          "nazwa_pola": "nip",
+          "wartosc": "7791011327"
+        },
+        {
+          "nazwa_pola": "numer_nieruchomosci",
+          "wartosc": "5"
+        },
+        {
+          "nazwa_pola": "organ_nadzoru",
+          "wartosc": "RADA NADZORCZA"
+        },
+        {
+          "nazwa_pola": "organ_rejestrowy",
+          "wartosc": "SĄD REJONOWY POZNAŃ - NOWE MIASTO I WILDA W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "nazwa_pola": "organ_reprezentujacy",
+          "wartosc": "ZARZĄD"
+        },
+        {
+          "nazwa_pola": "regon",
+          "wartosc": "630303023"
+        },
+        {
+          "nazwa_pola": "sposob_reprezentacji",
+          "wartosc": "DWÓCH CZŁONKÓW ZARZĄDU DZIAŁAJĄCYCH ŁĄCZNIE, BĄDŹ TEŻ JEDEN CZŁONEK ZARZĄDU DZIAŁAJĄCY ŁĄCZNIE Z PROKURENTEM."
+        },
+        {
+          "nazwa_pola": "ulica",
+          "wartosc": "ŻNIWNA"
+        },
+        {
+          "nazwa_pola": "kapital_zakladowy",
+          "wartosc": "798214120,00 PLN"
+        },
+        {
+          "nazwa_pola": "wojewodztwo",
+          "wartosc": "WIELKOPOLSKIE"
+        }
+      ],
+      "dane_finansowe": [
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 17746372553,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 12595155531,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 1469938634,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 4223483071,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 5693421705,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 5544979630,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 103740538641,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 100599067282,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 4318560868.48,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 1261304607.08,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.03,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.0062,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 876841983,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 108317454729,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 107964021712,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 107753831894,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.12,
+          "nazwa_wskaznika": "roa",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.65,
+          "nazwa_wskaznika": "roe",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 30341528084,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 270793636822.5,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 4158734722.5,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 90866097424.5,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.82,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 7701394029,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 85204,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 24796548454,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 4500773537,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 3623931554,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 4223483071,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 7154764612,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 13622891558,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 13173319030,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 1358446400,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 3902350669,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 5260797069,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 4594359627,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 98298504972,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 95456024510,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 4088034225.64,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 1059323032.39,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.03,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.0067,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 834305178,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 102668643461,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 102200855641,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 101987368889,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.13,
+          "nazwa_wskaznika": "roa",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.75,
+          "nazwa_wskaznika": "roe",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 26796210588,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 256671608652.5,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 3445769720.25,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 85616650631.58,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.83,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 6868467947,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 81311,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 22201850961,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 4265584829,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 3431279651,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 3902350669,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 6531344379,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 14619090875,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 11978435651,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 1311227500,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 4882170956,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 6193398456,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 5299163422,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 93206973603,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 90567495187,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 3923565782.36,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 1192444004.66,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.0062,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 993392755,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 98371121698,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 98089144559,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 98022927554,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.16,
+          "nazwa_wskaznika": "roa",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.78,
+          "nazwa_wskaznika": "roe",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 26597526526,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 245927804245,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 3974372566.5,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 86066151305.17,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.8,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 5954380050,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 79291.75,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 21298363104,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 5121150490,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 4127757735,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 4882170956,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 7455432367,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 12968956723,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 10897620094,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 1207337672,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 4109336890,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 5316674562,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 4653067705,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 81031200220,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 78912436534,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 3405621484.4,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 1001833029.35,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.0054,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 839982810,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 85370698764,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 85140537110,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 85034775227,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.14,
+          "nazwa_wskaznika": "roa",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.73,
+          "nazwa_wskaznika": "roe",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 23866576817,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 213426746910,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 3489800778.75,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 74060299762.75,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.81,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 5186426921,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 77726.75,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 19213509112,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 4254157762,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 3414174952,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 4109336890,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 6122338693,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 10855136644,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 8568761622,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 1136276285,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 3521715727,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 4657992012,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 4098782258,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 64762523901,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 63234278024,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 2731369585.12,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 856790734.42,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.0062,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 685820464,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 68419231485,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 68284239628,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 68246695479,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.15,
+          "nazwa_wskaznika": "roa",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.7,
+          "nazwa_wskaznika": "roe",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 19423898266,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 171048078712.5,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 3074086693.5,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 60152444555.5,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.79,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 4547738046,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 74350.5,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 15325116008,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 3552204682,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 2866384218,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 3521715727,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 5012417455,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 8927274393,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 8296193329,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 1061103063,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 3172357936,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 4233460999,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 3672480393,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 58115528476,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 56524103680,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 2451515456.48,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 728587965.07,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.0062,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 582566351,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 61310697444,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 61287886412,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 61216804380,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.14,
+          "nazwa_wskaznika": "roa",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.67,
+          "nazwa_wskaznika": "roe",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 17223467722,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 153276743610,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 2754360294.75,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 53400981974.75,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.79,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 4118504956,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 5482.1411,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 13550987329,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 3025772197,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 2443205846,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 3172357936,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 4692700700,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 7031708844,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 8356123713,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 1052709555,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 2800736909,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 3853446464,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 3469188445,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 52819736232,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 51426048052,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 2224818925.64,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 624328499.76,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.0039,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 492320364,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 55644728966,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 55620473141,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 55573747040,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.15,
+          "nazwa_wskaznika": "roa",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.65,
+          "nazwa_wskaznika": "roe",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 15387832557,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 139111822415,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 2601891333.75,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 48664163759.08,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 1,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.77,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 3641448040,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 5803.5581,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 11918644112,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 2733766976,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 2241446612,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 2800736909,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 4147698988,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 5919203718,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 8046783674,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 989287779,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 2592204810,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 3581492589,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 3192337046,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 48523676394,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 47265869940,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 2044635248.16,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 550838368.61,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.0051,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 515462186,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 51133740833,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 51115881204,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 51037735531,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.14,
+          "nazwa_wskaznika": "roa",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.62,
+          "nazwa_wskaznika": "roe",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 13965987392,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 127834352082.5,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 2394252784.5,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 44446231891.83,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.77,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 3284672119,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 66292.0781,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 10773650346,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 2480361240,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 1990704638,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 2592204810,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 3771865591,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 5927575085,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 7770202101,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 870026880,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2682503102,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 3552529982,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 3323906417,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 45614313462,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 44657514714,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 1931872662.56,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 550499986.05,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.06,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.009,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 573951271,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 48512726182,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 48296816564,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 48189794836,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.15,
+          "nazwa_wskaznika": "roa",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.61,
+          "nazwa_wskaznika": "roe",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 13697777186,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 121281815455,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2492929812.75,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 42930591447.42,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.76,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2881266953,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2262.0828,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 10373870769,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2567186377,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2023961045,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2682503102,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 3532280122,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2017
+        }
+      ],
+      "opisy_firmy": [
+        {
+          "opis": "Jeronimo Martins Polska to dynamiczna sieć handlowa, która przede wszystkim znana jest z marketów Biedronka, oferujących codziennie niskie ceny na różnorodne produkty. Sklepy Biedronka wyróżniają się bogatą ofertą, która obejmuje nie tylko artykuły spożywcze, ale również przemysłowe, co sprawia, że klienci mogą zaopatrzyć się w najpotrzebniejsze przedmioty w jednym miejscu. Oprócz tradycyjnych produktów, sieć promuje także własne marki, takie jak Dada, Delikate, czy Baitz, które są dostępne w atrakcyjnych cenach, zachowując wysoką jakość. Firma stawia na oszczędności swoich klientów, co przejawia się w licznych promocjach oraz ofercie gazetkowej. Legitymując się nowoczesnym podejściem do zakupów, Jeronimo Martins Polska wdrożyło także aplikację mobilną oraz program lojalnościowy 'Moja Biedronka', który pozwala na śledzenie aktualnych promocji oraz zniżek. Obserwując potrzeby rynku, firma angażuje się w działania odpowiedzialności społecznej, a jej fundacja wspiera liczne inicjatywy lokalne. Dzięki elastycznemu podejściu do rynku, Biedronka stanowi szereg udogodnień dla klientów, takich jak zamówienia online oraz dostawy. Jeronimo Martins Polska dąży do dostarczania wyjątkowych doświadczeń zakupowych i pozostaje liderem w branży detalicznej w Polsce.",
+          "punkt_kluczowy_1": "Sieć sklepów Biedronka z codziennymi niskimi cenami",
+          "punkt_kluczowy_2": "Bogata oferta produktów spożywczych i przemysłowych",
+          "punkt_kluczowy_3": "Własne marki oraz promocje dostępne w gazetkach",
+          "punkt_kluczowy_4": "Program lojalnościowy 'Moja Biedronka' i aplikacja mobilna",
+          "punkt_kluczowy_5": "Zaangażowanie w działania społecznej odpowiedzialności"
+        }
+      ],
+      "powiazania": [
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "JM NIERUCHOMOŚCI",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000319738_",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "SOBCZYK JAROSŁAW",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "c3e27aca4639af6e5fb812844ad9e929"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "DOS SANTOS PAZ FONSECA DE BARROS MARIA",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "2c28936a31ee1f5e57b8950f304104a4"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JM NIERUCHOMOŚCI",
+              "typ_powiazania": "powiązanie zwrotne",
+              "id_podmiotu": "0000326726_"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "ŁUKOWSKI MACIEJ",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "4fc7598e4514170cd5b75b88bef9d3fc"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "AGUIAR GOMES DE ARAUJO LUIS FILIPE",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "OPTIMUM MARK",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000218675_",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "ŁADAK MARCIN",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "4a604354c3390e77a7560f5b676a70f2"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "AGUIAR GOMES DE ARAUJO LUIS FILIPE",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "WARTA-RETAIL & SERVICES INVESTMENTS B.V.",
+              "typ_powiazania": "wspólnik",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "ZŁAKOWSKI MAREK",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "7e78268fb184c0cd50386ed1d0f46522"
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "PITT",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000042680_",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "BRITO EDUARDO",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "\"JERONIMO MARTINS DYSTRYBUCJA\" SPÓŁKA AKCYJNA",
+              "typ_powiazania": "inne",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "LEVITA PEDROSA SARAIVA CARLOS HENRIQUE",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "SKLEPY SPOŻYWCZE",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000173316_",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "KAŃSKI LESŁAW",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "1dd5050ae72c71ccbb307b7a69d76be5"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "SARAIVA CARLOS",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "BRITO EDUARDO",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "TWOJE SKLEPY SPOŻYWCZE",
+          "typ_powiazania": "inne",
+          "id_podmiotu": "0000178371_",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "SARAIVA CARLOS HENRIQUE LEVITA PEDROSA",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "KAŃSKI LESŁAW",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "1dd5050ae72c71ccbb307b7a69d76be5"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "BRITO EDUARDO MANUEL DE SOUSA",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "MENA MADALENA",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": []
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "PEREIRA ANTONIO",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": []
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ŁUCZAK SŁAWOMIR",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "30d6c9cdea8ba04f852549e335faf28d",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "SOŁTYSIŃSKI KAWECKI & SZLĘZAK - KANCELARIA RADCÓW PRAWNYCH I ADWOKATÓW",
+              "typ_powiazania": "wspólnik",
+              "id_podmiotu": "0001077722_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "SOŁTYSIŃSKI KAWECKI & SZLĘZAK - KANCELARIA RADCÓW PRAWNYCH I ADWOKATÓW",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000188703_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "SOŁTYSIŃSKI KAWECKI & SZLĘZAK - KANCELARIA RADCÓW PRAWNYCH I ADWOKATÓW",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0001077722_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "SPIRVENT",
+              "typ_powiazania": "wspólnik",
+              "id_podmiotu": "0000516963_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "SOŁTYSIŃSKI KAWECKI & SZLĘZAK - KANCELARIA RADCÓW PRAWNYCH I ADWOKATÓW",
+              "typ_powiazania": "wspólnik",
+              "id_podmiotu": "0000869501_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "SOŁTYSIŃSKI KAWECKI & SZLĘZAK - KANCELARIA RADCÓW PRAWNYCH I ADWOKATÓW",
+              "typ_powiazania": "wspólnik",
+              "id_podmiotu": "0000188703_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "SK&S BIURO",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000417556_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "SOŁTYSIŃSKI KAWECKI & SZLĘZAK - KANCELARIA RADCÓW PRAWNYCH I ADWOKATÓW",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000869501_"
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "JERONIMO MARTINS DYSTRYBUCJA",
+          "typ_powiazania": "podmioty o identycznym REGON",
+          "id_podmiotu": "0000037276_",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "BELEGGINGSMAATSCHAPPIJ TAND B.V.",
+              "typ_powiazania": "wspólnik",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "DE CASTRO SOARES DOS SANTOS PEDRO MANUEL",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "GASPAR ABRANTES NUNO MIGUEL",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "KORNASIEWICZ ALICJA",
+              "typ_powiazania": "organ nadzoru",
+              "id_podmiotu": "ef89a39f85e3f405325431c8b20de8dc"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "PEREIRA DA SILVA PEDRO MANUEL",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "SOARES DOS SANTOS ELISIO ALEXANDRE",
+              "typ_powiazania": "organ nadzoru",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "KAŃSKI LESŁAW",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "1dd5050ae72c71ccbb307b7a69d76be5"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "VIANA PALHA DA SILVA LUIS MARIA",
+              "typ_powiazania": "organ nadzoru",
+              "id_podmiotu": null
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "JM NIERUCHOMOŚCI",
+          "typ_powiazania": "powiązanie zwrotne",
+          "id_podmiotu": "0000800976_",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JM NIERUCHOMOŚCI",
+              "typ_powiazania": "podmioty o identycznym REGON",
+              "id_podmiotu": "0000326726_"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "DOS SANTOS PAZ FONSECA DE BARROS MARIA",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "2c28936a31ee1f5e57b8950f304104a4"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "SOBCZYK JAROSŁAW",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "c3e27aca4639af6e5fb812844ad9e929"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "ŁUKOWSKI MACIEJ",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "4fc7598e4514170cd5b75b88bef9d3fc"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JM NIERUCHOMOŚCI",
+              "typ_powiazania": "podmioty o identycznym NIP",
+              "id_podmiotu": "0000326726_"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "AGUIAR GOMES DE ARAUJO LUIS FILIPE",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JM NIERUCHOMOŚCI",
+              "typ_powiazania": "powstanie organizacji",
+              "id_podmiotu": "0000326726_"
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "JM TELE",
+          "typ_powiazania": "powiązanie zwrotne",
+          "id_podmiotu": "0000310155_",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "WOLSKI DOMINIK",
+              "typ_powiazania": "likwidator",
+              "id_podmiotu": "436544ea2ad8abe8ec153b7bbcc45d3d"
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "PLUS DISCOUNT",
+          "typ_powiazania": "powiązanie zwrotne",
+          "id_podmiotu": "0000120042_",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "DYSTRYBUCJA INTEGRATOR",
+              "typ_powiazania": "podmioty o identycznym REGON",
+              "id_podmiotu": "0000333628_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "DYSTRYBUCJA INTEGRATOR",
+              "typ_powiazania": "podmioty o identycznym NIP",
+              "id_podmiotu": "0000333628_"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "SUCHAŃSKI TOMASZ",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "cb6d78ceb1b52cecefa913630e2ae38e"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "KAŃSKI LESŁAW",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "1dd5050ae72c71ccbb307b7a69d76be5"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "DE SOUSA BRITO EDUARDO MANUEL",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "JERONIMO MARTINS DYSTRYBUCJA",
+          "typ_powiazania": "powstanie organizacji",
+          "id_podmiotu": "0000037276_",
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "BELEGGINGSMAATSCHAPPIJ TAND B.V.",
+              "typ_powiazania": "wspólnik",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "DE CASTRO SOARES DOS SANTOS PEDRO MANUEL",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "GASPAR ABRANTES NUNO MIGUEL",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "KORNASIEWICZ ALICJA",
+              "typ_powiazania": "organ nadzoru",
+              "id_podmiotu": "ef89a39f85e3f405325431c8b20de8dc"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "PEREIRA DA SILVA PEDRO MANUEL",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "SOARES DOS SANTOS ELISIO ALEXANDRE",
+              "typ_powiazania": "organ nadzoru",
+              "id_podmiotu": null
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "KAŃSKI LESŁAW",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "1dd5050ae72c71ccbb307b7a69d76be5"
+            },
+            {
+              "typ_podmiotu": "Osoba",
+              "nazwa": "VIANA PALHA DA SILVA LUIS MARIA",
+              "typ_powiazania": "organ nadzoru",
+              "id_podmiotu": null
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "AGUIAR GOMES DE ARAUJO LUIS FILIPE",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": null,
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU",
+          "powiazania_rozszerzone": []
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "DE CASTRO SOARES DOS SANTOS PEDRO MANUEL",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": null,
+          "organ": "ZARZĄD",
+          "funkcja": "PREZES ZARZĄDU",
+          "powiazania_rozszerzone": []
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "DOS SANTOS PAZ FONSECA DE BARROS MARIA",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "2c28936a31ee1f5e57b8950f304104a4",
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU",
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "BLISKA",
+              "typ_powiazania": "likwidator",
+              "id_podmiotu": "0000258245_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JM NIERUCHOMOŚCI",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000800976_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JM NIERUCHOMOŚCI",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000319738_"
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "SOBCZYK JAROSŁAW",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "c3e27aca4639af6e5fb812844ad9e929",
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU",
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "BLISKA",
+              "typ_powiazania": "likwidator",
+              "id_podmiotu": "0000258245_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JM NIERUCHOMOŚCI",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000319738_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JERONIMO MARTINS DROGERIE I FARMACJA",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000322116_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JM NIERUCHOMOŚCI",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000800976_"
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "STOLECKI PAWEŁ",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "5942a66ccdb3ac742a3e1ea81c160165",
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU",
+          "powiazania_rozszerzone": []
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ŁADAK MARCIN",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "4a604354c3390e77a7560f5b676a70f2",
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU",
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "\"FUNDACJA JEDEN DRUGIEMU\" W LIKWIDACJI",
+              "typ_powiazania": "organ nadzoru",
+              "id_podmiotu": "0000350820_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "OPTIMUM MARK",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000218675_"
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ŁUKOWSKI MACIEJ",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "4fc7598e4514170cd5b75b88bef9d3fc",
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU",
+          "powiazania_rozszerzone": [
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "BLISKA",
+              "typ_powiazania": "likwidator",
+              "id_podmiotu": "0000258245_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JM NIERUCHOMOŚCI",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000800976_"
+            },
+            {
+              "typ_podmiotu": "Organizacja",
+              "nazwa": "JM NIERUCHOMOŚCI",
+              "typ_powiazania": "reprezentacja",
+              "id_podmiotu": "0000319738_"
+            }
+          ]
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "WARTA - RETAIL & SERVICES INVESTMENTS B.V.",
+          "typ_powiazania": "wspólnik",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null,
+          "powiazania_rozszerzone": []
+        }
+      ],
+      "udzialy": [
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "WARTA - RETAIL & SERVICES INVESTMENTS B.V.",
+          "procent_udzialow": 100,
+          "id_podmiotu": null
+        }
+      ],
+      "monitor_sadowy": [
+        {
+          "numer_ogloszenia": "321886",
+          "sygnatura_sprawy": "RDF/711458/25/153",
+          "tresc_naglowka": "Poz. 321886. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\nwpis do rejestru: 01.12.2004.\n[RDF/711458/25/153]",
+          "nr_monitora": "82/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 14.04.2025 dokonano wpisu do rejestru KRS\nnr 95 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 4. OD 01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-04-29",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "321885",
+          "sygnatura_sprawy": "RDF/711458/25/752",
+          "tresc_naglowka": "Poz. 321885. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\nwpis do rejestru: 01.12.2004.\n[RDF/711458/25/752]",
+          "nr_monitora": "82/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 14.04.2025 dokonano wpisu do rejestru KRS\nnr 94 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 3. OD 01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-04-29",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "321884",
+          "sygnatura_sprawy": "RDF/711458/25/351",
+          "tresc_naglowka": "Poz. 321884. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\nwpis do rejestru: 01.12.2004.\n[RDF/711458/25/351]",
+          "nr_monitora": "82/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 14.04.2025 dokonano wpisu do rejestru KRS\nnr 93 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 2. OD 01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-04-29",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "321883",
+          "sygnatura_sprawy": "RDF/711457/25/639",
+          "tresc_naglowka": "Poz. 321883. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\nwpis do rejestru: 01.12.2004.\n[RDF/711457/25/639]",
+          "nr_monitora": "82/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 14.04.2025 dokonano wpisu do rejestru KRS\nnr 92 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 14.04.2025 okres OD\n01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-04-29",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "57054",
+          "sygnatura_sprawy": "BMSiG-57137/2024",
+          "tresc_naglowka": "Poz. 57054. JERONIMO MARTINS POLSKA SPÓŁKA\nAKCYJNA w Kostrzynie. KRS 0000222483. SĄD REJONOWY\nPOZNAŃ-NOWE MIASTO I WILDA W POZNANIU, IX WYDZIAŁ\nGOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 1 grudnia 2004 r.\n[BMSiG-57137/2024]",
+          "nr_monitora": "230/2024",
+          "rozdzial": "I. OGŁOSZENIA WYMAGANE PRZEZ KODEKS SPÓŁEK HANDLOWYCH/3. Spółki akcyjne",
+          "tresc_ogloszenia": "Zarząd spółki Jeronimo Martins Polska S.A. z siedzibą\nw Kostrzynie wpisanej do Rejestru Przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy Poznań-Nowe Miasto i Wilda w Poznaniu, IX Wydział\nGospodarczy Krajowego Rejestru Sądowego, pod numerem\nKRS 0000222483 („Spółka”), niniejszym informuje, że postanowił wypłacić akcjonariuszom Spółki zaliczkę na poczet dywidendy przewidywanej za rok obrotowy 2024 stanowiącą nie\nwięcej niż połowę zysku osiągniętego od końca poprzedniego\nroku obrotowego, wykazanego w sprawozdaniu finansowym\nsporządzonym na dzień 30 czerwca 2024 r., powiększonego\no kapitały rezerwowe, którymi w celu wypłaty zaliczek może\ndysponować Zarząd oraz pomniejszonego o niepokryte straty\ni akcje własne.\n\n\n\n\n\nP R Z E Z K O D E K S S P Ó Ł E K H A N D LO W YC H\n\n      Łączna kwota zaliczki to 1.050.000.000 zł (jeden miliard pięćdziesiąt milionów złotych). W wypłacie zaliczki na poczet przewidywanej dywidendy z zysku za rok obrotowy 2024 uczestniczyć będą wszystkie akcje w kapitale zakładowym Spółki,\n      tj. 79.821.412 akcji.\n\n      Dniem ustalenia akcjonariuszy uprawnionych do otrzymania\n      zaliczki na poczet dywidendy będzie dzień 24.12.2024 r.\n\n      Zaliczka na poczet dywidendy zostanie wypłacona nie później\n      niż w dniu 31.12.2024 r.",
+          "data_publikacji": "2024-11-27",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA w Kostrzynie.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "379283",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/8382/24/255",
+          "tresc_naglowka": "Poz. 379283. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SĄD\nREJONOWY POZNAŃ - NOWE MIASTO I WILDA\nW POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 01.12.2004.\n[PO.IX NS-REJ.KRS/8382/24/255]",
+          "nr_monitora": "94/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 30.04.2024 dokonano wpisu do rejestru KRS\nnr 90 następującej treści:\nDz. 1. Rub. 4. Informacje o statucie wpisać: 1 1. A\nNOTARIALNY Z DNIA 09.04.2024R., REP. A NR\n1491/2024, NOTARIUSZ PAWEŁ ZIEMIAŃCZYK,\nKANCELARIA NOTARIALNA W WARSZAWIE\n- DODANO: §8 UST. 3 - PRZYJĘTO TEKST JEDNOLITY STATUTU SPÓŁKI",
+          "data_publikacji": "2024-05-15",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "336464",
+          "sygnatura_sprawy": "RDF/596753/24/151",
+          "tresc_naglowka": "Poz. 336464. JERONIMO MARTINS POLSKA\n  SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n  wpis do rejestru: 01.12.2004.\n  [RDF/596753/24/151]",
+          "nr_monitora": "87/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 19.04.2024 dokonano wpisu do rejestru KRS\n  nr 89 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 4. OD 01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-05-06",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "336463",
+          "sygnatura_sprawy": "RDF/596752/24/439",
+          "tresc_naglowka": "Poz. 336463. JERONIMO MARTINS POLSKA\n  SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n  wpis do rejestru: 01.12.2004.\n  [RDF/596752/24/439]",
+          "nr_monitora": "87/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 19.04.2024 dokonano wpisu do rejestru KRS\n  nr 88 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 3. OD 01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-05-06",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "336462",
+          "sygnatura_sprawy": "RDF/596752/24/38",
+          "tresc_naglowka": "Poz. 336462. JERONIMO MARTINS POLSKA\n  SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n  wpis do rejestru: 01.12.2004.\n  [RDF/596752/24/38]",
+          "nr_monitora": "87/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 19.04.2024 dokonano wpisu do rejestru KRS\n  nr 87 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 2. OD 01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-05-06",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "336461",
+          "sygnatura_sprawy": "RDF/596752/24/637",
+          "tresc_naglowka": "Poz. 336461. JERONIMO MARTINS POLSKA\n  SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n  wpis do rejestru: 01.12.2004.\n  [RDF/596752/24/637]",
+          "nr_monitora": "87/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 19.04.2024 dokonano wpisu do rejestru KRS\n  nr 86 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 1. data złożenia 19.04.2024 okres OD\n  01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-05-06",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "1396220",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/20144/23/14",
+          "tresc_naglowka": "Poz. 1396220. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SĄD\nREJONOWY POZNAŃ - NOWE MIASTO I WILDA\nW POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 01.12.2004.\n[PO.IX NS-REJ.KRS/20144/23/14]",
+          "nr_monitora": "240/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 30.11.2023 dokonano wpisu do rejestru KRS\nnr 85 następującej treści:\nDz. 1. Rub. 4. Informacje o statucie wpisać:\n1 1. 04.09.2023 R., REP. A NR 5129/2023, NOTARIUSZ\nPAWEŁ ZIEMIAŃCZYK, KANCELARIA NOTARIALNA\nW WARSZAWIE - DODANO DO §2 UST. 1 PKT 148,\n149 I 150, - PRZYJĘTO TEKST JEDNOLITY STATUTU\nSPÓŁKI",
+          "data_publikacji": "2023-12-12",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "565984",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/5216/23/295",
+          "tresc_naglowka": "Poz. 565984. JERONIMO MARTINS POLSKA\n   SPÓŁKA AKCYJNA. KRS 0000222483. SĄD\n   REJONOWY POZNAŃ - NOWE MIASTO I WILDA\n   W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 01.12.2004.\n   [PO.IX NS-REJ.KRS/5216/23/295]",
+          "nr_monitora": "128/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 21.06.2023 dokonano wpisu do rejestru KRS\n   nr 84 następującej treści:\n   Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n   podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub. Dane\n   osób wchodzących w skład organu wykreślić:\n   1 1. PEDRAS LOPES MAIA 2. MAURA MARTA\n   5. CZŁONEK ZARZĄDU 6. NIE wpisać: 2 1. STOLECKI 2. PAWEŁ MARCIN 3. [ukryto] 5. CZŁONEK ZARZĄDU 6. NIE",
+          "data_publikacji": "2023-07-05",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "262256",
+          "sygnatura_sprawy": "RDF/478979/23/597",
+          "tresc_naglowka": "Poz. 262256. JERONIMO MARTINS POLSKA\n     SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n     wpis do rejestru: 01.12.2004.\n     [RDF/478979/23/597]",
+          "nr_monitora": "80/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 05.04.2023 dokonano wpisu do rejestru KRS\n     nr 83 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 4. OD 01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-04-25",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "262255",
+          "sygnatura_sprawy": "RDF/478979/23/196",
+          "tresc_naglowka": "Poz. 262255. JERONIMO MARTINS POLSKA\n     SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n     wpis do rejestru: 01.12.2004.\n     [RDF/478979/23/196]",
+          "nr_monitora": "80/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 05.04.2023 dokonano wpisu do rejestru KRS\n     nr 82 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 3. OD 01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-04-25",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "262254",
+          "sygnatura_sprawy": "RDF/478979/23/795",
+          "tresc_naglowka": "Poz. 262254. JERONIMO MARTINS POLSKA\n     SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n     wpis do rejestru: 01.12.2004.\n     [RDF/478979/23/795]",
+          "nr_monitora": "80/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 05.04.2023 dokonano wpisu do rejestru KRS\n     nr 81 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 2. OD 01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-04-25",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "262253",
+          "sygnatura_sprawy": "RDF/478979/23/394",
+          "tresc_naglowka": "Poz. 262253. JERONIMO MARTINS POLSKA\n     SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n     wpis do rejestru: 01.12.2004.\n     [RDF/478979/23/394]",
+          "nr_monitora": "80/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 05.04.2023 dokonano wpisu do rejestru KRS\n     nr 80 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 1. data złożenia 05.04.2023 okres OD\n     01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-04-25",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "249207",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/7429/22/160",
+          "tresc_naglowka": "Poz. 249207. JERONIMO MARTINS POLSKA SPÓŁKA\n     AKCYJNA. KRS 0000222483. SĄD REJONOWY\n     POZNAŃ - NOWE MIASTO I WILDA W POZNANIU,\n     IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 01.12.2004.\n     [PO.IX NS-REJ.KRS/7429/22/160]",
+          "nr_monitora": "88/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 26.04.2022 dokonano wpisu do rejestru KRS\n     nr 79 następującej treści:\n     Dz. 1. Rub. 4. Informacje o statucie wpisać: 1 1. A\n     NOTARIALNY Z DNIA 25.03.2022 R., REP. A NR\n     2402/2022, NOTARIUSZ PAWEŁ ZIEMIAŃCZYK,\n     KANCELARIA NOTARIALNA W WARSZAWIE\n     - DODANO PKT 146 I 147 DO §2 UST. 1, - PRZYJĘTO\n     TEKST JEDNOLITY STATUTU SPÓŁKI",
+          "data_publikacji": "2022-05-09",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "197757",
+          "sygnatura_sprawy": "RDF/374783/22/899",
+          "tresc_naglowka": "Poz. 197757. JERONIMO MARTINS POLSKA\n  SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n  wpis do rejestru: 01.12.2004.\n  [RDF/374783/22/899]",
+          "nr_monitora": "73/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.04.2022 dokonano wpisu do rejestru KRS\n  nr 78 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 4. OD 01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-04-14",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "197756",
+          "sygnatura_sprawy": "RDF/374783/22/498",
+          "tresc_naglowka": "Poz. 197756. JERONIMO MARTINS POLSKA\n  SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n  wpis do rejestru: 01.12.2004.\n  [RDF/374783/22/498]",
+          "nr_monitora": "73/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.04.2022 dokonano wpisu do rejestru KRS\n  nr 77 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 3. OD 01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-04-14",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "197755",
+          "sygnatura_sprawy": "RDF/374783/22/97",
+          "tresc_naglowka": "Poz. 197755. JERONIMO MARTINS POLSKA\n  SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n  wpis do rejestru: 01.12.2004.\n  [RDF/374783/22/97]",
+          "nr_monitora": "73/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.04.2022 dokonano wpisu do rejestru KRS\n  nr 76 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 2. OD 01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-04-14",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "197754",
+          "sygnatura_sprawy": "RDF/374783/22/696",
+          "tresc_naglowka": "Poz. 197754. JERONIMO MARTINS POLSKA\n  SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n  wpis do rejestru: 01.12.2004.\n  [RDF/374783/22/696]",
+          "nr_monitora": "73/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.04.2022 dokonano wpisu do rejestru KRS\n  nr 75 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 1. data złożenia 04.04.2022 okres OD\n  01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-04-14",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "1109752",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/21438/21/665",
+          "tresc_naglowka": "Poz. 1109752. JERONIMO MARTINS POLSKA\n    SPÓŁKA AKCYJNA. KRS 0000222483. SĄD\n    REJONOWY POZNAŃ - NOWE MIASTO I WILDA\n    W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n    01.12.2004.\n    [PO.IX NS-REJ.KRS/21438/21/665]",
+          "nr_monitora": "219/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 27.10.2021 dokonano wpisu do rejestru KRS\n    nr 74 następującej treści:\n    Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RAD\n    NADZORCZA) PRub. Dane osób wchodzących\n    w skład organu wykreślić: 1 1. ABRANTES 2. NUNO\n    wpisać: 2 1. MENA 2. MADALENA",
+          "data_publikacji": "2021-11-12",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "1109751",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/18111/21/403",
+          "tresc_naglowka": "Poz. 1109751. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SĄD\nREJONOWY POZNAŃ - NOWE MIASTO I WILDA\nW POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n01.12.2004.\n[PO.IX NS-REJ.KRS/18111/21/403]",
+          "nr_monitora": "219/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 27.10.2021 dokonano wpisu do rejestru KRS\nnr 73 następującej treści:\nDz. 3. Rub. 1. Przedmiot działalności wykreślić:\n1 2. 56 10 A RESTAURACJE I INNE STAŁE PLACÓWKI GASTRONOMICZNE wpisać: 2 2. 64 92\nZ POZOSTAŁE FORMY UDZIELANIA KREDYTÓW\n\n\n\n\n\n\n\n K R A J O W E G O R E J E S T R U S Ą D O W E G O",
+          "data_publikacji": "2021-11-12",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "367539",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/11104/21/788",
+          "tresc_naglowka": "Poz. 367539. JERONIMO MARTINS POLSKA\n  SPÓŁKA AKCYJNA. KRS 0000222483. SĄD\n  REJONOWY POZNAŃ - NOWE MIASTO I WILDA\n  W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n  01.12.2004.\n  [PO.IX NS-REJ.KRS/11104/21/788]",
+          "nr_monitora": "113/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.06.2021 dokonano wpisu do rejestru KRS\n  nr 72 następującej treści:\n  Dz. 2. Rub. 1. Organ uprawniony do reprezentacji podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub.\n  Dane osób wchodzących w skład organu wpisać:\n  1 1. ŁADAK 2. MARCIN JERZY 3. [ukryto]\n  5. CZŁONEK ZARZĄDU 6. NIE\n\n\n\n\n\n\n\n\n                               X V. W P I S Y D O",
+          "data_publikacji": "2021-06-15",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "249796",
+          "sygnatura_sprawy": "RDF/287187/21/343",
+          "tresc_naglowka": "Poz. 249796. JERONIMO MARTINS POLSKA\n     SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n     wpis do rejestru: 01.12.2004.\n     [RDF/287187/21/343]",
+          "nr_monitora": "82/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 20.04.2021 dokonano wpisu do rejestru KRS\n     nr 71 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 4. OD 01.01.2020 DO 31.12.2020\nS",
+          "data_publikacji": "2021-04-29",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "249795",
+          "sygnatura_sprawy": "RDF/287187/21/942",
+          "tresc_naglowka": "Poz. 249795. JERONIMO MARTINS POLSKA\n     SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n     wpis do rejestru: 01.12.2004.\n     [RDF/287187/21/942]",
+          "nr_monitora": "82/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 20.04.2021 dokonano wpisu do rejestru KRS\n     nr 70 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 3. OD 01.01.2020 DO 31.12.2020",
+          "data_publikacji": "2021-04-29",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "249794",
+          "sygnatura_sprawy": "RDF/287187/21/541",
+          "tresc_naglowka": "Poz. 249794. JERONIMO MARTINS POLSKA\n     SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n     wpis do rejestru: 01.12.2004.\n     [RDF/287187/21/541]",
+          "nr_monitora": "82/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 20.04.2021 dokonano wpisu do rejestru KRS\n     nr 69 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 2. OD 01.01.2020 DO 31.12.2020",
+          "data_publikacji": "2021-04-29",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "249793",
+          "sygnatura_sprawy": "RDF/287187/21/140",
+          "tresc_naglowka": "Poz. 249793. JERONIMO MARTINS POLSKA\n     SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n     wpis do rejestru: 01.12.2004.\n     [RDF/287187/21/140]",
+          "nr_monitora": "82/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 20.04.2021 dokonano wpisu do rejestru KRS\n     nr 68 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nS    wpisać: 1 1. data złożenia 20.04.2021 okres OD\n     01.01.2020 DO 31.12.2020\nć:",
+          "data_publikacji": "2021-04-29",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "236953",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/8029/21/824",
+          "tresc_naglowka": "Poz. 236953. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SĄD\nREJONOWY POZNAŃ - NOWE MIASTO I WILDA\nW POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n01.12.2004.\n[PO.IX NS-REJ.KRS/8029/21/824]",
+          "nr_monitora": "79/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 15.04.2021 dokonano wpisu do rejestru KRS\nnr 67 następującej treści:\nDz. 2. Rub. 1. Organ uprawniony do reprezentacji podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub.\nDane osób wchodzących w skład organu wykreślić: 1 1. JANKOWIAK 2. BEATA AGNIESZKA\n3. [ukryto] 5. CZŁONEK ZARZĄDU 6. NIE",
+          "data_publikacji": "2021-04-26",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "13385",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/25564/20/406",
+          "tresc_naglowka": "Poz. 13385. JERONIMO MARTINS POLSKA SPÓŁKA\n     AKCYJNA. KRS 0000222483. SĄD REJONOWY\n     POZNAŃ - NOWE MIASTO I WILDA W POZNANIU,\n     IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 01.12.2004.\n     [PO.IX NS-REJ.KRS/25564/20/406]",
+          "nr_monitora": "5/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO",
+          "tresc_ogloszenia": "W dniu 31.12.2020 dokonano wpisu do rejestru KRS\n     nr 66 następującej treści:\n     Dz. 1. Rub. 4. Informacje o statucie wpisać: 1 1. AKT\n     NOTARIALNY Z DNIA 11.09.2020R., REP. A NR\n     6673/2020, NOTARIUSZ KRZYSZTOF DYBALSKI, KANCELARIA NOTARIALNA W WARSZAWIE\n     - DODANO §16 UST. 5 STATUTU",
+          "data_publikacji": "2021-01-11",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "441453",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/12131/20/616",
+          "tresc_naglowka": "Poz. 441453. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SĄD\nREJONOWY POZNAŃ - NOWE MIASTO I WILDA\nW POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n01.12.2004.\n[PO.IX NS-REJ.KRS/12131/20/616]",
+          "nr_monitora": "163/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 30.06.2020 dokonano wpisu do rejestru KRS\nnr 65 następującej treści:\nDz. 1. Rub. 2. Siedziba i adres podmiotu",
+          "data_publikacji": "2020-08-21",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "158323",
+          "sygnatura_sprawy": "RDF/193581/20/842",
+          "tresc_naglowka": "Poz. 158323. JERONIMO MARTINS POLSKA\n    SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n    wpis do rejestru: 01.12.2004.\n    [RDF/193581/20/842]",
+          "nr_monitora": "71/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 25.03.2020 dokonano wpisu do rejestru KRS\n    nr 64 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 4. OD 01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-04-10",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "158322",
+          "sygnatura_sprawy": "RDF/193581/20/441",
+          "tresc_naglowka": "Poz. 158322. JERONIMO MARTINS POLSKA\n    SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n    wpis do rejestru: 01.12.2004.\n    [RDF/193581/20/441]",
+          "nr_monitora": "71/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 25.03.2020 dokonano wpisu do rejestru KRS\n    nr 63 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 3. OD 01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-04-10",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "158321",
+          "sygnatura_sprawy": "RDF/193581/20/40",
+          "tresc_naglowka": "Poz. 158321. JERONIMO MARTINS POLSKA\n    SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n    wpis do rejestru: 01.12.2004.\n    [RDF/193581/20/40]",
+          "nr_monitora": "71/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 25.03.2020 dokonano wpisu do rejestru KRS\n    nr 62 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 2. OD 01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-04-10",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "158320",
+          "sygnatura_sprawy": "RDF/193581/20/639",
+          "tresc_naglowka": "Poz. 158320. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\nwpis do rejestru: 01.12.2004.\n[RDF/193581/20/639]",
+          "nr_monitora": "71/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "K R A J O W E G O R E J E S T R U S Ą D O W E G O\n\n\n    W dniu 25.03.2020 dokonano wpisu do rejestru KRS\n    nr 61 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 1. data złożenia 25.03.2020 okres OD\n    01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-04-10",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "12242",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/28511/19/837",
+          "tresc_naglowka": "Poz. 12242. JERONIMO MARTINS POLSKA SPÓŁKA\n   AKCYJNA. KRS 0000222483. SĄD REJONOWY\n   POZNAŃ - NOWE MIASTO I WILDA W POZNANIU,\n   IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 01.12.2004.\n   [PO.IX NS-REJ.KRS/28511/19/837]",
+          "nr_monitora": "4/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 31.12.2019 dokonano wpisu do rejestru KR\n   nr 60 następującej treści:\n   Dz. 6. Rub. 4. Informacja o połączeniu, podzial\n   lub przekształceniu wpisać: 1 1. PRZEJĘCIE INNE\n   SPÓŁKI 2. POŁĄCZENIE NA PODSTAWIE ART. 492\n   §1 PKT 1 KSH I ART. 506 §1 KSH PRZEZ PRZENIESIE\n   NIE CAŁEGO MAJĄTKU SPÓŁKI JM NIERUCHOMOŚCI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (SPÓŁKA PRZEJMOWANA) NA SPÓŁKĘ\n   PRZEJMUJĄCĄ - JERONIMO MARTINS POLSKA\n   SPÓŁKA AKCYJNA (ŁĄCZENIE PRZEZ PRZEJĘCIE),\n   A TAKŻE ZGODNIE Z ART. 514 KSH I 516 §6 KSH\n   (PRZEJĘCIE SWOJEJ SPÓŁKI JEDNOOSOBOWEJ),\n   ZGODNIE Z POSTANOWIENIAMI PLANU POŁĄCZENIA - UCHWAŁA NR 1/2019 NADZWYCZAJNEGO\n   WALNEGO ZGROMADZENIA JERONIMO MARTINS\n   POLSKA SPÓŁKA AKCYJNA Z DNIA 16.12.2019R.,\n   AKT NOTARIALNY REP. A NR 7345/2019, NOTARIUSZ\n   PAWEŁ ZIEMIAŃCZYK, KANCELARIA NOTARIALNA\n   W WARSZAWIE, ORAZ UCHWAŁA NR 1/2019 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW\n   JM NIERUCHOMOŚCI SPÓŁKA Z OGRANICZONĄ\n   ODPOWIEDZIALNOŚCIĄ Z DNIA 16.12.2019R., AKT\n   NOTARIALNY REP. A NR 7351/2019, NOTARIUSZ\n   PAWEŁ ZIEMIAŃCZYK, KANCELARIA NOTARIALNA\n   W WARSZAWIE",
+          "data_publikacji": "2020-01-08",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "50440",
+          "sygnatura_sprawy": "BMSiG-50435/2019",
+          "tresc_naglowka": "Poz. 50440. JERONIMO MARTINS POLSKA SPÓŁKA\n    AKCYJNA w Kostrzynie. KRS 0000222483. SĄD REJONOWY\n    POZNAŃ-NOWE MIASTO I WILDA W POZNANIU, IX WYDZIAŁ\n    GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n    do rejestru: 1 grudnia 2004 r.\n    JM NIERUCHOMOŚCI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ w Kostrzynie. KRS 0000319738. SĄD\n    REJONOWY POZNAŃ-NOWE MIASTO I WILDA W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU\n    SĄDOWEGO, wpis do rejestru: 17 grudnia 2008 r.\n    [BMSiG-50435/2019]",
+          "nr_monitora": "190/2019",
+          "rozdzial": "I. OGŁOSZENIA WYMAGANE PRZEZ KODEKS SPÓŁEK HANDLOWYCH/3. Spółki akcyjne",
+          "tresc_ogloszenia": "Działając na podstawie art. 500 § 2 i § 3 KSH, Jeronimo Martins Polska S.A. z siedzibą w Kostrzynie oraz JM Nieruchomości Sp. z o.o. z siedzibą w Kostrzynie, wspólnie ogłaszają plan\n    ich połączenia z dnia 23 września 2019 r.\n\n                       PLAN POŁĄCZENIA\n:   uzgodniony i podpisany w dniu 23 września 2019 r. w Warszawie pomiędzy:\n\n    Jeronimo Martins Polska Spółka Akcyjna z siedzibą w Kostrzynie, wpisaną do Rejestru Przedsiębiorców Krajowego Rejestru Sądowego pod numerem KRS 0000222483 („JERONIMO\n    MARTINS”) oraz JM Nieruchomości Spółka z ograniczoną\n    odpowiedzialnością z siedzibą w Warszawie, wpisaną do\n    Rejestru Przedsiębiorców Krajowego Rejestru Sądowego pod\n    numerem KRS 0000319738 („JM NIERUCHOMOŚCI”)\n    JERONIMO MARTINS i JM NIERUCHOMOŚCI są dalej łącznie\n    zwane „Stronami”.\n\n    Zgodnie z art. 498 Kodeksu spółek handlowych („KSH”),\n    Strony uzgadniają plan połączenia o następującej treści:\n    1. Strony postanawiają, że połączenie będzie polegać na przejęciu JM NIERUCHOMOŚCI przez JERONIMO MARTINS\n       („Połączenie”).\n    2. Połączenie zostanie zrealizowane poprzez przeniesienie\n       całego majątku JM NIERUCHOMOŚCI (spółki przejmowanej) na JERONIMO MARTINS (spółkę przejmującą). Ponieważ JERONIMO MARTINS jest jedynym (100%) udziałowcem JM NIERUCHOMOŚCI cała wartość majątku JM\n       NIERUCHOMOŚCI (spółki przejmowanej) przejęta przez\n       JERONIMO MARTINS (spółkę przejmującą) odpowiadać\n       będzie procentowemu udziałowi JERONIMO MARTINS\n       w kapitale zakładowym JM NIERUCHOMOŚCI.\n    3. W związku z Połączeniem nie zostaną przyznane żadne\n       prawa, o których mowa w art. 499 § 1 pkt 5 KSH, ani żadne\n       szczególne korzyści, o których mowa w art. 499 § 1 pkt 6\n       KSH.\n    4. Zgodnie z art. 499 § 2 KSH następujące dokumenty stanowią załączniki do Planu Połączenia:\n        a. projekt uchwały Walnego Zgromadzenia JERONIMO\n           MARTINS (spółki przejmującej) w sprawie Połączenia\n           (Załącznik Nr 1);\n        b. projekt uchwały Zgromadzenia Wspólników JM NIERUCHOMOŚCI (spółki przejmowanej) w sprawie Połączenia (Załącznik Nr 2);\n        c. ustalenie wartości majątku JM NIERUCHOMOŚCI (spółki\n           przejmowanej) na dzień 31 sierpnia 2019 r. (Załącznik Nr 3);\n        d. oświadczenie zawierające informacje o stanie księgowym JERONIMO MARTINS (spółki przejmującej)\n\n\n 17 –\n\n\n                        I I I . O G Ł O S Z E N I A W Y M A G A\n\n      sporządzone dla celów Połączenia na dzień 31 sierpnia 2019 r. (Załącznik Nr 4);\n   e. oświadczenie zawierające informacje o stanie księgowym JM NIERUCHOMOŚCI (spółki przejmowanej)\n      sporządzone dla celów Połączenia na dzień 31 sierpnia 2019 r. (Załącznik Nr 5).",
+          "data_publikacji": "2019-10-01",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA w Kostrzynie.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "269552",
+          "sygnatura_sprawy": "RDF/109691/19/447",
+          "tresc_naglowka": "Poz. 269552. JERONIMO MARTINS POLSKA\n   SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n   wpis do rejestru: 01.12.2004.\n   [RDF/109691/19/447]",
+          "nr_monitora": "88/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 29.04.2019 dokonano wpisu do rejestru KRS\n   nr 59 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 4. OD 01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-05-08",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "269551",
+          "sygnatura_sprawy": "RDF/109690/19/735",
+          "tresc_naglowka": "Poz. 269551. JERONIMO MARTINS POLSKA\n   SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n   wpis do rejestru: 01.12.2004.\n   [RDF/109690/19/735]",
+          "nr_monitora": "88/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 29.04.2019 dokonano wpisu do rejestru KRS\n   nr 58 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 3. OD 01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-05-08",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "269550",
+          "sygnatura_sprawy": "RDF/109690/19/334",
+          "tresc_naglowka": "Poz. 269550. JERONIMO MARTINS POLSKA\n   SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n   wpis do rejestru: 01.12.2004.\n   [RDF/109690/19/334]",
+          "nr_monitora": "88/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 29.04.2019 dokonano wpisu do rejestru KRS\n   nr 57 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 2. OD 01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-05-08",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "269549",
+          "sygnatura_sprawy": "RDF/109690/19/933",
+          "tresc_naglowka": "Poz. 269549. JERONIMO MARTINS POLSKA\n   SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n   wpis do rejestru: 01.12.2004.\n   [RDF/109690/19/933]",
+          "nr_monitora": "88/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 29.04.2019 dokonano wpisu do rejestru KRS\n   nr 56 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 1. data złożenia 29.04.2019 okres OD\n   01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-05-08",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "247985",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/6048/19/946",
+          "tresc_naglowka": "Poz. 247985. JERONIMO MARTINS POLSKA\n     SPÓŁKA AKCYJNA. KRS 0000222483. SĄD\n     REJONOWY POZNAŃ-NOWE MIASTO I WILDA\n     W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n     01.12.2004.\n     [PO.IX NS-REJ.KRS/6048/19/946]",
+          "nr_monitora": "83/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 19.04.2019 dokonano wpisu do rejestru KRS\n     nr 55 następującej treści:\n     Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n     podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub. Dane\n     osób wchodzących w skład organu wpisać: 1 1. JANKOWIAK 2. BEATA AGNIESZKA 3. [ukryto]\n     5. CZŁONEK ZARZĄDU 6. NIE",
+          "data_publikacji": "2019-04-29",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "55854",
+          "sygnatura_sprawy": "BMSiG-55449/2018",
+          "tresc_naglowka": "Poz. 55854. JERONIMO MARTINS POLSKA SPÓŁKA\n    AKCYJNA w Kostrzynie. KRS 0000222483. SĄD REJONOWY\n    POZNAŃ-NOWE MIASTO I WILDA W POZNANIU, IX WYDZIAŁ\n    GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n    do rejestru: 1 grudnia 2004 r.\n    [BMSiG-55449/2018]",
+          "nr_monitora": "241/2018",
+          "rozdzial": "I. OGŁOSZENIA WYMAGANE PRZEZ KODEKS SPÓŁEK HANDLOWYCH/3. Spółki akcyjne",
+          "tresc_ogloszenia": "Działając na podstawie art. 508 KSH, Zarząd spółki Jeronimo Martins Polska Spółka Akcyjna z siedzibą w Kostrzynie\n    („Spółka”), wpisanej do rejestru przedsiębiorców Krajowego\n    Rejestru Sądowego („KRS”) prowadzonego przez Sąd Rejonowy Poznań-Nowe Miasto i Wilda w Poznaniu, IX Wydział\n    Gospodarczy Krajowego Rejestru Sądowego pod numerem\n    KRS 222483, niniejszym zawiadamia, że w dniu 30 listopada 2018 r. Sąd Rejonowy Poznań-Nowe Miasto i Wilda\n    w Poznaniu, IX Wydział Gospodarczy Krajowego Rejestru\n    Sądowego, dokonał wpisu w sprawie o sygnaturze PO.IX.\n    Ns-Rej. KRS 23228/18/304 w przedmiocie połączenia Spółki,\n    jako spółki przejmującej, ze spółką Optimum Mark spółka\n    z ograniczoną odpowiedzialnością z siedzibą w Warszawie,\n    jako spółką przejmowaną (połączenie przez przejęcie w trybie\n    art. 492 § 1 pkt 1 Kodeksu spółek handlowych).",
+          "data_publikacji": "2018-12-13",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA w Kostrzynie.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "1160921",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/23228/18/304",
+          "tresc_naglowka": "Poz. 1160921. JERONIMO MARTINS POLSKA\n    SPÓŁKA AKCYJNA. KRS 0000222483. SĄD\n    REJONOWY POZNAŃ-NOWE MIASTO I WILDA\n    W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n    01.12.2004.\n    [PO.IX NS-REJ.KRS/23228/18/304]",
+          "nr_monitora": "239/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "S\n    W dniu 30.11.2018 dokonano wpisu do rejestru KRS\ne   nr 54 następującej treści:\nJ   Dz. 1. Rub. 4. Informacje o statucie wpisać:\n    1 1. 19.10.2018R., AKT NOTARIALNY REP. A NR\n    9769/2018, NOTARIUSZ JOANNA DECZKOWSKA,\n    KANCELARIA NOTARIALNA W WARSZAWIE - ZMIENIONO: §6 UST. 1, §6 UST. 2, §6 UST. 3 - PRZYJĘTO\n    TEKST JEDNOLITY STATUTU SPÓŁKI\n    Rub. 8. Kapitał spółki wykreślić: 1. 715000000,00 Z\n    wpisać: 1. 798214120,00 ZŁ wykreślić: 3. 71500000\n    wpisać: 3. 79821412 wykreślić: 5. 715000000,00 ZŁ\n    wpisać: 5. 798214120,00 ZŁ\n    Rub. 9. Emisje akcji wpisać: 1 1. B 2. 8321412\n    3. AKCJE NIE SĄ UPRZYWILEJOWANE\n    Dz. 6. Rub. 4. Informacja o połączeniu, podziale\n    lub przekształceniu wpisać: 1 1. PRZEJĘCIE INNEJ\n    SPÓŁKI 2. POŁĄCZENIE NA PODSTAWIE ART. 492\n    §1 PKT 1 KSH I ART. 506 §1 KSH PRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI OPTIMUM MARK\n    SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ NA SPÓŁKĘ JERONIMO MARTINS POLSKA\n    SPÓŁKA AKCYJNA (ŁĄCZENIE PRZEZ PRZEJĘCIE) W ZAMIAN ZA AKCJE O WARTOŚCI EMISYJNEJ ODPOWIADAJĄCEJ RYNKOWEJ WARTOŚCI\n    MAJĄTKU OPTIMUM MARK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, KTÓRE SPÓŁKA\n    PRZEJMUJĄCA WYDAJE WSPÓLNIKOWI OPTIMUM MARK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ ZGODNIE Z POSTANOWIENIAMI\n    PLANU POŁĄCZENIA - UCHWAŁA NR 1 NADZWYCZAJNEGO WALNEGO ZGROMADZENIA JERONIMO MARTINS POLSKA S.A. Z 19.10.2018R.,\n    AKT NOTARIALNY REP. A NR 9769/2018, ORAZ\n    UCHWAŁA NR 1 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW OPTIMUM MARK SPÓŁKA\n    Z O.O. Z 19.10.2018R. AKT NOTARIALNY REP. A NR\n    9776/2018.\n\n\nS",
+          "data_publikacji": "2018-12-11",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "34270",
+          "sygnatura_sprawy": "BMSiG-33946/2018",
+          "tresc_naglowka": "Poz. 34270. JERONIMO MARTINS POLSKA SPÓŁKA\nAKCYJNA w Kostrzynie. KRS 0000222483. SĄD REJONOWY\nPOZNAŃ-NOWE MIASTO I WILDA W POZNANIU, IX WYDZIAŁ\nGOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 1 grudnia 2004 r.\nOPTIMUM MARK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ w Warszawie. KRS 0000218675. SĄD REJONOWY\nDLA M.ST. WARSZAWY W WARSZAWIE, XIII WYDZIAŁ\nGOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 14 października 2004 r.\n[BMSiG-33946/2018]",
+          "nr_monitora": "151/2018",
+          "rozdzial": "I. OGŁOSZENIA WYMAGANE PRZEZ KODEKS SPÓŁEK HANDLOWYCH/3. Spółki akcyjne",
+          "tresc_ogloszenia": "Działając na podstawie art. 500 § 2 i 3 KSH, Jeronimo Martins\nPolska Spółka Akcyjna z siedzibą w Kostrzynie oraz Optimum\nMark Spółka z ograniczoną odpowiedzialnością z siedzibą\nw Warszawie wspólnie ogłaszają plan ich połączenia z dnia\n\n                   PLAN POŁĄCZENIA\nuzgodniony i podpisany w dniu 24 lipca 2018 r. w Warszawie\npomiędzy:\n\nJeronimo Martins Polska Spółką Akcyjną z siedzibą w Kostrzynie, wpisaną do Rejestru Przedsiębiorców Krajowego Rejestru Sądowego pod numerem KRS 0000222483 („JERONIMO\nMARTINS”)\n\noraz\n\nOptimum Mark Spółką z ograniczoną odpowiedzialnością z siedzibą w Warszawie, wpisaną do Rejestru Przedsiębiorców Krajowego Rejestru Sądowego pod numerem\nKRS 0000218675 („OPTIMUM MARK”).\n\nJERONIMO MARTINS i OPTIMUM MARK są dalej łącznie\nzwane „Stronami”.\n\nZgodnie z art. 498 Kodeksu spółek handlowych (“KSH”),\nStrony uzgadniają plan połączenia o następującej treści:\n\n1. Strony postanawiają, że połączenie będzie polegać na przejęciu OPTIMUM MARK przez JERONIMO MARTINS („Połączenie”).\n\n2. Połączenie zostanie zrealizowane poprzez przeniesienie\ncałego majątku OPTIMUM MARK (Spółki przejmowanej) na\nJERONIMO MARTINS (Spółkę przejmującą) zgodnie z art. 492\n§ 1 pkt 1 KSH w zamian za akcje, które JERONIMO MARTINS\nwyda wspólnikowi OPTIMUM MARK (łączenie się przez przejęcie). Emisyjna wartość akcji wydanych przez JERONIMO\n\n\n\n\n\n R Z E Z K O D E K S S P Ó Ł E K H A N D LO W YC H\n\n     MARTINS wspólnikowi OPTIMUM MARK odpowiadać będzie\n     rynkowej wartości majątku OPTIMUM MARK przejętego przez\n     JERONIMO MARTINS.\n\n     3. Połączenie zostanie przeprowadzone z równoczesnym podwyższeniem kapitału zakładowego JERONIMO MARTINS.\n     Kapitał zakładowy JERONIMO MARTINS zostanie podwyższony z kwoty 715.000.000 zł do kwoty 798.214.120 zł, w drodze emisji 8.321.412 nowych akcji imiennych serii B, o wartości nominalnej 10 zł każda, oraz o łącznej wartości nominalnej\n     83.214.120 zł (“Nowe Akcje”).\n\n     4. Stosunek wymiany akcji będzie wynosił 2.080.353:49.000,\n     co oznacza, że jedyny wspólnik OPTIMUM MARK, tj. Spółka\n     Warta - Retail & Services Investments B.V. z siedzibą\n     w Amsterdamie, Naritaweg 165, Telestone 8, Amsterdam\n     1043BW, Holandia wpisana do Rejestru Przedsiębiorców\n     Holenderskiej Izby Handlowej pod numerem KvK 53395336\n     („WARTA”), otrzyma 8.321.412 Nowych Akcji w zamian za\n     196.000 jej udziałów w OPTIMUM MARK.\n\n     5. WARTA zostaną wydane Nowe Akcje w liczbie równej iloczynowi udziałów posiadanych w OPTIMUM MARK oraz stosunku wymiany akcji w ten sposób, że w zamian za 196.000\n     udziałów WARTA w kapitale zakładowym OPTIMUM MARK,\n     WARTA otrzyma 8.321.412 Nowych Akcji w kapitale zakładowym JERONIMO MARTINS.\n\n     6. Nowe Akcje będą uprawniały do uczestnictwa w zysku\n     JERONIMO MARTINS od dnia zarejestrowania podwyższenia\n     kapitału zakładowego JERONIMO MARTINS.\n\n\n     7. W związku z Połączeniem nie zostaną przyznane żadne\n     prawa, o których mowa w art. 499 § 1 pkt 5 KSH, ani żadne\n     szczególne korzyści, o których mowa w art. 499 § 1 pkt 6 KSH.\n\n\n     8. Zgodnie z art. 499 § 2 KSH następujące dokumenty stanowią załączniki do Planu Połączenia:\n     a. projekt uchwały Walnego Zgromadzenia JERONIMO\n         MARTINS (Spółki przejmującej) w sprawie Połączenia oraz\n         zgody na proponowaną zmianę Statutu JERONIMO MARTINS (Załącznik Nr 1);\n     b. projekt uchwały Zgromadzenia Wspólników OPTIMUM\n         MARK (Spółki przejmowanej) w sprawie Połączenia oraz\n         zgody na proponowaną zmianę Statutu JERONIMO MARTINS (Załącznik Nr 2);\n     c. projekt zmian do Statutu JERONIMO MARTINS (Załącznik\n         Nr 3);\n     d. ustalenie wartości majątku OPTIMUM MARK (Spółki przejmowanej) na dzień 30 czerwca 2018 r. (Załącznik Nr 4) odpowiadającego wartości emisyjnej akcji JERONIMO MARTINS przyznanych udziałowcowi OPTIMUM MARK;\n     e. oświadczenie zawierające informacje o stanie księgowym\n         JERONIMO MARTINS (Spółki przejmującej) sporządzone\n         dla celów Połączenia na dzień 30 czerwca 2018 r. (Załącznik\n         Nr 5);\n      f. oświadczenie zawierające informacje o stanie księgowym\n         OPTIMUM MARK (Spółki przejmowanej) sporządzone dla\n         celów Połączenia na dzień 30 czerwca 2018 r. (Załącznik\n         Nr 6).",
+          "data_publikacji": "2018-08-06",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA w Kostrzynie.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "125887",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/3112/18/462",
+          "tresc_naglowka": "Poz. 125887. JERONIMO MARTINS POLSKA SPÓŁKA\n     AKCYJNA. KRS 0000222483. SĄD REJONOWY\n     POZNAŃ-NOWE MIASTO I WILDA W POZNANIU,\n     IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 01.12.2004.\n     [PO.IX NS-REJ.KRS/3112/18/462]",
+          "nr_monitora": "96/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 17.04.2018 dokonano wpisu do rejestru KRS\n     nr 53 następującej treści:\n     Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n     podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub. Dane\n     osób wchodzących w skład organu wpisać: 1 1. DOS\n     SANTOS PAZ FONSECA DE BARROS 2. MARIA\n     MANUELA 3. [ukryto] 5. CZŁONEK ZARZĄDU\n     6. NIE",
+          "data_publikacji": "2018-05-18",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "124312",
+          "sygnatura_sprawy": "RDF/5702/18/889",
+          "tresc_naglowka": "Poz. 124312. JERONIMO MARTINS POLSKA\n   SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n   wpis do rejestru: 01.12.2004.\n   [RDF/5702/18/889]",
+          "nr_monitora": "95/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.03.2018 dokonano wpisu do rejestru KRS\n   nr 52 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 4. OD 01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2018-05-17",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "124311",
+          "sygnatura_sprawy": "RDF/5701/18/488",
+          "tresc_naglowka": "Poz. 124311. JERONIMO MARTINS POLSKA\n   SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n   wpis do rejestru: 01.12.2004.\n   [RDF/5701/18/488]",
+          "nr_monitora": "95/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.03.2018 dokonano wpisu do rejestru KRS\n   nr 51 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 3. OD 01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2018-05-17",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "124310",
+          "sygnatura_sprawy": "RDF/5700/18/87",
+          "tresc_naglowka": "Poz. 124310. JERONIMO MARTINS POLSKA\n   SPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\n   wpis do rejestru: 01.12.2004.\n   [RDF/5700/18/87]",
+          "nr_monitora": "95/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.03.2018 dokonano wpisu do rejestru KRS\n   nr 50 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 2. OD 01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2018-05-17",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "124309",
+          "sygnatura_sprawy": "RDF/5699/18/484",
+          "tresc_naglowka": "Poz. 124309. JERONIMO MARTINS POLSKA\nSPÓŁKA AKCYJNA. KRS 0000222483. SYSTEM,\nwpis do rejestru: 01.12.2004.\n[RDF/5699/18/484]",
+          "nr_monitora": "95/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.03.2018 dokonano wpisu do rejestru KRS\nnr 49 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 28.03.2018 okres OD\n01.01.2017 DO 31.12.2017\n\n\n\n\n\nK R A J O W E G O R E J E S T R U S Ą D O W E G O",
+          "data_publikacji": "2018-05-17",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "78538",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/40419/17/384",
+          "tresc_naglowka": "Poz. 78538. JERONIMO MARTINS POLSKA SPÓŁKA\n     AKCYJNA. KRS 0000222483. SĄD REJONOWY\n     POZNAŃ-NOWE MIASTO I WILDA W POZNANIU,\n     IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 01.12.2004.\n     [PO.IX NS-REJ.KRS/40419/17/384]",
+          "nr_monitora": "58/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 15.03.2018 dokonano wpisu do rejestru KRS\n     nr 48 następującej treści:\n     Dz. 2. Rub. 1. Organ uprawniony do reprezentacji podmiotu 1 (dla pozycji: 1. ZARZĄD)\n     PRub. Dane osób wchodzących w skład organu wpisać: 1 1. PEDRAS LOPES MAIA 2. MAURA MARTA\n     5. CZŁONEK ZARZĄDU 6. NIE",
+          "data_publikacji": "2018-03-22",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "469004",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/31869/17/457",
+          "tresc_naglowka": "Poz. 469004. JERONIMO MARTINS POLSKA SPÓŁKA\nAKCYJNA. KRS 0000222483. SĄD REJONOWY\nPOZNAŃ-NOWE MIASTO I WILDA W POZNANIU, IX\nWYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU\nSĄDOWEGO, wpis do rejestru: 01.12.2004.\n[PO.IX NS-REJ.KRS/31869/17/457]",
+          "nr_monitora": "250/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 18.12.2017 dokonano wpisu do rejestru KRS\nnr 47 następującej treści:\nDz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RADA\nNADZORCZA) PRub. Dane osób wchodzących\nw skład organu wykreślić: 1 1. KAŃSKI 2. LESŁAW\nJERZY 3. [ukryto] wpisać: 2 1. ŁUCZAK 2. SŁAWOMIR 3. [ukryto]",
+          "data_publikacji": "2017-12-28",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "177932",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/17248/17/220",
+          "tresc_naglowka": "Poz. 177932. JERONIMO MARTINS POLSKA\n    SPÓŁKA AKCYJNA. KRS 0000222483. SĄD\n    REJONOWY POZNAŃ-NOWE MIASTO I WILDA\n    W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n    01.12.2004.\n    [PO.IX NS-REJ.KRS/17248/17/220]",
+          "nr_monitora": "120/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 19.06.2017 dokonano wpisu do rejestru KRS\n    nr 46 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 1. data złożenia 31.05.2017 okres OD\n    01.01.2016 DO 31.12.2016 1 2. OD 01.01.2016 DO\n    31.12.2016 1 3. OD 01.01.2016 DO 31.12.2016 1 4. OD\n    01.01.2016 DO 31.12.2016",
+          "data_publikacji": "2017-06-23",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "169778",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/6938/17/528",
+          "tresc_naglowka": "Poz. 169778. JERONIMO MARTINS POLSKA\n    SPÓŁKA AKCYJNA. KRS 0000222483. SĄD\n    REJONOWY POZNAŃ-NOWE MIASTO I WILDA\n    W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n    01.12.2004.\n    [PO.IX NS-REJ.KRS/6938/17/528]",
+          "nr_monitora": "116/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 09.06.2017 dokonano wpisu do rejestru KRS\n    nr 45 następującej treści:\n    Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n    podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub. Dane\n    osób wchodzących w skład organu wykreślić:\nD   1 1. DE SOUSA BRITO 2. EDUARDO MANUEL\n    5. CZŁONEK ZARZĄDU 6. NIE 2 1. NUNES SERENO\n    2. NUNO MIGUEL 5. CZŁONEK ZARZĄDU 6. NIE",
+          "data_publikacji": "2017-06-19",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "220846",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/16463/16/985",
+          "tresc_naglowka": "Poz. 220846. JERONIMO MARTINS POLSKA\n    SPÓŁKA AKCYJNA. KRS 0 0 0 0222483. SĄD\n    REJONOWY POZNAŃ-NOWE MIASTO I WILDA\n    W POZNANIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n    01.12.2004.\n    [PO.IX NS-REJ.KRS/16463/16/985]",
+          "nr_monitora": "148/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 22.07.2016 dokonano wpisu do rejestru KRS\n    nr 44 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 1. data złożenia 27.05.2016 okres OD\n    01.01.2015 DO 31.12.2015 1 2. OD 01.01.2015 DO\n    31.12.2015 1 3. OD 01.01.2015 DO 31.12.2015 1 4. OD\n    01.01.2015 DO 31.12.2015",
+          "data_publikacji": "2016-08-02",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "64841",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/5653/16/788",
+          "tresc_naglowka": "Poz. 64841. JERONIMO MARTINS POLSKA SPÓŁKA\n      AKCYJNA. KRS 0000222483. SĄD REJONOWY\n      POZNAŃ-NOWE MIASTO I WILDA W POZNANIU,\n      IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 01.12.2004.\n      [PO.IX NS-REJ.KRS/5653/16/788]",
+          "nr_monitora": "58/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 18.03.2016 dokonano wpisu do rejestru KRS\n      nr 43 następującej treści:\n      Dz. 2. Rub. 1. Organ uprawniony do reprezentacji podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub.\n      Dane osób wchodzących w skład organu wykreślić: 1 1. SUCHAŃSKI 2. TOMASZ 3. [ukryto]\n      5. CZŁONEK ZARZĄDU 6. NIE",
+          "data_publikacji": "2016-03-24",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "62383",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/5103/16/678",
+          "tresc_naglowka": "Poz. 62383. JERONIMO MARTINS POLSKA SPÓŁKA\n     AKCYJNA. KRS 0000222483. SĄD REJONOWY\n     POZNAŃ-NOWE MIASTO I WILDA W POZNANIU, IX\n     WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU\n     SĄDOWEGO, wpis do rejestru: 01.12.2004.\n     [PO.IX NS-REJ.KRS/5103/16/678]",
+          "nr_monitora": "56/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 16.03.2016 dokonano wpisu do rejestru KRS\n     nr 42 następującej treści:\nA    Dz. 2. Rub. 1. Organ uprawniony do reprezentacji podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub.\n     Dane osób wchodzących w skład organu wpisać:\n     1 1. ŁUKOWSKI 2. MACIEJ 3. [ukryto] 5. CZŁONEK ZARZĄDU 6. NIE",
+          "data_publikacji": "2016-03-22",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "62382",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/3606/16/244",
+          "tresc_naglowka": "Poz. 62382. JERONIMO MARTINS POLSKA SPÓŁKA\n     AKCYJNA. KRS 0000222483. SĄD REJONOWY\n     POZNAŃ-NOWE MIASTO I WILDA W POZNANIU,\n     IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 01.12.2004.\n     [PO.IX NS-REJ.KRS/3606/16/244]",
+          "nr_monitora": "56/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 16.03.2016 dokonano wpisu do rejestru KRS\n     nr 41 następującej treści:\n     Dz. 2. Rub. 1. Organ uprawniony do reprezentacji podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub.\n     Dane osób wchodzących w skład organu wpisać:\n     1 1. AGUIAR GOMES DE ARAUJO 2. LUIS FILIPE\n     5. CZŁONEK ZARZĄDU 6. NIE",
+          "data_publikacji": "2016-03-22",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "19304",
+          "sygnatura_sprawy": "PO.IX NS-REJ.KRS/572/16/573",
+          "tresc_naglowka": "Poz. 19304. JERONIMO MARTINS POLSKA SPÓŁKA\n    AKCYJNA. KRS 0000222483. SĄD REJONOWY\n    POZNAŃ-NOWE MIASTO I WILDA W POZNANIU, IX\n    WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU\n    SĄDOWEGO, wpis do rejestru: 01.12.2004.\n    [PO.IX NS-REJ.KRS/572/16/573]",
+          "nr_monitora": "18/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 22.01.2016 dokonano wpisu do rejestru KRS\n    nr 40 następującej treści:\n    Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n\n\n\n\n\n\n       podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub. Dane\n       osób wchodzących w skład organu wykreślić:\n       1 1. PEREIRA DA SILVA 2. PEDRO MANUEL 5. CZŁONEK ZARZĄDU 6. NIE",
+          "data_publikacji": "2016-01-28",
+          "nazwa_podmiotu": "JERONIMO MARTINS POLSKA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        }
+      ],
+      "krz": null,
+      "historia_sprawozdan": [
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "termin_zlozenia": "15-07-2026",
+          "data_dodania_do_krs": "27-04-2026"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "termin_zlozenia": "15-07-2025",
+          "data_dodania_do_krs": "14-04-2025"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "termin_zlozenia": "15-07-2024",
+          "data_dodania_do_krs": "19-04-2024"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "termin_zlozenia": "15-07-2023",
+          "data_dodania_do_krs": "05-04-2023"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "termin_zlozenia": "15-10-2022",
+          "data_dodania_do_krs": "04-04-2022"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "termin_zlozenia": "15-10-2021",
+          "data_dodania_do_krs": "20-04-2021"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "termin_zlozenia": "15-10-2020",
+          "data_dodania_do_krs": "27-03-2020"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "termin_zlozenia": "15-07-2019",
+          "data_dodania_do_krs": "29-04-2019"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "termin_zlozenia": "15-07-2018",
+          "data_dodania_do_krs": "28-03-2018"
+        }
+      ],
+      "pozycja_na_tle_branzy": [
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5042
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.5136
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9992
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9993,
+          "udzial_w_rynku": 0.8378,
+          "przychody_calej_branzy": 129293027486.78,
+          "liczba_firm_w_branzy": 1357
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.6831
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.8538
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9993
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9993
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.7241
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9993
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5343
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.5399
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9994
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9995,
+          "udzial_w_rynku": 0.7543,
+          "przychody_calej_branzy": 136108400988.36,
+          "liczba_firm_w_branzy": 1901
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.7228
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.837
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6908
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5649
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.58
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9995,
+          "udzial_w_rynku": 0.7597,
+          "przychody_calej_branzy": 129491465855.34,
+          "liczba_firm_w_branzy": 2126
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.755
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.8421
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9996
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9996
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6806
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9996
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5272
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.5433
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9995,
+          "udzial_w_rynku": 0.7502,
+          "przychody_calej_branzy": 113794595552.19,
+          "liczba_firm_w_branzy": 2099
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.7161
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.8107
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9996
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9996
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6757
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9996
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5359
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.563
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9995,
+          "udzial_w_rynku": 0.7367,
+          "przychody_calej_branzy": 92868240587.41,
+          "liczba_firm_w_branzy": 1984
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.7324
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.8216
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6532
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5603
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.5846
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9994
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9995,
+          "udzial_w_rynku": 0.7433,
+          "przychody_calej_branzy": 82487195400.43,
+          "liczba_firm_w_branzy": 1884
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.7317
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.8009
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6352
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5903
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.6163
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9994
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9994,
+          "udzial_w_rynku": 0.7317,
+          "przychody_calej_branzy": 76046954910.16,
+          "liczba_firm_w_branzy": 1789
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.7633
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.803
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6243
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9995
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.6849
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.6873
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9994
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9994,
+          "udzial_w_rynku": 0.7263,
+          "przychody_calej_branzy": 70406585666.82,
+          "liczba_firm_w_branzy": 1693
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.8074
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.8084
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9994
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9994
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.621
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9994
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.6862
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.7195
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9992
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9993,
+          "udzial_w_rynku": 0.7327,
+          "przychody_calej_branzy": 66207003185.07,
+          "liczba_firm_w_branzy": 1455
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.8157
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.8102
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9993
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9993
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6066
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9993
+        }
+      ]
+    }
+  ]
+}

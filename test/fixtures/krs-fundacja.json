@@ -1,0 +1,215 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejS",
+      "numerKRS": "0000670940",
+      "dataCzasOdpisu": "22.08.2026 01:22:20",
+      "stanZDnia": "22.07.2026",
+      "dataRejestracjiWKRS": "03.04.2017",
+      "numerOstatniegoWpisu": 20,
+      "dataOstatniegoWpisu": "22.07.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "RDF/891583/26/992",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SYSTEM",
+      "stanPozycji": 4
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "FUNDACJA",
+          "identyfikatory": {
+            "nip": "6112778311"
+          },
+          "nazwa": "FUNDACJA \"KARPACZ SPORT\"",
+          "daneOWczesniejszejRejestracji": {},
+          "czyPosiadaStatusOPP": true
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "DOLNOŚLĄSKIE",
+            "powiat": "JELENIA GÓRA",
+            "gmina": "JELENIA GÓRA",
+            "miejscowosc": "JELENIA GÓRA"
+          },
+          "adres": {
+            "ulica": "UL. SUDECKA",
+            "nrDomu": "111",
+            "nrLokalu": "2",
+            "miejscowosc": "JELENIA GÓRA",
+            "kodPocztowy": "58-500",
+            "poczta": "JELENIA GÓRA",
+            "kraj": "POLSKA"
+          },
+          "adresPocztyElektronicznej": "KARPACZSPORT@GMAIL.COM"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "14.07.2016R."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "22.06.2023R. ZMIENIONO § 3"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "26.11.2025R. ZMIENIONO: § 10, §17 UST. 3"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY"
+        },
+        "organSprawujacyNadzor": {
+          "nazwa": "MINISTER SPORTU I TURYSTYKI"
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD FUNDACJI",
+          "sposobReprezentacji": "DO SKŁADANIA OŚWIADCZEŃ WOLI W IMIENIU FUNDACJI UPRAWNIONY JEST KAŻDY CZŁONEK ZARZĄDU SAMODZIELNIE",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "K********"
+              },
+              "imiona": {
+                "imie": "L***",
+                "imieDrugie": "A***"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "PREZES"
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "RADA FUNDACJI",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "N********"
+                },
+                "imiona": {
+                  "imie": "J****",
+                  "imieDrugie": "D******"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "W*******"
+                },
+                "imiona": {
+                  "imie": "J****",
+                  "imieDrugie": "R******"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dzial3": {
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "10.02.2020",
+              "zaOkresOdDo": "OD 04.04.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "10.02.2020",
+              "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018"
+            },
+            {
+              "dataZlozenia": "13.02.2020",
+              "zaOkresOdDo": "OD 03.04.2017 DO 31.12.2017"
+            },
+            {
+              "dataZlozenia": "30.03.2020",
+              "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "05.10.2021",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "23.08.2023",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "29.08.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "19.04.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "30.05.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "dataZlozenia": "22.07.2026",
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ]
+        },
+        "celDzialaniaOrganizacji": {
+          "celDzialania": "PROWADZENIE DZIAŁALNOŚCI KULTURALNEJ, NAUKOWEJ I EDUKACYJNEJ, A TAKŻE DZIAŁALNOŚCI W ZAKRESIE KULTURY FIZYCZNEJ I SPORTU ORAZ DOBROCZYNNOŚCI, A W SZCZEGÓLNOŚCI: 1)ORGANIZOWANIA IMPREZ O CHARAKTERZE REKREACYJNO-SPORTOWYM, 2) WSPIERANIE MŁODYCH TALENTÓW SPORTOWYCH, 3) PROMOCJA KARPACZA JAKO CENTRUM GÓRSKIEJ TURYSTYKI, 4)PROPAGOWANIE ZDROWEGO TRYBU ŻYCIA, 5) PROPAGOWANIE WALORÓW TURYSTYCZNYCH I KRAJOZNAWCZYCH SUDETÓW, 6) PROPAGOWANIE WŚRÓD DZIECI, MŁODZIEŻY I OSÓB DOROSŁYCH SZEROKO POJĘTEJ KULTURY FIZYCZNEJ, REKREACJI I TURYSTYKI, 7) EDUKACJA EKOLOGICZNA, OCHRONA I PROMOCJA ZDROWIA, 8) STWORZENIE NIEZALEŻNEJ PLATFORMY WSPÓLNEJ DLA ŚRODOWISK SPORTOWYCH ORAZ WYCZYNOWYCH SPORTOWCÓW, 9) ORGANIZACJA IMPREZ SPORTOWYCH W CELU PROMOCJI MIASTA KARPACZA ORAZ SPORTU"
+        },
+        "przedmiotDzialalnosciOPP": {
+          "odplatnyPkd": [],
+          "nieodplatnyPkd": [
+            {
+              "opis": "DZIAŁALNOŚĆ KLUBÓW SPORTOWYCH",
+              "kodDzial": "93",
+              "kodKlasa": "12",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁE FORMY EDUKACJI SPORTOWEJ ORAZ ZAJĘĆ SPORTOWYCH I REKREACYJNYCH",
+              "kodDzial": "85",
+              "kodKlasa": "51",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ POZOSTAŁYCH ORGANIZACJI CZŁONKOWSKICH, GDZIE INDZIEJ NIESKLASYFIKOWANA",
+              "kodDzial": "94",
+              "kodKlasa": "99",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ OBIEKTÓW SPORTOWYCH",
+              "kodDzial": "93",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYDAWANIE KSIĄŻEK",
+              "kodDzial": "58",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2017"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

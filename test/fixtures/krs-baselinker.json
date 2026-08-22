@@ -1,0 +1,381 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000795513",
+      "dataCzasOdpisu": "22.08.2026 00:59:59",
+      "stanZDnia": "05.05.2026",
+      "dataRejestracjiWKRS": "17.07.2019",
+      "numerOstatniegoWpisu": 34,
+      "dataOstatniegoWpisu": "05.05.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "RDF/816694/26/351",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SYSTEM",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "identyfikatory": {
+            "regon": "38390771400000",
+            "nip": "8971868567"
+          },
+          "nazwa": "BASELINKER SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "DOLNOŚLĄSKIE",
+            "powiat": "WROCŁAW",
+            "gmina": "WROCŁAW",
+            "miejscowosc": "WROCŁAW"
+          },
+          "adres": {
+            "ulica": "PL. SOLNY",
+            "nrDomu": "15",
+            "miejscowosc": "WROCŁAW",
+            "kodPocztowy": "50-062",
+            "poczta": "WROCŁAW",
+            "kraj": "POLSKA"
+          },
+          "adresPocztyElektronicznej": "INFO@BASELINKER.COM",
+          "adresStronyInternetowej": "HTTPS://BASELINKER.COM",
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-74601-61559-IAJSB-34"
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "10.07.2019R."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "14.06.2021 R., REPERTORIUM A NR 8446/2021, NOTARIUSZ GRZEGORZ ROGALA, KANCELARIA NOTARIALNA GRZEGORZ ROGALA, RONDO ONZ 1, 00-124 WARSZAWA; ZMIENIONO § 5 ORAZ § 6 UMOWY SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "8.07.2021, REP. A NR 7697/2021, PIOTR ŁASKI - NOTARIUSZ W WARSZAWIE,  PROWADZĄCY KANCELARIĘ NOTARIALNĄ PRZY UL. BRACKIEJ 18 LOK. 5. UCHYLENIE DOTYCHCZASOWEGO BRZMIENIA UMOWY SPÓŁKI I PRZYJĘCIE JEJ NOWEGO BRZMIENIA STANOWIĄCEGO JEDNOCZEŚNIE TEKST JEDNOLITY  SPÓŁKI.\n                           \n 28.10.2021, REP. A 12690/2021, JOANNA DECZKOWSKA - NOTARIUSZ W WARSZAWIE,  PROWADZĄCA KANCELARIĘ NOTARIALNĄ PRZY UL. BRACKIEJ 18 LOK. 5. ZMIANA PKT. 14.14 ORAZ 19.1 UMOWY SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "26.04.2023, REP. A NR 3359/2023, MONIKA HERNIK, ZASTĘPCA MAŁGORZATY KOWALEWSKIEJ-ŁAGUNA, NOTARIUSZA W WARSZAWIE, PROWADZĄCEJ KANCELARIĄ NOTARIALNĄ PRZY UL. HOŻEJ 37 LOK.16.\nZMIANA ART. 14.13 LIT. (E), (N), (P), (Q), (T) ORAZ ART. 15.8 LIT. (P) ORAZ ART. 19.1 UMOWY SPÓŁKI."
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "14.12.2023, REP. A NR 11568/2023, MONIKA HERNIK, ZASTĘPCA MAŁGORZATY KOWALEWSKIEJ-ŁAGUNA, PROWADZĄCEJ KANCELARIĘ W WARSZAWIE, ZMIANA WSZYSTKICH POSTANOWIEŃ UMOWY SPÓŁKI POPRZEZ NADANIE IM NOWEGO BRZMIENIA STANOWIĄCEGO JEDNOCZEŚNIE TEKST JEDNOLITY UMOWY SPÓŁKI"
+            },
+            {
+              "zawarcieZmianaUmowyStatutu": "12.09.2025, REP. A 14691/2025, ARTUR WOŹNIAK, NOTARIUSZ W WARSZAWIE, PROWADZĄCY KANCELARIĘ NOTARIALNĄ W WARSZAWIE; ZMIANA UMOWY SPÓŁKI POPRZEZ UCHYLENIE JEJ CAŁEJ DOTYCHCZASOWEJ TREŚCI I NADANIE NOWEGO BRZMIENIA STANOWIĄCEGO JEDNOCZEŚNIE NOWY TEKST JEDNOLITY UMOWY SPÓŁKI"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "informacjaOLiczbieUdzialow": "WIĘKSZĄ LICZBĘ UDZIAŁÓW"
+        },
+        "wspolnicySpzoo": [
+          {
+            "nazwa": "OPEN STARSHINE INVESTMENT SOCIÉTÉ ANONYME",
+            "identyfikator": {},
+            "krs": {
+              "krs": "0000000000"
+            },
+            "posiadaneUdzialy": "9.231 (DZIEWIĘĆ TYSIĘCY DWIEŚCIE TRZYDZIEŚCI JEDEN) UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 1.846.200 (JEDEN MILION OSIEMSET CZTERDZIEŚCI SZEŚĆ TYSIĘCY DWIEŚCIE) ZŁOTYCH",
+            "czyPosiadaCaloscUdzialow": false
+          },
+          {
+            "nazwa": "MAST FUNDACJA RODZINNA",
+            "identyfikator": {
+              "regon": "52752051000000"
+            },
+            "krs": {
+              "krs": "0000000000"
+            },
+            "posiadaneUdzialy": "4.344 (CZTERY TYSIĄCE TRZYSTA CZTERDZIEŚCI CZTERY) UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 868.800,00 (OSIEMSET SZEŚĆDZIESIĄT OSIEM TYSIĘCY OSIEMSET) ZŁOTYCH",
+            "czyPosiadaCaloscUdzialow": false
+          },
+          {
+            "nazwa": "SPRINTS MERCURY LIMITED",
+            "identyfikator": {},
+            "krs": {
+              "krs": "0000000000"
+            },
+            "posiadaneUdzialy": "2.715 (DWA TYSIĄCE SIEDEMSET PIĘTNAŚCIE) UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 543.000 (PIĘĆSET CZTERDZIEŚCI TRZY TYSIĄCE) ZŁOTYCH",
+            "czyPosiadaCaloscUdzialow": false
+          }
+        ],
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "3620000,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {}
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "W PRZYPADKU ZARZĄDU JEDNOOSOBOWEGO, DO REPREZENTOWANIA SPÓŁKI UPRAWNIONY JEST 1 (JEDEN) CZŁONEK ZARZĄDU DZIAŁAJĄCY SAMODZIELNIE. W PRZYPADKU ZARZĄDU WIELOOSOBOWEGO, DO REPREZENTOWANIA SPÓŁKI UPRAWNIONY JEST PREZES ZARZĄDU LUB WICEPREZES ZARZĄDU SAMODZIELNIE LUB 2 (DWÓCH) CZŁONKÓW ZARZĄDU DZIAŁAJĄCYCH ŁĄCZNIE.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "S**********"
+              },
+              "imiona": {
+                "imie": "S****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "PREZES ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "K*****"
+              },
+              "imiona": {
+                "imie": "M****"
+              },
+              "identyfikator": {
+                "pesel": "8**********"
+              },
+              "funkcjaWOrganie": "WICEPREZES ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        },
+        "organNadzoru": [
+          {
+            "nazwa": "RADA NADZORCZA",
+            "sklad": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "S**********"
+                },
+                "imiona": {
+                  "imie": "M********"
+                },
+                "identyfikator": {
+                  "pesel": "9**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "J*********"
+                },
+                "imiona": {
+                  "imie": "D****"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "Z******"
+                },
+                "imiona": {
+                  "imie": "D*****"
+                },
+                "identyfikator": {
+                  "pesel": "7**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "M******"
+                },
+                "imiona": {
+                  "imie": "K****",
+                  "imieDrugie": "J**"
+                },
+                "identyfikator": {
+                  "pesel": "8**********"
+                }
+              },
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "D*****"
+                },
+                "imiona": {
+                  "imie": "R****"
+                },
+                "identyfikator": {
+                  "dataUrodzenia": "08.02.1991"
+                }
+              }
+            ]
+          }
+        ],
+        "prokurenci": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "Z***"
+            },
+            "imiona": {
+              "imie": "W*******",
+              "imieDrugie": "P******"
+            },
+            "identyfikator": {
+              "pesel": "9**********"
+            },
+            "rodzajProkury": "PROKURA SAMOISTNA"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "J*********"
+            },
+            "imiona": {
+              "imie": "Ł*****"
+            },
+            "identyfikator": {
+              "pesel": "9**********"
+            },
+            "rodzajProkury": "PROKURA SAMOISTNA"
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "W******"
+            },
+            "imiona": {
+              "imie": "E***",
+              "imieDrugie": "T*****"
+            },
+            "identyfikator": {
+              "pesel": "9**********"
+            },
+            "rodzajProkury": "SAMOISTNA"
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ W ZAKRESIE PROGRAMOWANIA",
+              "kodDzial": "62",
+              "kodKlasa": "10",
+              "kodPodklasa": "B"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE INFRASTRUKTURY OBLICZENIOWEJ, PRZETWARZANIA DANYCH, ZARZĄDZANIA STRONAMI INTERNETOWYMI (HOSTING) I DZIAŁALNOŚCI POWIĄZANE",
+              "kodDzial": "63",
+              "kodKlasa": "10",
+              "kodPodklasa": "D"
+            },
+            {
+              "opis": "POZOSTAŁA DZIAŁALNOŚĆ ZWIĄZANA Z DYSTRYBUCJĄ TREŚCI",
+              "kodDzial": "60",
+              "kodKlasa": "39",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "20.09.2021",
+              "zaOkresOdDo": "OD 17.07.2019 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "12.10.2022",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "23.03.2023",
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "dataZlozenia": "26.04.2024",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "10.04.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "dataZlozenia": "05.05.2026",
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 17.07.2019 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "OD 17.07.2019 DO 31.12.2020"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            },
+            {
+              "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2020"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {
+        "polaczeniePodzialPrzeksztalcenie": [
+          {
+            "okreslenieOkolicznosci": "PRZEJĘCIE INNEJ SPÓŁKI",
+            "opisPolaczeniaPodzialuPrzeksztalcenia": "POŁĄCZENIE NASTĘPUJE POPRZEZ PRZENIESIENIE CAŁEGO MAJĄTKU SPÓŁKI PRZEJMOWANEJ NA SPÓŁKĘ PRZEJMUJĄCĄ I WSTĄPIENIE SPÓŁKI PRZEJMUJĄCEJ WE WSZYSTKIE PRAWA I OBOWIĄZKI SPÓŁKI PRZEJMOWANEJ (SUKCESJA UNIWERSALNA), ORAZ ROZWIĄZANIE SPÓŁKI PRZEJMOWANEJ BEZ PRZEPROWADZENIA JEJ LIKWIDACJI, ZGODNIE Z POSTANOWIENIAMI ART. 492 § 1 PKT 1 KSH ORAZ ART. 493 § 1 KSH. UCHWAŁA NR 1 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW SPÓŁKI BASELINKER SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ - AKT NOTARIALNY REPERTORIUM A NR 8446/2021 I UCHWAŁA NR 1 WSPÓLNIKÓW SPÓŁKI KOMANDYTOWEJ BASELINKER SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA - AKT NOTARIALNY REPERTORIUM A NR 8450/2021  Z DNIA 14.06.2021 R.",
+            "podmiotyPrzejmowane": [
+              {
+                "nazwa": "BASELINKER SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA, ",
+                "krajNazwaRejestru": "POLSKA, KRAJOWY REJESTR SĄDOWY",
+                "krs": {
+                  "krs": "0000000000"
+                },
+                "nazwaSadu": "*******",
+                "identyfikator": {
+                  "regon": "384944500"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "data": [
+    {
+      "krs": "0001023457_",
+      "nip": 4290085661,
+      "kod_pkd": "87.20.Z",
+      "opis_pkd": "Pomoc społeczna z zakwaterowaniem dla osób z zaburzeniami psychicznymi",
+      "informacje_o_firmie": [
+        {
+          "nazwa_pola": "data_rozpoczecia_dzialalnosci",
+          "wartosc": "2023-03-08"
+        },
+        {
+          "nazwa_pola": "data_wpisu_do_rejestru",
+          "wartosc": "2023-03-08"
+        },
+        {
+          "nazwa_pola": "email",
+          "wartosc": "sylwesterromanik@yahoo.com"
+        },
+        {
+          "nazwa_pola": "forma_prawna",
+          "wartosc": "PROSTA SPÓŁKA AKCYJNA"
+        },
+        {
+          "nazwa_pola": "kod_pocztowy",
+          "wartosc": "66-235"
+        },
+        {
+          "nazwa_pola": "miejscowosc",
+          "wartosc": "TORZYM"
+        },
+        {
+          "nazwa_pola": "nazwa",
+          "wartosc": "I PROSTA SPÓŁKA AKCYJNA"
+        },
+        {
+          "nazwa_pola": "nip",
+          "wartosc": "4290085661"
+        },
+        {
+          "nazwa_pola": "numer_nieruchomosci",
+          "wartosc": "38A"
+        },
+        {
+          "nazwa_pola": "organ_nadzoru",
+          "wartosc": "RADA DYREKTORÓW"
+        },
+        {
+          "nazwa_pola": "organ_rejestrowy",
+          "wartosc": "SĄD REJONOWY W ZIELONEJ GÓRZE, VIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "nazwa_pola": "organ_reprezentujacy",
+          "wartosc": "RADA DYREKTORÓW"
+        },
+        {
+          "nazwa_pola": "regon",
+          "wartosc": "524678860"
+        },
+        {
+          "nazwa_pola": "sposob_reprezentacji",
+          "wartosc": "JEŻELI RADA DYREKTORÓW SKŁADA SIĘ Z DWÓCH LUB WIĘKSZEJ LICZBY OSÓB, DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI JEST WYMAGANE WSPÓŁDZIAŁANIE DWÓCH DYREKTORÓW ALBO JEDNEGO DYREKTORA ŁĄCZNIE Z PROKURENTEM."
+        },
+        {
+          "nazwa_pola": "ulica",
+          "wartosc": "UL. WOJSKA POLSKIEGO"
+        },
+        {
+          "nazwa_pola": "wojewodztwo",
+          "wartosc": "LUBUSKIE"
+        }
+      ],
+      "dane_finansowe": null,
+      "opisy_firmy": null,
+      "powiazania": [
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ROMANIK SYLWESTER",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "6d4a9ef12b75a2fc53fdfee40ba33643",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ROMANIK SYLWESTER",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "6d4a9ef12b75a2fc53fdfee40ba33643",
+          "organ": "RADA DYREKTORÓW",
+          "funkcja": "DYREKTOR"
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ROMANIK SYLWESTER",
+          "typ_powiazania": "wspólnik",
+          "id_podmiotu": "6d4a9ef12b75a2fc53fdfee40ba33643",
+          "organ": null,
+          "funkcja": null
+        }
+      ],
+      "udzialy": [
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ROMANIK SYLWESTER",
+          "procent_udzialow": 100,
+          "id_podmiotu": "6d4a9ef12b75a2fc53fdfee40ba33643"
+        }
+      ],
+      "monitor_sadowy": [
+        {
+          "numer_ogloszenia": "116040",
+          "sygnatura_sprawy": "RDF/696926/25/458",
+          "tresc_naglowka": "Poz. 116040. I PROSTA SPÓŁKA AKCYJNA. KRS\n0001023457. SYSTEM, wpis do rejestru: 08.03.2023.\n[RDF/696926/25/458]",
+          "nr_monitora": "40/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 18.02.2025 dokonano wpisu do rejestru KRS\nnr 6 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 4. OD 01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-02-27",
+          "nazwa_podmiotu": "I PROSTA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "116039",
+          "sygnatura_sprawy": "RDF/696926/25/57",
+          "tresc_naglowka": "Poz. 116039. I PROSTA SPÓŁKA AKCYJNA. KRS\n     0001023457. SYSTEM, wpis do rejestru: 08.03.2023.\n     [RDF/696926/25/57]",
+          "nr_monitora": "40/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "X V. W P I S Y D O\n\nW dniu 18.02.2025 dokonano wpisu do rejestru KRS\nnr 5 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 18.02.2025 okres OD\n01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-02-27",
+          "nazwa_podmiotu": "I PROSTA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "606451",
+          "sygnatura_sprawy": "RDF/618969/24/78",
+          "tresc_naglowka": "Poz. 606451. I PROSTA SPÓŁKA AKCYJNA. KRS\n     0001023457. SYSTEM, wpis do rejestru: 08.03.2023.\n     [RDF/618969/24/78]",
+          "nr_monitora": "128/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 20.06.2024 dokonano wpisu do rejestru KRS\n     nr 4 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 4. OD 05.03.2023 DO 31.12.2023",
+          "data_publikacji": "2024-07-03",
+          "nazwa_podmiotu": "I PROSTA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "152307",
+          "sygnatura_sprawy": "ZG.VIII NS-REJ.KRS/2414/23/482",
+          "tresc_naglowka": "Poz. 152307. I PROSTA SPÓŁKA AKCYJNA. KRS\n0001023457. SĄD REJONOWY W ZIELONEJ GÓRZE,\nVIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 08.03.2023.\n[ZG.VIII NS-REJ.KRS/2414/23/482]",
+          "nr_monitora": "53/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/1. Wpisy pierwsze",
+          "tresc_ogloszenia": "W dniu 08.03.2023 dokonano wpisu do rejestru KRS\nnr 1 następującej treści:\nDz. 1. Rub. 1. Dane podmiotu 1. PROSTA SPÓŁKA\nAKCYJNA 3. I PROSTA SPÓŁKA AKCYJNA 5. NIE\n6. NIE Rub. 2. Siedziba i adres podmiotu 1. kraj PO\nSKA województwo LUBUSKIE powiat SULĘCIŃSKI\ngmina TORZYM miejscowość TORZYM 2. miejscowość TORZYM ulica UL. WOJSKA POLSKIEGO\nnr domu 38A kod pocztowy 66-235 poczta TORZYM\nkraj POLSKA 3. Adres poczty elektronicznej SYLWESTERROMANIK@YAHOO.COM Rub. 4. Informacje o statucie 1 1. 05.03.2023R. Rub. 5. 1. CZAS\nNIEOZNACZONY 4. NIE 5. NIE Rub. 7. Dane jedynego akcjonariusza 1 1. ROMANIK 2. SYLWESTER\nŁUKASZ 3. [ukryto] 6. TAK Rub. 8. Kapitał\nspółki 1. 1,00 ZŁ 2. 1 3. NIE Rub. 9. Emisje akcji\n1 1. A 2. 1 3. AKCJE NIE SĄ UPRZYWILEJOWANE\nRub. 11. 1. NIE\nDz. 2. Rub. 1. Organ uprawniony do reprezentacji podmiotu 1 1. RADA DYREKTORÓW 2. JEŻELI\nRADA DYREKTORÓW SKŁADA SIĘ Z DWÓCH\nLUB WIĘKSZEJ LICZBY OSÓB, DO SKŁADANIA\nOŚWIADCZEŃ W IMIENIU SPÓŁKI JEST WYMAGANE WSPÓŁDZIAŁANIE DWÓCH DYREKTORÓW\nALBO JEDNEGO DYREKTORA ŁĄCZNIE Z PROKURENTEM. PRub. Dane osób wchodzących w skład\norganu 1 1. ROMANIK 2. SYLWESTER ŁUKASZ\n3. [ukryto] 5. DYREKTOR 6. NIE Rub. 2. Organ\nnadzoru 1 1. RADA DYREKTORÓW PRub. Dane osób\nwchodzących w skład organu 1 1. ROMANIK 2. SYLWESTER ŁUKASZ 3. [ukryto]\nDz. 3. Rub. 1. Przedmiot działalności 1 1. 87 20\nZ POMOC SPOŁECZNA Z ZAKWATEROWANIEM\nDLA OSÓB Z ZABURZENIAMI PSYCHICZNYMI",
+          "data_publikacji": "2023-03-16",
+          "nazwa_podmiotu": "I PROSTA SPÓŁKA AKCYJNA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        }
+      ],
+      "krz": null,
+      "historia_sprawozdan": [
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "termin_zlozenia": "15-07-2026",
+          "data_dodania_do_krs": "25-02-2026"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "termin_zlozenia": "15-07-2025",
+          "data_dodania_do_krs": "18-02-2025"
+        }
+      ],
+      "pozycja_na_tle_branzy": null
+    }
+  ]
+}

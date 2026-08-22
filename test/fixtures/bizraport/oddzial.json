@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "krs": "0001207691_",
+      "nip": 1080029241,
+      "kod_pkd": "49.41.Z",
+      "opis_pkd": "Transport drogowy towarów",
+      "informacje_o_firmie": [
+        {
+          "nazwa_pola": "data_rozpoczecia_dzialalnosci",
+          "wartosc": "2025-11-26"
+        },
+        {
+          "nazwa_pola": "data_wpisu_do_rejestru",
+          "wartosc": "2025-11-26"
+        },
+        {
+          "nazwa_pola": "forma_prawna",
+          "wartosc": "ODDZIAŁ ZAGRANICZNEGO PRZEDSIĘBIORCY"
+        },
+        {
+          "nazwa_pola": "kod_pocztowy",
+          "wartosc": "00-121"
+        },
+        {
+          "nazwa_pola": "miejscowosc",
+          "wartosc": "WARSZAWA"
+        },
+        {
+          "nazwa_pola": "nazwa",
+          "wartosc": "KPHG (HOLLAND) COÖPERATIEF U.A. (SPÓŁDZIELNIA) ODDZIAŁ W POLSCE"
+        },
+        {
+          "nazwa_pola": "nip",
+          "wartosc": "1080029241"
+        },
+        {
+          "nazwa_pola": "numer_nieruchomosci",
+          "wartosc": "39"
+        },
+        {
+          "nazwa_pola": "organ_rejestrowy",
+          "wartosc": "SĄD REJONOWY DLA M.ST.WARSZAWY W WARSZAWIE,XII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "nazwa_pola": "organ_reprezentujacy",
+          "wartosc": "ZARZĄD"
+        },
+        {
+          "nazwa_pola": "regon",
+          "wartosc": "543347878"
+        },
+        {
+          "nazwa_pola": "sposob_reprezentacji",
+          "wartosc": "KASPER SCOTT REINBACHER JEST UPRAWNIONY DO ŁĄCZNEGO DZIAŁANIA WRAZ Z INNYM CZŁONKIEM ZARZĄDU (INNYMI CZŁONKAMI ZARZĄDU), ZHAOKUN CUI JEST UPRAWNIONA DO JEDNOOSOBOWEGO/SAMODZIELNEGO DZIAŁANIA."
+        },
+        {
+          "nazwa_pola": "ulica",
+          "wartosc": "UL. SIENNA"
+        },
+        {
+          "nazwa_pola": "wojewodztwo",
+          "wartosc": "MAZOWIECKIE"
+        }
+      ],
+      "dane_finansowe": null,
+      "opisy_firmy": null,
+      "powiazania": [
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "REINBACHER KASPER SCOTT",
+          "typ_powiazania": "inne",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "CUI ZHAOKUN",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": null,
+          "organ": "ZARZĄD",
+          "funkcja": "CZŁONEK ZARZĄDU"
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "REINBACHER KASPER SCOTT",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": null,
+          "organ": "ZARZĄD",
+          "funkcja": "NIET-UITVOEREND BESTUURDER"
+        }
+      ],
+      "udzialy": null,
+      "monitor_sadowy": [
+        {
+          "numer_ogloszenia": "1471994",
+          "sygnatura_sprawy": "WA.XII NS-REJ.KRS/70959/25/189",
+          "tresc_naglowka": "Poz. 1471994. KPHG (HOLLAND) COÖPERATIEF\nU.A. (SPÓŁDZIELNIA) ODDZIAŁ W POLSCE. KRS\n0001207691. SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE, XII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 26.11.2025.\n[WA.XII NS-REJ.KRS/70959/25/189]",
+          "nr_monitora": "232/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/1. Wpisy pierwsze",
+          "tresc_ogloszenia": "W dniu 26.11.2025 dokonano wpisu do rejestru KRS\nnr 1 następującej treści:\nDz. 1. Rub. 1. Dane podmiotu 1. ODDZIAŁ ZAGRANICZNEGO PRZEDSIĘBIORCY 3. KPHG (HOLLAND)\nCOÖPERATIEF U.A. (SPÓŁDZIELNIA) ODDZIAŁ\nW POLSCE 4. KPHG (HOLLAND) COÖPERATIEF\nU.A. 5. REJESTR PRZEDSIĘBIORCÓW HOLENDERSKIEJ IZBY HANDLOWEJ 8. NIE 9. NIE Rub. 2. Siedziba i adres oddziału 1. kraj POLSKA województwo\nMAZOWIECKIE powiat WARSZAWA gmina WARSZAWA miejscowość WARSZAWA 2. miejscowość\nWARSZAWA ulica UL. SIENNA nr domu 39 nr lokalu\nXV P. kod pocztowy 00-121 poczta WARSZAWA kraj\nPOLSKA 3. kraj NIDERLANDY jednostka podziału\nterytorialnego GMINA miejscowość AMSTERDAM\nulica HERRENGRACHT nr domu 420 nr lokalu kod\npocztowy 1017BZ poczta AMSTERDAM\nDz. 2. Rub. 1. Organ uprawniony do reprezentowania zagranicznego przedsiębiorcy 1 1. ZARZĄD\n2. UPRAWNIENIE DO ŁĄCZNEGO DZIAŁANIA\nWRAZ Z INNYM CZŁONKIEM ZARZĄDU PRub.\nDane osób wchodzących w skład organu 1 1. REINBACHER 2. KASPER SCOTT 5. NIET-UITVOEREND\nBESTUURDER 2 1. CUI 2. ZHAOKUN 5. CZŁONEK\nZARZĄDU Rub. 4. Osoby reprezentujące zagranicznego przedsiębiorcę w oddziale 1 1. REINBACHER\n2. KASPER SCOTT\nDz. 3. Rub. 1. Przedmiot działalności 1 1. 49 41\nZ TRANSPORT DROGOWY TOWARÓW 1 2. 46 11\nB DZIAŁALNOŚĆ AGENTÓW ZAJMUJĄCYCH SIĘ\nSPRZEDAŻĄ HURTOWĄ POZOSTAŁYCH PŁODÓW\nROLNYCH, ŻYWYCH ZWIERZĄT, SUROWCÓW DLA\nPRZEMYSŁU TEKSTYLNEGO I PÓŁPRODUKTÓW\n2 2. 46 16 Z DZIAŁALNOŚĆ AGENTÓW ZAJMUJĄCYCH SIĘ SPRZEDAŻĄ HURTOWĄ WYROBÓW\nTEKSTYLNYCH, ODZIEŻY, WYROBÓW FUTRZARSKICH, OBUWIA I ARTYKUŁÓW SKÓRZANYCH\n3 2. 46 24 Z SPRZEDAŻ HURTOWA SKÓR 4 2. 47 72\nZ SPRZEDAŻ DETALICZNA OBUWIA I WYROBÓW\nSKÓRZANYCH\n\n\n\n\n\n K R A J O W E G O R E J E S T R U S Ą D O W E G O",
+          "data_publikacji": "2025-12-01",
+          "nazwa_podmiotu": "KPHG (HOLLAND) COÖPERATIEF U.A. (SPÓŁDZIELNIA) ODDZIAŁ W POLSCE.",
+          "poziom_istotnosci": "Zmiana formalna"
+        }
+      ],
+      "krz": null,
+      "historia_sprawozdan": null,
+      "pozycja_na_tle_branzy": null
+    }
+  ]
+}

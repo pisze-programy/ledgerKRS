@@ -1,0 +1,1174 @@
+{
+  "data": [
+    {
+      "krs": "0000498819_",
+      "nip": 7010413291,
+      "kod_pkd": "73.11.Z",
+      "opis_pkd": "Działalność agencji reklamowych",
+      "informacje_o_firmie": [
+        {
+          "nazwa_pola": "data_rozpoczecia_dzialalnosci",
+          "wartosc": "2014-04-01"
+        },
+        {
+          "nazwa_pola": "data_wpisu_do_rejestru",
+          "wartosc": "2014-02-19"
+        },
+        {
+          "nazwa_pola": "data_wykreslenia_z_krs",
+          "wartosc": "08.06.2021"
+        },
+        {
+          "nazwa_pola": "forma_prawna",
+          "wartosc": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+        },
+        {
+          "nazwa_pola": "forma_wlasnosci",
+          "wartosc": "WŁASNOŚĆ ZAGRANICZNA"
+        },
+        {
+          "nazwa_pola": "kod_pocztowy",
+          "wartosc": "03-736"
+        },
+        {
+          "nazwa_pola": "miejscowosc",
+          "wartosc": "WARSZAWA"
+        },
+        {
+          "nazwa_pola": "nazwa",
+          "wartosc": "J SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W LIKWIDACJI"
+        },
+        {
+          "nazwa_pola": "nip",
+          "wartosc": "7010413291"
+        },
+        {
+          "nazwa_pola": "numer_nieruchomosci",
+          "wartosc": "8"
+        },
+        {
+          "nazwa_pola": "organ_rejestrowy",
+          "wartosc": "SĄD REJONOWY DLA M.ST.WARSZAWY W WARSZAWIE,XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "nazwa_pola": "organ_reprezentujacy",
+          "wartosc": "ZARZĄD"
+        },
+        {
+          "nazwa_pola": "postepowanie_likwidacyjne",
+          "wartosc": "Tak"
+        },
+        {
+          "nazwa_pola": "regon",
+          "wartosc": "147111599"
+        },
+        {
+          "nazwa_pola": "sposob_reprezentacji",
+          "wartosc": "DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI I REPREZENTOWANIA SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE 2 (DWÓCH) CZŁONKÓW ZARZĄDU LUB JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM"
+        },
+        {
+          "nazwa_pola": "ulica",
+          "wartosc": "PLAC KONESERA"
+        },
+        {
+          "nazwa_pola": "kapital_zakladowy",
+          "wartosc": "5000,00 PLN"
+        },
+        {
+          "nazwa_pola": "wojewodztwo",
+          "wartosc": "MAZOWIECKIE"
+        }
+      ],
+      "dane_finansowe": [
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 257683.77,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": -9784.42,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": -9784.42,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 222329.14,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 9784.42,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 9784.42,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 77815.2,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 19939.36,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": -1.88,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.85,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 3405.11,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": -0.02,
+          "nazwa_wskaznika": "roa",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": -0.03,
+          "nazwa_wskaznika": "roe",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 257683.77,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 889316.56,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 169016.93,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 5,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.14,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 35354.63,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": -6396.82,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": -6396.82,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": -9784.42,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": -9784.42,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 268935.13,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 123563.57,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 123563.57,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 228725.96,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 266259.55,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 266259.55,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 80054.09,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 11764.91,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 32284.8,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.28,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.32,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.0062,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 15675,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 392163.62,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 389823.12,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 389394.49,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.41,
+          "nazwa_wskaznika": "roa",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.48,
+          "nazwa_wskaznika": "roe",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 268935.13,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 1541201.62,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 171544.47,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 873330.2,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 4,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.15,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 30972,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 40209.17,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 125760.83,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 110085.83,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 123563.57,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 123134.94,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 899553.73,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 177019.6,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 177019.6,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 118640.13,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2854169.88,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2854169.88,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 121247.58,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 23728.03,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 55862.16,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.06,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.0062,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 38406,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 3046411.71,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 3031189.48,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 3031189.48,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.17,
+          "nazwa_wskaznika": "roa",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 1.29,
+          "nazwa_wskaznika": "roe",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 899553.73,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 7616029.28,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 88980.1,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2734481.76,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 4,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.87,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 221737,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 3.762,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 780913.6,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 192046.13,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 153640.13,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 177019.6,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 177019.6,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2017
+        }
+      ],
+      "opisy_firmy": null,
+      "powiazania": [
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "PIETRELLA SOFIA",
+          "typ_powiazania": "likwidator",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "RUSSELL SQUARE HOLDING B.V.",
+          "typ_powiazania": "wspólnik",
+          "id_podmiotu": null,
+          "organ": null,
+          "funkcja": null
+        }
+      ],
+      "udzialy": [
+        {
+          "typ_podmiotu": "Organizacja",
+          "nazwa": "RUSSELL SQUARE HOLDING B.V.",
+          "procent_udzialow": 100,
+          "id_podmiotu": null
+        }
+      ],
+      "monitor_sadowy": [
+        {
+          "numer_ogloszenia": "375682",
+          "sygnatura_sprawy": "WA.XIV NS-REJ.KRS/17644/21/3",
+          "tresc_naglowka": "Poz. 375682. J SPÓŁKA Z OGRANICZONĄ\nODPOWIEDZIALNOŚCIĄ W LIKWIDACJI. KRS\n0000498819. SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE, XIV WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO,\nwpis do rejestru: 19.02.2014.\n[WA.XIV NS-REJ.KRS/17644/21/3]",
+          "nr_monitora": "115/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 08.06.2021 dokonano wpisu do rejestru KRS\nnr 27 następującej treści:\nWYKREŚLENIE WSZYSTKICH WPISÓW Z KRAJOWEGO REJESTRU SĄDOWEGO. WPIS NIE JEST\nPRAWOMOCNY.",
+          "data_publikacji": "2021-06-17",
+          "nazwa_podmiotu": "J SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W LIKWIDACJI.",
+          "poziom_istotnosci": "UWAGA"
+        },
+        {
+          "numer_ogloszenia": "766350",
+          "sygnatura_sprawy": "RDF/241367/20/760",
+          "tresc_naglowka": "Poz. 766350. J SPÓŁKA Z OGRANICZONĄ\nODPOWIEDZIALNOŚCIĄ W LIKWIDACJI. KRS\n0000498819. SYSTEM, wpis do rejestru: 19.02.2014.\n[RDF/241367/20/760]",
+          "nr_monitora": "191/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 21.09.2020 dokonano wpisu do rejestru KRS\nnr 26 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 4. OD 08.11.2019 DO 31.12.2019",
+          "data_publikacji": "2020-09-30",
+          "nazwa_podmiotu": "J SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W LIKWIDACJI.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "718161",
+          "sygnatura_sprawy": "RDF/237702/20/206",
+          "tresc_naglowka": "Poz. 718161. J SPÓŁKA Z OGRANICZONĄ\nODPOWIEDZIALNOŚCIĄ W LIKWIDACJI. KRS\n0000498819. SYSTEM, wpis do rejestru: 19.02.2014.\n[RDF/237702/20/206]",
+          "nr_monitora": "187/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 08.09.2020 dokonano wpisu do rejestru KRS\nnr 25 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 08.09.2020 okres OD\n08.11.2019 DO 31.12.2019",
+          "data_publikacji": "2020-09-24",
+          "nazwa_podmiotu": "J SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W LIKWIDACJI.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "718160",
+          "sygnatura_sprawy": "RDF/237702/20/805",
+          "tresc_naglowka": "Poz. 718160. J SPÓŁKA Z OGRANICZONĄ\n   ODPOWIEDZIALNOŚCIĄ W LIKWIDACJI. KRS\n   0000498819. SYSTEM, wpis do rejestru: 19.02.2014.\n   [RDF/237702/20/805]",
+          "nr_monitora": "187/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 08.09.2020 dokonano wpisu do rejestru KRS\n   nr 24 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 1. data złożenia 08.09.2020 okres OD\n   01.01.2019 DO 07.11.2019\n\n\n\n\n\n\n\n\n\n                                  X V. W P I S Y D",
+          "data_publikacji": "2020-09-24",
+          "nazwa_podmiotu": "J SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W LIKWIDACJI.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "706467",
+          "sygnatura_sprawy": "RDF/237332/20/626",
+          "tresc_naglowka": "Poz. 706467. J SPÓŁKA Z OGRANICZONĄ\nODPOWIEDZIALNOŚCIĄ W LIKWIDACJI. KRS\n0000498819. SYSTEM, wpis do rejestru: 19.02.2014.\n[RDF/237332/20/626]",
+          "nr_monitora": "186/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "K R A J O W E G O R E J E S T R U S Ą D O W E G O\n\n   W dniu 07.09.2020 dokonano wpisu do rejestru KRS\n   nr 23 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 4. OD 01.01.2019 DO 07.11.2019",
+          "data_publikacji": "2020-09-23",
+          "nazwa_podmiotu": "J SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W LIKWIDACJI.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "24733",
+          "sygnatura_sprawy": "WA.XIII NS-REJ.KRS/66932/19/170",
+          "tresc_naglowka": "Poz. 24733. J SPÓŁKA Z OGRANICZONĄ\n   ODPOWIEDZIALNOŚCIĄ W LIKWIDACJI. KRS\n   0000498819. SĄD REJONOWY DLA M. ST. WARSZAWY W WARSZAWIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO,\n   wpis do rejestru: 19.02.2014.\n   [WA.XIII NS-REJ.KRS/66932/19/170]",
+          "nr_monitora": "11/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 10.01.2020 dokonano wpisu do rejestru KRS\n   nr 22 następującej treści:\n   Dz. 1. Rub. 1. Dane podmiotu wykreślić: 3. J. SPÓŁ\n   Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ wpisać:\n   3. J SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W LIKWIDACJI\n   Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n   podmiotu wykreślić: 1 1. ZARZĄD 2. DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI I REPREZENTOWANIA SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE 2 (DWÓCH) CZŁONKÓW ZARZĄDU LUB\n   JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM PRub. Dane osób wchodzących w skład\n   organu 1 1. BORISOV 2. TSVETAN 5. CZŁONEK\n   ZARZĄDU 6. NIE\n   Rub. 3. Prokurenci wykreślić: 1 1. ŁUKASZEWICZ 2. MAGDALENA JUSTYNA 3. [ukryto]\n   4. SAMOISTNA\n   Dz. 6. Rub. 1. Likwidacja wpisać: 1 1. UCHWAŁA NR\n   1 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW Z DNIA 8 LISTOPADA 2019 R., OBJĘTA\n   AKTEM NOTARIALNYM SPORZĄDZONYM PRZED\n   MICHAŁEM BŁASZCZAKIEM NOTARIUSZEM\n   Z KANCELARII NOTARIALNEJ W WARSZAWIE,\n   REP. A NR 30031/2019, 3. KAŻDY Z LIKWIDATORÓW JEST UPRAWNIONY DO SAMODZIELNEJ\n   REPREZENTACJI SPÓŁKI. PRub. Dane likwidatorów\n   1 1. PIETRELLA 2. SOFIA\n   Rub. 2. Informacje o rozwiązaniu lub unieważnieniu\n   spółki wpisać: 1. UCHWAŁA NR 1 NADZWYCZAJNEGO ZGROMADZENIA WSPÓLNIKÓW Z DNIA\n   8 LISTOPADA 2019 R., OBJĘTA AKTEM NOTARIALNYM SPORZĄDZONYM PRZED MICHAŁEM BŁASZCZAKIEM NOTARIUSZEM Z KANCELARII NOTARIALNEJ W WARSZAWIE, REP. A NR 30031/2019,\n   2. ROZWIĄZANIE",
+          "data_publikacji": "2020-01-17",
+          "nazwa_podmiotu": "J SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W LIKWIDACJI.",
+          "poziom_istotnosci": "UWAGA"
+        },
+        {
+          "numer_ogloszenia": "60392",
+          "sygnatura_sprawy": "BMSiG-60338/2019",
+          "tresc_naglowka": "Poz. 60392. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ w Warszawie. KRS 0000498819. SĄD REJONOWY\nDLA M.ST. WARSZAWY W WARSZAWIE, XIII WYDZIAŁ\nGOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 19 lutego 2014 r.\n[BMSiG-60338/2019]",
+          "nr_monitora": "227/2019",
+          "rozdzial": "I. OGŁOSZENIA WYMAGANE PRZEZ KODEKS SPÓŁEK HANDLOWYCH/2. Spółki z ograniczoną odpowiedzialnością",
+          "tresc_ogloszenia": "Likwidator Spółki J Sp. z o.o. w likwidacji z siedzibą w Warszawie, wpisanej do Rejestru Przedsiębiorców KRS pod numerem\n0000498819 („Spółka”), ogłasza, że w dniu 8 listopada 2019 r.\nna podstawie uchwały nr 1 Nadzwyczajnego Zgromadzenia\nWspólników Spółki nastąpiło otwarcie likwidacji Spółki.\n\nLikwidator wzywa wierzycieli Spółki w trybie art. 279 k.s.h.\ndo zgłaszania swoich wierzytelności w terminie 3 miesięcy\nod dnia niniejszego ogłoszenia.\nWierzytelności należy zgłaszać na adres Spółki: Plac Konesera 8,\n03-736 Warszawa.",
+          "data_publikacji": "2019-11-25",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ w Warszawie.",
+          "poziom_istotnosci": "UWAGA"
+        },
+        {
+          "numer_ogloszenia": "1059018",
+          "sygnatura_sprawy": "WA.XIII NS-REJ.KRS/56022/19/933",
+          "tresc_naglowka": "Poz. 1059018. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD REJONOWY DLA M. ST. WARSZAWY W WARSZAWIE,\n   XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 19.02.2014.\n   [WA.XIII NS-REJ.KRS/56022/19/933]",
+          "nr_monitora": "194/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 30.09.2019 dokonano wpisu do rejestru KRS\n   nr 21 następującej treści:\n   Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n   podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub. Dane\n   osób wchodzących w skład organu wykreślić:\n   1 1. ANTONIOU 2. HELEN 5. CZŁONEK ZARZĄDU\n   6. NIE",
+          "data_publikacji": "2019-10-07",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "921304",
+          "sygnatura_sprawy": "WA.XIII NS-REJ.KRS/36592/19/671",
+          "tresc_naglowka": "Poz. 921304. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD REJONOWY DLA M. ST. WARSZAWY W WARSZAWIE,\nXIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 19.02.2014.\n[WA.XIII NS-REJ.KRS/36592/19/671]",
+          "nr_monitora": "147/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 23.07.2019 dokonano wpisu do rejestru KRS\nnr 20 następującej treści:\nDz. 2. Rub. 1. Organ uprawniony do reprezentacji\npodmiotu 1 (dla pozycji: 1. ZARZĄD) PRub. Dane\nosób wchodzących w skład organu wykreślić:\n1 1. REEVE 2. JANE 5. CZŁONEK ZARZĄDU 6. NIE\nwpisać: 2 1. BORISOV 2. TSVETAN 5. CZŁONEK\nZARZĄDU 6. NIE",
+          "data_publikacji": "2019-07-31",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "861339",
+          "sygnatura_sprawy": "RDF/163585/19/338",
+          "tresc_naglowka": "Poz. 861339. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SYSTEM,\nwpis do rejestru: 19.02.2014.\n[RDF/163585/19/338]",
+          "nr_monitora": "144/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 15.07.2019 dokonano wpisu do rejestru KRS\nnr 19 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 4. OD 01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-07-26",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "861338",
+          "sygnatura_sprawy": "RDF/163585/19/937",
+          "tresc_naglowka": "Poz. 861338. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SYSTEM,\n    wpis do rejestru: 19.02.2014.\n    [RDF/163585/19/937]",
+          "nr_monitora": "144/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "X V. W P I S Y D O\n\nW dniu 15.07.2019 dokonano wpisu do rejestru KRS\nnr 18 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 15.07.2019 okres OD\n01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-07-26",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "258517",
+          "sygnatura_sprawy": "WA.XII NS-REJ.KRS/27387/19/217",
+          "tresc_naglowka": "Poz. 258517. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE,\n    XII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 19.02.2014.\n    [WA.XII NS-REJ.KRS/27387/19/217]",
+          "nr_monitora": "86/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 26.04.2019 dokonano wpisu do rejestru KRS\n    nr 17 następującej treści:\n    Dz. 2. Rub. 1. Organ uprawniony do reprezentacji\n    podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub. Dane\n    osób wchodzących w skład organu wykreślić:\n    1 1. ORR BARTON 2. ELISABETH 5. CZŁONEK\n    ZARZĄDU 6. NIE wpisać: 2 1. ANTONIOU 2. HELEN\n    5. CZŁONEK ZARZĄDU 6. NIE",
+          "data_publikacji": "2019-05-06",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "193853",
+          "sygnatura_sprawy": "RDF/104189/19/727",
+          "tresc_naglowka": "Poz. 193853. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SYSTEM,\n    wpis do rejestru: 19.02.2014.\n    [RDF/104189/19/727]",
+          "nr_monitora": "71/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 03.04.2019 dokonano wpisu do rejestru KRS\n    nr 16 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 4. OD 01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2019-04-10",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "193852",
+          "sygnatura_sprawy": "RDF/104189/19/326",
+          "tresc_naglowka": "Poz. 193852. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SYSTEM,\nwpis do rejestru: 19.02.2014.\n[RDF/104189/19/326]",
+          "nr_monitora": "71/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 03.04.2019 dokonano wpisu do rejestru KRS\nnr 15 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 3. OD 01.01.2017 DO 31.12.2017\n\n\n\n\n\n\n\n\n K R A J O W E G O R E J E S T R U S Ą D O W E G O",
+          "data_publikacji": "2019-04-10",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "193851",
+          "sygnatura_sprawy": "RDF/104189/19/925",
+          "tresc_naglowka": "Poz. 193851. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SYSTEM,\nwpis do rejestru: 19.02.2014.\n[RDF/104189/19/925]",
+          "nr_monitora": "71/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 03.04.2019 dokonano wpisu do rejestru KRS\nnr 14 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 03.04.2019 okres OD\n01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2019-04-10",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "62679",
+          "sygnatura_sprawy": "WA.XII NS-REJ.KRS/6662/19/788",
+          "tresc_naglowka": "Poz. 62679. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE,\n     XII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 19.02.2014.\n     [WA.XII NS-REJ.KRS/6662/19/788]",
+          "nr_monitora": "29/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.02.2019 dokonano wpisu do rejestru KRS\n     nr 13 następującej treści:\n     Dz. 1. Rub. 2. Siedziba i adres podmiotu wykreślić\n     2. miejscowość WARSZAWA ulica UL. SZAMOCKA\n     nr domu 8 kod pocztowy 01-748 poczta WARSZAWA\n     kraj POLSKA wpisać: 2. miejscowość WARSZAWA\n     ulica PLAC KONESERA nr domu 8 kod pocztowy\n     03-736 poczta WARSZAWA kraj POLSKA",
+          "data_publikacji": "2019-02-11",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "95028",
+          "sygnatura_sprawy": "WA.XII NS-REJ.KRS/15216/18/316",
+          "tresc_naglowka": "Poz. 95028. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE,\nXII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 19.02.2014.\n[WA.XII NS-REJ.KRS/15216/18/316]",
+          "nr_monitora": "70/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.04.2018 dokonano wpisu do rejestru KRS\nnr 12 następującej treści:\nDz. 2. Rub. 1. Organ uprawniony do reprezentacji podmiotu 1 (dla pozycji: 1. ZARZĄD) PRub.\nDane osób wchodzących w skład organu wykreślić: 1 1. TURLEJSKA ZDUŃCZYK 2. BEATA ANNA\n3. [ukryto] 5. PREZES ZARZĄDU 6. NIE\nRub. 3. Prokurenci wykreślić: 1 1. FUDAŁA\n2. ANDRZEJ 3. [ukryto] 4. PROKURA SAMOISTNA wpisać: 2 1. ŁUKASZEWICZ 2. MAGDALENA\nJUSTYNA 3. [ukryto] 4. SAMOISTNA",
+          "data_publikacji": "2018-04-10",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "408559",
+          "sygnatura_sprawy": "WA.XII NS-REJ.KRS/85283/17/406",
+          "tresc_naglowka": "Poz. 408559. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE, XII\nWYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU\nSĄDOWEGO, wpis do rejestru: 19.02.2014.\n[WA.XII NS-REJ.KRS/85283/17/406]",
+          "nr_monitora": "217/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 31.10.2017 dokonano wpisu do rejestru KRS\nnr 11 następującej treści:\nDz. 2. Rub. 1. Organ uprawniony do reprezentacji\npodmiotu 1 (dla pozycji: 1. ZARZĄD) PRub. Dane osób\nwchodzących w skład organu wykreślić: 1 1. YOUNG\nJR 2. JAMES BERNARD 3. [ukryto] 5. WICEPREZES ZARZĄDU 6. NIE wpisać: 2 1. ORR BARTON 2. ELISABETH 5. CZŁONEK ZARZĄDU 6. NIE 3 1. REEVE\n2. JANE 5. CZŁONEK ZARZĄDU 6. NIE\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 3. OD 01.01.2016 DO 31.12.2016",
+          "data_publikacji": "2017-11-09",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "349244",
+          "sygnatura_sprawy": "WA.XII NS-REJ.KRS/65748/17/618",
+          "tresc_naglowka": "Poz. 349244. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE,\n     XII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 19.02.2014.\n     [WA.XII NS-REJ.KRS/65748/17/618]",
+          "nr_monitora": "193/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 25.09.2017 dokonano wpisu do rejestru KRS\n     nr 10 następującej treści:\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach wpisać: 1 1. data złożenia 17.07.2017 okres OD\n    01.01.2016 DO 31.12.2016 1 4. OD 01.01.2016 DO\n    31.12.2016",
+          "data_publikacji": "2017-10-05",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "166524",
+          "sygnatura_sprawy": "WA.XII NS-REJ.KRS/35158/17/312",
+          "tresc_naglowka": "Poz. 166524. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE,\nXII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 19.02.2014.\n[WA.XII NS-REJ.KRS/35158/17/312]",
+          "nr_monitora": "114/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 07.06.2017 dokonano wpisu do rejestru KRS\nnr 9 następującej treści:\nDz. 2. Rub. 3. Prokurenci wpisać: 1 1. FUDAŁA\n2. ANDRZEJ 3. [ukryto] 4. PROKURA SAMOISTNA\n\n\n\n\n\nO K R A J O W E G O R E J E S T R U S Ą D O W E G O",
+          "data_publikacji": "2017-06-14",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "27652",
+          "sygnatura_sprawy": "WA.XII NS-REJ.KRS/68452/16/440",
+          "tresc_naglowka": "Poz. 27652. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE,\n      XII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 19.02.2014.\n      [WA.XII NS-REJ.KRS/68452/16/440]",
+          "nr_monitora": "22/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 24.01.2017 dokonano wpisu do rejestru KRS\n,00   nr 8 następującej treści:\n      Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n\n\n\n\n\n                                  X V. W P I S Y D O\n\nwpisać: 1 1. data złożenia 15.07.2016 okres OD\n01.01.2015 DO 31.12.2015 1 3. OD 01.01.2015 DO\n31.12.2015 1 4. OD 01.01.2015 DO 31.12.2015",
+          "data_publikacji": "2017-02-01",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "380030",
+          "sygnatura_sprawy": "WA.XII NS-REJ.KRS/63756/16/992",
+          "tresc_naglowka": "Poz. 380030. J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE,\nXII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru: 19.02.2014.\n[WA.XII NS-REJ.KRS/63756/16/992]",
+          "nr_monitora": "224/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 10.11.2016 dokonano wpisu do rejestru KRS\nnr 7 następującej treści:\nDz. 1. Rub. 1. Dane podmiotu wykreślić: 3. COSMO\nSPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ wpisać: 3. J. SPÓŁKA Z OGRANICZONĄ\nODPOWIEDZIALNOŚCIĄ\nRub. 4. Informacje o umowie wpisać:\n1 1. 12.08.2016R., REP. A NR 10409/2016, KANCELARIA NOTARIALNA MAREK HRYMAK, DANIEL\nKUPRYJAŃCZYK S.C. ZMIANY: § 1 UST.2, § 2,\n§ 7 UST.1, § 11, § 12 UST.1, § 16, § 17 UST.3, § 1\nPRZYJĘCIE TEKSTU JEDNOLITEGO UMOWY\nSPÓŁKI\nDz. 2. Rub. 1. Organ uprawniony do reprezentacji\npodmiotu 1 (dla pozycji: 1. ZARZĄD) wykreślić:\n2. W PRZYPADKU ZARZĄDU WIELOOSOBOWEGO\n- DWÓCH CZŁONKÓW ZARZĄDU ŁĄCZNIE LUB\nCZŁONEK ZARZĄDU ŁĄCZNIE Z PROKURENTEM,\nA W PRZYPADKU ZARZĄDU JEDNOOSOBOWEGO\n- CZŁONEK ZARZĄDU SAMODZIELNIE. wpisać:\n2. DO SKŁADANIA OŚWIADCZEŃ W IMIENIU\nSPÓŁKI I REPREZENTOWANIA SPÓŁKI WYMAGANE\nJEST WSPÓŁDZIAŁANIE 2 (DWÓCH) CZŁONKÓW\nZARZĄDU LUB JEDNEGO CZŁONKA ZARZĄDU\nŁĄCZNIE Z PROKURENTEM PRub. Dane osób wchodzących w skład organu 1 (dla pozycji: 1. YOUNG\nJR 2. JAMES BERNARD 3. [ukryto]) wykreślić:\n5. CZŁONEK ZARZĄDU, DYREKTOR GENERALNY\nwpisać: 5. WICEPREZES ZARZĄDU 2 1. TURLEJSKA\nZDUŃCZYK 2. BEATA ANNA 3. [ukryto] 5. PREZES ZARZĄDU 6. NIE\n\n\n\n\n\n K R A J O W E G O R E J E S T R U S Ą D O W E G O\n\n    Dz. 3. Rub. 1. Przedmiot działalności wpisać: 1\n    11 Z DZIAŁALNOŚĆ AGENCJI REKLAMOWYCH\n    1 ——- 59 11 Z DZIAŁALNOŚĆ ZWIĄZANA Z PRODUKCJĄ FILMÓW, NAGRAŃ WIDEO I PROGRAMÓW\n    TELEWIZYJNYCH 2 ——- 59 20 Z DZIAŁALNOŚĆ\n    W ZAKRESIE NAGRAŃ DŹWIĘKOWYCH I MUZYCZNYCH 3 ——- 62 01 Z DZIAŁALNOŚĆ ZWIĄZANA\n    Z OPROGRAMOWANIEM 4 ——- 63 11 Z PRZETWARZANIE DANYCH; ZARZĄDZANIE STRONAMI\n    INTERNETOWYMI (HOSTING) I PODOBNA DZIAŁALNOŚĆ 5 ——- 70 22 Z POZOSTAŁE DORADZTWO W ZAKRESIE PROWADZENIA DZIAŁALNOŚCI\n    GOSPODARCZEJ I ZARZĄDZANIA 6 ——- 73 12\n    A POŚREDNICTWO W SPRZEDAŻY CZASU I MIEJSCA NA CELE REKLAMOWE W RADIO I TELEWIZJI\n    7 ——- 73 12 B POŚREDNICTWO W SPRZEDAŻY\n    MIEJSCA NA CELE REKLAMOWE W MEDIACH\n    DRUKOWANYCH 8 ——- 73 12 C POŚREDNICTWO\n    W SPRZEDAŻY MIEJSCA NA CELE REKLAMOWE\n    W MEDIACH ELEKTRONICZNYCH (INTERNET)\n    9 ——- 73 20 Z BADANIE RYNKU I OPINII PUBLICZNEJ wykreślić: 10 ——- 59 11 Z DZIAŁALNOŚĆ\n    ZWIĄZANA Z PRODUKCJĄ FILMÓW, NAGRAŃ\n    WIDEO I PROGRAMÓW TELEWIZYJNYCH 11 ——59 20 Z DZIAŁALNOŚĆ W ZAKRESIE NAGRAŃ\n    DŹWIĘKOWYCH I MUZYCZNYCH 12 ——- 62 01\n    Z DZIAŁALNOŚĆ ZWIĄZANA Z OPROGRAMOWANIEM 13 ——- 62 02 Z DZIAŁALNOŚĆ ZWIĄZANA\n    Z DORADZTWEM W ZAKRESIE INFORMATYKI 14\n    ——- 62 09 Z POZOSTAŁA DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE TECHNOLOGII INFORMATYCZNYCH I KOMPUTEROWYCH 15 ——- 63 11 Z PRZETWARZANIE DANYCH; ZARZĄDZANIE STRONAMI\n    INTERNETOWYMI (HOSTING) I PODOBNA DZIAŁALNOŚĆ 16 ——- 63 12 Z DZIAŁALNOŚĆ PORTALI\n    INTERNETOWYCH 17 ——- 63 99 Z POZOSTAŁA\n    DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE INFORMACJI, GDZIE INDZIEJ NIESKLASYFIKOWANA\n    18 ——- 68 10 Z KUPNO I SPRZEDAŻ NIERUCHOMOŚCI NA WŁASNY RACHUNEK 19 ——- 68 20\n    Z WYNAJEM I ZARZĄDZANIE NIERUCHOMOŚCIAMI\n    WŁASNYMI LUB DZIERŻAWIONYMI 20 ——- 70 22\n    Z POZOSTAŁE DORADZTWO W ZAKRESIE PROWADZENIA DZIAŁALNOŚCI GOSPODARCZEJ I ZARZĄDZANIA 21 ——- 73 11 Z DZIAŁALNOŚĆ AGENCJI\n    REKLAMOWYCH 22 ——- 73 12 A POŚREDNICTWO W SPRZEDAŻY CZASU I MIEJSCA NA CELE\n    REKLAMOWE W RADIO I TELEWIZJI 23 ——- 73 12\n    B POŚREDNICTWO W SPRZEDAŻY MIEJSCA NA\n    CELE REKLAMOWE W MEDIACH DRUKOWANYCH\n    24 ——- 73 12 C POŚREDNICTWO W SPRZEDAŻY\n    MIEJSCA NA CELE REKLAMOWE W MEDIACH\n    ELEKTRONICZNYCH (INTERNET) 25 ——- 73 20\n    Z BADANIE RYNKU I OPINII PUBLICZNEJ 26 ——82 11 Z DZIAŁALNOŚĆ USŁUGOWA ZWIĄZANA\n    Z ADMINISTRACYJNĄ OBSŁUGĄ BIURA 27 ——- 82\n    99 Z POZOSTAŁA DZIAŁALNOŚĆ WSPOMAGAJĄCA\n    PROWADZENIE DZIAŁALNOŚCI GOSPODARCZEJ,\n    GDZIE INDZIEJ NIESKLASYFIKOWANA 28 ——- 96\n    09 Z POZOSTAŁA DZIAŁALNOŚĆ USŁUGOWA,\n    GDZIE INDZIEJ NIESKLASYFIKOWANA",
+          "data_publikacji": "2016-11-21",
+          "nazwa_podmiotu": "J. SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "204338",
+          "sygnatura_sprawy": "WA.XIII NS-REJ.KRS/33400/16/657",
+          "tresc_naglowka": "Poz. 204338. COSMO SPÓŁKA Z OGRANICZONĄ\n    ODPOWIEDZIALNOŚCIĄ. KRS 0000498819. SĄD\n    REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis do rejestru:\n    19.02.2014.\n    [WA.XIII NS-REJ.KRS/33400/16/657]",
+          "nr_monitora": "141/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 14.07.2016 dokonano wpisu do rejestru KRS\n    nr 6 następującej treści:\n    Dz. 1. Rub. 2. Siedziba i adres podmiotu wykreślić: 1. kraj POLSKA województwo MAZOWIECKIE\n    powiat M.ST. WARSZAWA gmina M.ST. WARSZAWA\n    miejscowość WARSZAWA wpisać: 1. kraj POLSKA\n    województwo MAZOWIECKIE powiat WARSZAWA\n    gmina WARSZAWA miejscowość WARSZAWA\n    wykreślić: 2. miejscowość WARSZAWA ulica\n    ŻARYNA nr domu 2B nr lokalu BUDYNEK C kod\n    pocztowy 02-593 poczta WARSZAWA kraj POLSKA\n    wpisać: 2. miejscowość WARSZAWA ulica UL. SZAMOCKA nr domu 8 kod pocztowy 01-748 poczta\n    WARSZAWA kraj POLSKA",
+          "data_publikacji": "2016-07-22",
+          "nazwa_podmiotu": "COSMO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ.",
+          "poziom_istotnosci": "Rzuć okiem"
+        }
+      ],
+      "krz": null,
+      "historia_sprawozdan": [
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "termin_zlozenia": "15-10-2020",
+          "data_dodania_do_krs": "08-09-2020"
+        },
+        {
+          "okres_sprawozdawczy": "08-11-2019_31-12-2019",
+          "rok": 2019,
+          "termin_zlozenia": "15-10-2020",
+          "data_dodania_do_krs": "08-09-2020"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_07-11-2019",
+          "rok": 2019,
+          "termin_zlozenia": "22-08-2020",
+          "data_dodania_do_krs": "08-09-2020"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "termin_zlozenia": "15-07-2019",
+          "data_dodania_do_krs": "08-09-2020"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "termin_zlozenia": "15-07-2018",
+          "data_dodania_do_krs": "30-03-2019"
+        }
+      ],
+      "pozycja_na_tle_branzy": [
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.058
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.2705,
+          "udzial_w_rynku": 0,
+          "przychody_calej_branzy": 17411593058.21,
+          "liczba_firm_w_branzy": 4969
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.2867
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.1965
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.6469
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.4798
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.2419
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.188
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.8896
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.9001
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.8564
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.6126,
+          "udzial_w_rynku": 0,
+          "przychody_calej_branzy": 16158266215.94,
+          "liczba_firm_w_branzy": 4638
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.8655
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.6751
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.6549
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.7125
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.2406
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.8365
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.6105
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.612
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.915
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.8638,
+          "udzial_w_rynku": 0.0002,
+          "przychody_calej_branzy": 14389024395.42,
+          "liczba_firm_w_branzy": 4002
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.7503
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.927
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.8151
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.8511
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.7018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.8723
+        }
+      ]
+    }
+  ]
+}

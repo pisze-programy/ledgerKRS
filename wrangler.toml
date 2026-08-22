@@ -1,0 +1,19 @@
+name = "raporty-firmowe"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "raporty-firmowe"
+database_id = "local"
+
+[vars]
+KRS_API_BASE = "https://api-krs.ms.gov.pl"
+RDF_BASE = "https://rdf-przegladarka.ms.gov.pl"
+REGON_API_BASE = "https://wyszukiwarkaregon.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc"
+REGON_API_KEY = ""
+REGON_MODE = "mock"
+BILLING_MODE = "mock"
+FREE_CREDITS = "100"
+PACKAGE_CREDITS = "1000"
+PACKAGE_PRICE_USD = "9.99"

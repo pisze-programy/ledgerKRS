@@ -1,0 +1,3117 @@
+{
+  "data": [
+    {
+      "krs": "0000166742_",
+      "nip": 8540011276,
+      "kod_pkd": "68.32.Z",
+      "opis_pkd": "Zarządzanie nieruchomościami wykonywane na zlecenie",
+      "informacje_o_firmie": [
+        {
+          "nazwa_pola": "adres_strony_internetowej",
+          "wartosc": "www.spoldzielnia.stargard.pl"
+        },
+        {
+          "nazwa_pola": "data_rozpoczecia_dzialalnosci",
+          "wartosc": "1975-12-15"
+        },
+        {
+          "nazwa_pola": "data_wpisu_do_rejestru",
+          "wartosc": "2003-09-09"
+        },
+        {
+          "nazwa_pola": "forma_prawna",
+          "wartosc": "SPÓŁDZIELNIA"
+        },
+        {
+          "nazwa_pola": "forma_wlasnosci",
+          "wartosc": "WŁASNOŚĆ PRYWATNA KRAJOWA POZOSTAŁA"
+        },
+        {
+          "nazwa_pola": "kod_pocztowy",
+          "wartosc": "73-110"
+        },
+        {
+          "nazwa_pola": "miejscowosc",
+          "wartosc": "STARGARD"
+        },
+        {
+          "nazwa_pola": "nazwa",
+          "wartosc": "SPÓŁDZIELNIA MIESZKANIOWA"
+        },
+        {
+          "nazwa_pola": "nip",
+          "wartosc": "8540011276"
+        },
+        {
+          "nazwa_pola": "numer_nieruchomosci",
+          "wartosc": "A/7"
+        },
+        {
+          "nazwa_pola": "organ_nadzoru",
+          "wartosc": "RADA NADZORCZA"
+        },
+        {
+          "nazwa_pola": "organ_rejestrowy",
+          "wartosc": "SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "nazwa_pola": "organ_reprezentujacy",
+          "wartosc": "ZARZĄD"
+        },
+        {
+          "nazwa_pola": "regon",
+          "wartosc": "000489509"
+        },
+        {
+          "nazwa_pola": "sposob_reprezentacji",
+          "wartosc": "OŚWIADCZENIA WOLI ZA SPÓŁDZIELNIĘ SKŁADAJĄ DWAJ CZŁONKOWIE ZARZĄDU LUB JEDEN CŻŁONEK I PEŁNOMOCNIK."
+        },
+        {
+          "nazwa_pola": "ulica",
+          "wartosc": "OSIEDLE ZACHÓD"
+        },
+        {
+          "nazwa_pola": "wojewodztwo",
+          "wartosc": "ZACHODNIOPOMORSKIE"
+        }
+      ],
+      "dane_finansowe": [
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 32898404.41,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 42270694.51,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 125361.34,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 1165269.45,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 1290630.79,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 49513763.1,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 80280550.05,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 79877946.87,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 9902752.62,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 174790.42,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 3126927.41,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.01,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.0017,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 423426,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 82893017.62,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 81445819.5,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 81230852.14,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.03,
+          "nazwa_wskaznika": "roa",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "roe",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 75172350.17,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 207232544.05,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 20273101.5,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 100506574.67,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 1,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 0.34,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 6583089.39,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 44,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 25658587.07,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 2450736.15,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 2027310.15,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 1165269.45,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "kwota": 1352905.27,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2025
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 33585251.61,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 44021628.39,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 111730.12,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 1229604.59,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 1341334.71,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 51391555.49,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 72258838.53,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 71870456.9,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 10278311.1,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 184440.69,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 3104668.68,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.03,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.0017,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 436658,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 74846429.94,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 73488443.12,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 73292959.51,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.03,
+          "nazwa_wskaznika": "roa",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "roe",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 77637954.46,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 205566221.96,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 20586562.1,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 96675911.42,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 1,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 0.34,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 6044938.8,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 47,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 26246398.97,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 2495314.21,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 2058656.21,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 1229604.59,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "kwota": 1422502.61,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2024
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 30900570.22,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 45942909.17,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 84880.85,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 1693265.57,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 1778146.42,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 53784514.21,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 67076917.89,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 66689142.92,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 10756902.84,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 253989.84,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 3184561.76,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.0039,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 565545,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 70292297.82,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 68770183.46,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 68591123.95,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.03,
+          "nazwa_wskaznika": "roa",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.05,
+          "nazwa_wskaznika": "roe",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 76899274.55,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 215138056.84,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 25593408.9,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 97437281.1,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 1,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 0.3,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 5217081.34,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 46,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 23114760.34,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 3124885.89,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 2559340.89,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 1693265.57,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "kwota": 1901981.03,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2023
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 39568032.76,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 48467375.2,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 89009.28,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 3057953.64,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 3146962.92,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 58498620.86,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 70080414.23,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 69465834.92,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 11699724.17,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 458693.05,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 3572061.81,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.0033,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 791653,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 74167857.83,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 73138367.87,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 72683380,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.04,
+          "nazwa_wskaznika": "roa",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.06,
+          "nazwa_wskaznika": "roe",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 88135832.75,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 233994483.44,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 32379794.8,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 106271122.12,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 1,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 0.34,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 4686661.93,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 48.6433,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 29637211.89,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 4029632.48,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 3237979.48,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 3057953.64,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "kwota": 3217545.08,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 44579854.57,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 57551296.41,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 124504.89,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 921871.49,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 1046376.38,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 57806405.54,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 68196021.03,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 67648662.54,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 11561281.11,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 30994.53,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 2789345.09,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.01,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.01,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.0062,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 172627,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 69292100.29,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 69117892.52,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 68611867.87,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.01,
+          "nazwa_wskaznika": "roa",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.01,
+          "nazwa_wskaznika": "roe",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 102297704.31,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 231225622.16,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 8101773.3,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 92790247,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 0.43,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 4225699.68,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 47.2156,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 44491298.77,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 982804.33,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 810177.33,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 921871.49,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "kwota": 963205.33,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2021
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 20091723.19,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 54217889.9,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 72091.58,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 894953.6,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 967045.18,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 59570628.38,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 48113965.41,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 47743232.34,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 11914125.68,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 134243.04,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 2907289.12,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.002,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 193297,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 49321591.36,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 49008919.01,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 48697132.91,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.01,
+          "nazwa_wskaznika": "roa",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "roe",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 74595127.72,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 238282513.52,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 9091657.1,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 81195695.03,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 1,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 0.2,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 4103663.29,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 49,
+          "nazwa_wskaznika": "zatrudnienie",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 15024499.34,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 1102462.71,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 909165.71,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 894953.6,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "kwota": 953900.57,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2020
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 19346131.74,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 57114216.89,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 53839.91,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 1053156.84,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 1106996.75,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 61130457.33,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 43302697.32,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 42988101.43,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 12226091.47,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 157973.53,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 2836401.17,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.03,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.0017,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 249149,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 44837904.65,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 44355854.16,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 43957594.27,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "roa",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "roe",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 76835332.41,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 244521829.32,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 12026543.1,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 80550396.67,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 1,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 0.2,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 3734153.89,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 42.8944,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 15704875.08,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 1451803.31,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 1202654.31,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 1053156.84,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "kwota": 969492.84,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2019
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 20194045.11,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 61159056.09,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 52840.42,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 835756.38,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 888596.8,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 64240954.49,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 42135254.35,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 41735574.63,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 12848190.9,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 125363.46,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 2853979.75,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.0054,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 211954,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 43521150.13,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 42971010.73,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 42597272.66,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.01,
+          "nazwa_wskaznika": "roa",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "roe",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 81827679.76,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 256963817.96,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 10664364.8,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 81460561.87,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 0.21,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 3578783.58,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 43.876,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 17586725.27,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 1278390.48,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 1066436.48,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 835756.38,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "kwota": 861698.03,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2018
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 20958946.82,
+          "nazwa_wskaznika": "aktywa_obrotowe",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 68108310.99,
+          "nazwa_wskaznika": "aktywa_trwale",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 36409.29,
+          "nazwa_wskaznika": "amortyzacja",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 994400,
+          "nazwa_wskaznika": "ebit",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 1030809.29,
+          "nazwa_wskaznika": "ebitda",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 66681040.54,
+          "nazwa_wskaznika": "kapital_wlasny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 41698192.04,
+          "nazwa_wskaznika": "koszty_operacyjne",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 41348401.28,
+          "nazwa_wskaznika": "koszty_sprzedanych_produktow",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 13336208.11,
+          "nazwa_wskaznika": "kredyt_kupiecki_maksymalny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0,
+          "nazwa_wskaznika": "kredyt_kupiecki_minimalny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2680813.01,
+          "nazwa_wskaznika": "kredyt_kupiecki_sredni",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.03,
+          "nazwa_wskaznika": "marza_netto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.0054,
+          "nazwa_wskaznika": "niewyplacalnosc_lub_restrukturyzacja_24m",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 228947,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 43275462.83,
+          "nazwa_wskaznika": "przychody",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 42692592.04,
+          "nazwa_wskaznika": "przychody_operacyjne",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 42278075.29,
+          "nazwa_wskaznika": "przychody_ze_sprzedazy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.01,
+          "nazwa_wskaznika": "roa",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.02,
+          "nazwa_wskaznika": "roe",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 89504987.73,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 266724162.16,
+          "nazwa_wskaznika": "wartosc_firmy_maksymalna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 12314627.2,
+          "nazwa_wskaznika": "wartosc_firmy_minimalna",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 83786939.84,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 2,
+          "nazwa_wskaznika": "wiarygodnosc",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 0.26,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 3197759.07,
+          "nazwa_wskaznika": "wynagrodzenia",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 36.0182,
+          "nazwa_wskaznika": "zatrudnienie_estymowane",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 22823947.19,
+          "nazwa_wskaznika": "zobowiazania_i_rezerwy",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 1460409.72,
+          "nazwa_wskaznika": "zysk_brutto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 1231462.72,
+          "nazwa_wskaznika": "zysk_netto",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 994400,
+          "nazwa_wskaznika": "zysk_operacyjny",
+          "rok": 2017
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "kwota": 929674.01,
+          "nazwa_wskaznika": "zysk_ze_sprzedazy",
+          "rok": 2017
+        }
+      ],
+      "opisy_firmy": [
+        {
+          "opis": "Spółdzielnia Mieszkaniowa oferuje szeroki wachlarz usług telekomunikacyjnych dla klientów indywidualnych oraz firm w Stargardzie i okolicach. Specjalizuje się w dostarczaniu wysokiej jakości internetu, telewizji oraz usług telefonicznych. Ubiegające się o uznanie wśród lokalnych użytkowników, spółdzielnia proponuje różnorodne pakiety dostosowane do ich potrzeb, co czyni ją konkurencyjnym graczem na rynku usług telekomunikacyjnych. Klienci mogą korzystać z szybkiego internetu kablowego oraz radiowego, co zapewnia doskonałą jakość połączeń w różnych lokalizacjach. Oprócz tego, oferta telewizyjna obejmuje bogaty zbiór kanałów, idealnych zarówno dla dorosłych, jak i dla dzieci. W ofercie telefonicznej Spółdzielnia Mieszkaniowa oferuje korzystne rozwiązania dla osób prywatnych oraz przedsiębiorstw, co przyciąga licznych klientów poszukujących oszczędności w rachunkach telefonicznych. Dodatkowo, spółdzielnia wyróżnia się dostępnością infolinii 24/7, co pozwala na stały kontakt i wsparcie techniczne dla użytkowników, niezależnie od pory dnia. Powstała z myślą o wspieraniu lokalnych społeczności, spółdzielnia kładzie duży nacisk na jakość obsługi klienta oraz dostępność nowoczesnych rozwiązań telekomunikacyjnych. Warto również podkreślić, że siedziba spółdzielni znajduje się w dogodnej lokalizacji, co umożliwia łatwy dostęp do usług dla mieszkańców okolicy.",
+          "punkt_kluczowy_1": "Usługi internetu kablowego i radiowego",
+          "punkt_kluczowy_2": "Telewizja z bogatym wyborem kanałów",
+          "punkt_kluczowy_3": "Korzystne oferty telefoniczne dla indywidualnych i biznesowych klientów",
+          "punkt_kluczowy_4": "Wsparcie techniczne dostępne przez całą dobę",
+          "punkt_kluczowy_5": "Dostosowane pakiety promocji dla różnych grup odbiorców"
+        }
+      ],
+      "powiazania": [
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "CIOŁEK ALDONA",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "00590c4bc47cb8c8553bfe43a8df63b8",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "DERENDA AGNIESZKA",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "fd89d1c4b8bc7ca6131855ce9b1b25a0",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "DURKOWSKI HENRYK",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "28bf54ac46302a67d1a44fbaeb93b768",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "FABINIAK URSZULA",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "1414671640e4aeeb62edefcebaefefa3",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "JELONEK WIESŁAWA",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "92baa1ecfa4d8852dafb1bcde59533cd",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KASZA MAREK",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "7554a9479769e9a9025137ddd2b1a73d",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KEMPSKI KRZYSZTOF",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "13ad8dd3bd271ed9ce4abd7b2e3ab7a6",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "KOTKOWIAK ŁOŃ LAURA",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "284889ddcd090acf3a944d7a773cedd6",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "MIERZYŃSKI JAN",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "28d9468190fe745467cda01d5ab3d0d8",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "POLASZ DOROTA",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "de4e930d1ac056978ad0b6a0c28e5359",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "SIWY RADOSŁAW",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "f4aa34e973095c8358e54bc762c05aa6",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ZBOROWSKI LESZEK",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "6cfa71ed40cb113bf5d555397be65e47",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ZIEMIAŃSKI PAWEŁ",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "12a17fc14d321c0a799b01e20554be63",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ŻARNOWSKA KATARZYNA",
+          "typ_powiazania": "organ nadzoru",
+          "id_podmiotu": "e7652cdf7926baad263e0c724822d57e",
+          "organ": null,
+          "funkcja": null
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "PILARCZYK EWA",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "b2dfac6cc7ea2b8453d080fa07d93630",
+          "organ": "ZARZĄD",
+          "funkcja": "Z-CA PREZESA DS. TECHNICZNYCH SPÓŁDZIELNI MIESZKANIOWEJ W STARGARDZIE SZCZECIŃSKIM"
+        },
+        {
+          "typ_podmiotu": "Osoba",
+          "nazwa": "ZUSEL TOMASZ",
+          "typ_powiazania": "reprezentacja",
+          "id_podmiotu": "6bd9570a2a437347149b4f93e0ccdcf9",
+          "organ": "ZARZĄD",
+          "funkcja": "PREZES ZARZĄDU SPÓŁDZIELNI MIESZKANIOWEJ W STARGARDZIE SZCZECIŃSKIM"
+        }
+      ],
+      "udzialy": null,
+      "monitor_sadowy": [
+        {
+          "numer_ogloszenia": "1296622",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/13952/25/553",
+          "tresc_naglowka": "Poz. 1296622. SPÓŁDZIELNIA MIESZKANIOWA.\nKRS 0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 09.09.2003.\n[SZ.XIII NS-REJ.KRS/13952/25/553]",
+          "nr_monitora": "180/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.08.2025 dokonano wpisu do rejestru KRS\nnr 88 następującej treści:\nDz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RAD\nNADZORCZA) PRub. Dane osób wchodzących\nw skład organu wykreślić: 1 1. ROBASZKO 2. KRYSTYNA MAŁGORZATA 3. [ukryto]",
+          "data_publikacji": "2025-09-17",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "653744",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/11047/25/186",
+          "tresc_naglowka": "Poz. 653744. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 09.09.2003.\n[SZ.XIII NS-REJ.KRS/11047/25/186]",
+          "nr_monitora": "130/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 23.06.2025 dokonano wpisu do rejestru KRS\nnr 87 następującej treści:\nDz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RAD\nNADZORCZA) PRub. Dane osób wchodzących\nw skład organu wykreślić: 1 1. BUŁAWA 2. BEATA\nTERESA 3. [ukryto]",
+          "data_publikacji": "2025-07-08",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "395028",
+          "sygnatura_sprawy": "RDF/717240/25/389",
+          "tresc_naglowka": "Poz. 395028. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/717240/25/389]",
+          "nr_monitora": "95/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 07.05.2025 dokonano wpisu do rejestru KRS\n    nr 86 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 4. OD 01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-05-19",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "395027",
+          "sygnatura_sprawy": "RDF/717240/25/988",
+          "tresc_naglowka": "Poz. 395027. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/717240/25/988]",
+          "nr_monitora": "95/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 07.05.2025 dokonano wpisu do rejestru KRS\n    nr 85 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 3. OD 01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-05-19",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "395026",
+          "sygnatura_sprawy": "RDF/717240/25/587",
+          "tresc_naglowka": "Poz. 395026. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/717240/25/587]",
+          "nr_monitora": "95/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 07.05.2025 dokonano wpisu do rejestru KRS\n    nr 84 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 2. OD 01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-05-19",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "395025",
+          "sygnatura_sprawy": "RDF/717240/25/186",
+          "tresc_naglowka": "Poz. 395025. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/717240/25/186]",
+          "nr_monitora": "95/2025",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 07.05.2025 dokonano wpisu do rejestru KRS\n    nr 83 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 1. data złożenia 07.05.2025 okres OD\n    01.01.2024 DO 31.12.2024",
+          "data_publikacji": "2025-05-19",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "379444",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/8521/24/130",
+          "tresc_naglowka": "Poz. 379444. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 09.09.2003.\n[SZ.XIII NS-REJ.KRS/8521/24/130]",
+          "nr_monitora": "94/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "O K R A J O W E G O R E J E S T R U S Ą D O W E G O\n\n     W dniu 02.05.2024 dokonano wpisu do rejestru KRS\n     nr 81 następującej treści:\n     Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RAD\n     NADZORCZA) PRub. Dane osób wchodzących\n     w skład organu wpisać: 1 1. SIWY 2. RADOSŁAW\n     PAWEŁ 3. [ukryto]",
+          "data_publikacji": "2024-05-15",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "365442",
+          "sygnatura_sprawy": "RDF/598216/24/176",
+          "tresc_naglowka": "Poz. 365442. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n[RDF/598216/24/176]",
+          "nr_monitora": "92/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 25.04.2024 dokonano wpisu do rejestru KRS\nnr 80 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 4. OD 01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-05-13",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "365441",
+          "sygnatura_sprawy": "RDF/598216/24/775",
+          "tresc_naglowka": "Poz. 365441. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/598216/24/775]",
+          "nr_monitora": "92/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "X V. W P I S Y D O\n\nW dniu 25.04.2024 dokonano wpisu do rejestru KRS\nnr 79 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 3. OD 01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-05-13",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "365440",
+          "sygnatura_sprawy": "RDF/598216/24/374",
+          "tresc_naglowka": "Poz. 365440. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/598216/24/374]",
+          "nr_monitora": "92/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 25.04.2024 dokonano wpisu do rejestru KRS\n    nr 78 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 2. OD 01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-05-13",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "365439",
+          "sygnatura_sprawy": "RDF/598216/24/973",
+          "tresc_naglowka": "Poz. 365439. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/598216/24/973]",
+          "nr_monitora": "92/2024",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 25.04.2024 dokonano wpisu do rejestru KRS\n    nr 77 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 1. data złożenia 25.04.2024 okres OD\n    01.01.2023 DO 31.12.2023",
+          "data_publikacji": "2024-05-13",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "654391",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/11422/23/937",
+          "tresc_naglowka": "Poz. 654391. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n  0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n  do rejestru: 09.09.2003.\n  [SZ.XIII NS-REJ.KRS/11422/23/937]",
+          "nr_monitora": "138/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.06.2023 dokonano wpisu do rejestru KRS\n  nr 76 następującej treści:\n  Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RAD\n  NADZORCZA) PRub. Dane osób wchodzących\n  w skład organu wykreślić: 1 1. BORKOWSKI 2. ZDZISŁAW 3. [ukryto]",
+          "data_publikacji": "2023-07-19",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "390778",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/9097/23/346",
+          "tresc_naglowka": "Poz. 390778. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n  0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n  do rejestru: 09.09.2003.\n  [SZ.XIII NS-REJ.KRS/9097/23/346]",
+          "nr_monitora": "104/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 18.05.2023 dokonano wpisu do rejestru KRS\n  nr 75 następującej treści:\n  Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RADA\n  NADZORCZA) PRub. Dane osób wchodzących\n  w skład organu wykreślić: 1 1. POLASZ 2. DOROTA\n  3. [ukryto] 2 1. KACZMARCZYK 2. BOŻENNA\n  3. [ukryto] wpisać: 3 1. ŻARNOWSKA 2. KATARZYNA 3. [ukryto] 4 1. KEMPSKI 2. KRZYSZTOF\n  3. [ukryto] 5 1. JELONEK 2. WIESŁAWA MARIA\n  3. [ukryto]",
+          "data_publikacji": "2023-05-31",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "347685",
+          "sygnatura_sprawy": "RDF/485018/23/80",
+          "tresc_naglowka": "Poz. 347685. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n[RDF/485018/23/80]",
+          "nr_monitora": "93/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.05.2023 dokonano wpisu do rejestru KRS\nnr 74 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 4. OD 01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-05-16",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "347684",
+          "sygnatura_sprawy": "RDF/485018/23/679",
+          "tresc_naglowka": "Poz. 347684. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n[RDF/485018/23/679]",
+          "nr_monitora": "93/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.05.2023 dokonano wpisu do rejestru KRS\nnr 73 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 3. OD 01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-05-16",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "347683",
+          "sygnatura_sprawy": "RDF/485018/23/278",
+          "tresc_naglowka": "Poz. 347683. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n[RDF/485018/23/278]",
+          "nr_monitora": "93/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.05.2023 dokonano wpisu do rejestru KRS\nnr 72 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 2. OD 01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-05-16",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "347682",
+          "sygnatura_sprawy": "RDF/485018/23/877",
+          "tresc_naglowka": "Poz. 347682. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n[RDF/485018/23/877]",
+          "nr_monitora": "93/2023",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 04.05.2023 dokonano wpisu do rejestru KRS\nnr 71 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 04.05.2023 okres OD\n01.01.2022 DO 31.12.2022",
+          "data_publikacji": "2023-05-16",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "767653",
+          "sygnatura_sprawy": "RDF/419116/22/841",
+          "tresc_naglowka": "Poz. 767653. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/419116/22/841]",
+          "nr_monitora": "181/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 08.09.2022 dokonano wpisu do rejestru KRS\n    nr 70 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 4. OD 01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-09-19",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "767652",
+          "sygnatura_sprawy": "RDF/419116/22/440",
+          "tresc_naglowka": "Poz. 767652. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/419116/22/440]",
+          "nr_monitora": "181/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 08.09.2022 dokonano wpisu do rejestru KRS\n    nr 69 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 2. OD 01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-09-19",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "767651",
+          "sygnatura_sprawy": "RDF/419116/22/39",
+          "tresc_naglowka": "Poz. 767651. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n[RDF/419116/22/39]",
+          "nr_monitora": "181/2022",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "K R A J O W E G O R E J E S T R U S Ą D O W E G O\n\n    W dniu 08.09.2022 dokonano wpisu do rejestru KRS\n    nr 68 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 1. data złożenia 08.09.2022 okres OD\n    01.01.2021 DO 31.12.2021",
+          "data_publikacji": "2022-09-19",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "785385",
+          "sygnatura_sprawy": "RDF/330192/21/338",
+          "tresc_naglowka": "Poz. 785385. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n[RDF/330192/21/338]",
+          "nr_monitora": "187/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 16.09.2021 dokonano wpisu do rejestru KRS\nnr 67 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 4. OD 01.01.2020 DO 31.12.2020\n\n\n\n\n\n\n\n K R A J O W E G O R E J E S T R U S Ą D O W E G O",
+          "data_publikacji": "2021-09-27",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "785384",
+          "sygnatura_sprawy": "RDF/330192/21/937",
+          "tresc_naglowka": "Poz. 785384. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n[RDF/330192/21/937]",
+          "nr_monitora": "187/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 16.09.2021 dokonano wpisu do rejestru KRS\nnr 66 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 2. OD 01.01.2020 DO 31.12.2020",
+          "data_publikacji": "2021-09-27",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "785383",
+          "sygnatura_sprawy": "RDF/330191/21/225",
+          "tresc_naglowka": "Poz. 785383. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n[RDF/330191/21/225]",
+          "nr_monitora": "187/2021",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 16.09.2021 dokonano wpisu do rejestru KRS\nnr 65 następującej treści:\nDz. 3. Rub. 2. Wzmianki o złożonych dokumentach\nwpisać: 1 1. data złożenia 16.09.2021 okres OD\n01.01.2020 DO 31.12.2020",
+          "data_publikacji": "2021-09-27",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "1070087",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/18672/20/232",
+          "tresc_naglowka": "Poz. 1070087. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n    do rejestru: 09.09.2003.\n    [SZ.XIII NS-REJ.KRS/18672/20/232]",
+          "nr_monitora": "218/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 02.11.2020 dokonano wpisu do rejestru KRS\n    nr 64 następującej treści:\n    Dz. 1. Rub. 2. Siedziba i adres podmiotu wykreślić:\n    1. kraj POLSKA województwo ZACHODNIOPOMORSKIE powiat STARGARDZKI gmina STARGARD\n    miejscowość STARGARD wpisać: 1. kraj POLSKA\n    województwo ZACHODNIOPOMORSKIE powiat\n    STARGARDZKI gmina STARGARD miejscowość\n    STARGARD wykreślić: 2. miejscowość STARGARD\n    ulica OS. ZACHÓD nr domu A/7 kod pocztowy 73-110\n    poczta STARGARD kraj POLSKA wpisać: 2. miejscowość STARGARD ulica OSIEDLE ZACHÓD nr domu\n    A/7 kod pocztowy 73-110 poczta STARGARD kraj\n    POLSKA\n    Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RAD\n    NADZORCZA) PRub. Dane osób wchodzących\n    w skład organu wykreślić: 1 1. GNIAZDOWSKI\n    2. GRZEGORZ 3. [ukryto]",
+          "data_publikacji": "2020-11-06",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "759845",
+          "sygnatura_sprawy": "RDF/240254/20/613",
+          "tresc_naglowka": "Poz. 759845. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n   0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n   [RDF/240254/20/613]",
+          "nr_monitora": "190/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 17.09.2020 dokonano wpisu do rejestru KRS\n   nr 63 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 4. OD 01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-09-29",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "759844",
+          "sygnatura_sprawy": "RDF/240246/20/362",
+          "tresc_naglowka": "Poz. 759844. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n   0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n   [RDF/240246/20/362]",
+          "nr_monitora": "190/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 17.09.2020 dokonano wpisu do rejestru KRS\n   nr 62 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 2. OD 01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-09-29",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "759843",
+          "sygnatura_sprawy": "RDF/240246/20/961",
+          "tresc_naglowka": "Poz. 759843. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n   0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n   [RDF/240246/20/961]",
+          "nr_monitora": "190/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 17.09.2020 dokonano wpisu do rejestru KRS\n   nr 61 następującej treści:\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 1. data złożenia 17.09.2020 okres OD\n   01.01.2019 DO 31.12.2019",
+          "data_publikacji": "2020-09-29",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "603960",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/12044/20/39",
+          "tresc_naglowka": "Poz. 603960. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 09.09.2003.\n[SZ.XIII NS-REJ.KRS/12044/20/39]",
+          "nr_monitora": "177/2020",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 28.07.2020 dokonano wpisu do rejestru KRS\nnr 60 następującej treści:\nDz. 3. Rub. 1. Przedmiot działalności wpisać: 1 1.\n32 Z ZARZĄDZANIE NIERUCHOMOŚCIAMI WYKONYWANE NA ZLECENIE 1 2. 41 10 Z REALIZACJA\nPROJEKTÓW BUDOWLANYCH ZWIĄZANYCH ZE\nWZNOSZENIEM BUDYNKÓW 2 2. 68 10 Z KUPNO\nI SPRZEDAŻ NIERUCHOMOŚCI NA WŁASNY\nRACHUNEK 3 2. 68 20 Z WYNAJEM I ZARZĄDZANIE\nNIERUCHOMOŚCIAMI WŁASNYMI LUB DZIERŻAWIONYMI 4 2. 68 32 Z ZARZĄDZANIE NIERUCHOMOŚCIAMI WYKONYWANE NA ZLECENIE 5 2. 90\n04 Z DZIAŁALNOŚĆ OBIEKTÓW KULTURALNYCH\n6 2. 93 29 Z POZOSTAŁA DZIAŁALNOŚĆ ROZRYWKOWA I REKREACYJNA 7 2. 94 99 Z DZIAŁALNOŚĆ\nPOZOSTAŁYCH ORGANIZACJI CZŁONKOWSKICH,\nGDZIE INDZIEJ NIESKLASYFIKOWANA wykreślić:\n8 2. 70 32 ZARZĄDZANIE NIERUCHOMOŚCIAMI\nNA ZLECENIE",
+          "data_publikacji": "2020-09-10",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "498131",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/11209/19/917",
+          "tresc_naglowka": "Poz. 498131. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 09.09.2003.\n[SZ.XIII NS-REJ.KRS/11209/19/917]",
+          "nr_monitora": "125/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 25.06.2019 dokonano wpisu do rejestru KRS\nnr 59 następującej treści:\nDz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji:\n1. RADA NADZORCZA) PRub. Dane osób wchodzących w skład organu wykreślić: 1 1. DOBROWOLSKI 2. ANDRZEJ 3. [ukryto] 2 1. LISIAK\n2. JACEK 3. [ukryto] 3 1. RUDNICKI 2. BARTOSZ 3. [ukryto] 4 1. MIERZYŃSKI 2. JAN\n3. [ukryto] 5 1. KOPKA 2. JANINA 3. [ukryto]\n6 1. CHŁOPIŃSKA 2. EWELINA 3. [ukryto]\n7 1. FORDOŃSKI 2. TADEUSZ 3. [ukryto]\n8 1. NAGOWSKA 2. KATARZYNA 3. [ukryto]\n9 1. NAWROLSKA 2. JANINA 3. [ukryto] 10\n1. SOŁTYSZEWSKI 2. JAN ANDRZEJ 3. [ukryto]\nwpisać: 11 1. BUŁAWA 2. BEATA TERESA\n3. [ukryto] 12 1. ROBASZKO 2. KRYSTYNA\nMAŁGORZATA 3. [ukryto] 13 1. WIĄCEK\n2. GRZEGORZ 3. [ukryto] 14 1. GNIAZDOWSKI 2. GRZEGORZ 3. [ukryto] 15 1. ROMANOWSKI 2. ANDRZEJ JANUSZ 3. [ukryto]\n16 1. TARNOWSKA 2. HENRYKA ZDZISŁAWA\n\n\n\n\n\n K R A J O W E G O R E J E S T R U S Ą D O W E G O\n\n   3. [ukryto] 17 1. SIEROŃ 2. DOROTA URSZULA\n   3. [ukryto] 18 1. KOSTKIEWICZ 2. JERZY BRUNON 3. [ukryto] 19 1. SYPNIEWSKI 2. GRZEGORZ TOMASZ 3. [ukryto] 20 1. KARPIŃSKA\n   2. IWONA BOGUSŁAWA 3. [ukryto] 21 1. BORKOWSKI 2. ZDZISŁAW 3. [ukryto] 22 1. KUŹMA\n   2. AGNIESZKA CECYLIA 3. [ukryto]",
+          "data_publikacji": "2019-07-01",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "295137",
+          "sygnatura_sprawy": "RDF/111287/19/606",
+          "tresc_naglowka": "Poz. 295137. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/111287/19/606]",
+          "nr_monitora": "94/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 09.05.2019 dokonano wpisu do rejestru KRS\nA   nr 58 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 1. data złożenia 09.05.2019 okres OD\n    01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-05-16",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "295136",
+          "sygnatura_sprawy": "RDF/111278/19/430",
+          "tresc_naglowka": "Poz. 295136. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/111278/19/430]",
+          "nr_monitora": "94/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 09.05.2019 dokonano wpisu do rejestru KRS\n    nr 57 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 4. OD 01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-05-16",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "295135",
+          "sygnatura_sprawy": "RDF/111278/19/29",
+          "tresc_naglowka": "Poz. 295135. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/111278/19/29]",
+          "nr_monitora": "94/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 09.05.2019 dokonano wpisu do rejestru KRS\n    nr 56 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 3. OD 01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-05-16",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "295134",
+          "sygnatura_sprawy": "RDF/111278/19/628",
+          "tresc_naglowka": "Poz. 295134. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n    [RDF/111278/19/628]",
+          "nr_monitora": "94/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 09.05.2019 dokonano wpisu do rejestru KRS\n    nr 55 następującej treści:\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 2. OD 01.01.2018 DO 31.12.2018",
+          "data_publikacji": "2019-05-16",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "59422",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/282/19/600",
+          "tresc_naglowka": "Poz. 59422. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n     0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n     do rejestru: 09.09.2003.\n     [SZ.XIII NS-REJ.KRS/282/19/600]",
+          "nr_monitora": "27/2019",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 31.01.2019 dokonano wpisu do rejestru KRS\n     nr 54 następującej treści:\n     Dz. 1. Rub. 2. Siedziba i adres podmiotu wykreślić:\n     1. kraj POLSKA województwo ZACHODNIOPOMORSKIE powiat STARGARDZKI gmina STARGARD\n     miejscowość STARGARD wpisać: 1. kraj POLSKA\n     województwo ZACHODNIOPOMORSKIE powiat\n     STARGARDZKI gmina STARGARD miejscowość\n     STARGARD wykreślić: 2. miejscowość STARGARD\n     ulica OSIEDLE ZACHÓD nr domu A/7 kod pocztowy\n     73-110 poczta STARGARD kraj POLSKA wpisać:\n     2. miejscowość STARGARD ulica OS. ZACHÓD\n     nr domu A/7 kod pocztowy 73-110 poczta STARGARD kraj POLSKA\n     Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RADA\n     NADZORCZA) PRub. Dane osób wchodzących\n     w skład organu wykreślić: 1 1. LEYK 2. IZABELA\n     3. [ukryto] 2 1. DUDKIEWICZ 2. KRYSTYNA\n     3. [ukryto]",
+          "data_publikacji": "2019-02-07",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "1072823",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/10823/18/685",
+          "tresc_naglowka": "Poz. 1072823. SPÓŁDZIELNIA MIESZKANIOWA.\n    KRS 0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n    do rejestru: 09.09.2003.\n    [SZ.XIII NS-REJ.KRS/10823/18/685]",
+          "nr_monitora": "223/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 05.10.2018 dokonano wpisu do rejestru KRS\n    nr 53 następującej treści:\n    Dz. 1. Rub. 2. Siedziba i adres podmiotu wykreśli\n    1. kraj POLSKA województwo ZACHODNIOPOMORSKIE powiat STARGARDZKI gmina STARGARD\n    miejscowość STARGARD wpisać: 1. kraj POLSKA\n    województwo ZACHODNIOPOMORSKIE powiat\n    STARGARDZKI gmina STARGARD miejscowość\n    STARGARD wykreślić: 2. miejscowość STARGARD\n    ulica OSIEDLE ZACHÓD nr domu A/7 kod pocztowy\n    73-110 poczta STARGARD kraj POLSKA wpisać:\n    2. miejscowość STARGARD ulica OSIEDLE ZACHÓD\n    nr domu A/7 kod pocztowy 73-110 poczta STARGARD kraj POLSKA\n    Rub. 4. Informacje o statucie wpisać: 1 1. 12 MAJ\n    2018 R. - UCHWALONO STATUT W NOWYM\n    BRZMIENIU",
+          "data_publikacji": "2018-11-19",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "206241",
+          "sygnatura_sprawy": "RDF/72043/18/703",
+          "tresc_naglowka": "Poz. 206241. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n  0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n  [RDF/72043/18/703]",
+          "nr_monitora": "120/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 22.05.2018 dokonano wpisu do rejestru KRS\n  nr 52 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 4. OD 01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2018-06-22",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "206240",
+          "sygnatura_sprawy": "RDF/72042/18/302",
+          "tresc_naglowka": "Poz. 206240. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n  0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n  [RDF/72042/18/302]",
+          "nr_monitora": "120/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 22.05.2018 dokonano wpisu do rejestru KRS\n  nr 51 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 3. OD 01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2018-06-22",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "206239",
+          "sygnatura_sprawy": "RDF/72041/18/901",
+          "tresc_naglowka": "Poz. 206239. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n  0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n  [RDF/72041/18/901]",
+          "nr_monitora": "120/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 22.05.2018 dokonano wpisu do rejestru KRS\n  nr 50 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 2. OD 01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2018-06-22",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "206238",
+          "sygnatura_sprawy": "RDF/72040/18/500",
+          "tresc_naglowka": "Poz. 206238. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n  0000166742. SYSTEM, wpis do rejestru: 09.09.2003.\n  [RDF/72040/18/500]",
+          "nr_monitora": "120/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 22.05.2018 dokonano wpisu do rejestru KRS\n  nr 49 następującej treści:\n  Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n  wpisać: 1 1. data złożenia 22.05.2018 okres OD\n  01.01.2017 DO 31.12.2017",
+          "data_publikacji": "2018-06-22",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Zmiana formalna"
+        },
+        {
+          "numer_ogloszenia": "40175",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/18931/17/870",
+          "tresc_naglowka": "Poz. 40175. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\ndo rejestru: 09.09.2003.\n[SZ.XIII NS-REJ.KRS/18931/17/870]",
+          "nr_monitora": "30/2018",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 05.02.2018 dokonano wpisu do rejestru KRS\nnr 47 następującej treści:\nDz. 1. Rub. 4. Informacje o statucie wpisać:\n\n\n\n\n\n K R A J O W E G O R E J E S T R U S Ą D O W E G O\n\n   1 1. UCHWAŁA WALNEGO ZGROMADZENIA NR\n   7/2017 Z 10 CZERWCA 2017 R. O PRZYJĘCIU\n   NOWEGO TEKSTU STATUTU.\n   Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RA\n   NADZORCZA) PRub. Dane osób wchodzących\n   w skład organu wpisać: 1 1. DUDKIEWICZ 2. KRYSTYNA 3. [ukryto]\n   Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n   wpisać: 1 1. data złożenia 19.06.2017 okres OD\n   01.01.2016 DO 31.12.2016 1 2. OD 01.01.2016 DO\n   31.12.2016 1 3. OD 01.01.2016 DO 31.12.2016 1 4. O\n   01.01.2016 DO 31.12.2016",
+          "data_publikacji": "2018-02-12",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "243235",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/913/17/455",
+          "tresc_naglowka": "Poz. 243235. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n     0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n     do rejestru: 09.09.2003.\n     [SZ.XIII NS-REJ.KRS/913/17/455]",
+          "nr_monitora": "158/2017",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 26.07.2017 dokonano wpisu do rejestru KRS\n     nr 46 następującej treści:\n     Dz. 1. Rub. 2. Siedziba i adres podmiotu wykreślić:\n     1. kraj POLSKA województwo ZACHODNIOPOMORSKIE powiat STARGARDZKI gmina STARGARD\n     miejscowość STARGARD wpisać: 1. kraj POLSKA\n     województwo ZACHODNIOPOMORSKIE powiat\n     STARGARDZKI gmina STARGARD miejscowość\n     STARGARD wykreślić: 2. miejscowość STARGARD\n     ulica OSIEDLE ZACHÓD nr domu A/7 kod pocztowy\n     73-110 poczta STARGARD kraj POLSKA wpisać:\n     2. miejscowość STARGARD ulica OSIEDLE ZACHÓD\n     nr domu A/7 kod pocztowy 73-110 poczta STARGARD kraj POLSKA\nA    Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RAD\n     NADZORCZA) PRub. Dane osób wchodzących\n     w skład organu wykreślić: 1 1. ZIEMIĘCKI 2. JERZY\n     3. [ukryto]",
+          "data_publikacji": "2017-08-17",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "246025",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/4192/16/95",
+          "tresc_naglowka": "Poz. 246025. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n    0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n    do rejestru: 09.09.2003.\n    [SZ.XIII NS-REJ.KRS/4192/16/95]",
+          "nr_monitora": "160/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 11.08.2016 dokonano wpisu do rejestru KRS\n    nr 45 następującej treści:\n    Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RAD\n    NADZORCZA) PRub. Dane osób wchodzących\n    w skład organu wykreślić: 1 1. TARNOWSKA\n    2. HENRYKA 3. [ukryto] 2 1. KUBIK 2. ALICJA\n    3. [ukryto] wpisać: 3 1. POLASZ 2. DOROTA\n    3. [ukryto] 4 1. KACZMARCZYK 2. BOŻENNA\n    3. [ukryto] 5 1. LEYK 2. IZABELA 3. [ukryto]\n    Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n    wpisać: 1 1. data złożenia 11.04.2016 okres OD\n    01.01.2015 DO 31.12.2015 1 2. OD 01.01.2015 DO\n    31.12.2015 1 3. OD 01.01.2015 DO 31.12.2015 1 4. OD\n    01.01.2015 DO 31.12.2015",
+          "data_publikacji": "2016-08-19",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "244378",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/2104/16/866",
+          "tresc_naglowka": "Poz. 244378. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n     0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n     do rejestru: 09.09.2003.\n     [SZ.XIII NS-REJ.KRS/2104/16/866]",
+          "nr_monitora": "159/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 10.08.2016 dokonano wpisu do rejestru KRS\n     nr 44 następującej treści:\n     Dz. 1. Rub. 2. Siedziba i adres podmiotu wykreślić:\n     1. kraj POLSKA województwo ZACHODNIOPOMORSKIE powiat STARGARDZKI gmina STARGARD\n     SZCZECIŃSKI miejscowość STARGARD SZCZECIŃSKI wpisać: 1. kraj POLSKA województwo\n     ZACHODNIOPOMORSKIE powiat STARGARDZKI\n     gmina STARGARD miejscowość STARGARD\n     wykreślić: 2. miejscowość STARGARD SZCZECIŃSKI ulica OSIEDLE ZACHÓD nr domu A/7 kod\n     pocztowy 73-110 poczta STARGARD SZCZECIŃSKI\n     kraj POLSKA wpisać: 2. miejscowość STARGARD\n     ulica OSIEDLE ZACHÓD nr domu A/7 kod pocztowy\n     73-110 poczta STARGARD kraj POLSKA\nO    Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RADA\n     NADZORCZA) PRub. Dane osób wchodzących\n     w skład organu wykreślić: 1 1. WÓJCIK 2. JANUSZ\n     3. [ukryto]",
+          "data_publikacji": "2016-08-18",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        },
+        {
+          "numer_ogloszenia": "3436",
+          "sygnatura_sprawy": "SZ.XIII NS-REJ.KRS/7924/15/668",
+          "tresc_naglowka": "Poz. 3436. SPÓŁDZIELNIA MIESZKANIOWA. KRS\n      0000166742. SĄD REJONOWY SZCZECIN-CENTRUM W SZCZECINIE, XIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO, wpis\n      do rejestru: 09.09.2003.\n      [SZ.XIII NS-REJ.KRS/7924/15/668]",
+          "nr_monitora": "4/2016",
+          "rozdzial": "XV. WPISY DO KRAJOWEGO REJESTRU SĄDOWEGO/2. Wpisy kolejne",
+          "tresc_ogloszenia": "W dniu 30.12.2015 dokonano wpisu do rejestru KRS\n      nr 43 następującej treści:\n      Dz. 2. Rub. 2. Organ nadzoru 1 (dla pozycji: 1. RA\n      NADZORCZA) PRub. Dane osób wchodzących\n      w skład organu wpisać: 1 1. ZIEMIĘCKI 2. JERZY\n      3. [ukryto]\n\n\n\n\n\n\n\n     Dz. 3. Rub. 2. Wzmianki o złożonych dokumentach\n     wpisać: 1 1. data złożenia 22.06.2015 okres OD\n     01.01.2014 DO 31.12.2014 1 2. OD 01.01.2014 DO\n     31.12.2014 1 3. OD 01.01.2014 DO 31.12.2014 1 4. OD\n     01.01.2014 DO 31.12.2014",
+          "data_publikacji": "2016-01-08",
+          "nazwa_podmiotu": "SPÓŁDZIELNIA MIESZKANIOWA.",
+          "poziom_istotnosci": "Rzuć okiem"
+        }
+      ],
+      "krz": null,
+      "historia_sprawozdan": [
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "termin_zlozenia": "15-07-2026",
+          "data_dodania_do_krs": "05-05-2026"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "termin_zlozenia": "15-07-2025",
+          "data_dodania_do_krs": "07-05-2025"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "termin_zlozenia": "15-07-2024",
+          "data_dodania_do_krs": "25-04-2024"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "termin_zlozenia": "15-07-2023",
+          "data_dodania_do_krs": "04-05-2023"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "termin_zlozenia": "15-10-2022",
+          "data_dodania_do_krs": "08-09-2022"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "termin_zlozenia": "15-10-2021",
+          "data_dodania_do_krs": "16-09-2021"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "termin_zlozenia": "15-10-2020",
+          "data_dodania_do_krs": "17-09-2020"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "termin_zlozenia": "15-07-2019",
+          "data_dodania_do_krs": "09-05-2019"
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "termin_zlozenia": "15-07-2018",
+          "data_dodania_do_krs": "22-05-2018"
+        }
+      ],
+      "pozycja_na_tle_branzy": [
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.4383
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.3643
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9578
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9802,
+          "udzial_w_rynku": 0.003,
+          "przychody_calej_branzy": 27434036513.89,
+          "liczba_firm_w_branzy": 2984
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.5873
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.5285
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9528
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9688
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.5352
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2025_31-12-2025",
+          "rok": 2025,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9622
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5201
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.4543
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9625
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9828,
+          "udzial_w_rynku": 0.0027,
+          "przychody_calej_branzy": 27587925658.52,
+          "liczba_firm_w_branzy": 3604
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.5962
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.5339
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9612
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9732
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.5334
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2024_31-12-2024",
+          "rok": 2024,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9698
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5779
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.4758
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9767
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9828,
+          "udzial_w_rynku": 0.0027,
+          "przychody_calej_branzy": 25912038466.96,
+          "liczba_firm_w_branzy": 3770
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.6089
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.5816
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.963
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9752
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.4912
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2023_31-12-2023",
+          "rok": 2023,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9798
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.6125
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.6003
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9879
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9873,
+          "udzial_w_rynku": 0.0032,
+          "przychody_calej_branzy": 22875880249.26,
+          "liczba_firm_w_branzy": 3701
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.6962
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.6433
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9706
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9776
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.5457
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2022_31-12-2022",
+          "rok": 2022,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9865
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.4246
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.4292
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9352
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9876,
+          "udzial_w_rynku": 0.0036,
+          "przychody_calej_branzy": 19072711952.89,
+          "liczba_firm_w_branzy": 3631
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.532
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.4479
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9749
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9746
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.6364
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2021_31-12-2021",
+          "rok": 2021,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9458
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.4618
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.4646
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9395
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9787,
+          "udzial_w_rynku": 0.0029,
+          "przychody_calej_branzy": 17189935107.32,
+          "liczba_firm_w_branzy": 3574
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.4656
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.501
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9623
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9703
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.4045
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2020_31-12-2020",
+          "rok": 2020,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9518
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.5697
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.497
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9481
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9763,
+          "udzial_w_rynku": 0.0027,
+          "przychody_calej_branzy": 16944140395.41,
+          "liczba_firm_w_branzy": 3540
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.6327
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.5392
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9623
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9712
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.4102
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2019_31-12-2019",
+          "rok": 2019,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9626
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.503
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.4968
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9374
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9764,
+          "udzial_w_rynku": 0.0003,
+          "przychody_calej_branzy": 167829142398.63,
+          "liczba_firm_w_branzy": 3472
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.5115
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.5497
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9639
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9714
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.4354
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2018_31-12-2018",
+          "rok": 2018,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9589
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "marza_netto",
+          "percentyl_w_pkd": 0.6022
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "marza_operacyjna",
+          "percentyl_w_pkd": 0.5096
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "podatek_dochodowy",
+          "percentyl_w_pkd": 0.9437
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "przychody",
+          "percentyl_w_pkd": 0.9759,
+          "udzial_w_rynku": 0.0003,
+          "przychody_calej_branzy": 171300855937.48,
+          "liczba_firm_w_branzy": 3240
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "roa",
+          "percentyl_w_pkd": 0.538
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "roe",
+          "percentyl_w_pkd": 0.5783
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "suma_bilansowa",
+          "percentyl_w_pkd": 0.9657
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "wartosc_firmy_srednia",
+          "percentyl_w_pkd": 0.9695
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "wskaznik_zadluzenia",
+          "percentyl_w_pkd": 0.4818
+        },
+        {
+          "okres_sprawozdawczy": "01-01-2017_31-12-2017",
+          "rok": 2017,
+          "nazwa_wskaznika": "zysk_netto",
+          "percentyl_w_pkd": 0.9606
+        }
+      ]
+    }
+  ]
+}

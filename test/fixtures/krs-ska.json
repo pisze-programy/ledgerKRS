@@ -1,0 +1,219 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000781241",
+      "dataCzasOdpisu": "22.08.2026 02:12:17",
+      "stanZDnia": "03.12.2025",
+      "dataRejestracjiWKRS": "17.05.2019",
+      "numerOstatniegoWpisu": 11,
+      "dataOstatniegoWpisu": "28.10.2025",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "RDF/806944/25/590",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SYSTEM",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA KOMANDYTOWO-AKCYJNA",
+          "identyfikatory": {
+            "regon": "38339333300000",
+            "nip": "7543224368"
+          },
+          "nazwa": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWO-AKCYJNA",
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "OPOLSKIE",
+            "powiat": "OPOLE",
+            "gmina": "OPOLE",
+            "miejscowosc": "OPOLE"
+          },
+          "adres": {
+            "ulica": "OZIMSKA",
+            "nrDomu": "184",
+            "nrLokalu": "11",
+            "miejscowosc": "OPOLE",
+            "kodPocztowy": "45-310",
+            "poczta": "OPOLE",
+            "kraj": "POLSKA"
+          }
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "04.03.2019R. REP. A NR 786/2019, NOTARIUSZ ALEKSANDRA FELCENLOBEN, KANCELARIA NOTARIALNA W KĘDZIERZYNIE-KOŹLU\nANEKS DO STATUTU SPÓŁKI Z DNIA 10.05.2019R. REP. A NR 891/2019, NOTARIUSZ BARBARA SOTOR, KANCELARIA NOTARIALNA W KRAPKOWICACH, SKREŚLONO: § 8 UST. 10, § 8 UST. 11, § 9 UST. 13, ZMIENIONO § 19 UST. 14 STATUTU SPÓŁKI"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "czyObligatoriuszeMajaPrawoDoUdzialuWZysku": false
+        },
+        "wspolnicyPartnerzy": [
+          {
+            "nazwa": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+            "identyfikator": {
+              "regon": "38236704900000"
+            },
+            "krs": {
+              "krs": "0000767654"
+            }
+          }
+        ],
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "50000,00",
+            "waluta": "PLN"
+          },
+          "lacznaLiczbaAkcjiUdzialow": "500",
+          "wartoscJednejAkcji": {
+            "wartosc": "100,00",
+            "waluta": "PLN"
+          },
+          "czescKapitaluWplaconegoPokrytego": {
+            "wartosc": "50000,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {}
+        },
+        "emisjeAkcji": [
+          {
+            "nazwaSeriiAkcji": "A",
+            "liczbaAkcjiWSerii": "500",
+            "czyAkcjeUprzywilejowaneLiczbaAkcjiRodzajUprzywilejowania": "AKCJE NIE SĄ UPRZYWILEJOWANE"
+          }
+        ]
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "sposobReprezentacji": "UPRAWNIONYM DO REPREZENTACJI SPÓŁKI JEST KOMPLEMENTARIUSZ.",
+          "sklad": [
+            {
+              "nazwa": "Q SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+              "imiona": {},
+              "identyfikator": {
+                "regon": "38236704900000"
+              },
+              "krs": {
+                "krs": "0000767654"
+              }
+            }
+          ]
+        }
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "POZOSTAŁE SPECJALISTYCZNE ROBOTY BUDOWLANE, GDZIE INDZIEJ NIESKLASYFIKOWANE",
+              "kodDzial": "43",
+              "kodKlasa": "99",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "ROBOTY ZWIĄZANE Z BUDOWĄ RUROCIĄGÓW PRZESYŁOWYCH I SIECI ROZDZIELCZYCH",
+              "kodDzial": "42",
+              "kodKlasa": "21",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRZYGOTOWANIE TERENU POD BUDOWĘ",
+              "kodDzial": "43",
+              "kodKlasa": "12",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "WYKONYWANIE POZOSTAŁYCH INSTALACJI BUDOWLANYCH",
+              "kodDzial": "43",
+              "kodKlasa": "29",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "ROBOTY ZWIĄZANE Z BUDOWĄ POZOSTAŁYCH OBIEKTÓW INŻYNIERII LĄDOWEJ I WODNEJ, GDZIE INDZIEJ NIESKLASYFIKOWANE",
+              "kodDzial": "42",
+              "kodKlasa": "99",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "HOTELE I PODOBNE OBIEKTY ZAKWATEROWANIA",
+              "kodDzial": "55",
+              "kodKlasa": "10",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "POZOSTAŁE ZAKWATEROWANIE",
+              "kodDzial": "55",
+              "kodKlasa": "90",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "TRANSPORT DROGOWY TOWARÓW",
+              "kodDzial": "49",
+              "kodKlasa": "41",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ FIRM CENTRALNYCH (HEAD OFFICES) I HOLDINGÓW, Z WYŁĄCZENIEM HOLDINGÓW FINANSOWYCH",
+              "kodDzial": "70",
+              "kodKlasa": "10",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ USŁUGOWA ZWIĄZANA Z ADMINISTRACYJNĄ OBSŁUGĄ BIURA",
+              "kodDzial": "82",
+              "kodKlasa": "11",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "11.03.2021",
+              "zaOkresOdDo": "OD 17.05.2019 DO 31.12.2019"
+            },
+            {
+              "dataZlozenia": "12.11.2023",
+              "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020"
+            },
+            {
+              "dataZlozenia": "12.11.2023",
+              "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021"
+            },
+            {
+              "dataZlozenia": "28.10.2025",
+              "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023"
+            },
+            {
+              "dataZlozenia": "28.10.2025",
+              "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 17.05.2019 DO 31.12.2019"
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "zaOkresOdDo": "OD 17.05.2019 DO 31.12.2019"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2019"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {}
+    }
+  }
+}

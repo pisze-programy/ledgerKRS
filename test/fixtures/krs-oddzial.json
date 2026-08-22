@@ -1,0 +1,152 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0001207691",
+      "dataCzasOdpisu": "22.08.2026 02:12:17",
+      "stanZDnia": "11.03.2026",
+      "dataRejestracjiWKRS": "26.11.2025",
+      "numerOstatniegoWpisu": 5,
+      "dataOstatniegoWpisu": "11.03.2026",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "WA.XII NS-REJ.KRS/15938/26/462",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SĄD REJONOWY DLA M.ST. WARSZAWY W WARSZAWIE, XII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotuZagranicznego": {
+          "formaPrawna": "ODDZIAŁ ZAGRANICZNEGO PRZEDSIĘBIORCY",
+          "identyfikatory": {
+            "regon": "54334787800000",
+            "nip": "1080029241"
+          },
+          "nazwa": "KPHG (HOLLAND) COÖPERATIEF U.A. (SPÓŁDZIELNIA) ODDZIAŁ W POLSCE",
+          "nazwaFormaPrawnaPrzedsiebiorcyZagranicznego": "KPHG (HOLLAND) COÖPERATIEF U.A. COÖPERATIEF",
+          "innyRejestr": "REJESTR PRZEDSIĘBIORCÓW HOLENDERSKIEJ IZBY HANDLOWEJ, 98536273, HOLENDERSKA IZBA HANDLOWA",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdresPodmiotuZagranicznego": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "MAZOWIECKIE",
+            "powiat": "WARSZAWA",
+            "gmina": "WARSZAWA",
+            "miejscowosc": "WARSZAWA"
+          },
+          "adres": {
+            "ulica": "UL. SIENNA",
+            "nrDomu": "39",
+            "nrLokalu": "XV P.",
+            "miejscowosc": "WARSZAWA",
+            "kodPocztowy": "00-121",
+            "poczta": "WARSZAWA",
+            "kraj": "POLSKA"
+          },
+          "siedzibaIAdresZakladuGlownego": {
+            "kraj": "NIDERLANDY",
+            "wojewodztwo": "GMINA",
+            "miejscowosc": "AMSTERDAM",
+            "ulica": "HERRENGRACHT",
+            "nrDomu": "420",
+            "kodPocztowy": "1017BZ",
+            "poczta": "AMSTERDAM"
+          },
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-23487-97229-IJBVV-10"
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "KASPER SCOTT REINBACHER JEST UPRAWNIONY DO ŁĄCZNEGO DZIAŁANIA WRAZ Z INNYM CZŁONKIEM ZARZĄDU (INNYMI CZŁONKAMI ZARZĄDU), ZHAOKUN CUI JEST UPRAWNIONA DO JEDNOOSOBOWEGO/SAMODZIELNEGO DZIAŁANIA.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "R*********"
+              },
+              "imiona": {
+                "imie": "K*****",
+                "imieDrugie": "S****"
+              },
+              "identyfikator": {
+                "dataUrodzenia": "24.01.1974"
+              },
+              "funkcjaWOrganie": "NIET-UITVOEREND BESTUURDER"
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "C**"
+              },
+              "imiona": {
+                "imie": "Z******"
+              },
+              "identyfikator": {
+                "dataUrodzenia": "26.06.1978"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU"
+            }
+          ]
+        },
+        "osobyReprezentujacePZ": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "R*********"
+            },
+            "imiona": {
+              "imie": "K*****",
+              "imieDrugie": "S****"
+            },
+            "identyfikator": {
+              "dataUrodzenia": "24.01.1974"
+            }
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "TRANSPORT DROGOWY TOWARÓW",
+              "kodDzial": "49",
+              "kodKlasa": "41",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "DZIAŁALNOŚĆ AGENTÓW ZAJMUJĄCYCH SIĘ SPRZEDAŻĄ HURTOWĄ POZOSTAŁYCH PŁODÓW ROLNYCH, ŻYWYCH ZWIERZĄT, SUROWCÓW DLA PRZEMYSŁU TEKSTYLNEGO I PÓŁPRODUKTÓW",
+              "kodDzial": "46",
+              "kodKlasa": "11",
+              "kodPodklasa": "B"
+            },
+            {
+              "opis": "DZIAŁALNOŚĆ AGENTÓW ZAJMUJĄCYCH SIĘ SPRZEDAŻĄ HURTOWĄ WYROBÓW TEKSTYLNYCH, ODZIEŻY, WYROBÓW FUTRZARSKICH, OBUWIA I ARTYKUŁÓW SKÓRZANYCH",
+              "kodDzial": "46",
+              "kodKlasa": "16",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ HURTOWA SKÓR",
+              "kodDzial": "46",
+              "kodKlasa": "24",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "SPRZEDAŻ DETALICZNA OBUWIA I WYROBÓW SKÓRZANYCH",
+              "kodDzial": "47",
+              "kodKlasa": "72",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2025"
+        }
+      },
+      "dzial4": {},
+      "dzial6": {}
+    }
+  }
+}

@@ -233,6 +233,26 @@ Op letters and CONNER-type definitions), plus a few ratios. These are data
 definition differences, not parser bugs. Fixing `przychody` per layout is the
 next refinement; old-schema Op needs its per-version dictionary.
 
+### Expanded sample (40 random companies, complete run)
+
+With the chain v2 + BizRaport definitions and batching (merge/resume), a
+**40-company** full run gives **92% exact match** (4116/4495 rows,
+2018–2025; `only_theirs`/`only_ours` = 0).
+
+| Group | Rows | Match % |
+|---|---|---|
+| LEGACY | 403 | 95% |
+| New — JednostkaInna | 446 | 96% |
+| New — JednostkaMala | 368 | 97% |
+| New — JednostkaMikro | 137 | 85% |
+| New — JednostkaOp | 430 | 83% |
+
+Remaining ~8% is dominated by: `przychody` line definition (BizRaport's
+choice is per-company/per-year inconsistent), a few document version/
+correction differences (we may pick a different filing), unit/rounding quirks
+for very small companies, and the old-schema Op statutory RZiS. These are
+data-definition/version issues, not parser structure bugs.
+
 ## How to run (needs a fresh RDF cookie + a fresh BizRaport account)
 
 ```bash

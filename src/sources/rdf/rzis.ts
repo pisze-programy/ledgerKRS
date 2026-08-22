@@ -98,7 +98,7 @@ export function chainFromCodes(codes: Record<string, number | null>): RzisRoles 
   if (zyskNetto !== null) {
     let foundB: string | null = null;
     let foundT: string | null = null;
-    for (let i = letters.length - 2; i >= 0; i -= 1) {
+    for (let i = letters.length - 2; i > start + 1; i -= 1) {
       const b = letters[i]!;
       const bv = v(b);
       if (bv === null) {

@@ -32,6 +32,11 @@ export function createApp(deps: ApiDeps): OpenAPIHono<AppEnv> {
     info: { title: "raporty-firmowe API", version: "0.1.0" },
   });
 
+  app.onError((error, c) => {
+    console.error(error);
+    return c.json({ error: error instanceof Error ? error.message : String(error) }, 500);
+  });
+
   app.get("/health", (c) => c.json({ status: "ok" }));
   app.get("/mcp", () => handleMcpGet());
   app.post("/mcp", async (c) => {

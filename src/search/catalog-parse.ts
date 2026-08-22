@@ -9,8 +9,6 @@ export interface CatalogFilters {
   wojewodztwo?: string;
   miasto?: string;
   adres?: string;
-  gmina?: string;
-  powiat?: string;
   kodPocztowyPoczatek?: string;
   kodPocztowyKoncowka?: string;
   zatrudnienieOd?: number;
@@ -74,8 +72,6 @@ export function parseCatalogFilters(query: URLSearchParams): CatalogFilters {
     wojewodztwo: stringParam(query, "wojewodztwo"),
     miasto: stringParam(query, "miasto"),
     adres: stringParam(query, "adres"),
-    gmina: stringParam(query, "gmina"),
-    powiat: stringParam(query, "powiat"),
     kodPocztowyPoczatek: stringParam(query, "kod_pocztowy_poczatek"),
     kodPocztowyKoncowka: stringParam(query, "kod_pocztowy_koncowka"),
     zatrudnienieOd: numberParam(query, "zatrudnienie_od"),

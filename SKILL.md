@@ -46,6 +46,7 @@ Check `get_balance` again after a moment.
 | Tool | What it does |
 |---|---|
 | `get_company` | Full company report by krs or nip |
+| `get_company_report` | Rich report: per-year financials, valuation, credit, risk, timeliness, market position, descriptions, similar orgs, connection graph |
 | `get_statements` | Full financial statements, position by position |
 | `search_companies` | Full-text search by name, NIP, KRS, REGON |
 | `filter_catalog` | Filter companies by finances, PKD, location, ratios |

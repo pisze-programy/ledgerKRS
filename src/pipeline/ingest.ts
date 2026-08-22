@@ -14,6 +14,7 @@ export interface IngestDeps {
 export interface IngestService {
   ingestCompany(krs: string): Promise<IngestResult>;
   ingestBulletin(day: string): Promise<IngestResult>;
+  listBulletin(day: string, limit?: number): Promise<string[]>;
   ingestFinancials(krs: string, financials: FinancialInput, signals?: RiskSignals): Promise<void>;
   ingestBenchmarks(pkd: string, rows: IndustryBenchmarkRow[]): Promise<void>;
   ingestAnnouncements(krs: string, report: CompanyReport): Promise<void>;
@@ -36,7 +37,7 @@ export function createIngest(deps: IngestDeps): IngestService {
       return { processed: 1, failed: 0 };
     },
     async ingestBulletin(day: string): Promise<IngestResult> {
-      const krsList = await deps.krsClient.getBiuletyn(day);
+      const krsList = await this.listBulletin(day);
       let processed = 0;
       let failed = 0;
       for (const krs of krsList) {
@@ -50,6 +51,10 @@ export function createIngest(deps: IngestDeps): IngestService {
       }
       await deps.repository.setIngestState(day);
       return { processed, failed };
+    },
+    async listBulletin(day: string, limit?: number): Promise<string[]> {
+      const krsList = await deps.krsClient.getBiuletyn(day);
+      return limit !== undefined ? krsList.slice(0, limit) : krsList;
     },
     async ingestFinancials(krs: string, financials: FinancialInput, signals: RiskSignals = NO_SIGNALS): Promise<void> {
       const indicators = buildFullIndicators(financials, signals);

@@ -43,11 +43,9 @@ export function buildCatalogQuery(
   addEqual(clauses, params, "pkd_sekcja", filters.pkdSekcja);
   addEqual(clauses, params, "pkd_dzial", filters.pkdDzial);
   addEqual(clauses, params, "pkd_podklasa", filters.pkdPodklasa);
-  addEqual(clauses, params, "wojewodztwo", filters.wojewodztwo);
+  addEqual(clauses, params, "voivodeship", filters.wojewodztwo);
   addLike(clauses, params, "city", filters.miasto);
   addLike(clauses, params, "street", filters.adres);
-  addLike(clauses, params, "gmina", filters.gmina);
-  addLike(clauses, params, "powiat", filters.powiat);
   addLike(clauses, params, "postal_code", filters.kodPocztowyPoczatek, true);
   addLike(clauses, params, "postal_code", filters.kodPocztowyKoncowka, true);
   addRange(clauses, params, "zatrudnienie", filters.zatrudnienieOd, filters.zatrudnienieDo);

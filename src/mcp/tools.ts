@@ -1,5 +1,6 @@
 import { createCheckoutSession, MOCK_CONFIRM_MS } from "../billing/stripe";
-import { catalogFor, branchesTree, pkdReport, reportFor, searchFor, ServiceError, statementsFor } from "../api/services";
+import { catalogFor, branchesTree, pkdReport, reportFor, resolveKrs, searchFor, ServiceError, statementsFor } from "../api/services";
+import { buildCompanyReport } from "../report";
 import { hasData } from "../api/middleware";
 import type { ApiDeps } from "../api/deps";
 
@@ -28,6 +29,21 @@ export const TOOLS: ToolDef[] = [
     },
     async handler({ deps }, args) {
       return { data: [(await reportFor(deps, stringArg(args.krs), stringArg(args.nip)))].filter(Boolean) };
+    },
+  },
+  {
+    name: "get_company_report",
+    description: "Bogaty raport firmy po numerze KRS albo NIP: finanse per rok z wyceną (min/śr/max), kredyt kupiecki, ryzyko i wiarygodność 24m, terminowość składania, pozycja na tle branży, opisy, powiązania (graf: identyczny NIP/REGON, zwrotne), podobne organizacje.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        krs: { type: "string", description: "10-cyfrowy numer KRS" },
+        nip: { type: "string", description: "10-cyfrowy numer NIP" },
+      },
+    },
+    async handler({ deps }, args) {
+      const report = await buildCompanyReport(deps, ...(await resolveKrsOrThrow(deps, args)));
+      return { data: report ? [report] : [] };
     },
   },
   {
@@ -186,6 +202,14 @@ export async function callTool(context: ToolContext, tool: ToolDef, args: Record
 
 function stringArg(value: unknown): string | undefined {
   return typeof value === "string" && value.length > 0 ? value : undefined;
+}
+
+async function resolveKrsOrThrow(deps: ApiDeps, args: Record<string, unknown>): Promise<[string]> {
+  const krs = await resolveKrs(deps, stringArg(args.krs), stringArg(args.nip));
+  if (!krs) {
+    throw new Error("podaj krs albo nip");
+  }
+  return [krs];
 }
 
 function numberArg(value: unknown): number | undefined {

@@ -107,7 +107,7 @@ function toNumber(value: unknown): number {
 function getValue(column: string, row: CatalogRow): unknown {
   const map: Record<string, unknown> = {
     krs: row.krs, name: row.name, nip: row.nip, regon: row.regon, legal_form: row.legalForm,
-    street: row.street, city: row.city, wojewodztwo: row.voivodeship, postal_code: row.postalCode,
+    street: row.street, city: row.city, voivodeship: row.voivodeship, postal_code: row.postalCode,
     pkd_sekcja: row.pkdSekcja, pkd_dzial: row.pkdDzial, pkd_podklasa: row.pkdPodklasa,
     nie_wykreslona: row.nieWykreslona ? 1 : 0, czy_status_opp: row.czyStatusOpp ? 1 : 0, cit_estonski: row.citEstonski ? 1 : 0,
     ostatni_krz: row.ostatniKrz, ostatni_monitor: row.ostatniMonitor,

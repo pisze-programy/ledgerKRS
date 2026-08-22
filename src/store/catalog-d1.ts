@@ -19,6 +19,9 @@ export const CATALOG_COLUMNS = [
 export function createD1CatalogRepository(db: D1Database): CatalogRepository {
   return {
     async upsertCatalogRows(rows: CatalogRow[]): Promise<void> {
+      if (rows.length === 0) {
+        return;
+      }
       await db.batch(rows.map((row) => buildUpsert(db, row)));
     },
     async searchCatalog(query): Promise<SearchResult> {
@@ -58,6 +61,9 @@ export function createD1CatalogRepository(db: D1Database): CatalogRepository {
       return rows.results.map(mapTaxonomy);
     },
     async upsertTaxonomy(entries: TaxonomyEntry[]): Promise<void> {
+      if (entries.length === 0) {
+        return;
+      }
       await db.batch(
         entries.map((entry) =>
           db
@@ -81,6 +87,9 @@ export function createD1CatalogRepository(db: D1Database): CatalogRepository {
       return rows.results.map(mapBranchStat);
     },
     async upsertBranchStats(stats: BranchStat[]): Promise<void> {
+      if (stats.length === 0) {
+        return;
+      }
       await db.batch(stats.map(buildBranchUpsert(db)));
     },
   };

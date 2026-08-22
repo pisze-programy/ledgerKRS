@@ -133,7 +133,7 @@ function splitPeriod(period: string): [string | null, string | null] {
   return [from ?? null, to ?? null];
 }
 
-function catalogRowFromReport(report: CompanyReport): CatalogRow {
+export function catalogRowFromReport(report: CompanyReport): CatalogRow {
   const company = report.company;
   const pkd = report.pkdCodes[0]?.code ?? null;
   const latest = [...report.financials].sort((a, b) => b.okresSprawozdawczy.localeCompare(a.okresSprawozdawczy))[0];

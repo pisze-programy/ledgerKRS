@@ -200,6 +200,7 @@ describe("createApp — MCP", () => {
     const body = (await response.json()) as { tools: { name: string }[] };
     expect(body.tools.length).toBeGreaterThanOrEqual(9);
     expect(body.tools.map((tool) => tool.name)).toContain("get_company");
+    expect(body.tools.map((tool) => tool.name)).toContain("get_company_report");
   });
 
   it("runs tools/call get_balance with a key", async () => {
@@ -225,6 +226,21 @@ describe("createApp — MCP", () => {
     });
     const body = (await response.json()) as { result: { content: { text: string }[] } };
     expect(body.result.content[0]!.text).toContain("0000222483");
+    expect(body.result.content[0]!.text).toContain("credits_spent");
+  });
+
+  it("runs tools/call get_company_report and charges", async () => {
+    const { app } = await buildApp();
+    const { key } = await createAccount(app);
+    await app.request("/ingest/krs/0000222483", { method: "POST" });
+    const response = await app.request("/mcp", {
+      method: "POST",
+      headers: authHeaders(key),
+      body: JSON.stringify({ jsonrpc: "2.0", id: 2, method: "tools/call", params: { name: "get_company_report", arguments: { krs: "0000222483" } } }),
+    });
+    const body = (await response.json()) as { result: { content: { text: string }[] } };
+    expect(body.result.content[0]!.text).toContain("summary");
+    expect(body.result.content[0]!.text).toContain("finansowe");
     expect(body.result.content[0]!.text).toContain("credits_spent");
   });
 

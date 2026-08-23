@@ -3,7 +3,7 @@ import type { StatementMeta } from "../layouts";
 import type { RzisVariant } from "../names";
 import type { RzisRoles } from "./types";
 import { resolveFromDict } from "./dictRoles";
-import { opStatutoryRoles, truncatedMikroRoles } from "./fixedRoles";
+import { opStatutoryRoles, truncatedMikroRoles, minimalMikroRoles } from "./fixedRoles";
 import { chainFromCodes, fillMissingFromChain, rzisRolesFromChain } from "./chain";
 import { letterCodes } from "./codes";
 
@@ -28,6 +28,10 @@ export function rzisRoles(statement: ParsedStatement, meta: StatementMeta): Rzis
   const truncated = truncatedMikroRoles(statement, meta);
   if (truncated) {
     return truncated;
+  }
+  const minimal = minimalMikroRoles(statement, meta);
+  if (minimal) {
+    return minimal;
   }
   for (const variant of DICT_VARIANTS) {
     const fromDict = resolveFromDict(meta, variant, statement);

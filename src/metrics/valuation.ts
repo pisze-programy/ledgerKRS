@@ -51,8 +51,8 @@ function valuationBase(input: FinancialInput): number | null {
   if (ebitda > 0) {
     return ebitda * VALUATION.MultipleEbitda;
   }
-  if (input.revenue > 0) {
-    return input.revenue * VALUATION.MultipleRevenue;
+  if ((input.revenue ?? 0) > 0) {
+    return (input.revenue ?? 0) * VALUATION.MultipleRevenue;
   }
   if (input.equity > 0) {
     return input.equity;

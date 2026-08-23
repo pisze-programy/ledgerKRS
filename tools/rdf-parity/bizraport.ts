@@ -14,8 +14,8 @@ export async function fetchBizraportDane(creds: ParityCreds, krs: string): Promi
       await new Promise((r) => setTimeout(r, 3000));
     }
     const url = new URL(`${BASE}/api/dane`);
-    url.searchParams.set("email", creds.bizraportEmail);
-    url.searchParams.set("password", creds.bizraportPassword);
+    url.searchParams.set("email", process.env.BIZRAPORT_EMAIL ?? creds.bizraportEmail);
+    url.searchParams.set("password", process.env.BIZRAPORT_PASSWORD ?? creds.bizraportPassword);
     url.searchParams.set("krs", krs);
     const response = await fetch(url);
     if (response.status === 429) {

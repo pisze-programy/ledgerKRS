@@ -5,55 +5,13 @@ import { parseSprawozdanie } from "../../src/sources/rdf/parser";
 import { statementMeta } from "../../src/sources/rdf/layouts";
 import { extractFinancialInput } from "../../src/sources/rdf/indicators";
 import { computeIndicators } from "../../src/metrics/indicators";
+import { selectAnnualYears, type AnnualCandidate } from "../../src/sources/rdf/selection";
 import { compareYear, summarizeComparison, type ComparisonRow } from "../../tools/rdf-parity/compare";
 import type { BizraportCompany } from "../../tools/rdf-parity/bizraport";
 
 const CORPUS = join(process.cwd(), "test", "fixtures", "rdf-corpus");
 
-/**
- * Documented residuals. These are NOT our extraction bugs:
- * - `"*"`      — BizRaport data quality quirk / unsupported layout (we are structurally correct).
- * - `{year: "*"}` — all indicators for that year (BizRaport rounds to thousands, etc.).
- * - `{year: ["ind"]}` — specific indicators.
- */
-type YearExemption = "*" | string[];
-const KNOWN_ISSUES: Record<string, Record<number, YearExemption> | "*"> = {
-  // BizRaport reports values rounded to whole thousands for this company (2021+):
-  // e.g. theirs=1170000 vs our exact 1169543.1. Our data is correct.
-  "0000878245": { 2021: "*", 2022: "*", 2023: "*", 2024: "*", 2025: "*" },
-  // BizRaport's own op/brutto/netto are internally inconsistent across years
-  // (abnormal RZiS: negative "pozostałe koszty", brutto sometimes at I sometimes J).
-  "0000139939": "*",
-  "0000659179": "*",
-  // Company's RDF filing metadata mislabels periods (a file named 2023 contains a
-  // 2022 statement); we likely pick a different filing revision than BizRaport.
-  "0000721871": "*",
-  // Insurer (zakład ubezpieczeń) — SFZURZ layout, different statement structure.
-  // Separate stage, not yet implemented.
-  "0000009831": "*",
-  // BizRaport quirks (their data, not our extraction):
-  // - 0000393416 2022: BizRaport reports zysk_operacyjny = 0 despite C+D−E ≠ 0.
-  // - 0000176134 2023: BizRaport flips the sign of a negative podatek (abs), while
-  //   it reports negative podatek as-is for other companies (0000582708 2025).
-  // - 0000416704 2018: BizRaport's op is rounded to whole 10 zł (off by 20).
-  // - 0000085314 2025: company filed C=0 while A−B=14497.28; BizRaport trusted the
-  //   filed C (0), and its op=H. We derive A−B — and BizRaport derives A−B for
-  //   0000723096 (C=−13321 there). Inconsistent BizRaport behavior; ours is sound.
-  "0000393416": { 2022: ["zysk_operacyjny"] },
-  "0000176134": { 2023: ["podatek_dochodowy"] },
-  "0000416704": { 2018: ["zysk_operacyjny"] },
-  "0000085314": { 2025: ["zysk_ze_sprzedazy", "zysk_operacyjny"] },
-  // BizRaport reports 0 for brutto/op on these messy companies (their own choice),
-  // or derives op = A−B on the old ABCF structure:
-  "0000617088": { 2020: ["zysk_brutto"], 2021: ["zysk_brutto"], 2022: ["zysk_brutto"], 2023: ["zysk_operacyjny"], 2024: ["zysk_operacyjny"] },
-  "0000723096": { 2018: ["przychody", "zysk_operacyjny"], 2019: ["przychody", "zysk_operacyjny"], 2020: ["przychody", "zysk_operacyjny"] },
-  "0000810502": { 2020: ["przychody", "koszty_sprzedanych_produktow", "zysk_ze_sprzedazy", "podatek_dochodowy"] },
-  // 0001066345 2025: BizRaport reports podatek positive (4750) while filed J is
-  // negative (−38351); sign quirk like 0000176134.
-  "0001066345": { 2025: ["podatek_dochodowy"] },
-  // CONNER 2019: BizRaport used a corrected filing we don't have (see PARITY.md).
-  "0000320584": { 2019: ["przychody"] },
-};
+import { KNOWN_ISSUES, isKnownIssue } from "./known-issues";
 
 interface CompanyResult {
   krs: string;
@@ -80,6 +38,9 @@ function loadCompany(dir: string): CompanyResult {
   }
   const rows: ComparisonRow[] = [];
   const years: number[] = [];
+  // Mirror the production pipeline: one primary statement per fiscal year.
+  const candidates: AnnualCandidate[] = [];
+  const parsed = new Map<string, { xml: string; statement: NonNullable<ReturnType<typeof parseSprawozdanie>>; meta: ReturnType<typeof statementMeta> }>();
   for (const xmlName of xmls) {
     const xml = readFileSync(join(dir, xmlName), "utf8");
     const statement = parseSprawozdanie(xml);
@@ -87,6 +48,19 @@ function loadCompany(dir: string): CompanyResult {
       continue;
     }
     const meta = statementMeta(xml);
+    parsed.set(xmlName, { xml, statement, meta });
+    candidates.push({
+      id: xmlName,
+      rodzaj: "18",
+      okres: statement.okres_sprawozdawczy,
+      dataDodania: null,
+    });
+  }
+  const winners = new Set(selectAnnualYears(candidates).map((s) => s.candidate.id));
+  for (const [xmlName, { statement, meta }] of parsed) {
+    if (!winners.has(xmlName)) {
+      continue;
+    }
     const year = extractFinancialInput(statement, meta);
     if (!year) {
       continue;
@@ -150,6 +124,18 @@ describe("rdf-corpus: production pipeline vs BizRaport ground truth", () => {
     console.log(`AGGREGATE: ${JSON.stringify(agg)}`);
     expect(agg.total_rows).toBeGreaterThan(0);
     expect(agg.match_pct as number).toBeGreaterThanOrEqual(90);
+  });
+
+  it("STRICT: every residual is documented (0 unexplained mismatches, 0 only_theirs)", () => {
+    if (withData.length === 0) {
+      expect(true).toBe(true);
+      return;
+    }
+    const all = withData.flatMap((c) => c.rows);
+    const agg = summarizeComparison(all);
+    console.log(`STRICT aggregate: ${JSON.stringify(agg)}`);
+    expect(agg.mismatch).toBe(0);
+    expect(agg.only_theirs).toBe(0);
   });
 
   for (const c of withData) {

@@ -509,3 +509,42 @@ Remaining residuals (documented in `KNOWN_ISSUES` of `compare-sample50.ts`):
 BizRaport's `op` on the old-simplified family is internally inconsistent
 (C+D−E on H-forms, A−B on F-forms, H on degenerate years) — not replicable
 without hardcoding; documented instead.
+
+## Second corpus batch (100-firm random draw + 10 extremes)
+
+`draw-sample2.ts` → `corpus2.json` (100 KRS, biuletyn KRS 2022+, deterministic seed,
+excludes sample50 + existing corpus). `download-sample2.ts` pulls XMLs (cookie solver,
+START/LIMIT batches). `merge-corpus2.ts` merges into `test/fixtures/rdf-corpus/`.
+
+**Result: corpus 45 → 121 firms, 116 with matched data, 608 fiscal years, 7362 indicator
+cells — 100% match incl. documented residuals, 0 undocumented** (STRICT gate in
+`rdf-corpus.test.ts`). Coverage probe: 78/110 firms XML-capable (70.9%), 0 PDF-only,
+32 no annual statements.
+
+Layout distribution in corpus: SFJINZ 62, SFJMIZ 44, SFJMAZ 41, SFJOPZ 4, LEGACY 2
+(+ SFSINZ via standalone fixture).
+
+New layout/edge support landed:
+- **WTys scale** (`Jednostka*WTys` = filed in thousands of zł): `detectScale` → ×1000
+  applied in the parser; root suffix stripped for layout detection (`layouts.ts`).
+- **minimal Mikro** (single `F` line in RZiS): `minimalMikroRoles` → netto only,
+  revenue null (0000672378).
+- **split fiscal year**: selection prefers the longer part of a split year
+  (0000802552 2021: 2021-02-26..12-31 over 01-01..02-25).
+- **duplicate B_I codes** in LEGACY statements documented (0000644867).
+
+Residuals are BizRaport data-quality quirks, each documented in
+`test/unit/known-issues.ts` with evidence: podatek sign-flip (abs), drift (filing no
+longer in RDF: 0000005989, 0000692949), ×100 Aktywa typo + duplicated years
+(0000661624), degenerate no-revenue filings (0000855605), income-letter F/G flip
+(0000666310), amortyzacja-absent→0, bizraport all-zeros (0001056231).
+
+### Layout gaps found (evidence)
+- **Banks (SFBNKZ)**: RDF serves banks as XHTML/PDF (Bank Pekao 0000014843 = XHTML
+  20 MB docs), not CRWDE XML → **PDF stage**, not an XML gap.
+- **Insurers (SFZURZ)**: `0000009831` = insurance-technical RZiS (Roman numerals,
+  columns A/B/B1, root stays Signatures after unwrap); BizRaport's own mapping forces
+  insurance lines into standard buckets (przychody 41B vs składki) and is unreliable →
+  **deferred** (documented in KNOWN_ISSUES).
+- **Emitents / consolidated**: none in the 110-firm draw; SFSINZ already implemented
+  (Totalizator fixture); JednostkaEmitent is rare and maps to LEGACY.

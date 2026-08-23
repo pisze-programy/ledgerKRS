@@ -185,6 +185,46 @@ describe("extractFinancialInput", () => {
     expect(year.input.netProfit).toBe(50);    // J
   });
 
+  it("maps the WTys layout (filed in thousands of zł) to its base key and scales amounts ×1000", () => {
+    const xml = `<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Dokument>
+  <OkresOd>2025-01-01</OkresOd>
+  <OkresDo>2025-12-31</OkresDo>
+  <JednostkaMikroWTys>
+    <Bilans><Aktywa><dtsf:KwotaA>211</dtsf:KwotaA></Aktywa></Bilans>
+    <RZiS>
+      <A><dtsf:KwotaA>100</dtsf:KwotaA></A><B><dtsf:KwotaA>60</dtsf:KwotaA></B>
+      <C><dtsf:KwotaA>40</dtsf:KwotaA></C><D><dtsf:KwotaA>0</dtsf:KwotaA></D>
+      <E><dtsf:KwotaA>0</dtsf:KwotaA></E><F><dtsf:KwotaA>50</dtsf:KwotaA></F>
+    </RZiS>
+  </JednostkaMikroWTys>
+</Dokument>`;
+    const meta = statementMeta(xml);
+    expect(meta.layout).toBe("SFJMIZ");
+    expect(meta.scale).toBe(1000);
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.revenue).toBe(140000);   // (A + C) × 1000
+    expect(year.input.totalAssets).toBe(211000);
+    expect(year.input.netProfit).toBe(50000);  // F × 1000
+  });
+
+  it("handles the minimal Mikro statement (single F line) — netto only, revenue stays null (0000672378)", () => {
+    const xml = `<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Dokument>
+  <OkresOd>2020-01-01</OkresOd>
+  <OkresDo>2020-12-31</OkresDo>
+  <JednostkaMikroWTys>
+    <Bilans><Aktywa><dtsf:KwotaA>122607</dtsf:KwotaA></Aktywa></Bilans>
+    <RZiS><F><dtsf:KwotaA>-29643</dtsf:KwotaA></F></RZiS>
+  </JednostkaMikroWTys>
+</Dokument>`;
+    const meta = statementMeta(xml);
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.revenue).toBeNull();
+    expect(year.input.netProfit).toBe(-29643000);  // F × 1000
+    expect(year.input.totalAssets).toBe(122607000);
+  });
+
   it("handles consolidated group statement (SFSINZ, kalk A..W): revenue=A+G+J, op=I, brutto=R, podatek=S, netto=W — matches BizRaport (Totalizator 2025)", () => {
     const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-consolidated-2025.xml"), "utf8");
     const meta = statementMeta(xml);

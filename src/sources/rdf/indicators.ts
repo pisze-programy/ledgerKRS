@@ -102,7 +102,9 @@ function wagesFor(
 
 export function extractFinancialInput(statement: ParsedStatement, meta: StatementMeta): YearFinancials | null {
   const rzis = rzisRoles(statement, meta);
-  if (rzis.przychody === null) {
+  // Minimal filings (single F line, no revenue) still report the net result
+  // and the balance sheet; only bail when neither is derivable.
+  if (rzis.przychody === null && rzis.zyskNetto === null) {
     return null;
   }
 

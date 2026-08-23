@@ -96,7 +96,7 @@ describe("dict name matching (rzis/matching)", () => {
   });
 
   it("dictNamesFor covers consolidated letters up to W", () => {
-    const meta = { layout: "SFSINZ" as const, wariant: 2, version: null };
+    const meta = { layout: "SFSINZ" as const, wariant: 2, version: null, scale: 1 };
     const names = dictNamesFor(meta, "RZiSKalk");
     expect(names.get("W")).toContain("netto");
     expect(names.get("S")).toContain("Podatek");

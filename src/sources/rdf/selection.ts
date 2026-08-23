@@ -1,4 +1,4 @@
-import { fiscalYearOf, periodClassOf, type PeriodClass } from "./period";
+import { fiscalYearOf, periodClassOf, parsePeriod, periodDays, type PeriodClass } from "./period";
 
 /**
  * A single annual (rodzaj 18/22) RDF document considered for the report,
@@ -30,6 +30,17 @@ const CLASS_PRIORITY: Record<PeriodClass, number> = {
 function classPriority(candidate: AnnualCandidate): number {
   const periodClass = periodClassOf(candidate.okres);
   return periodClass === null ? 99 : CLASS_PRIORITY[periodClass];
+}
+
+/** Within the same class the longer period wins — the dominant part of a
+ *  split fiscal year (BizRaport reports the main period, not the short
+ *  opening one, e.g. 0000802552 2021: 2021-02-26..12-31 over 01-01..02-25). */
+function durationPriority(candidate: AnnualCandidate): number {
+  const { from, to } = parsePeriod(candidate.okres);
+  if (!from || !to) {
+    return 0;
+  }
+  return periodDays(from, to);
 }
 
 function consolidatedPriority(rodzaj: string): number {
@@ -73,6 +84,10 @@ export function selectAnnualYears(candidates: AnnualCandidate[]): SelectedYear[]
       if (byClass !== 0) {
         return byClass;
       }
+      const byDuration = durationPriority(b) - durationPriority(a);
+      if (byDuration !== 0) {
+        return byDuration;
+      }
       const byFiling = filingPriority(b).localeCompare(filingPriority(a));
       if (byFiling !== 0) {
         return byFiling;
@@ -87,6 +102,9 @@ export function selectAnnualYears(candidates: AnnualCandidate[]): SelectedYear[]
       }
       if (periodClassOf(winner.okres) !== periodClassOf(sorted[1]!.okres)) {
         reasons.push(`${periodClassOf(winner.okres) ?? "unknown"}>${periodClassOf(sorted[1]!.okres) ?? "unknown"}`);
+      }
+      if (durationPriority(winner) !== durationPriority(sorted[1]!)) {
+        reasons.push("longer-period");
       }
       if (filingPriority(winner) !== filingPriority(sorted[1]!)) {
         reasons.push("latest-filing");

@@ -1,7 +1,7 @@
 import type { RzisVariant } from "../names";
 
 /** How the RZiS roles were determined for a statement. */
-export type RzisRoleSource = "dict" | "chain" | "op-fixed" | "truncated";
+export type RzisRoleSource = "dict" | "chain" | "op-fixed" | "truncated" | "minimal";
 
 export interface RzisRoles {
   przychody: number | null;

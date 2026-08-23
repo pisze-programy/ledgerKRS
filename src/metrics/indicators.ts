@@ -4,7 +4,8 @@ import type { Indicator } from "../domain/types";
 export interface FinancialInput {
   okresSprawozdawczy: string;
   rok: number | null;
-  revenue: number;
+  /** Null for minimal filings that report only the net result (no revenue). */
+  revenue: number | null;
   operatingRevenue?: number | null;
   salesRevenue?: number | null;
   operatingCosts?: number | null;
@@ -64,8 +65,8 @@ export function computeIndicators(input: FinancialInput): Indicator[] {
   return result;
 }
 
-export function ratio(numerator: number | null | undefined, denominator: number): number | null {
-  if (denominator === 0 || numerator === null || numerator === undefined) {
+export function ratio(numerator: number | null | undefined, denominator: number | null | undefined): number | null {
+  if (denominator === null || denominator === undefined || denominator === 0 || numerator === null || numerator === undefined) {
     return null;
   }
   return numerator / denominator;

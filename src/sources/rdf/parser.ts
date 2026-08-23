@@ -1,6 +1,7 @@
 import { XMLParser } from "fast-xml-parser";
 import { POSITION_NAMES } from "./positions";
 import { fiscalYearOf } from "./period";
+import { detectScale } from "./layouts";
 
 export interface StatementPosition {
   pozycja_szczegolowa: string | null;
@@ -63,6 +64,7 @@ export function parseSprawozdanie(xml: string): ParsedStatement | null {
     return null;
   }
   xml = unwrapXades(xml);
+  const scale = detectScale(xml);
   const parser = new XMLParser({
     ignoreAttributes: false,
     parseTagValue: false,
@@ -72,7 +74,7 @@ export function parseSprawozdanie(xml: string): ParsedStatement | null {
   const root = parser.parse(xml) as Record<string, unknown>;
   const okresOd = findText(root, /^OkresOd$/i);
   const okresDo = findText(root, /^OkresDo$/i);
-  const sekcje = SECTION_KEYS.map((section) => buildSection(root, section)).filter(
+  const sekcje = SECTION_KEYS.map((section) => buildSection(root, section, scale)).filter(
     (section) => section.pozycje.length > 0,
   );
   if (sekcje.length === 0 && !okresOd && !okresDo) {
@@ -86,11 +88,11 @@ export function parseSprawozdanie(xml: string): ParsedStatement | null {
   };
 }
 
-function buildSection(root: Record<string, unknown>, section: string): StatementSection {
+function buildSection(root: Record<string, unknown>, section: string, scale: number): StatementSection {
   const node = findNode(root, section);
   const pozycje: StatementPosition[] = [];
   if (isRecord(node)) {
-    collectPositions(node, pozycje, section, 0);
+    collectPositions(node, pozycje, section, 0, scale);
   }
   return { sekcja: SECTION_LABELS[section] ?? section, pozycje };
 }
@@ -100,6 +102,7 @@ function collectPositions(
   out: StatementPosition[],
   section: string,
   depth: number,
+  scale: number,
 ): void {
   for (const [key, value] of Object.entries(node)) {
     if (value === undefined || value === null) {
@@ -116,11 +119,11 @@ function collectPositions(
           kod_pozycji: kod,
           poziom_zaglebienia: depth,
           nazwa_pozycji: POSITION_NAMES[section]?.[kod] ?? null,
-          kwota: toNullableNumber(textOf(value, "KwotaA")),
-          kwota_poprzedni_rok: toNullableNumber(textOf(value, "KwotaB")),
+          kwota: scaled(textOf(value, "KwotaA"), scale),
+          kwota_poprzedni_rok: scaled(textOf(value, "KwotaB"), scale),
         });
       }
-      collectPositions(value, out, section, depth + 1);
+      collectPositions(value, out, section, depth + 1, scale);
       continue;
     }
     if (Array.isArray(value)) {
@@ -132,15 +135,20 @@ function collectPositions(
               kod_pozycji: kod,
               poziom_zaglebienia: depth,
               nazwa_pozycji: POSITION_NAMES[section]?.[kod] ?? null,
-              kwota: toNullableNumber(textOf(item, "KwotaA")),
-              kwota_poprzedni_rok: toNullableNumber(textOf(item, "KwotaB")),
+              kwota: scaled(textOf(item, "KwotaA"), scale),
+              kwota_poprzedni_rok: scaled(textOf(item, "KwotaB"), scale),
             });
           }
-          collectPositions(item, out, section, depth + 1);
+          collectPositions(item, out, section, depth + 1, scale);
         }
       }
     }
   }
+}
+
+function scaled(value: string | null | undefined, scale: number): number | null {
+  const parsed = toNullableNumber(value);
+  return parsed === null ? null : parsed * scale;
 }
 
 function hasAmountKeys(node: Record<string, unknown>): boolean {

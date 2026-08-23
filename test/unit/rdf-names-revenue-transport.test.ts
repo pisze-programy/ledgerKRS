@@ -21,7 +21,7 @@ function roles(codes: Record<string, number>, overrides: Partial<RzisRoles> = {}
   };
 }
 
-const meta = (layout: StatementMeta["layout"]): StatementMeta => ({ layout, wariant: null, version: null });
+const meta = (layout: StatementMeta["layout"]): StatementMeta => ({ layout, wariant: null, version: null, scale: 1 });
 
 describe("names — dict lookup", () => {
   it("nameFor reads the consolidated SFSINZ dict (W = netto, S = podatek)", () => {

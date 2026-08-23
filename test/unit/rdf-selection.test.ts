@@ -56,6 +56,16 @@ describe("selectAnnualYears — one primary statement per fiscal year", () => {
     expect(selected[0]!.reason).toContain("latest-filing");
   });
 
+  it("prefers the longer part of a split fiscal year over the short opening one (0000802552 2021)", () => {
+    const selected = selectAnnualYears([
+      candidate("short", "18", "2021-01-01_2021-02-25"),
+      candidate("main", "18", "2021-02-26_2021-12-31"),
+    ]);
+    expect(selected).toHaveLength(1);
+    expect(selected[0]!.candidate.id).toBe("main");
+    expect(selected[0]!.reason).toContain("longer-period");
+  });
+
   it("breaks ties deterministically by id", () => {
     const selected = selectAnnualYears([
       candidate("z9", "18", "2020-01-01_2020-12-31", "2021-04-10"),

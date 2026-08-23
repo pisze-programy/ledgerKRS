@@ -11,6 +11,35 @@ import { codeValue, hasCode, letterCodes } from "./codes";
  * CRWDE SFJOPZ dict uses standard letters (F=op, I=brutto, L=netto) and does
  * not describe these filings, so the role map is explicit.
  */
+/**
+ * Minimal Mikro: some old-schema filings carry a single `F` line in the RZiS
+ * (the net result) and nothing else — the rest of the result lives in the
+ * balance sheet. BizRaport reports only suma + zysk_netto for these
+ * (verified on 0000672378 2019/2020, where F = zysk netto). Everything else
+ * stays null rather than fabricated.
+ */
+export function minimalMikroRoles(statement: ParsedStatement, meta: StatementMeta): RzisRoles | null {
+  if (meta.layout !== "SFJMIZ" && meta.layout !== "SFJMAZ") {
+    return null;
+  }
+  const codes = letterCodes(statement);
+  const letters = Object.keys(codes).filter((code) => /^[A-Z]$/.test(code)).sort();
+  if (letters.length !== 1 || letters[0] !== "F") {
+    return null;
+  }
+  return {
+    przychody: null,
+    koszty: null,
+    zyskZeSprzedazy: null,
+    zyskOperacyjny: null,
+    zyskBrutto: null,
+    podatek: null,
+    zyskNetto: codeValue(codes, "F"),
+    codes,
+    source: "minimal",
+  };
+}
+
 export function opStatutoryRoles(statement: ParsedStatement, meta: StatementMeta): RzisRoles | null {
   if (meta.layout !== "SFJOPZ") {
     return null;

@@ -11,6 +11,7 @@ export interface ParityCreds {
   wsUserPrefix?: string;
   wsUsers?: string[];
   wsPassword?: string;
+  compabaseKey?: string;
 }
 
 const DEFAULT_PATH = join(process.cwd(), "tools", "rdf-parity", "creds.local.json");
@@ -32,5 +33,6 @@ export function loadCreds(): ParityCreds {
     wsUserPrefix: local.wsUserPrefix ?? "",
     wsUsers: local.wsUsers ?? [],
     wsPassword: local.wsPassword ?? "",
+    compabaseKey: process.env.COMPABASE_KEY ?? local.compabaseKey ?? "",
   };
 }

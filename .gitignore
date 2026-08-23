@@ -14,3 +14,4 @@ biz-*.html
 tools/rdf-parity/backfill-name-norm.generated.sql
 tools/rdf-parity/discover/
 pol.traineddata
+tools/rdf-parity/compabase-cache/

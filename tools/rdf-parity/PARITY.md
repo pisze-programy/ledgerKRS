@@ -587,3 +587,29 @@ Conclusion: the RDF-served scanned bank PDFs are **corrupt/unusable** — neithe
 text extraction nor OCR yields content. This is the documented boundary line
 (banks → OCR not feasible on source data). Some bank years are XHTML with text,
 but their totals do not align with BizRaport ground truth (see PDF discovery).
+
+## Compabase cross-check (independent RDF-based validation)
+
+Compabase (compabase.com, REST `/api/v1` + MCP) aggregates the SAME public
+sources (KRS, CEIDG, **RDF financial statements**). New API key
+`cb_f621…` (free 100 req/month) used to independently confirm our pipeline.
+
+Findings (evidence):
+- **Normal XML firms**: Compabase values match OUR extraction — CONNER
+  0000320584 2024 (revenue 5 917 627,34; profit_net 73 265,77) identical; ORLEN
+  sane. Corpus cross-check (`test/unit/rdf-compabase.test.ts`, offline cache in
+  `tools/rdf-parity/compabase-cache/`): **325 comparable cells, 100% agreement**
+  (10 firms with Compabase financials of 143).
+- **Banks (Pekao 0000014843)**: Compabase parses the RDF **XHTML** —
+  `total_assets = 222 380 996` (AKTYWA RAZEM), `profit_net = 1 126 424`
+  (ZYSK NETTO) — the SAME values our `htmlToText`+`pdfPositions` extract.
+  **Bizraport reports 233 217 182 000 / 5 309 000 000** — a different source.
+  So banks have NO XML anywhere; RDF serves scanned PDF + XHTML, and Bizraport
+  uses an external source we cannot reach from RDF.
+- **Coverage**: Compabase indexes 3M companies but has financial statements for
+  only a subset — 10/142 corpus firms (mostly larger/established). Small/new
+  firms → profile present, financials null.
+
+Tooling: `compabase.ts` (REST client), `fetch-compabase-corpus.ts` (cache,
+resume), `compare-compabase.ts` (per-cell comparison), `rdf-compabase.test.ts`
+(offline cross-check, opt-in when cache exists).

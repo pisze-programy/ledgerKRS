@@ -11,3 +11,4 @@ test/fixtures/rdf-corpus/
 tools/rdf-parity/cookie-*.txt
 Webshare residential proxies.txt
 biz-*.html
+tools/rdf-parity/backfill-name-norm.generated.sql

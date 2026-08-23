@@ -781,6 +781,17 @@ const derivedConnectionsSchema = z
     identyczny_nip: z.array(z.strictObject({ krs: z.string(), name: z.string().nullable() })).openapi({ description: "Firmy o identycznym NIP" }),
     identyczny_regon: z.array(z.strictObject({ krs: z.string(), name: z.string().nullable() })).openapi({ description: "Firmy o identycznym REGON" }),
     zwrotne: z.array(z.strictObject({ krs: z.string(), name: z.string().nullable(), typ: z.string() })).openapi({ description: "Powiązania zwrotne" }),
+    wspolne_osoby: z
+      .array(
+        z.strictObject({
+          osoba: z.string().openapi({ description: "Imię i nazwisko osoby" }),
+          funkcja: z.string().nullable().openapi({ description: "Funkcja w tej firmie" }),
+          firmy: z
+            .array(z.strictObject({ krs: z.string(), nazwa: z.string(), funkcja: z.string().nullable() }))
+            .openapi({ description: "Inne firmy, w których osoba występuje" }),
+        }),
+      )
+      .openapi({ description: "Osoby wspólne z innymi firmami (graf)" }),
   })
   .openapi("DerivedConnections");
 

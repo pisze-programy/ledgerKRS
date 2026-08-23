@@ -2,11 +2,13 @@ import { buildSearchQuery } from "../search/fulltext";
 import { CONNECTION } from "../domain/vocab";
 import type { CompanyReport } from "../domain/types";
 import type { ReportContext } from "./context";
+import { wspolneOsoby, type WspolnaOsoba } from "./osoby";
 
 export interface DerivedConnections {
   identyczny_nip: { krs: string; name: string | null }[];
   identyczny_regon: { krs: string; name: string | null }[];
   zwrotne: { krs: string; name: string | null; typ: string }[];
+  wspolne_osoby: WspolnaOsoba[];
 }
 
 export function connections(ctx: ReportContext): CompanyReport["connections"] {
@@ -18,7 +20,8 @@ export async function derivedConnections(ctx: ReportContext): Promise<DerivedCon
   const sameNip = company.nip ? await findByValue(ctx, company.nip) : [];
   const sameRegon = company.regon ? await findByValue(ctx, company.regon) : [];
   const zwrotne = await findZwrotne(ctx);
-  return { identyczny_nip: sameNip, identyczny_regon: sameRegon, zwrotne };
+  const osoby = await wspolneOsoby(ctx);
+  return { identyczny_nip: sameNip, identyczny_regon: sameRegon, zwrotne, wspolne_osoby: osoby };
 }
 
 async function findByValue(ctx: ReportContext, value: string): Promise<{ krs: string; name: string | null }[]> {

@@ -33,7 +33,7 @@ export const TOOLS: ToolDef[] = [
   },
   {
     name: "get_company_report",
-    description: "Bogaty raport firmy po numerze KRS albo NIP: finanse per rok z wyceną (min/śr/max), kredyt kupiecki, ryzyko i wiarygodność 24m, terminowość składania, pozycja na tle branży, opisy, powiązania (graf: identyczny NIP/REGON, zwrotne), podobne organizacje.",
+    description: "Bogaty raport firmy po numerze KRS albo NIP: finanse per rok z wyceną (min/śr/max), kredyt kupiecki, ryzyko i wiarygodność 24m, terminowość składania, pozycja na tle branży, opisy, powiązania (graf: identyczny NIP/REGON, zwrotne, wspólne osoby w innych firmach), podobne organizacje.",
     inputSchema: {
       type: "object",
       properties: {

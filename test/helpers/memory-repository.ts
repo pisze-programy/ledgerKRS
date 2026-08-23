@@ -1,5 +1,6 @@
 import type { Company, CompanyReport } from "../../src/domain/types";
-import type { Indicator, Benchmark, Repository, StatementPosition } from "../../src/store/repository";
+import type { Indicator, Benchmark, Repository, StatementPosition, PersonConnectionRow } from "../../src/store/repository";
+import { personKey } from "../../src/domain/person";
 
 export interface MemorySnapshot {
   monitor(krs: string): CompanyReport["monitor"];
@@ -125,6 +126,17 @@ export function createMemoryRepository(): Repository & MemorySnapshot {
       }
       const rows = positions.get(id) ?? [];
       return rows as StatementPosition[];
+    },
+    async findConnectionsByPerson(normName: string): Promise<PersonConnectionRow[]> {
+      const rows: PersonConnectionRow[] = [];
+      for (const [krs, list] of connections) {
+        for (const conn of list) {
+          if (personKey(conn.nazwa) === normName && conn.idPodmiotu === undefined) {
+            rows.push({ krs, nazwa: conn.nazwa ?? "", funkcja: conn.funkcja ?? null, typ: conn.typPowiazania });
+          }
+        }
+      }
+      return rows;
     },
     async listCompanies(limit: number, offset: number): Promise<Company[]> {
       return [...companies.values()].sort((a, b) => (a.name ?? "").localeCompare(b.name ?? "")).slice(offset, offset + limit);

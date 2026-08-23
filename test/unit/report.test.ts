@@ -132,4 +132,31 @@ describe("buildCompanyReport", () => {
     expect(report!.podobne_organizacje[0]!.krs).toBe("0000999999");
     expect(report!.finansowe[0]!.wycena.srednia).toBe(800);
   });
+
+  it("powiazania_pochodne.wspolne_osoby finds people shared with other companies (normalized match, no self)", async () => {
+    const appDeps = deps();
+    const repo = appDeps.repository as ReturnType<typeof createMemoryRepository>;
+    await repo.upsertCompany(SAMPLE_REPORT);
+    await repo.upsertCompany({
+      ...SAMPLE_REPORT,
+      company: { ...SAMPLE_REPORT.company, krs: "0000111122", nip: null, regon: null },
+      connections: [
+        { typPodmiotu: "Osoba", nazwa: "JAN KOWALSKI", typPowiazania: "reprezentacja" },
+        { typPodmiotu: "Osoba", nazwa: "Anna Nowak", typPowiazania: "organ nadzoru" },
+      ],
+    });
+    // SAMPLE_REPORT.connections[0] = { nazwa: "X" } -> replace with a real person
+    await repo.upsertConnections("0000222483", [
+      { typPodmiotu: "Osoba", nazwa: "Kowalski Jan", typPowiazania: "reprezentacja" },
+      { typPodmiotu: "Osoba", nazwa: "Zofia Wiśniewska", typPowiazania: "prokurent" },
+    ]);
+
+    const report = await buildCompanyReport(appDeps, "0000222483");
+    const osoby = report!.powiazania_pochodne.wspolne_osoby;
+    expect(osoby.some((o) => o.osoba === "Kowalski Jan" && o.firmy.some((f) => f.krs === "0000111122"))).toBe(true);
+    // the inspected company must not appear as a "other firm"
+    for (const o of osoby) {
+      expect(o.firmy.every((f) => f.krs !== "0000222483")).toBe(true);
+    }
+  });
 });

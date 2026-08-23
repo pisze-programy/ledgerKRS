@@ -1,5 +1,6 @@
 import type { ApiDeps } from "../api/deps";
 import type { CompanyReport } from "../domain/types";
+import type { WspolnaOsoba } from "./osoby";
 
 export interface ReportContext {
   deps: ApiDeps;
@@ -66,4 +67,5 @@ export interface DerivedConnections {
   identyczny_nip: { krs: string; name: string | null }[];
   identyczny_regon: { krs: string; name: string | null }[];
   zwrotne: { krs: string; name: string | null; typ: string }[];
+  wspolne_osoby: WspolnaOsoba[];
 }

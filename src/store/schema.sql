@@ -35,6 +35,7 @@ CREATE TABLE IF NOT EXISTS connections (
   type TEXT NOT NULL,
   name TEXT,
   function TEXT,
+  name_norm TEXT,
   UNIQUE(krs, type, name, function)
 );
 

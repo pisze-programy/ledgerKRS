@@ -15,6 +15,13 @@ export interface Benchmark {
   przychody_branzy?: number | null;
 }
 
+export interface PersonConnectionRow {
+  krs: string;
+  nazwa: string;
+  funkcja: string | null;
+  typ: string;
+}
+
 export interface Repository {
   upsertCompany(report: CompanyReport): Promise<void>;
   upsertConnections(krs: string, connections: CompanyReport["connections"]): Promise<void>;
@@ -36,14 +43,14 @@ export interface Repository {
   getCompany(krs: string): Promise<Company | null>;
   getReport(krs: string): Promise<CompanyReport | null>;
   getStatementPositions(krs: string): Promise<StatementPosition[]>;
+  findConnectionsByPerson(normName: string): Promise<PersonConnectionRow[]>;
   listCompanies(limit: number, offset: number): Promise<Company[]>;
   setIngestState(lastBulletinDay: string): Promise<void>;
   getIngestState(): Promise<string | null>;
 }
 
 export interface StatementPosition {
-  okresSprawozdawczy: string;
-  sekcja: string;
+  okresSprawozdawczy: string;  sekcja: string;
   kod_pozycji: string;
   poziom_zaglebienia: number | null;
   nazwa_pozycji: string | null;

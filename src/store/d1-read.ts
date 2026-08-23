@@ -14,7 +14,7 @@ import type {
 } from "../domain/types";
 import { CONNECTION, ENTITY } from "../domain/vocab";
 import { fiscalYearOf } from "../sources/rdf/period";
-import type { Indicator as StoredIndicator } from "./repository";
+import type { Indicator as StoredIndicator, PersonConnectionRow } from "./repository";
 
 export async function readCompany(db: D1Database, krs: string): Promise<Company | null> {
   const row = await db
@@ -40,6 +40,24 @@ export async function readConnections(db: D1Database, krs: string): Promise<Conn
     nazwa: row.name ?? "",
     typPowiazania: (row.type as Connection["typPowiazania"]) ?? CONNECTION.Inne,
     funkcja: row.function,
+  }));
+}
+
+/** Person connections in other companies sharing the same canonical name. */
+export async function findConnectionsByPerson(db: D1Database, normName: string): Promise<PersonConnectionRow[]> {
+  const rows = await db
+    .prepare(
+      `SELECT krs, name, function, type FROM connections
+       WHERE name_norm = ? AND type IN ('reprezentacja', 'wspólnik', 'organ nadzoru', 'prokurent')
+       ORDER BY krs`,
+    )
+    .bind(normName)
+    .all<{ krs: string; name: string | null; function: string | null; type: string }>();
+  return rows.results.map((row) => ({
+    krs: row.krs,
+    nazwa: row.name ?? "",
+    funkcja: row.function,
+    typ: row.type,
   }));
 }
 

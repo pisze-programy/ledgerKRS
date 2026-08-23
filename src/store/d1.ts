@@ -1,8 +1,10 @@
 import type { Company, CompanyReport } from "../domain/types";
-import type { Indicator, Benchmark, Repository, StatementPosition } from "./repository";
+import type { Indicator, Benchmark, Repository, StatementPosition, PersonConnectionRow } from "./repository";
+import { personKey } from "../domain/person";
 import {
   readCompany,
   readConnections,
+  findConnectionsByPerson,
   readOwnership,
   readPkd,
   readStatements,
@@ -206,8 +208,7 @@ export function createD1Repository(db: D1Database): Repository {
         benchmarks,
       };
     },
-    async getStatementPositions(krs: string): Promise<StatementPosition[]> {
-      const rows = await db
+    async getStatementPositions(krs: string): Promise<StatementPosition[]> {      const rows = await db
         .prepare(
           `SELECT s.period AS okres, p.sekcja, p.kod_pozycji, p.poziom_zaglebienia, p.nazwa_pozycji, p.kwota
            FROM statements s JOIN statement_positions p ON p.statement_id = s.id
@@ -235,6 +236,9 @@ export function createD1Repository(db: D1Database): Repository {
         .all<CompanyRow>();
       return result.results.map(mapRow);
     },
+    async findConnectionsByPerson(normName: string): Promise<PersonConnectionRow[]> {
+      return findConnectionsByPerson(db, normName);
+    },
     async setIngestState(lastBulletinDay: string): Promise<void> {
       await db
         .prepare(
@@ -254,8 +258,8 @@ export function createD1Repository(db: D1Database): Repository {
 async function upsertConnections(db: D1Database, krs: string, connections: CompanyReport["connections"]): Promise<void> {
   for (const connection of connections) {
     await db
-      .prepare(`INSERT OR IGNORE INTO connections (krs, type, name, function) VALUES (?, ?, ?, ?)`)
-      .bind(krs, connection.typPowiazania, connection.nazwa ?? null, connection.funkcja ?? null)
+      .prepare(`INSERT OR IGNORE INTO connections (krs, type, name, function, name_norm) VALUES (?, ?, ?, ?, ?)`)
+      .bind(krs, connection.typPowiazania, connection.nazwa ?? null, connection.funkcja ?? null, personKey(connection.nazwa) || null)
       .run();
   }
 }

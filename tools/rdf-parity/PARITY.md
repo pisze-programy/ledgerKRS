@@ -548,3 +548,28 @@ longer in RDF: 0000005989, 0000692949), ×100 Aktywa typo + duplicated years
   **deferred** (documented in KNOWN_ISSUES).
 - **Emitents / consolidated**: none in the 110-firm draw; SFSINZ already implemented
   (Totalizator fixture); JednostkaEmitent is rare and maps to LEGACY.
+
+## PDF / XHTML stage — discovery (evidence)
+
+`discover-pdf.ts` probed banks (Pekao 0000014843, mBank 0000025237, Santander
+0000008723, Alior 0000305178) + the insurer fixture:
+
+- **Banks file BINARY PDFs for most years** (3.5–24 MB). Text extraction with
+  pdfjs-dist returns **0 characters** — the PDFs are **scanned images** (no text
+  layer; Pekao's even fails `Invalid Root reference`). Financial extraction
+  would require OCR → documented **OCR gap**.
+- **Some bank years are XHTML** (Word-exported, 6.8–21 MB). `htmlToText`
+  extracts the data, but: table cells land on **separate lines** (name then
+  amount), values are in **thousands of zł**, and a single document has
+  **multiple tables** (bilans, RZiS, notes, segment reports) with repeated
+  "AKTYWA RAZEM" etc.
+- The stored Pekao XHTML fixture's totals do **not align with BizRaport ground
+  truth** (222 380 996 vs 233 217 182 thousand zł) — the fixture/doc version and
+  BizRaport's source differ.
+- BizRaport's own bank GT is **thin** (suma_bilansowa, zysk_netto, zysk_brutto).
+
+**Delivered**: reusable, tested modules — `src/sources/rdf/htmlToText.ts`
+(tag/style/script/entity stripping → data lines) and `pdf.ts` v2
+(`pdfPositions` two-line name→amount matching + `detectScale` for thousands).
+Unit tests in `test/unit/rdf-pdf.test.ts`. Binary PDF / scanned banks and the
+fragile XHTML→GT alignment are documented gaps (OCR would be needed).

@@ -1,31 +1,53 @@
 import { describe, expect, it } from "vitest";
-import { pdfPositions } from "../../src/sources/rdf/pdf";
+import { htmlToText } from "../../src/sources/rdf/htmlToText";
+import { pdfPositions, detectScale } from "../../src/sources/rdf/pdf";
 
-const SAMPLE = `BILANS
-A. Aktywa razem 16 855 641,66
-A. Aktywa trwałe 6 193 945,41
-B. Aktywa obrotowe 10 661 696,25
-Pasywa razem 16 855 641,66
-A. Kapitał (fundusz) własny -32 890 677,18
-B. Zobowiązania i rezerwy na zobowiązania 49 746 318,84
+describe("htmlToText", () => {
+  it("strips tags, styles, scripts and entities into data lines", () => {
+    const html = `<html><head><style>@page { size: A4 } .x { font:bold }</style><script>var x=1;</script></head>
+<body><table><tr><td>AKTYWA RAZEM</td></tr><tr><td>222&nbsp;380&nbsp;996</td></tr></table></body></html>`;
+    const lines = htmlToText(html);
+    expect(lines).toContain("AKTYWA RAZEM");
+    expect(lines).toContain("222 380 996");
+    expect(lines.some((l) => l.includes("@page"))).toBe(false);
+    expect(lines.some((l) => l.includes("var x"))).toBe(false);
+  });
 
-RACHUNEK ZYSKÓW I STRAT (wariant porównawczy)
-A. Przychody netto ze sprzedaży i zrównane z nimi, w tym: 133 252 762,98
-B. Koszty działalności operacyjnej 134 273 963,29
-C. Zysk (strata) ze sprzedaży (A–B) -1 021 200,31
-F. Zysk (strata) z działalności operacyjnej (C+D–E) -2 078 243,80
-I. Zysk (strata) brutto (F+G–H) -3 014 231,10
-J. Podatek dochodowy 0,00
-L. Zysk (strata) netto (I–J–K) -3 014 231,10`;
+  it("splits table cells into separate lines", () => {
+    const lines = htmlToText(`<table><tr><td>ZYSK NETTO</td></tr><tr><td>1 126 424</td></tr></table>`);
+    expect(lines).toEqual(["ZYSK NETTO", "1 126 424"]);
+  });
+});
+
+describe("detectScale", () => {
+  it("detects thousands-declared statements", () => {
+    expect(detectScale(["w tysiącach zł"])).toBe(1000);
+    expect(detectScale(["dane w tys. zł"])).toBe(1000);
+    expect(detectScale(["Sprawozdanie finansowe"])).toBe(1);
+  });
+});
 
 describe("pdfPositions", () => {
-  it("matches position names to numbers on the same line", () => {
-    const positions = pdfPositions(SAMPLE, { layout: "SFJINZ", wariant: 2 });
-    const byName = Object.fromEntries(positions.map((p) => [p.nazwa, p.kwota]));
-    expect(byName["Aktywa razem"]).toBeCloseTo(16855641.66, 1);
-    expect(byName["Aktywa obrotowe"]).toBeCloseTo(10661696.25, 1);
-    expect(byName["Przychody netto ze sprzedaży i zrównane z nimi, w tym:"]).toBeCloseTo(133252762.98, 0);
-    expect(byName["Zysk (strata) netto (I–J–K)"] ?? byName["Zysk (strata) netto"]).toBeCloseTo(-3014231.1, 0);
-    expect(byName["Podatek dochodowy"]).toBeCloseTo(0, 1);
+  it("matches a two-line name→amount pair and scales it", () => {
+    const text = `<html><table><tr><td>AKTYWA RAZEM</td></tr><tr><td>222 380 996</td></tr></table>
+      <p>w tysiącach zł</p>`;
+    // SFBNKZ dict has a Bilans position matching "Aktywa" (bank total).
+    const positions = pdfPositions(text, { layout: "SFBNKZ" });
+    const aktywa = positions.find((p) => p.kod === "Aktywa");
+    expect(aktywa).toBeDefined();
+    expect(aktywa!.kwota).toBe(222380996000);
+  });
+
+  it("matches an amount on the same line as the name", () => {
+    const positions = pdfPositions(
+      `<table><tr><td>AKTYWA RAZEM 222 380 996</td></tr></table><p>w tysiącach zł</p>`,
+      { layout: "SFBNKZ" },
+    );
+    const aktywa = positions.find((p) => p.kod === "Aktywa");
+    expect(aktywa?.kwota).toBe(222380996000);
+  });
+
+  it("returns no positions when nothing matches", () => {
+    expect(pdfPositions("<html><p>Brak danych</p></html>", { layout: "SFBNKZ" })).toEqual([]);
   });
 });

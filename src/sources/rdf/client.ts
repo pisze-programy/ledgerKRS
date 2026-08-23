@@ -85,6 +85,16 @@ export function createRdfClient(options: RdfClientOptions) {
       const text = await response.text();
       return text.includes("<") && text.includes("<?xml") ? text : null;
     },
+    /** Binary-safe document content (XHTML/PDF/HTML). Returns null on failure. */
+    async downloadRaw(id: string): Promise<string | null> {
+      const response = await transport(`${baseUrl}${DOC_PATH}/${encodeURIComponent(id)}/tresc?bezPodpisu=false`, {
+        headers: { Accept: "application/json", Referer: `${baseUrl}/wyszukaj-podmiot` },
+      });
+      if (response.status !== 200) {
+        return null;
+      }
+      return await response.text();
+    },
     async fetchStatements(krs: string): Promise<RdfDocument> {
       const hits = await this.listXmlStatements(krs);
       const statements: ParsedStatement[] = [];
@@ -107,6 +117,20 @@ export function isXmlCapable(document: Record<string, unknown>): boolean {
   const rodzaj = document["rodzajDokumentu"] as Record<string, unknown> | undefined;
   const extensions = (rodzaj?.["dopuszczalneRozszerzenia"] as string | undefined) ?? "";
   return /\.XML/i.test(extensions);
+}
+
+/** Whether the document is served as HTML/XHTML (PDF-rendered statements). */
+export function isHtmlCapable(document: Record<string, unknown>): boolean {
+  const rodzaj = document["rodzajDokumentu"] as Record<string, unknown> | undefined;
+  const extensions = (rodzaj?.["dopuszczalneRozszerzenia"] as string | undefined) ?? "";
+  return /\.(HTML|XHTML)/i.test(extensions);
+}
+
+/** Whether the document is a binary PDF. */
+export function isPdfCapable(document: Record<string, unknown>): boolean {
+  const rodzaj = document["rodzajDokumentu"] as Record<string, unknown> | undefined;
+  const extensions = (rodzaj?.["dopuszczalneRozszerzenia"] as string | undefined) ?? "";
+  return /\.PDF/i.test(extensions);
 }
 
 const encoder = new TextEncoder();

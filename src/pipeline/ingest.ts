@@ -1,9 +1,16 @@
 import { parseOdpis } from "../sources/krs/parser";
 import { createKrsClient } from "../sources/krs/client";
 import { createRdfClient, isXmlCapable } from "../sources/rdf/client";
-import { parseSprawozdanie } from "../sources/rdf/parser";
+import { parseSprawozdanie, type ParsedStatement } from "../sources/rdf/parser";
 import { statementMeta } from "../sources/rdf/layouts";
-import { extractFinancialInput } from "../sources/rdf/indicators";
+import { extractFinancialInput, type YearFinancials } from "../sources/rdf/indicators";
+import { fiscalYearOf } from "../sources/rdf/period";
+import { selectAnnualYears, type AnnualCandidate } from "../sources/rdf/selection";
+import { historyEntryFromMeta } from "../sources/rdf/history";
+import { fetchMonitorForKrs } from "../sources/msig/client";
+import { buildCompanyDescription } from "../metrics/description";
+import { computeCompanyPercentiles, type BenchmarkFirm } from "../metrics/benchmarks";
+import { BENCHMARK_INDICATORS, type BenchmarkIndicator } from "../domain/vocab";
 import type { FinancialInput } from "../metrics/indicators";
 import { buildFullIndicators, NO_SIGNALS } from "../metrics/report";
 import type { RiskSignals } from "../metrics/risk";
@@ -22,6 +29,10 @@ export interface IngestService {
   listBulletin(day: string, limit?: number): Promise<string[]>;
   ingestFinancials(krs: string, financials: FinancialInput, signals?: RiskSignals): Promise<void>;
   ingestRdfFinancials(krs: string): Promise<IngestResult>;
+  ingestMonitor(krs: string): Promise<IngestResult>;
+  ingestDerived(krs: string): Promise<IngestResult>;
+  computeBenchmarks(): Promise<IngestResult>;
+  persistStatement(krs: string, statement: ParsedStatement, okres: string | null): Promise<void>;
   ingestBenchmarks(pkd: string, rows: IndustryBenchmarkRow[]): Promise<void>;
   ingestAnnouncements(krs: string, report: CompanyReport): Promise<void>;
 }
@@ -72,19 +83,14 @@ export function createIngest(deps: IngestDeps): IngestService {
       }
       const hits = await deps.rdfClient.searchDocuments(krs);
       const annual = hits.filter((h) => h.rodzaj === "18" || h.rodzaj === "22");
-      // Prefer the consolidated group statement (rodzaj 22) when present for a
-      // period — BizRaport reports consolidated figures for capital groups.
-      const byPeriod = new Map<string, typeof annual[number]>();
-      for (const hit of annual) {
-        const key = hit.okresSprawozdawczyKoniec ?? hit.id;
-        const current = byPeriod.get(key);
-        if (!current || (hit.rodzaj === "22" && current.rodzaj !== "22")) {
-          byPeriod.set(key, hit);
-        }
-      }
-      let processed = 0;
+      const gathered: {
+        candidate: AnnualCandidate;
+        statement: ParsedStatement;
+        meta: Record<string, unknown> | null;
+        year: YearFinancials | null;
+      }[] = [];
       let failed = 0;
-      for (const hit of byPeriod.values()) {
+      for (const hit of annual) {
         const meta = await deps.rdfClient.documentMeta(hit.id);
         if (!meta || !isXmlCapable(meta)) {
           continue;
@@ -99,20 +105,138 @@ export function createIngest(deps: IngestDeps): IngestService {
           failed += 1;
           continue;
         }
-        const year = extractFinancialInput(statement, statementMeta(xml));
+        const okres =
+          statement.okres_sprawozdawczy ||
+          (hit.okresSprawozdawczyPoczatek && hit.okresSprawozdawczyKoniec
+            ? `${hit.okresSprawozdawczyPoczatek}_${hit.okresSprawozdawczyKoniec}`
+            : null);
+        gathered.push({
+          candidate: {
+            id: hit.id,
+            rodzaj: hit.rodzaj,
+            okres,
+            dataDodania: typeof meta.dataDodania === "string" ? meta.dataDodania : null,
+          },
+          statement,
+          meta,
+          year: extractFinancialInput(statement, statementMeta(xml)),
+        });
+      }
+      // One primary statement per fiscal year (BizRaport reports a single row
+      // per year; consolidated statements win, transitional/partial periods
+      // lose to a genuine annual one, the latest filing supersedes earlier).
+      const selected = new Set(selectAnnualYears(gathered.map((g) => g.candidate)).map((s) => s.candidate.id));
+      let processed = 0;
+      for (const item of gathered) {
+        if (!selected.has(item.candidate.id)) {
+          continue;
+        }
+        const year = item.year;
         if (!year) {
           failed += 1;
           continue;
         }
-        const okres =
-          year.okresSprawozdawczy ||
-          (hit.okresSprawozdawczyPoczatek && hit.okresSprawozdawczyKoniec
-            ? `${hit.okresSprawozdawczyPoczatek}_${hit.okresSprawozdawczyKoniec}`
-            : null);
+        const okres = item.candidate.okres ?? year.okresSprawozdawczy;
+        await this.persistStatement(krs, item.statement, okres);
+        if (item.meta) {
+          await deps.repository.upsertHistory(krs, [historyEntryFromMeta(item.meta, okres, fiscalYearOf(okres))]);
+        }
         await this.ingestFinancials(krs, { ...(year.input as FinancialInput), okresSprawozdawczy: okres ?? year.okresSprawozdawczy });
         processed += 1;
       }
       return { processed, failed };
+    },
+    async ingestMonitor(krs: string): Promise<IngestResult> {
+      const entries = await fetchMonitorForKrs(krs);
+      if (entries.length > 0) {
+        await deps.repository.upsertMonitor(krs, entries);
+      }
+      return { processed: entries.length, failed: 0 };
+    },
+    async ingestDerived(krs: string): Promise<IngestResult> {
+      const report = await deps.repository.getReport(krs);
+      if (!report) {
+        return { processed: 0, failed: 0 };
+      }
+      const company = report.company;
+      const financials = (report.financials ?? []).map((year) => {
+        const byName = new Map((year.indicators ?? []).map((i) => [i.nazwa_wskaznika, i.kwota]));
+        return {
+          rok: year.rok ?? 0,
+          przychody: byName.get("przychody") ?? null,
+          zyskNetto: byName.get("zysk_netto") ?? null,
+          sumaBilansowa: byName.get("suma_bilansowa") ?? null,
+          roe: byName.get("roe") ?? null,
+          marzaNetto: byName.get("marza_netto") ?? null,
+        };
+      });
+      const description = buildCompanyDescription({
+        name: company?.name ?? "",
+        legalForm: company?.legalForm ?? null,
+        city: company?.address?.city ?? null,
+        pkdDescription: report.pkdCodes?.[0]?.description ?? null,
+        financials,
+      });
+      await deps.repository.upsertDescriptions(krs, [description]);
+      return { processed: 1, failed: 0 };
+    },
+    async computeBenchmarks(): Promise<IngestResult> {
+      const companies = await deps.repository.listCompanies(10000, 0);
+      const firms: BenchmarkFirm[] = [];
+      for (const company of companies) {
+        const report = await deps.repository.getReport(company.krs);
+        if (!report) {
+          continue;
+        }
+        const pkd = report.pkdCodes?.[0]?.code ?? null;
+        if (!pkd) {
+          continue;
+        }
+        for (const year of report.financials ?? []) {
+          const values: Partial<Record<BenchmarkIndicator, number>> = {};
+          for (const indicator of year.indicators ?? []) {
+            if (BENCHMARK_INDICATORS.includes(indicator.nazwa_wskaznika as BenchmarkIndicator)) {
+              values[indicator.nazwa_wskaznika as BenchmarkIndicator] = indicator.kwota;
+            }
+          }
+          firms.push({ krs: company.krs, pkd, okres: year.okresSprawozdawczy, rok: year.rok ?? 0, values });
+        }
+      }
+      const byFirm = computeCompanyPercentiles(firms);
+      let processed = 0;
+      for (const [krs, list] of byFirm) {
+        await deps.repository.upsertCompanyBenchmarks(krs, list);
+        processed += list.length;
+      }
+      return { processed, failed: 0 };
+    },
+    async persistStatement(krs: string, statement: ParsedStatement, okres: string | null): Promise<void> {
+      const [periodFrom, periodTo] = (okres ?? "").split("_");
+      const statementId = await deps.repository.upsertStatement(krs, { periodFrom: periodFrom || undefined, periodTo: periodTo || undefined, filedAt: null });
+      if (statementId === 0) {
+        return;
+      }
+      const positions: {
+        sekcja: string;
+        kod_pozycji: string | null;
+        poziom_zaglebienia: number | null;
+        nazwa_pozycji: string | null;
+        kwota: number | null;
+      }[] = [];
+      for (const section of statement.sekcje) {
+        for (const position of section.pozycje) {
+          positions.push({
+            sekcja: section.sekcja,
+            kod_pozycji: position.kod_pozycji,
+            poziom_zaglebienia: position.poziom_zaglebienia,
+            nazwa_pozycji: position.nazwa_pozycji,
+            kwota: position.kwota,
+          });
+        }
+      }
+      if (positions.length > 0) {
+        await deps.repository.upsertPositions(statementId, positions);
+      }
     },
     async ingestBenchmarks(pkd: string, rows: IndustryBenchmarkRow[]): Promise<void> {
       const byYear = new Map<number, Benchmark[]>();

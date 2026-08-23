@@ -98,6 +98,93 @@ describe("extractFinancialInput", () => {
     expect(year.input.netProfit).toBeCloseTo(8691.07, 2);
   });
 
+  it("truncated Mikro: BizRaport reads op=A−B, podatek=E, netto=F, operatingCosts=B (0000554503 2021 vs BizRaport)", () => {
+    const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-corpus", "0000554503", "20210101_20211231.xml"), "utf8");
+    const meta = statementMeta(xml);
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.operatingProfit).toBeCloseTo(4339.58, 2); // A − B = 1432600.72 − 1428261.14
+    expect(year.input.incomeTax).toBe(0);                        // E
+    expect(year.input.grossProfit).toBeNull();                   // BizRaport does not report brutto
+    expect(year.input.grossProfitOnSales).toBeNull();
+    expect(year.input.profitOnSales).toBeNull();
+    expect(year.input.operatingCosts).toBeCloseTo(1428261.14, 2); // B only — E is the tax, not an operating cost
+  });
+
+  it("truncated Mikro with a nonzero E reports E as the tax and keeps it out of operating costs", () => {
+    const xml = `<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Dokument>
+  <OkresOd>2021-01-01</OkresOd>
+  <OkresDo>2021-12-31</OkresDo>
+  <JednostkaMikro>
+    <RZiS>
+      <A><dtsf:KwotaA>1000</dtsf:KwotaA><dtsf:KwotaB>800</dtsf:KwotaB></A>
+      <B><dtsf:KwotaA>600</dtsf:KwotaA><dtsf:KwotaB>500</dtsf:KwotaB></B>
+      <C><dtsf:KwotaA>0</dtsf:KwotaA><dtsf:KwotaB>0</dtsf:KwotaB></C>
+      <D><dtsf:KwotaA>50</dtsf:KwotaA><dtsf:KwotaB>0</dtsf:KwotaB></D>
+      <E><dtsf:KwotaA>40</dtsf:KwotaA><dtsf:KwotaB>0</dtsf:KwotaB></E>
+      <F><dtsf:KwotaA>310</dtsf:KwotaA><dtsf:KwotaB>0</dtsf:KwotaB></F>
+    </RZiS>
+  </JednostkaMikro>
+</Dokument>`;
+    const meta = statementMeta(xml);
+    expect(meta.layout).toBe("SFJMIZ");
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.operatingProfit).toBe(400);  // A − B
+    expect(year.input.incomeTax).toBe(40);         // E
+    expect(year.input.netProfit).toBe(310);        // F
+    expect(year.input.operatingCosts).toBe(600);   // B, not B + E
+    expect(year.input.revenue).toBe(1000);         // A + C
+  });
+
+  it("uses the internally consistent balance-sheet side when Aktywa and Pasywa disagree (0000450927 2018 vs BizRaport)", () => {
+    const xml = `<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Dokument>
+  <OkresOd>2018-01-01</OkresOd>
+  <OkresDo>2018-12-31</OkresDo>
+  <JednostkaInna>
+    <Bilans>
+      <Aktywa><dtsf:KwotaA>1047768.58</dtsf:KwotaA></Aktywa>
+      <Aktywa_A><dtsf:KwotaA>0</dtsf:KwotaA></Aktywa_A>
+      <Aktywa_B><dtsf:KwotaA>4891524.75</dtsf:KwotaA></Aktywa_B>
+      <Pasywa><dtsf:KwotaA>5939293.33</dtsf:KwotaA></Pasywa>
+      <Pasywa_A><dtsf:KwotaA>314282.87</dtsf:KwotaA></Pasywa_A>
+      <Pasywa_B><dtsf:KwotaA>5625010.46</dtsf:KwotaA></Pasywa_B>
+    </Bilans>
+    <RZiS>
+      <A><dtsf:KwotaA>1000</dtsf:KwotaA></A><B><dtsf:KwotaA>600</dtsf:KwotaA></B>
+      <C><dtsf:KwotaA>400</dtsf:KwotaA></C><D><dtsf:KwotaA>50</dtsf:KwotaA></D>
+      <E><dtsf:KwotaA>0</dtsf:KwotaA></E><F><dtsf:KwotaA>450</dtsf:KwotaA></F>
+      <G><dtsf:KwotaA>100</dtsf:KwotaA></G><H><dtsf:KwotaA>50</dtsf:KwotaA></H>
+      <I><dtsf:KwotaA>20</dtsf:KwotaA></I><J><dtsf:KwotaA>30</dtsf:KwotaA></J>
+      <K><dtsf:KwotaA>0</dtsf:KwotaA></K><L><dtsf:KwotaA>30</dtsf:KwotaA></L>
+    </RZiS>
+  </JednostkaInna>
+</Dokument>`;
+    const meta = statementMeta(xml);
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.totalAssets).toBe(5939293.33); // the coherent Pasywa side
+  });
+
+  it("chain recognises a no-tax filing (brutto == netto) and fills podatek = 0", () => {
+    const xml = `<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Dokument>
+  <OkresOd>2021-01-01</OkresOd>
+  <OkresDo>2021-12-31</OkresDo>
+  <JednostkaMikro>
+    <RZiS>
+      <A><dtsf:KwotaA>100</dtsf:KwotaA></A><B><dtsf:KwotaA>60</dtsf:KwotaA></B>
+      <C><dtsf:KwotaA>40</dtsf:KwotaA></C>
+      <H><dtsf:KwotaA>50</dtsf:KwotaA></H><J><dtsf:KwotaA>50</dtsf:KwotaA></J>
+    </RZiS>
+  </JednostkaMikro>
+</Dokument>`;
+    const meta = statementMeta(xml);
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.grossProfit).toBe(50);  // H
+    expect(year.input.incomeTax).toBe(0);     // brutto == netto -> no tax
+    expect(year.input.netProfit).toBe(50);    // J
+  });
+
   it("handles consolidated group statement (SFSINZ, kalk A..W): revenue=A+G+J, op=I, brutto=R, podatek=S, netto=W — matches BizRaport (Totalizator 2025)", () => {
     const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-consolidated-2025.xml"), "utf8");
     const meta = statementMeta(xml);
@@ -110,5 +197,19 @@ describe("extractFinancialInput", () => {
     expect(year.input.incomeTax).toBeCloseTo(155251816, 2);
     expect(year.input.netProfit).toBeCloseTo(668648296.1, 2);
     expect(year.input.totalAssets).toBeCloseTo(3688572244.15, 2);
+  });
+
+  it("extracts wages from the porównawczy RZiS B_V line (0000085314 2018)", () => {
+    const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-corpus", "0000085314", "20180101_20181231.xml"), "utf8");
+    const meta = statementMeta(xml);
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.wages).toBeCloseTo(201874.82, 2);
+  });
+
+  it("leaves wages null when the statement has no separate wages line (kalkulacyjny consolidated)", () => {
+    const xml = fs.readFileSync(path.join(__dirname, "..", "fixtures", "rdf-consolidated-2025.xml"), "utf8");
+    const meta = statementMeta(xml);
+    const year = extractFinancialInput(parseSprawozdanie(xml)!, meta)!;
+    expect(year.input.wages).toBeNull();
   });
 });

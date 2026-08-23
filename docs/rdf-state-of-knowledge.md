@@ -94,21 +94,21 @@ await client.fetchStatements(krs);      // search + filter + download + parse
 
 `transport` is injectable — it must attach cookies/UA for Incapsula.
 
-## Incapsula + captcha (operational, solved)
+## Incapsula + captcha
 
 - The site is behind Incapsula (reese84 sensor + hCaptcha). A plain curl gets a
-  challenge. The working flow:
+  challenge. Flow:
   1. **Solve**: headless Chromium (Playwright) loads the search page; on a
      clean residential/mobile IP the sensor passes and sets `reese84` +
-     `incap_ses_*` + `visid_incap_*` — usually **without any captcha**.
+     `incap_ses_*` + `visid_incap_*`, usually without a captcha.
   2. **Use**: send requests with the Chrome-123 UA + `sec-ch-ua` headers and
-     the cookie (plain `fetch` works — Cloudflare-compatible transport in
+     the cookie (plain `fetch` — Cloudflare-compatible transport in
      `src/sources/rdf/transport.ts`).
 - **Budget**: ~10-15 requests per cookie/IP, then a challenge. Auto-refresh:
   on a challenge (HTML/403) re-solve a fresh cookie and continue. `tresc`
   (XML download) is IP-bound to the solve; `search` works cross-IP.
-- **IPs**: local machine IP (for `wrangler dev`), the phone via Tailscale
-  `tsproxy` (SOCKS 127.0.0.1:1080), or Webshare residential as fallback.
+- **IPs**: local machine IP (`wrangler dev`), the phone via Tailscale
+  `tsproxy` (SOCKS 127.0.0.1:1080), or Webshare residential.
   Tools that script this live under `tools/rdf-parity/` (pw-solver,
   build-corpus). Production uses the fetch transport + a solved cookie from
   config (`RDF_COOKIE`); the cookie is rotated by an operator/solver service.

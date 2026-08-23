@@ -453,3 +453,59 @@ CRWDE dictionary — no hardcoded letter maps.
   mislabelled filing periods (0000721871). All tracked in
   `KNOWN_ISSUES` in `test/unit/rdf-corpus.test.ts`.
 - [NOT YET] Insurer layout SFZURZ (PZU) — separate stage, documented.
+
+## Report sections — sources (all public, verified live)
+
+| Section | Source | Module | Status |
+|---|---|---|---|
+| Sprawozdania + pozycje | RDF XML (persisted positions) | `src/sources/rdf/*` + `persistStatement` | ✅ `/api/sprawozdania` (full breakdown) |
+| Historia / Terminowość | RDF doc meta (`dataDodania`/`dataSporzadzenia`) + computed deadline | `src/sources/rdf/history.ts` | ✅ `/api/dane.history` |
+| Monitor Sądowy | **Public MSiG search API** `wyszukiwarka-msig.ms.gov.pl/api/Monitor/Search` (no auth) | `src/sources/msig/client.ts` | ✅ `/api/dane.monitor` (161 wpisów PKP/Totalizator verified) |
+| Wynagrodzenia | RZiS B_V (porównawczy) | `indicators.wagesFor` | ✅ `wynagrodzenia` indicator |
+| Płynność | Aktywa_B / Pasywa_B_III | `currentLiquidity` | ✅ `plynnosc_biezaca` indicator |
+| Zatrudnienie (estymat) | wages / avg salary | `src/metrics/employment.ts` | ✅ `zatrudnienie_estymowane` (porównawczy) |
+| Benchmarki / percentyle | our own data per PKD+year | `src/metrics/benchmarks.ts` + `computeBenchmarks` | ✅ `/api/dane.benchmarks` |
+| Opis firmy | template generator | `src/metrics/description.ts` + `ingestDerived` | ✅ `/api/dane.descriptions` |
+| Podobne organizacje | same PKD + closest scale | `src/metrics/similar.ts` | ✅ (module, wiring in `/api/dane` follow-up) |
+| KRZ | PRS portal `prs.ms.gov.pl` = SSO (no public API) | — | ⏸ DEFERRED (SSO wall; google-indexing as option) |
+| Surowe XML/PDF | RDF `tresc` | `src/sources/rdf/client.ts` | ✅ (downloadable) |
+
+Ingest routes: `POST /ingest/krs/:krs/rdf`, `/monitor`, `/derived`, `POST /ingest/benchmarks`.
+
+## 50-firm live comparison (2018–2026 sample, vs BizRaport)
+
+`run-sample50.ts` (batched via START/LIMIT) → `/tmp/our` + `/tmp/biz` →
+`compare-sample50.ts` (midpoint fiscal-year keying + `KNOWN_ISSUES`).
+
+**Result: 2379/2412 cells exactly match (98.6%); 33 residuals documented as
+BizRaport quirks/drift; 0 unexplained; 0 only_theirs.** 36/50 firms have
+financials (14 without: no XML or KRS odpis failure).
+
+Fixes landed this round (all unit-tested, happy + exceptions + conflicts):
+- `src/sources/rdf/period.ts` — `fiscalYearOf` (period-midpoint = BizRaport's
+  fiscal-year label: Oct–Sep → end year, 16-month transition → start year) and
+  `periodClassOf` (annual/transitional/partial).
+- `src/sources/rdf/selection.ts` — `selectAnnualYears`: one primary statement
+  per fiscal year (22>18, annual>transitional/partial, latest filing wins).
+- `src/sources/rdf/rzis/fixedRoles.ts` — truncated Mikro (A..F) now matches
+  BizRaport: op=A−B, podatek=E, netto=F, brutto/ze absent, operatingCosts=B.
+- `src/sources/rdf/indicators.ts` — `bilansTotalFor`: when Aktywa ≠ Pasywa,
+  use the internally consistent side (0000450927 2018).
+- `src/sources/rdf/rzis/chain.ts` — bruttó scan includes the letter right after
+  the op-adjust pair, and accepts the no-tax case brutto == netto (podatek=0).
+
+Remaining residuals (documented in `KNOWN_ISSUES` of `compare-sample50.ts`):
+| Firm | Cells | Why |
+|---|---|---|
+| 0000005989 | 2021 (14) | BizRaport uses a full-period filing no longer in RDF (dormant A=0 filing is current) |
+| 0000260788 / 0001014687 | op/ze | degenerate no-revenue years; BizRaport reports op=brutto=C |
+| 0000581370 | 5 | old simplified mikro: BizRaport derives op=A−B, przychody=A, podatek/amortyzacja=0 |
+| 0000666310 | przychody ×3 | BizRaport's income letter flips F/G across years (A+D+G vs A+D+F) |
+| 0000846396 | 3 | BizRaport przychody=A only; amortyzacja absent in statement |
+| 0000404155 / 0000418211 | przychody | dict income-letter sum differs by one line |
+| 0000834318 | amortyzacja | statement has no amortyzacja line; BizRaport reports 0 |
+| 0000893560 | koszty | statement files B=A; BizRaport reports koszty=0 |
+
+BizRaport's `op` on the old-simplified family is internally inconsistent
+(C+D−E on H-forms, A−B on F-forms, H on degenerate years) — not replicable
+without hardcoding; documented instead.

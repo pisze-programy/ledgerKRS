@@ -40,6 +40,14 @@ describe("ingestFinancials", () => {
     expect(byName.marza_netto).toBeCloseTo(0.15);
     expect(byName.roe).toBeCloseTo(0.3);
     expect(byName.wskaznik_zadluzenia).toBeCloseTo(0.5);
+    expect(byName["plynnosc_biezaca"]).toBeCloseTo(2);
+  });
+
+  it("does not emit płynność when current liabilities are zero (division by zero)", async () => {
+    const { repository, ingest } = ingestWithMemory();
+    await ingest.ingestFinancials("0000222483", { ...FINANCIALS, currentLiabilities: 0 });
+    const indicators = await repository.readIndicators("0000222483");
+    const byName = Object.fromEntries(indicators.map((item) => [item.nazwa_wskaznika, item.kwota]));
     expect(byName["plynnosc_biezaca"]).toBeUndefined();
   });
 });

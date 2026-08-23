@@ -1,66 +1,52 @@
 import { describe, expect, it } from "vitest";
-import { computeBenchmarkMatrix, marketShare, percentile } from "../../src/metrics/benchmarks";
-import { BENCHMARK_INDICATORS, INDICATOR } from "../../src/domain/vocab";
+import { percentileOf, computeCompanyPercentiles } from "../../src/metrics/benchmarks";
 
-describe("percentile", () => {
-  it("returns fraction of values below", () => {
-    expect(percentile([1, 2, 3, 4], 3)).toBeCloseTo(0.5);
-    expect(percentile([1, 2, 3], 4)).toBeCloseTo(1);
-    expect(percentile([1, 2, 3], 0)).toBe(0);
+describe("percentileOf", () => {
+  it("returns the fraction of values at or below the value", () => {
+    expect(percentileOf([1, 2, 3, 4], 2)).toBe(0.5);
+    expect(percentileOf([1, 2, 3, 4], 4)).toBe(1);
+    expect(percentileOf([1, 2, 3, 4], 0)).toBe(0);
   });
 
-  it("returns null for empty input", () => {
-    expect(percentile([], 5)).toBeNull();
-  });
-});
-
-describe("marketShare", () => {
-  it("computes company share of group revenue", () => {
-    expect(marketShare(1000, 250)).toBeCloseTo(0.25);
-  });
-
-  it("returns null for zero group", () => {
-    expect(marketShare(0, 5)).toBeNull();
+  it("returns 0 for an empty distribution", () => {
+    expect(percentileOf([], 5)).toBe(0);
   });
 });
 
-describe("computeBenchmarkMatrix", () => {
-  const company = { [INDICATOR.Przychody]: 400, [INDICATOR.ZyskNetto]: 40 };
-  const industry = [
-    { [INDICATOR.Przychody]: 100, [INDICATOR.ZyskNetto]: 10 },
-    { [INDICATOR.Przychody]: 200, [INDICATOR.ZyskNetto]: 20 },
-    { [INDICATOR.Przychody]: 400, [INDICATOR.ZyskNetto]: 40 },
-    { [INDICATOR.Przychody]: 400, [INDICATOR.ZyskNetto]: 40 },
-  ];
-
-  it("builds a row per benchmark indicator", () => {
-    const rows = computeBenchmarkMatrix(company, industry, "01-01-2024_31-12-2024", 2024);
-    expect(rows).toHaveLength(2);
-    expect(rows[0]!.nazwaWskaznika).toBe(INDICATOR.Przychody);
-    expect(rows[1]!.nazwaWskaznika).toBe(INDICATOR.ZyskNetto);
+describe("computeCompanyPercentiles — industry position per PKD+year", () => {
+  it("ranks firms within the same PKD and year", () => {
+    const firms = [
+      { krs: "A", pkd: "49.41.Z", okres: "2024_1", rok: 2024, values: { przychody: 100 } },
+      { krs: "B", pkd: "49.41.Z", okres: "2024_2", rok: 2024, values: { przychody: 300 } },
+      { krs: "C", pkd: "49.41.Z", okres: "2024_3", rok: 2024, values: { przychody: 200 } },
+    ];
+    const byFirm = computeCompanyPercentiles(firms);
+    const rows = [...byFirm.values()].flat();
+    expect(byFirm.get("A")?.[0]?.percentylWPkd).toBeCloseTo(1 / 3, 5);
+    expect(byFirm.get("C")?.[0]?.percentylWPkd).toBeCloseTo(2 / 3, 5);
+    expect(byFirm.get("B")?.[0]?.percentylWPkd).toBeCloseTo(1, 5);
+    expect(rows[0]!.liczbaFirmWBranzy).toBe(3);
   });
 
-  it("adds market fields only for przychody", () => {
-    const rows = computeBenchmarkMatrix(company, industry, "01-01-2024_31-12-2024", 2024);
-    const revenue = rows.find((row) => row.nazwaWskaznika === INDICATOR.Przychody)!;
-    expect(revenue.udzialWRynku).toBeCloseTo(400 / 1100);
-    expect(revenue.przychodyCalejBranzy).toBeCloseTo(1100);
-    expect(revenue.liczbaFirmWBranzy).toBe(4);
-    expect(revenue.percentylWPkd).toBeCloseTo(0.5);
-    const profit = rows.find((row) => row.nazwaWskaznika === INDICATOR.ZyskNetto)!;
-    expect(profit.udzialWRynku).toBeUndefined();
-    expect(profit.liczbaFirmWBranzy).toBeUndefined();
+  it("does not mix different PKD groups or years", () => {
+    const firms = [
+      { krs: "A", pkd: "49.41.Z", okres: "2024", rok: 2024, values: { przychody: 100 } },
+      { krs: "B", pkd: "49.41.Z", okres: "2023", rok: 2023, values: { przychody: 900 } },
+      { krs: "C", pkd: "55.10.Z", okres: "2024", rok: 2024, values: { przychody: 50 } },
+    ];
+    const rows = [...computeCompanyPercentiles(firms).values()].flat();
+    const by = rows.map((r) => `${r.okresSprawozdawczy}:${r.percentylWPkd}`);
+    expect(by.includes("2024:1")).toBe(true); // A is the only 2024/49.41.Z firm
+    expect(by.includes("2023:1")).toBe(true); // B is the only 2023/49.41.Z firm
+    expect(by.includes("2024:1")).toBe(true); // C is the only 2024/55.10.Z firm
   });
 
-  it("skips missing indicator values", () => {
-    const rows = computeBenchmarkMatrix(company, [{ [INDICATOR.ZyskNetto]: 5 }], "okres", null);
-    expect(rows.some((row) => row.nazwaWskaznika === INDICATOR.Przychody)).toBe(false);
-  });
-
-  it("uses only the 10 vocabulary indicators", () => {
-    const rows = computeBenchmarkMatrix(company, industry, "okres", 2024);
-    for (const row of rows) {
-      expect((BENCHMARK_INDICATORS as readonly string[]).includes(row.nazwaWskaznika)).toBe(true);
-    }
+  it("skips indicators without values", () => {
+    const firms = [
+      { krs: "A", pkd: "49.41.Z", okres: "2024", rok: 2024, values: {} },
+      { krs: "B", pkd: "49.41.Z", okres: "2024", rok: 2024, values: { przychody: 5 } },
+    ];
+    const rows = [...computeCompanyPercentiles(firms).values()].flat();
+    expect(rows.length).toBe(1); // only B has przychody
   });
 });

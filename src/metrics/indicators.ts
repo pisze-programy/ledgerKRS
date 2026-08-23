@@ -60,6 +60,7 @@ export function computeIndicators(input: FinancialInput): Indicator[] {
   add(result, INDICATOR.Roe, ratio(input.netProfit, input.equity));
   add(result, INDICATOR.Roa, ratio(input.netProfit, input.totalAssets));
   add(result, INDICATOR.WskaznikZadluzenia, ratio(input.liabilities, input.totalAssets));
+  add(result, INDICATOR.PlynnoscBiezaca, currentLiquidity(input));
   return result;
 }
 

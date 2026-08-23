@@ -27,6 +27,7 @@ export const INDICATOR = {
   Roe: "roe",
   Roa: "roa",
   WskaznikZadluzenia: "wskaznik_zadluzenia",
+  PlynnoscBiezaca: "plynnosc_biezaca",
   Niewyplacalnosc24m: "niewyplacalnosc_lub_restrukturyzacja_24m",
   Wiarygodnosc: "wiarygodnosc",
   WartoscFirmyMinimalna: "wartosc_firmy_minimalna",

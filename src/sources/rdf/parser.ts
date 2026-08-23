@@ -1,5 +1,6 @@
 import { XMLParser } from "fast-xml-parser";
 import { POSITION_NAMES } from "./positions";
+import { fiscalYearOf } from "./period";
 
 export interface StatementPosition {
   pozycja_szczegolowa: string | null;
@@ -77,9 +78,10 @@ export function parseSprawozdanie(xml: string): ParsedStatement | null {
   if (sekcje.length === 0 && !okresOd && !okresDo) {
     return null;
   }
+  const okres = okresOd && okresDo ? `${okresOd}_${okresDo}` : null;
   return {
-    okres_sprawozdawczy: okresOd && okresDo ? `${okresOd}_${okresDo}` : null,
-    rok: extractYear(okresDo),
+    okres_sprawozdawczy: okres,
+    rok: fiscalYearOf(okres),
     sekcje,
   };
 }
@@ -208,14 +210,6 @@ function findText(node: unknown, pattern: RegExp): string | undefined {
     }
   }
   return undefined;
-}
-
-function extractYear(value: string | undefined | null): number | null {
-  if (!value) {
-    return null;
-  }
-  const match = value.match(/(\d{4})/);
-  return match ? Number(match[1]) : null;
 }
 
 function toNullableNumber(value: string | null | undefined): number | null {

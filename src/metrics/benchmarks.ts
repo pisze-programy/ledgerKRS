@@ -1,59 +1,69 @@
-import { BENCHMARK_INDICATORS, INDICATOR, type BenchmarkIndicator } from "../domain/vocab";
 import type { IndustryBenchmarkRow } from "../domain/types";
+import { BENCHMARK_INDICATORS, type BenchmarkIndicator } from "../domain/vocab";
 
-export function percentile(values: number[], value: number): number | null {
-  if (values.length === 0) {
-    return null;
-  }
-  const below = values.filter((item) => item < value).length;
-  return below / values.length;
+export interface BenchmarkFirm {
+  krs: string;
+  pkd: string;
+  okres: string | null;
+  rok: number;
+  values: Partial<Record<BenchmarkIndicator, number>>;
 }
 
-export function marketShare(groupRevenue: number, companyRevenue: number): number | null {
-  if (groupRevenue <= 0) {
-    return null;
+/** Fraction of the sorted distribution that is <= value (0..1). */
+export function percentileOf(sortedAsc: number[], value: number): number {
+  if (sortedAsc.length === 0) {
+    return 0;
   }
-  return companyRevenue / groupRevenue;
+  let below = 0;
+  for (const v of sortedAsc) {
+    if (v <= value) {
+      below += 1;
+    }
+  }
+  return below / sortedAsc.length;
 }
 
-export type CompanyValues = Partial<Record<BenchmarkIndicator, number | null>>;
-
-export function computeBenchmarkMatrix(
-  company: CompanyValues,
-  group: CompanyValues[],
-  okres: string,
-  rok: number | null,
-): IndustryBenchmarkRow[] {
-  const rows: IndustryBenchmarkRow[] = [];
-  for (const indicator of BENCHMARK_INDICATORS) {
-    const value = company[indicator];
-    if (value === null || value === undefined || !Number.isFinite(value)) {
-      continue;
-    }
-    const groupValues = group
-      .map((entry) => entry[indicator])
-      .filter((entry): entry is number => entry !== null && entry !== undefined && Number.isFinite(entry));
-    const percentyl = percentile(groupValues, value);
-    if (percentyl === null) {
-      continue;
-    }
-    const row: IndustryBenchmarkRow = {
-      okresSprawozdawczy: okres,
-      rok,
-      nazwaWskaznika: indicator,
-      percentylWPkd: percentyl,
-    };
-    if (indicator === INDICATOR.Przychody) {
-      const groupRevenue = groupValues.reduce((sum, entry) => sum + entry, 0);
-      const firms = groupValues.length;
-      const share = marketShare(groupRevenue, value);
-      if (share !== null) {
-        row.udzialWRynku = share;
-        row.przychodyCalejBranzy = groupRevenue;
-        row.liczbaFirmWBranzy = firms;
+/**
+ * Compute each firm's percentile per benchmark indicator within its PKD+year
+ * peer group (BizRaport's "pozycja na tle branży"). Returns rows grouped by
+ * firm KRS.
+ */
+export function computeCompanyPercentiles(firms: BenchmarkFirm[]): Map<string, IndustryBenchmarkRow[]> {
+  const byFirm = new Map<string, IndustryBenchmarkRow[]>();
+  const groups = new Map<string, BenchmarkFirm[]>();
+  for (const firm of firms) {
+    const key = `${firm.pkd}|${firm.rok}`;
+    const list = groups.get(key) ?? [];
+    list.push(firm);
+    groups.set(key, list);
+  }
+  for (const group of groups.values()) {
+    const count = group.length;
+    for (const indicator of BENCHMARK_INDICATORS) {
+      const peers = group
+        .map((f) => f.values[indicator])
+        .filter((v): v is number => typeof v === "number");
+      if (peers.length === 0) {
+        continue;
+      }
+      const sorted = [...peers].sort((a, b) => a - b);
+      for (const firm of group) {
+        const value = firm.values[indicator];
+        if (typeof value !== "number") {
+          continue;
+        }
+        const row: IndustryBenchmarkRow = {
+          okresSprawozdawczy: firm.okres,
+          rok: firm.rok,
+          nazwaWskaznika: indicator,
+          percentylWPkd: percentileOf(sorted, value),
+          liczbaFirmWBranzy: count,
+        };
+        const list = byFirm.get(firm.krs) ?? [];
+        list.push(row);
+        byFirm.set(firm.krs, list);
       }
     }
-    rows.push(row);
   }
-  return rows;
+  return byFirm;
 }

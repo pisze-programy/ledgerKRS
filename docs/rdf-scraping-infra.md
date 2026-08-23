@@ -1,13 +1,11 @@
-# RDF scraping infrastructure — proxy, captcha, solving (findings)
+# RDF scraping — proxy, captcha, solving
 
-Simple English, practical. Covers what we discovered about getting past
-Incapsula on `rdf-przegladarka.ms.gov.pl` and what it means for production
-(CF Worker or VPS).
+How to get past Incapsula on `rdf-przegladarka.ms.gov.pl`, and what runs in
+production (CF Worker or VPS).
 
-## 1. What the challenge actually is
+## 1. The challenge
 
-The site is behind **Incapsula (Imperva)**. It is **not** a standalone
-hCaptcha:
+The site runs Incapsula (Imperva). It is not a standalone hCaptcha:
 
 - A hidden **reese84 sensor** collects device/canvas/timing entropy and posts a
   signed payload; the server then sets the `reese84` cookie.
@@ -18,10 +16,10 @@ hCaptcha:
 - The real "access" cookie is **`reese84`**; `incap_ses_*` alone is not enough
   for the API endpoints.
 
-Conclusion: a generic hCaptcha solver alone does **not** bypass it. You need
-either the full browser (sensor) or an Imperva-specific solver flow.
+A generic hCaptcha solver alone does not bypass it. Either run the full
+browser (sensor) or use an Imperva-specific solver flow.
 
-## 2. What we tried and what worked
+## 2. What works
 
 ### 2captcha (bought, $3)
 - **Imperva method** (`method=incapsula`) **hard-requires a proxy** that
@@ -33,17 +31,16 @@ either the full browser (sensor) or an Imperva-specific solver flow.
   `incap_ses` + `visid_incap` — but **not `reese84`** (the sensor still has to
   run in a real browser). Without `reese84` the API stays challenged.
 
-Conclusion: 2captcha works for the hCaptcha half, but not for reese84 without
-a full browser emulation. **Not the primary path.**
+2captcha solves the hCaptcha half but not reese84 without a full browser
+emulation.
 
-### Playwright (headless Chromium) — the winner
+### Playwright (headless Chromium)
 - Launch headless Chromium (real browser engine), load the search page from a
   **clean residential/mobile IP**.
 - The reese84 sensor **passes without any captcha** and sets `reese84` +
   `incap_ses` + `visid_incap` in ~2-5 s.
 - Cost: $0 (no captcha service), only a few MB of page load.
 
-This is the solving mechanism used in production tooling.
 
 ## 3. Proxies / IP sources we tested
 
@@ -51,7 +48,7 @@ This is the solving mechanism used in production tooling.
 |---|---|---|
 | Local machine IP | direct | Works for `wrangler dev`/local runs; gets rate-limited after a few solves |
 | Phone via Tailscale `tsproxy` | SOCKS `127.0.0.1:1080` | Good; one mobile IP, gets flagged after sustained use → cooldown |
-| **Webshare residential** | HTTP proxy `p.webshare.io:80` + username suffix per IP | **Best**: many stable residential PL IPs (`USER-PL-1…N`); each solves independently |
+| **Webshare residential** | HTTP proxy `p.webshare.io:80` + username suffix per IP | Many stable residential PL IPs (`USER-PL-1…N`); each solves independently |
 
 Key facts:
 - Each cookie/IP has a **budget of ~10-15 requests** before a challenge.
@@ -69,7 +66,7 @@ To use a solved cookie you must send the same browser-looking headers:
 - [KNOWN BUG][fixed] A mismatched UA (generic `Mozilla/5.0`) returns 403 even
   with a valid cookie.
 
-## 5. Operational architecture (current)
+## 5. Operational architecture
 
 ```
 solve (Playwright, clean residential IP)
@@ -86,9 +83,9 @@ solve (Playwright, clean residential IP)
 
 ## 6. Recommendations for production (CF Worker or VPS)
 
-- **A bare CF Worker cannot run Playwright** and its egress IPs are datacenter
-  (Incapsula flags them fast). Realistic production is a **VPS** (or a
-  companion service) that:
+- A bare CF Worker cannot run Playwright, and its egress IPs are datacenter
+  (Incapsula flags them fast). Production runs on a VPS (or a companion
+  service) that:
   1. runs the Playwright solver,
   2. uses a **residential/mobile proxy pool** (Webshare works; each solve on a
      fresh IP),
@@ -96,8 +93,8 @@ solve (Playwright, clean residential IP)
      POSTs financials to the API (`POST /ingest/krs/:krs/rdf`).
 - Budget-aware: ~10-15 requests/cookie, so batch downloads per solve and
   auto-refresh on challenge.
-- **2captcha** is a valid **fallback** for the hCaptcha half, but reese84
-  needs the browser/sensor — Playwright is simpler and free.
+- 2captcha is a fallback for the hCaptcha half; reese84 needs the
+  browser/sensor — Playwright is free.
 - Keep the request fingerprint (Chrome headers) stable across all requests.
 
 ## 7. Cost summary (verified)
@@ -107,3 +104,22 @@ solve (Playwright, clean residential IP)
   spare; we used the **phone IP for solves** (0 GB webshare on the bulk).
 - 2captcha: $3 account, used only to validate the Imperva/hCaptcha flows.
 - BizRaport verification credits: ~1 per company (plenty available).
+
+## Report sections — public data sources (verified)
+
+Beyond RDF, the BizRaport-style report sections are sourced from public
+government systems (no paid APIs):
+
+- **Monitor Sądowy**: `wyszukiwarka-msig.ms.gov.pl/api/Monitor/Search` — the
+  public MSiG search (no auth/captcha). Query `signatureType=B` (KRS registry
+  entries / "wpisy") or `A` (announcements) by `krs`, with `from`/`to` dates;
+  detail per id via `/api/Monitor/Detalis?Id=`. Fields map 1:1 to BizRaport
+  (numberOfNotice=pozycja, monitorNumber=nr_monitora, chapterName=rozdział,
+  textInPosition=treść nagłówka, signatureKRS=sygnatura).
+- **Historia / Terminowość**: RDF document metadata (`dataDodania`,
+  `dataSporzadzenia`); deadline = balance date + 6 months + 15 days.
+- **KRZ**: NOT public via API — `prs.ms.gov.pl` (KRZ) is an SPA behind SSO
+  (Keycloak); `krz.ms.gov.pl` hangs. Deferred; Google-indexing of KRZ pages is
+  the practical discovery alternative.
+- **KRS registry** (`api-krs.ms.gov.pl`): open, no captcha — odpis/bulletin
+  used for company data + filing mentions (`dataZlozenia`).

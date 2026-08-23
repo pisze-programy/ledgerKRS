@@ -34,9 +34,14 @@ export function opStatutoryRoles(statement: ParsedStatement, meta: StatementMeta
 
 /**
  * Truncated Mikro (RZiS limited to A..F, no H..L): a partial structure some
- * small companies file. BizRaport reports przychody=A+C and netto=last letter
- * (verified 7/7 against BizRaport). op/brutto/podatek are not derivable, so we
- * leave them null rather than fabricate.
+ * small companies file. BizRaport's reading is fixed and consistent (verified
+ * on 0000080829 across 8 years and 0000554503 2021):
+ *   - przychody = A (+ C in revenue), koszty = B,
+ *   - zysk operacyjny = A − B (BizRaport ignores C/D/E here),
+ *   - podatek = E (the final cost line doubles as the tax line),
+ *   - zysk netto = F (the last letter),
+ *   - brutto and zysk ze sprzedaży are not reported.
+ * E is the tax, so it must not be folded back into operating costs.
  */
 export function truncatedMikroRoles(statement: ParsedStatement, meta: StatementMeta): RzisRoles | null {
   if (meta.layout !== "SFJMIZ" && meta.layout !== "SFJMAZ") {
@@ -52,15 +57,18 @@ export function truncatedMikroRoles(statement: ParsedStatement, meta: StatementM
   if (!(hasCode(codes, "A") && hasCode(codes, "B") && hasCode(codes, "C")) || letters.length < 5) {
     return null;
   }
+  const przychody = codeValue(codes, "A");
+  const koszty = codeValue(codes, "B");
   const nettoLetter = letters[letters.length - 1]!;
   return {
-    przychody: codeValue(codes, "A"),
-    koszty: codeValue(codes, "B"),
-    zyskZeSprzedazy: codeValue(codes, "C"),
-    zyskOperacyjny: null,
+    przychody,
+    koszty,
+    zyskZeSprzedazy: null,
+    zyskOperacyjny: przychody !== null && koszty !== null ? przychody - koszty : null,
     zyskBrutto: null,
-    podatek: null,
+    podatek: codeValue(codes, "E"),
     zyskNetto: codeValue(codes, nettoLetter),
+    operatingCosts: koszty,
     codes,
     source: "truncated",
   };

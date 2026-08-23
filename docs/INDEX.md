@@ -18,7 +18,8 @@ Read them in this order.
 | [09-bizraport-coverage.md](09-bizraport-coverage.md) | BizRaport API coverage and credit ledger |
 | [10-api-mcp-billing.md](10-api-mcp-billing.md) | API, MCP server and credits |
 | [rdf-state-of-knowledge.md](rdf-state-of-knowledge.md) | RDF: decoded pipeline, storage model, scale numbers |
-| [rdf-scraping-infra.md](rdf-scraping-infra.md) | RDF scraping: Incapsula, proxy, 2captcha, Playwright solver — findings & production recommendations |
+| [rdf-scraping-infra.md](rdf-scraping-infra.md) | RDF scraping: Incapsula, proxy, 2captcha, Playwright solver |
+| [data-sources.md](data-sources.md) | Data sources: RDF, MSiG, KRS, KRZ |
 
 ## Where the source code lives
 

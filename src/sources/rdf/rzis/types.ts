@@ -13,6 +13,12 @@ export interface RzisRoles {
   zyskNetto: number | null;
   codes: Record<string, number | null>;
   source: RzisRoleSource;
+  /**
+   * Total operating costs. Variants that put something else in E (e.g. the
+   * truncated Mikro, where E is the tax line) set this explicitly; otherwise
+   * the caller adds E as "pozostałe koszty operacyjne" (see indicators.ts).
+   */
+  operatingCosts?: number | null;
   /** RZiS variant (kalk/por) when roles came from the dict. */
   variant?: RzisVariant;
 }

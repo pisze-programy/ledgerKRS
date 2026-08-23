@@ -13,6 +13,7 @@ import type {
   StatementReference,
 } from "../domain/types";
 import { CONNECTION, ENTITY } from "../domain/vocab";
+import { fiscalYearOf } from "../sources/rdf/period";
 import type { Indicator as StoredIndicator } from "./repository";
 
 export async function readCompany(db: D1Database, krs: string): Promise<Company | null> {
@@ -95,7 +96,7 @@ export async function readIndicatorsByYear(db: D1Database, krs: string): Promise
   }
   return [...byPeriod.entries()].map(([okresSprawozdawczy, indicators]) => ({
     okresSprawozdawczy,
-    rok: null,
+    rok: fiscalYearOf(okresSprawozdawczy),
     indicators,
   }));
 }

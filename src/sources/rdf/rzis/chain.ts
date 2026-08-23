@@ -68,11 +68,19 @@ function findTaxPair(
   if (zyskNetto === null) {
     return { zyskBrutto: null, podatek: null };
   }
-  for (let i = letters.length - 2; i > start + 1; i -= 1) {
+  // Bruttó candidates are the letters between the op-adjust pair and netto,
+  // scanned from the netto backwards through start (inclusive) so that a
+  // short statement where brutto sits right after the op-adjust pair (e.g.
+  // A,B,C,H,J) is still covered.
+  for (let i = letters.length - 2; i >= start; i -= 1) {
     const bruttoCode = letters[i]!;
     const bruttoValue = value(bruttoCode);
     if (bruttoValue === null) {
       continue;
+    }
+    // No-tax filings omit the podatek line entirely: brutto == netto.
+    if (near(bruttoValue, zyskNetto)) {
+      return { zyskBrutto: bruttoValue, podatek: 0 };
     }
     for (let j = i + 1; j < letters.length - 1; j += 1) {
       const podatekValue = value(letters[j]!);

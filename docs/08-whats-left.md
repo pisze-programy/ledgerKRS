@@ -24,14 +24,16 @@ To go live, get a GUS key and set `REGON_MODE=live`.
 RDF stores financial statements.
 The site is behind Incapsula. Incapsula blocks direct requests.
 
-We need a browser transport.
-Options:
+The browser transport works (Playwright + Webshare residential for cookies).
+A first seed measured 720 firms with 0 challenges: searches are cross-IP and
+run from the local IP for free; Webshare only solves the small cookie
+(~$3 for the full 1.2M-firm seed). See
+[rdf-scraping-infra.md](rdf-scraping-infra.md) section 8 for the model.
 
-1. Use Playwright to fetch the XML files.
-2. Find another source for the statements.
-
-Without RDF, statement downloads return empty.
-The endpoint exists and charges only when data is present.
+Open: the XML/PDF download phase (`tresc` is bound to the solving IP) needs a
+free bulk channel — the phone was it (off), the local IP works with retries.
+Decision pending. The corpus currently grows via pb.pl (plain HTTP) and
+BizRaport validation.
 
 ## CEIDG endpoint
 

@@ -1,0 +1,15 @@
+{
+ "started": "2026-08-23T19:00:59.596Z",
+ "last_run": "2026-08-23T19:07:46.449Z",
+ "pool": 29347,
+ "firms_probed": 720,
+ "cookie_solves": 1,
+ "solve_bytes": 591424,
+ "search_requests": 720,
+ "search_bytes": 4390180,
+ "challenges": 0,
+ "empty_no_xml": 0,
+ "failed_requests": 0,
+ "requests_per_cookie": [],
+ "wall_ms": 467842
+}

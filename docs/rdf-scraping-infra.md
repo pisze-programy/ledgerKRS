@@ -50,10 +50,17 @@ emulation.
 | Phone via Tailscale `tsproxy` | SOCKS `127.0.0.1:1080` | Good; one mobile IP, gets flagged after sustained use → cooldown |
 | **Webshare residential** | HTTP proxy `p.webshare.io:80` + username suffix per IP | Many stable residential PL IPs (`USER-PL-1…N`); each solves independently |
 
-Key facts:
-- Each cookie/IP has a **budget of ~10-15 requests** before a challenge.
-- `search` works **cross-IP**; `tresc` (XML) is **bound to the solve IP**.
-- Reusing a cookie on a different IP → challenge.
+Key facts (measured 2026-08-23, seed-probe):
+- The phone tunnel is **off** (Tailscale removed). Webshare is used **only to
+  solve the small reese84 cookie** — no bulk traffic on Webshare.
+- **`search` works cross-IP**: a webshare-solved cookie serves searches from
+  the LOCAL IP with zero challenges (measured 720 firms, 0 challenges, one
+  cookie). The search traffic is free — it never touches Webshare.
+- **`tresc` (XML/PDF) is bound to the solve IP**: a webshare cookie used from
+  another IP returns a challenge page. Downloads must come from the solving IP
+  (the phone used to be that channel; the local IP also works with retries).
+- One cookie solve transfers ~590 KB (the search page load). One search
+  request transfers ~6 KB (local IP, free).
 
 ## 4. Request fingerprint
 
@@ -77,9 +84,8 @@ solve (Playwright, clean residential IP)
 
 - Local/dev: solve on the local IP, run `wrangler dev` (cookie from
   `.dev.vars`).
-- Phone: solve via `tsproxy` (SOCKS) for a phone-bound cookie.
-- Webshare: solve + fetch through the same residential IP (stable, rotating
-  via username suffix).
+- Production simulation: solve + fetch through the same Webshare residential IP
+  (stable, rotating via username suffix), 2captcha on hard challenges.
 
 ## 6. Recommendations for production (CF Worker or VPS)
 
@@ -100,10 +106,32 @@ solve (Playwright, clean residential IP)
 ## 7. Cost summary (verified)
 
 - Playwright solves: **$0** (bandwidth only).
-- Webshare residential 1 GB: covered the whole corpus (~250 XMLs) with room to
-  spare; we used the **phone IP for solves** (0 GB webshare on the bulk).
-- 2captcha: $3 account, used only to validate the Imperva/hCaptcha flows.
-- BizRaport verification credits: ~1 per company (plenty available).
+- Webshare residential: 1 GB/mo plan at **$3.5**, shared (0.7 GB left).
+  It carries only the cookie solves — small traffic, by design.
+- 2captcha: **$2 / 1000 solves**, near-free — use it for hard challenges.
+- BizRaport verification credits: ~900/1000 available this month.
+
+## 8. Seed cost (measured by `seed-probe`)
+
+Probe: 720 firms, 1 cookie solve (578 KB), 0 challenges, 0 failures.
+Population (verified live on bizraport.pl/katalog-firm): **1 201 570**
+organizations total, **609 858** with financial data (`przychody>=0`).
+
+Searches run cross-IP from the local IP → free. The only Webshare cost is the
+cookie solves (~590 KB each; one cookie served 720+ firms with 0 challenges).
+
+| Population | cookies (rpc=720) | Webshare GB | Webshare $ | local search | time (paced) |
+|---|---|---|---|---|---|
+| 1 201 570 (cały katalog) | 1 669 | 0.9 | **$3.2** | 6.8 GB (free) | ~217 h |
+| 609 858 (z finansami) | 848 | 0.5 | **$1.6** | 3.5 GB (free) | ~110 h |
+| 250 000 (XML-filery est.) | 348 | 0.2 | **$0.7** | 1.4 GB (free) | ~45 h |
+
+The seed is nearly free. The real cost is the XML download phase (`tresc` is
+IP-bound) — a separate decision (was the phone; the local IP works with
+retries, see section 8 below).
+
+Tooling: `tools/rdf-parity/seed-probe.ts` (batched, logged, resumable, paced)
+and `tools/rdf-parity/seed-cost.ts` (cost table).
 
 ## Report sections — public data sources (verified)
 

@@ -20,7 +20,9 @@ export function nameFor(layout: LayoutKey, section: string, code: string, varian
     return null;
   }
   if (section === "RZiS" && variant) {
-    return names[`RZiS.${variant}.${code}`] ?? null;
+    // Variant-specific keys win; single-form RZiS layouts (bank) fall back to
+    // the bare "RZiS.<code>" keys.
+    return names[`RZiS.${variant}.${code}`] ?? names[`RZiS.${code}`] ?? null;
   }
   return names[`${section}.${code}`] ?? null;
 }

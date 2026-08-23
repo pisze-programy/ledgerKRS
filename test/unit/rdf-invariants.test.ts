@@ -132,6 +132,7 @@ describe("rdf invariants — accounting identities", () => {
     "0000325544": [2021],
     "0000582708": [2020],
     "0000617088": [2023, 2024],
+    "0000975668": [2022],
   };
   const isQuirk = (krs: string, rok: number): boolean => (DATA_QUIRK[krs] ?? []).includes(rok);
 

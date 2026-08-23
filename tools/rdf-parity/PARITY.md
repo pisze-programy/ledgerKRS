@@ -573,3 +573,17 @@ longer in RDF: 0000005989, 0000692949), ×100 Aktywa typo + duplicated years
 (`pdfPositions` two-line name→amount matching + `detectScale` for thousands).
 Unit tests in `test/unit/rdf-pdf.test.ts`. Binary PDF / scanned banks and the
 fragile XHTML→GT alignment are documented gaps (OCR would be needed).
+
+## OCR pilot — banks (evidence)
+
+Scanned bank PDFs (mBank 0000025237, Pekao, Santander) served by RDF:
+- pdfjs `getTextContent` → **0 characters** (no text layer).
+- pdfjs render → **blank pages** (identical 16 KB PNGs across pages) with
+  `Bad FCHECK in flate stream` warnings — the PDF streams are **corrupted/
+  truncated as served by RDF**.
+- tesseract.js OCR on the rendered pages → **0 characters**.
+
+Conclusion: the RDF-served scanned bank PDFs are **corrupt/unusable** — neither
+text extraction nor OCR yields content. This is the documented boundary line
+(banks → OCR not feasible on source data). Some bank years are XHTML with text,
+but their totals do not align with BizRaport ground truth (see PDF discovery).

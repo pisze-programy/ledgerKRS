@@ -24,8 +24,12 @@ const RZIS_VARIANTS = ["RZiSKalk", "RZiSPor"];
 
 function sectionOf(name: unknown): string | null {
   if (typeof name !== "string") return null;
+  // Consolidated statements prefix their sections
+  // ("SkonsolidowanyBilans…", "SkonsolidowaneZestawienieZmianWKapitale…").
+  const stripped = name.replace(/^Skonsolidowan[ey]/, "");
+  const normalized = stripped.replace(/^ZestawienieZmianWKapitale/, "ZestZmianWKapitale");
   for (const s of SECTION_NAMES) {
-    if (name.startsWith(s)) return s;
+    if (normalized.startsWith(s)) return s;
   }
   return null;
 }
@@ -63,7 +67,11 @@ function extractNames(xsd: string): Record<string, string> {
 
 async function main() {
   const result: Record<string, { label: string; names: Record<string, string> }> = {};
+  const only = (process.env.ONLY ?? "").split(",").filter(Boolean);
   for (const [key, { wzor, label }] of Object.entries(LAYOUTS)) {
+    if (only.length > 0 && !only.includes(key)) {
+      continue;
+    }
     try {
       const base = `https://crd.gov.pl/wzor/${wzor}`;
       const schemat = await fetchText(`${base}/schemat.xsd`);

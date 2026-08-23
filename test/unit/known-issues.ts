@@ -17,8 +17,12 @@ export const KNOWN_ISSUES: Record<string, Record<number, YearExemption> | "*"> =
   // Company's RDF filing metadata mislabels periods (a file named 2023 contains a
   // 2022 statement); we likely pick a different filing revision than BizRaport.
   "0000721871": "*",
-  // Insurer (zakład ubezpieczeń) — SFZURZ layout, different statement structure.
-  // Separate stage, not yet implemented.
+  // 0000009831: LEGACY-schema statement with a Roman-numeral RZiS (I..XI —
+  // unique to this company; other LEGACY firms use modern A..L codes). Its
+  // BizRaport ground truth does not align with the XML values (scale/data
+  // mismatch, like the scanned-bank gap). Not an insurer layout; true
+  // insurance-technical (SFZURZ) statements are not present in the sampled
+  // population. Documented gap.
   "0000009831": "*",
   // BizRaport quirks (their data, not our extraction):
   // - 0000393416 2022: BizRaport reports zysk_operacyjny = 0 despite C+D−E ≠ 0.
@@ -100,6 +104,18 @@ export const KNOWN_ISSUES: Record<string, Record<number, YearExemption> | "*"> =
   "0000571619": { 2020: ["suma_bilansowa"] },
   "0000691408": { 2022: ["suma_bilansowa"] },
   "0000747439": { 2019: ["suma_bilansowa"] },
+  // ===== third corpus batch (seed 20260901, 50 firms) =====
+  // 0000848715 2020: BizRaport reports a corrected/small filing (suma 25 964 vs
+  // our 218 449) — revision mismatch; 2023 op/przychody also differ.
+  "0000848715": {
+    2020: ["suma_bilansowa", "aktywa_obrotowe", "kapital_wlasny", "zobowiazania_i_rezerwy", "zysk_netto"],
+    2023: ["przychody", "zysk_operacyjny"],
+  },
+  // Podatek sign flip (abs quirk, same as 0000176134 / 0001066345).
+  "0000975668": { 2024: ["podatek_dochodowy"] },
+  "0001033253": { 2023: ["podatek_dochodowy"] },
+  // Statement omits the amortyzacja line; BizRaport reports 0 where we leave null.
+  "0000468829": { 2023: ["amortyzacja"] },
 };
 export function isKnownIssue(krs: string, rok: number, ind: string): boolean {
   const entry = KNOWN_ISSUES[krs];

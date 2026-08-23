@@ -19,7 +19,9 @@ function sortedLetters(codes: Record<string, number | null>): string[] {
  */
 export function chainFromCodes(codes: Record<string, number | null>): RzisRoles | null {
   const letters = sortedLetters(codes);
-  if (letters.length < 4) {
+  // A, B, F is a valid minimal form (przychody, koszty, wynik = F); the
+  // chain derives op/netto from A−B and the trailing letter.
+  if (letters.length < 3) {
     return null;
   }
   const value = (code: string) => codeValue(codes, code);

@@ -14,9 +14,8 @@ export function createMemoryCatalogRepository(): CatalogRepository {
       }
     },
     async searchCatalog(query: CatalogQuery): Promise<SearchResult> {
-      const params = [...query.params];
       const sorted = [...rows.values()]
-        .filter((row) => matchesClauses(query.where, params, row))
+        .filter((row) => matchesClauses(query.where, [...query.params], row))
         .sort((a, b) => compareSort(query.orderBy, a, b));
       return { rows: sorted.slice(query.offset, query.offset + query.limit), count: sorted.length };
     },

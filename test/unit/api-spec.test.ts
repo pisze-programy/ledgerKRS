@@ -176,7 +176,7 @@ describe("openapi document", () => {
     const components = (doc as { components?: { schemas: Record<string, unknown> } }).components;
     expect(components).toBeDefined();
     const schemas = components!.schemas;
-    expect(schemas["CompanyReport"]).toBeDefined();
+    expect(schemas["CompanyRaport"]).toBeDefined();
     expect(schemas["CatalogRow"]).toBeDefined();
   });
 });

@@ -4,7 +4,6 @@ import {
   branchesTree,
   catalogFor,
   pkdReport,
-  reportFor,
   resolveKrs,
   searchFor,
   ServiceError,
@@ -93,7 +92,11 @@ export function createHandlers(deps: ApiDeps) {
   const dane: Handler<AppEnv> = async (c) => {
     const krs = c.req.query("krs");
     const nip = c.req.query("nip");
-    const report = await reportFor(deps, krs, nip);
+    const target = await resolveKrs(deps, krs, nip);
+    if (!target) {
+      return c.json({ data: [] });
+    }
+    const report = await buildCompanyReport(deps, target);
     return c.json({ data: report ? [report] : [] });
   };
 

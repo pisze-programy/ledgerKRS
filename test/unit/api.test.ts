@@ -108,8 +108,8 @@ describe("createApp — data endpoints and charging", () => {
     await app.request("/ingest/krs/0000222483", { method: "POST" });
     const response = await app.request("/api/dane?krs=0000222483", { headers: authHeaders(key) });
     expect(response.status).toBe(200);
-    const body = (await response.json()) as { data: { company: { krs: string } }[]; credits_spent: number; credits_remaining: number };
-    expect(body.data[0]!.company.krs).toBe("0000222483");
+    const body = (await response.json()) as { data: { informacje_o_firmie: { krs: string } }[]; credits_spent: number; credits_remaining: number };
+    expect(body.data[0]!.informacje_o_firmie.krs).toBe("0000222483");
     expect(body.credits_spent).toBe(1);
     expect(body.credits_remaining).toBe(99);
   });
@@ -121,6 +121,53 @@ describe("createApp — data endpoints and charging", () => {
     const body = (await response.json()) as { data: unknown[]; credits_spent?: number };
     expect(body.data).toEqual([]);
     expect(body.credits_spent).toBeUndefined();
+  });
+
+  it("enriched /api/dane returns all report sections (finansowe, terminowość, opisy, podobne, powiązania)", async () => {
+    const { app } = await buildApp();
+    const { key } = await createAccount(app);
+    const json = (body: unknown) => ({ method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) }) as const;
+    await app.request("/ingest/krs/0000222483", { method: "POST" });
+    await app.request("/ingest/krs/0000222483/financials", json({
+      okresSprawozdawczy: "2023-01-01_2023-12-31",
+      revenue: 1000000, netProfit: 120000, totalAssets: 800000, equity: 500000, liabilities: 300000,
+      operatingProfit: 140000, incomeTax: 20000,
+    }));
+    await app.request("/ingest/krs/0000222483/derived", { method: "POST" });
+    await app.request("/ingest/benchmarks", { method: "POST" });
+    await app.request("/ingest/krs/0000222483/announcements", json({
+      monitor: [{ numerOgloszenia: "MSG/2023/1", dataPublikacji: "2023-04-10" }],
+      krz: [],
+      history: [{ okresSprawozdawczy: "2023-01-01_2023-12-31", rok: 2023, terminZlozenia: "2024-07-15", dataDodaniaDoKrs: "2024-07-01" }],
+    }));
+
+    const response = await app.request("/api/dane?krs=0000222483", { headers: authHeaders(key) });
+    expect(response.status).toBe(200);
+    const body = (await response.json()) as {
+      data: {
+        informacje_o_firmie: { krs: string };
+        finansowe: unknown[];
+        terminowosc: Record<string, unknown>;
+        pozycja_na_tle_branzy: unknown[];
+        opisy_firmy: unknown[];
+        monitor: unknown[];
+        historia_sprawozdan: unknown[];
+        powiazania_pochodne: Record<string, unknown>;
+        podobne_organizacje: unknown[];
+      }[];
+      credits_spent: number;
+    };
+    const report = body.data[0]!;
+    expect(report.informacje_o_firmie.krs).toBe("0000222483");
+    expect(report.finansowe.length).toBeGreaterThan(0);
+    expect(report.terminowosc).toBeDefined();
+    expect(report.pozycja_na_tle_branzy.length).toBeGreaterThan(0);
+    expect(report.opisy_firmy.length).toBeGreaterThan(0);
+    expect(report.monitor.length).toBeGreaterThan(0);
+    expect(report.historia_sprawozdan.length).toBeGreaterThan(0);
+    expect(report.powiazania_pochodne).toBeDefined();
+    expect(Array.isArray(report.podobne_organizacje)).toBe(true);
+    expect(body.credits_spent).toBe(1);
   });
 
   it("rejects dane without identifiers", async () => {

@@ -199,7 +199,6 @@ const dataWrapper = <T extends z.ZodType>(schema: T, description: string) =>
     })
     .openapi("Data");
 
-const daneResponse = dataWrapper(reportSchema, "Lista raportów firm — po krs maksymalnie jeden element").extend(chargeMeta);
 const katalogRowSchema = z
   .strictObject({
     krs: z.string().openapi({ description: "Numer KRS" }),
@@ -506,19 +505,6 @@ export const webhookRoute = createRoute({
   },
 });
 
-export const daneRoute = createRoute({
-  method: "get",
-  path: "/api/dane",
-  description: "Raport firmy po KRS albo NIP",
-  request: { query: krsOrNip },
-  responses: {
-    200: { description: "Raport firmy", content: { "application/json": { schema: daneResponse } } },
-    400: { description: "Brak krs albo nip", content: { "application/json": { schema: errorSchema } } },
-    401: { description: "Brak klucza API", content: { "application/json": { schema: errorSchema } } },
-    402: { description: "Brak wystarczających kredytów", content: { "application/json": { schema: errorSchema } } },
-  },
-});
-
 export const sprawozdaniaRoute = createRoute({
   method: "get",
   path: "/api/sprawozdania",
@@ -581,18 +567,6 @@ export const pkdRoute = createRoute({
     404: { description: "Branża nie znaleziona", content: { "application/json": { schema: errorSchema } } },
   },
 });
-
-export const API_SCHEMAS = {
-  dane: daneResponse,
-  sprawozdania: sprawozdaniaResponse,
-  katalog: katalogResponse,
-  szukaj: searchResponse,
-  branze: branzeResponse,
-  pkd: pkdResponse,
-  balance: balanceResponse,
-  zuzycie: zuzycieResponse,
-  account: accountResponse,
-};
 
 export const API_EXAMPLES: Record<string, { request: string; response: string }> = {
   account: {
@@ -833,6 +807,7 @@ const raportSchema = z
   })
   .openapi("CompanyRaport");
 
+const daneResponse = dataWrapper(raportSchema, "Bogaty raport firmy — po krs maksymalnie jeden element").extend(chargeMeta);
 const raportResponse = z
   .strictObject({ data: z.array(raportSchema).openapi({ description: "Bogaty raport firmy" }), ...chargeMeta })
   .openapi("RaportResponse");
@@ -849,6 +824,30 @@ export const raportRoute = createRoute({
   },
 });
 
+export const daneRoute = createRoute({
+  method: "get",
+  path: "/api/dane",
+  description: "Bogaty raport firmy po KRS albo NIP (finanse, terminowość, powiązania, podobne organizacje)",
+  request: { query: krsOrNip },
+  responses: {
+    200: { description: "Bogaty raport firmy", content: { "application/json": { schema: daneResponse } } },
+    400: { description: "Brak krs albo nip", content: { "application/json": { schema: errorSchema } } },
+    401: { description: "Brak klucza API", content: { "application/json": { schema: errorSchema } } },
+    402: { description: "Brak wystarczających kredytów", content: { "application/json": { schema: errorSchema } } },
+  },
+});
+
+export const API_SCHEMAS = {
+  dane: daneResponse,
+  sprawozdania: sprawozdaniaResponse,
+  katalog: katalogResponse,
+  szukaj: searchResponse,
+  branze: branzeResponse,
+  pkd: pkdResponse,
+  balance: balanceResponse,
+  zuzycie: zuzycieResponse,
+  account: accountResponse,
+};
 
 export function buildOpenApiDocument(): Record<string, unknown> {
   const app = new OpenAPIHono();

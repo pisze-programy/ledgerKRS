@@ -357,6 +357,9 @@ async function upsertCompanyBenchmarks(db: D1Database, krs: string, entries: Com
 }
 
 async function upsertPositions(db: D1Database, statementId: number, positions: unknown[]): Promise<void> {
+  // Re-ingest is idempotent: replace the statement's positions rather than
+  // accumulating duplicates on repeated POSTs.
+  await db.prepare(`DELETE FROM statement_positions WHERE statement_id = ?`).bind(statementId).run();
   for (const position of positions as StatementPositionRow[]) {
     await db
       .prepare(

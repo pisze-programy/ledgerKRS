@@ -137,7 +137,7 @@ describe("explorers", () => {
   it("response schema documents the real report fields", async () => {
     const app = buildApp();
     const html = await (await app.request("/")).text();
-    for (const field of ["company", "connections", "ownership", "financials", "monitor", "krz", "history", "descriptions", "benchmarks"]) {
+    for (const field of ["informacje_o_firmie", "finansowe", "terminowosc", "pozycja_na_tle_branzy", "opisy_firmy", "powiazania", "powiazania_pochodne", "udzialowcy", "podobne_organizacje", "historia_sprawozdan"]) {
       expect(html).toContain(field);
     }
   });

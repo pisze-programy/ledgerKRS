@@ -111,6 +111,35 @@ These need more credits. We recorded them, not the data.
 - Statements filed in thousands.
   The conversion logic is documented by BizRaport.
 
+## Verified parity work (2026-08-24)
+
+Against a live BizRaport report for KRS 0000951852:
+
+- **Persons are unmasked via MSiG**: the KRS OpenAPI masks names, but the
+  public court announcements carry the full odpis text. `sources/msig/persons.ts`
+  parses `Rub. Dane wspólników` / `Dane osób wchodzących w skład organu` and
+  `report/msigEnrich.ts` merges the real names into connections and ownership.
+  PESELs are masked at the report boundary and never returned.
+- **Main PKD**: the report now keeps the odpis order (przeważająca activity
+  first) — `pkd_codes` is read by insertion id, not alphabetical.
+- **pozycja_na_tle_branzy** and **podobne_organizacje** fill after
+  `/ingest/benchmarks` + `/ingest/catalog`, but their quality depends on the
+  corpus population (currently ~158 firms vs BizRaport's full registry).
+- **Zatrudnienie**: null when not reported — matches BizRaport's "brak".
+- **Wynagrodzenia**: BizRaport reports the porównawczy RZiS `Wynagrodzenia` +
+  `Ubezpieczenia` (137 340); our RZiS code mapping for this company yields a
+  kalkulacyjny-style `B_V` label, so `wages` stays null — documented RDF
+  dict/variant gap, to fix in the RDF pass.
+
+### Model differences (intentional — our own models)
+
+- **Niewypłacalność 24m**: ours 25.4% (logistic on debt/liquidity/margin +
+  signals) vs BizRaport 0.62%. Different calibration; theirs is proprietary.
+- **Wiarygodność**: ours 5 (najniższa) vs BizRaport D — same direction.
+- **Wycena**: ours = revenue×0.5 when EBITDA ≤ 0 (141 121) vs BizRaport
+  189 330. Different method. The project trains its own deterministic models;
+  an ML model is the planned next step (see 08-whats-left).
+
 ## Fixtures
 
 All fixtures are in `test/fixtures/bizraport/`.

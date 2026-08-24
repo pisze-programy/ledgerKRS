@@ -63,19 +63,20 @@ export async function findConnectionsByPerson(db: D1Database, normName: string):
 
 export async function readOwnership(db: D1Database, krs: string): Promise<OwnershipShare[]> {
   const rows = await db
-    .prepare(`SELECT name, holder_krs FROM ownership WHERE krs = ?`)
+    .prepare(`SELECT name, holder_krs, percent, entity FROM ownership WHERE krs = ? ORDER BY id`)
     .bind(krs)
     .all<OwnershipRow>();
   return rows.results.map((row) => ({
-    typPodmiotu: ENTITY.Organizacja,
+    typPodmiotu: (row.entity as OwnershipShare["typPodmiotu"]) ?? ENTITY.Organizacja,
     nazwa: row.name ?? null,
+    procentUdzialow: row.percent ?? null,
     idPodmiotu: row.holder_krs,
   }));
 }
 
 export async function readPkd(db: D1Database, krs: string): Promise<PkdCode[]> {
   const rows = await db
-    .prepare(`SELECT code, description FROM pkd_codes WHERE krs = ? ORDER BY code`)
+    .prepare(`SELECT code, description FROM pkd_codes WHERE krs = ? ORDER BY id`)
     .bind(krs)
     .all<PkdRow>();
   return rows.results.map((row) => ({ code: row.code, description: row.description }));
@@ -292,6 +293,8 @@ interface ConnectionRow {
 interface OwnershipRow {
   name: string | null;
   holder_krs: string | null;
+  percent: number | null;
+  entity: string | null;
 }
 
 interface PkdRow {

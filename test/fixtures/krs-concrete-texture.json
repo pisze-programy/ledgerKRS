@@ -1,0 +1,189 @@
+{
+  "odpis": {
+    "rodzaj": "Aktualny",
+    "naglowekA": {
+      "rejestr": "RejP",
+      "numerKRS": "0000951852",
+      "dataCzasOdpisu": "24.08.2026 08:14:35",
+      "stanZDnia": "21.11.2025",
+      "dataRejestracjiWKRS": "15.02.2022",
+      "numerOstatniegoWpisu": 6,
+      "dataOstatniegoWpisu": "05.06.2025",
+      "sygnaturaAktSprawyDotyczacejOstatniegoWpisu": "WZNOW/23427/25/97",
+      "oznaczenieSaduDokonujacegoOstatniegoWpisu": "SYSTEM",
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "identyfikatory": {
+            "regon": "52126581500000",
+            "nip": "5213956297"
+          },
+          "nazwa": "CONCRETE TEXTURE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "daneOWczesniejszejRejestracji": {},
+          "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+          "czyPosiadaStatusOPP": false
+        },
+        "siedzibaIAdres": {
+          "siedziba": {
+            "kraj": "POLSKA",
+            "wojewodztwo": "MAZOWIECKIE",
+            "powiat": "WARSZAWA",
+            "gmina": "WARSZAWA",
+            "miejscowosc": "WARSZAWA"
+          },
+          "adres": {
+            "ulica": "UL. ŚWIERADOWSKA",
+            "nrDomu": "47",
+            "miejscowosc": "WARSZAWA",
+            "kodPocztowy": "02-662",
+            "poczta": "WARSZAWA",
+            "kraj": "POLSKA"
+          }
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "zawarcieZmianaUmowyStatutu": "03.02.2022"
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+          "informacjaOLiczbieUdzialow": "WIĘKSZĄ LICZBĘ UDZIAŁÓW"
+        },
+        "wspolnicySpzoo": [
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "B********"
+            },
+            "imiona": {
+              "imie": "K*******"
+            },
+            "identyfikator": {
+              "pesel": "9**********"
+            },
+            "posiadaneUdzialy": "50 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 2500 PLN",
+            "czyPosiadaCaloscUdzialow": false
+          },
+          {
+            "nazwisko": {
+              "nazwiskoICzlon": "B********"
+            },
+            "imiona": {
+              "imie": "E**",
+              "imieDrugie": "T*****"
+            },
+            "identyfikator": {
+              "pesel": "6**********"
+            },
+            "posiadaneUdzialy": "50 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 2500 PLN",
+            "czyPosiadaCaloscUdzialow": false
+          }
+        ],
+        "kapital": {
+          "wysokoscKapitaluZakladowego": {
+            "wartosc": "5000,00",
+            "waluta": "PLN"
+          },
+          "wniesioneAporty": {}
+        }
+      },
+      "dzial2": {
+        "reprezentacja": {
+          "nazwaOrganu": "ZARZĄD",
+          "sposobReprezentacji": "DO SKŁADANIA OŚWIADCZEŃ W IMIENIU SPÓŁKI JEST UPOWAŻNIONY KAŻDY Z CZŁONKÓW ZARZĄDU SAMODZIELNIE.",
+          "sklad": [
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B********"
+              },
+              "imiona": {
+                "imie": "K*******"
+              },
+              "identyfikator": {
+                "pesel": "9**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            },
+            {
+              "nazwisko": {
+                "nazwiskoICzlon": "B********"
+              },
+              "imiona": {
+                "imie": "E**",
+                "imieDrugie": "T*****"
+              },
+              "identyfikator": {
+                "pesel": "6**********"
+              },
+              "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+              "czyZawieszona": false
+            }
+          ]
+        }
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "opis": "DZIAŁALNOŚĆ ZWIĄZANA Z OPROGRAMOWANIEM",
+              "kodDzial": "62",
+              "kodKlasa": "01",
+              "kodPodklasa": "Z"
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "opis": "PRODUKCJA WYROBÓW BUDOWLANYCH Z GIPSU",
+              "kodDzial": "23",
+              "kodKlasa": "62",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRODUKCJA WYROBÓW BUDOWLANYCH Z BETONU",
+              "kodDzial": "23",
+              "kodKlasa": "61",
+              "kodPodklasa": "Z"
+            },
+            {
+              "opis": "PRODUKCJA POZOSTAŁYCH WYROBÓW Z BETONU, GIPSU I CEMENTU",
+              "kodDzial": "23",
+              "kodKlasa": "69",
+              "kodPodklasa": "Z"
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "dataZlozenia": "09.04.2024",
+              "zaOkresOdDo": "OD 03.02.2022 DO 31.12.2022"
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "zaOkresOdDo": "OD 03.02.2022 DO 31.12.2022"
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": "31.12.2022"
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {
+        "zawieszenieWznowienie": [
+          {
+            "dataZawieszenia": "28.02.2023",
+            "dataWznowienia": "05.06.2025"
+          }
+        ]
+      }
+    }
+  }
+}

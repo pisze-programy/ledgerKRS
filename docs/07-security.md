@@ -35,7 +35,11 @@ Do not copy this.
 ## Rules for data
 
 - The data is public. We still treat it with care.
-- Person data in KRS is masked. Keep it masked.
+- Person names are public in the MSiG court announcements. We expose them
+  (like BizRaport does) — they come from `sources/msig/persons.ts`.
+- The KRS OpenAPI masks names; we never try to un-mask its fields.
+- **PESELs are never exposed.** They appear only in the raw announcement text
+  and are masked at the report boundary (`report/index.ts`).
 - Follow the GDPR rules.
 - Store only what you need.
 

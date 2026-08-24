@@ -44,6 +44,8 @@ CREATE TABLE IF NOT EXISTS ownership (
   krs TEXT NOT NULL,
   name TEXT,
   holder_krs TEXT,
+  percent REAL,
+  entity TEXT,
   UNIQUE(krs, name)
 );
 

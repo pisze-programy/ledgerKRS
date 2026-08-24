@@ -8,6 +8,8 @@ import { fiscalYearOf } from "../sources/rdf/period";
 import { selectAnnualYears, type AnnualCandidate } from "../sources/rdf/selection";
 import { historyEntryFromMeta } from "../sources/rdf/history";
 import { fetchMonitorForKrs } from "../sources/msig/client";
+import { aggregatePersons } from "../sources/msig/persons";
+import { enrichConnections, enrichOwnership } from "../report/msigEnrich";
 import { buildCompanyDescription } from "../metrics/description";
 import { computeCompanyPercentiles, type BenchmarkFirm } from "../metrics/benchmarks";
 import { BENCHMARK_INDICATORS, type BenchmarkIndicator } from "../domain/vocab";
@@ -30,6 +32,7 @@ export interface IngestService {
   ingestFinancials(krs: string, financials: FinancialInput, signals?: RiskSignals): Promise<void>;
   ingestRdfFinancials(krs: string): Promise<IngestResult>;
   ingestMonitor(krs: string): Promise<IngestResult>;
+  ingestPersons(krs: string): Promise<IngestResult>;
   ingestDerived(krs: string): Promise<IngestResult>;
   computeBenchmarks(): Promise<IngestResult>;
   persistStatement(krs: string, statement: ParsedStatement, okres: string | null): Promise<void>;
@@ -153,7 +156,24 @@ export function createIngest(deps: IngestDeps): IngestService {
       }
       return { processed: entries.length, failed: 0 };
     },
+    async ingestPersons(krs: string): Promise<IngestResult> {
+      const report = await deps.repository.getReport(krs);
+      if (!report) {
+        return { processed: 0, failed: 0 };
+      }
+      const texts = (report.monitor ?? [])
+        .map((entry) => entry.trescOgloszenia)
+        .filter((text): text is string => Boolean(text));
+      const persons = aggregatePersons(texts);
+      if (persons.length === 0) {
+        return { processed: 0, failed: 0 };
+      }
+      await deps.repository.upsertConnections(krs, enrichConnections(report.connections, persons));
+      await deps.repository.upsertOwnership(krs, enrichOwnership(report.ownership, persons));
+      return { processed: persons.length, failed: 0 };
+    },
     async ingestDerived(krs: string): Promise<IngestResult> {
+      await this.ingestPersons(krs);
       const report = await deps.repository.getReport(krs);
       if (!report) {
         return { processed: 0, failed: 0 };

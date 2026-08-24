@@ -5,6 +5,7 @@ import { financials } from "./financials";
 import { terminowosc } from "./terminowosc";
 import { derivedConnections } from "./connections";
 import { similarOrganizations } from "./podobne";
+import { maskPeselsInText } from "../sources/msig/persons";
 
 export type { EnrichedReport } from "./context";
 
@@ -24,7 +25,11 @@ export async function buildCompanyReport(deps: ApiDeps, krs: string): Promise<En
     informacje_o_firmie: report.company,
     summary: summary(ctx),
     finansowe: financials(ctx),
-    monitor: report.monitor,
+    // PESELs are personal data — never returned to API consumers.
+    monitor: (report.monitor ?? []).map((entry) => ({
+      ...entry,
+      trescOgloszenia: entry.trescOgloszenia ? maskPeselsInText(entry.trescOgloszenia) : entry.trescOgloszenia,
+    })),
     krz: report.krz,
     historia_sprawozdan: report.history,
     terminowosc: terminowosc(ctx),

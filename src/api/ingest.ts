@@ -184,6 +184,10 @@ export function createIngestRoutes(deps: ApiDeps): Hono {
     return c.json(await deps.ingest.ingestMonitor(c.req.param("krs")));
   });
 
+  app.post("/ingest/krs/:krs/persons", async (c) => {
+    return c.json(await deps.ingest.ingestPersons(c.req.param("krs")));
+  });
+
   app.post("/ingest/krs/:krs/derived", async (c) => {
     return c.json(await deps.ingest.ingestDerived(c.req.param("krs")));
   });

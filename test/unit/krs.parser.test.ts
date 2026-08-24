@@ -59,4 +59,11 @@ describe("parseOdpis", () => {
     expect(report.statements.length).toBeGreaterThan(0);
     expect(report.statements[0]!.filedAt).toMatch(/^\d{4}-\d{2}-\d{2}$/);
   });
+
+  it("puts the main (przeważająca) PKD first, matching the odpis order", () => {
+    const report = parseOdpis(loadFixture("krs-concrete-texture.json"))!;
+    expect(report.pkdCodes[0]!.code).toBe("62.01.Z");
+    expect(report.pkdCodes[0]!.description).toContain("OPROGRAMOWANIEM");
+    expect(report.pkdCodes.map((p) => p.code)).toEqual(["62.01.Z", "23.62.Z", "23.61.Z", "23.69.Z"]);
+  });
 });

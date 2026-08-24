@@ -256,27 +256,30 @@ export function createD1Repository(db: D1Database): Repository {
 }
 
 async function upsertConnections(db: D1Database, krs: string, connections: CompanyReport["connections"]): Promise<void> {
+  await db.prepare("DELETE FROM connections WHERE krs = ?").bind(krs).run();
   for (const connection of connections) {
     await db
-      .prepare(`INSERT OR IGNORE INTO connections (krs, type, name, function, name_norm) VALUES (?, ?, ?, ?, ?)`)
+      .prepare(`INSERT INTO connections (krs, type, name, function, name_norm) VALUES (?, ?, ?, ?, ?)`)
       .bind(krs, connection.typPowiazania, connection.nazwa ?? null, connection.funkcja ?? null, personKey(connection.nazwa) || null)
       .run();
   }
 }
 
 async function upsertOwnership(db: D1Database, krs: string, ownership: CompanyReport["ownership"]): Promise<void> {
+  await db.prepare("DELETE FROM ownership WHERE krs = ?").bind(krs).run();
   for (const share of ownership) {
     await db
-      .prepare(`INSERT OR IGNORE INTO ownership (krs, name, holder_krs) VALUES (?, ?, ?)`)
-      .bind(krs, share.nazwa, share.idPodmiotu)
+      .prepare(`INSERT INTO ownership (krs, name, holder_krs, percent, entity) VALUES (?, ?, ?, ?, ?)`)
+      .bind(krs, share.nazwa, share.idPodmiotu, share.procentUdzialow ?? null, share.typPodmiotu ?? null)
       .run();
   }
 }
 
 async function upsertPkd(db: D1Database, krs: string, codes: CompanyReport["pkdCodes"]): Promise<void> {
+  await db.prepare("DELETE FROM pkd_codes WHERE krs = ?").bind(krs).run();
   for (const code of codes) {
     await db
-      .prepare(`INSERT OR IGNORE INTO pkd_codes (krs, code, description) VALUES (?, ?, ?)`)
+      .prepare(`INSERT INTO pkd_codes (krs, code, description) VALUES (?, ?, ?)`)
       .bind(krs, code.code, code.description)
       .run();
   }

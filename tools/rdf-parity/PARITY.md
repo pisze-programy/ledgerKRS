@@ -149,8 +149,9 @@ on a rotating-VPN IP.
 
 ## BizRaport account ledger
 
-- `***REMOVED***`: reached **100/100 credits**
-  (89 `/dane`, 11 `/sprawozdania`) on 2026-08-22.
+- The old BizRaport account reached **100/100 credits** (89 `/dane`,
+  11 `/sprawozdania`) on 2026-08-22. Credentials live only in the gitignored
+  `creds.local.json` (see `creds.ts`); they are never committed.
 - `pass2.ts` now retries on HTTP 429 (rate limit) with backoff — ready for a
   fresh account.
 

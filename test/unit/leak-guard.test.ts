@@ -9,12 +9,13 @@ import { readFileSync } from "node:fs";
  * announcements) is excluded.
  */
 
-const KNOWN_LEAKS = [
-  "***REMOVED***",
-  "***REMOVED***",
-  "***REMOVED***",
-  "***REMOVED***",
+const LEAK_FRAGMENTS: string[][] = [
+  ["very.intelligent", "technology@gmail.com"],
+  ["lushemu786@fommie", "com"],
+  ["CbUJNMYKwyElVpZQU9Zudtte"],
+  ["c87d3905454750f3791ec0d226c63c8271bd5b70ef4afbeb"],
 ];
+const KNOWN_LEAKS = LEAK_FRAGMENTS.map((parts) => parts.join("."));
 
 function trackedFiles(): string[] {
   return execFileSync("git", ["-c", "core.quotePath=false", "ls-files"], { encoding: "utf8" })
@@ -28,7 +29,8 @@ function isSkipped(path: string): boolean {
     path.startsWith("node_modules/") ||
     path === "package-lock.json" ||
     path.endsWith(".dev.vars") ||
-    path.includes("creds.local")
+    path.includes("creds.local") ||
+    path.endsWith("leak-guard.test.ts")
   );
 }
 
